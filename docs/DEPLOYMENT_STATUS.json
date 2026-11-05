@@ -1,23 +1,54 @@
 {
   "schemaVersion": 1,
   "preparedDate": "2026-11-05",
+  "checkedAt": "2026-11-05T04:17:49.136815Z",
+  "recordType": "verification_snapshot_main_records_updated_after_publication",
   "intendedRepository": "MComen9/caiso-market-desk",
   "github": {
-    "status": "pending_browser_authentication",
-    "url": null,
-    "commit": null
+    "status": "published",
+    "url": "https://github.com/MComen9/caiso-market-desk",
+    "branch": "main",
+    "sourceCommit": "20476ca855a106f81d24b3087203d7aa714ba66c",
+    "sourceCommitMeaning": "verified_code_baseline_before_deployment_status_documentation_update",
+    "tree": "4d08fbf82c347be9e37217d24a2c092c152b5227",
+    "files": 551,
+    "qualityRun": {
+      "id": 41966590699,
+      "url": "https://github.com/MComen9/caiso-market-desk/actions/runs/41966590699",
+      "conclusion": "success"
+    }
   },
   "pages": {
-    "status": "not_deployed",
-    "url": null,
-    "verified": false
+    "status": "deployed",
+    "url": "https://mcomen9.github.io/caiso-market-desk/",
+    "source": "GitHub Actions",
+    "sourceCommit": "20476ca855a106f81d24b3087203d7aa714ba66c",
+    "verified": true,
+    "deploymentRun": {
+      "id": 41966708144,
+      "url": "https://github.com/MComen9/caiso-market-desk/actions/runs/41966708144",
+      "conclusion": "success"
+    },
+    "anonymousVerification": {
+      "checkedAt": "2026-11-05T04:17:49.136815Z",
+      "authentication": "none",
+      "httpChecks": 8,
+      "passedChecks": 8,
+      "sha256Matches": 8,
+      "forecastCsvRows": 72
+    }
   },
   "releases": {
-    "status": "not_published",
-    "url": null
+    "status": "draft_prepared",
+    "id": 434763595,
+    "intendedTag": "v2026.11.05",
+    "url": null,
+    "published": false,
+    "attachedZipCount": 3
   },
   "codex": {
     "status": "handoff_files_prepared",
+    "blocker": "chatgpt_sign_in_required_in_controlled_cloud_browser",
     "environmentPublished": false,
     "firstTaskVerified": false
   },
@@ -35,7 +66,6 @@
     "workbenchTests": "passed_with_3_optional_fixture_skips",
     "workbenchBuild": "passed",
     "browserOverview": "passed",
-    "remoteDeployment": "not_attempted",
     "browserPredictionAndDownloads": "passed"
   }
 }

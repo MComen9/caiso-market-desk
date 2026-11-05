@@ -4,12 +4,14 @@
 
 **当前数据是已发布历史快照，不是实时行情。** V4 预测目标为 2026-10-31 PT；本次仓库迁移没有重新训练或改写预测。
 
+**公开平台：[CAISO 电力市场研究台](https://mcomen9.github.io/caiso-market-desk/)** · **项目仓库：[MComen9/caiso-market-desk](https://github.com/MComen9/caiso-market-desk)**
+
 ## 从哪里开始
 
 | 使用者 | 入口 |
 |---|---|
-| 查看平台的业务同事 | GitHub Pages 上的公开只读网页；上线后将真实地址登记在 `docs/DEPLOYMENT_STATUS.json` |
-| 下载和分析数据 | `data/published/`、`data/manifest.json`；发行版附完整数据 ZIP |
+| 查看平台的业务同事 | [公开只读网页](https://mcomen9.github.io/caiso-market-desk/)；也可打开[轻量数据页](https://mcomen9.github.io/caiso-market-desk/quick-view.html) |
+| 下载和分析数据 | 网站下载入口、`data/published/` 和 `data/manifest.json`；下述核验时整批 ZIP 的 Release 为草稿，正式发行状态见 `docs/DEPLOYMENT_STATUS.json` |
 | 研究预测和模拟 | `apps/workbench/research/`；最新 V4 说明见 `data/published/forecast-lab/v4/README.md` |
 | 修改公开网页 | `apps/viewer/` |
 | 扩展 API、数据库和完整工作台 | `apps/workbench/` |
@@ -81,9 +83,13 @@ python3 scripts/package-release.py
 
 - `Quality checks`：主分支提交与 PR 运行构建、类型/路径检查、数据校验和冻结模拟复现。
 - `Publish research platform`：发布 Release 或从 Actions 手动运行时，构建并发布 Pages。
-- Pages 的构建源应选择 **GitHub Actions**。
+- Pages 的构建源已配置为 **GitHub Actions**，站点已部署。
 - 发布目录仅为 `apps/viewer/dist`，不会把工作台写 API 或数据库暴露到公网。
 - 公开访问、下载和 Codex 环境的真实完成状态见 [`docs/DEPLOYMENT_STATUS.json`](docs/DEPLOYMENT_STATUS.json)。
+
+已验证代码基线为 [`20476ca855a106f81d24b3087203d7aa714ba66c`](https://github.com/MComen9/caiso-market-desk/commit/20476ca855a106f81d24b3087203d7aa714ba66c)，共 551 个文件；该 SHA 表示首次上线核验所用的代码基线，不是后续状态文档提交的自引用版本。[质量检查](https://github.com/MComen9/caiso-market-desk/actions/runs/41966590699)和 [Pages 发布](https://github.com/MComen9/caiso-market-desk/actions/runs/41966708144)均成功。
+
+2026-11-05 12:17:49（北京时间）的匿名核验中，首页、静态资源、轻量页、站点清单及 V4 CSV/JSON/复现包共 8 项请求全部返回 HTTP 200，字节 SHA-256 与本地发行内容一致；预测 CSV 为 72 行。核验时 `v2026.11.05` Release 为已附 3 个 ZIP 的草稿（`draft_prepared`），尚未公开发布。这是该次核验的状态快照；正式发布后会继续更新主分支记录。
 
 本次迁移默认延续公开分享范围。未来若需要仅团队可见、多人在线运行预测或保存实验，需要配置应用登录与后端权限。
 
@@ -93,6 +99,8 @@ python3 scripts/package-release.py
 Codex 环境准备命令为 `bash scripts/codex-setup.sh`；详细接手任务和冻结基线见 [`docs/CODEX_HANDOFF.md`](docs/CODEX_HANDOFF.md)。
 
 源码和数据可以成为 Codex 的项目上下文；原 ChatGPT 对话不会仅因仓库发布而自动转成一个已验证的 Codex 云环境。
+
+当前 Codex 接手文件和本地准备验证已完成；该项目的 Codex Cloud 环境尚未创建或发布，首任务尚未验证。当前可控云浏览器中的 ChatGPT 尚未登录，需要完成登录后继续环境配置。
 
 ## 来源与使用范围
 

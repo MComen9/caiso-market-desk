@@ -8,18 +8,20 @@
 
 ### 远端状态
 
-以下是迁移中的目标配置，不能据此判断已经上线：
+以下是截至 2026-11-05 12:17:49（北京时间）的部署和匿名核验状态快照；后续正式发布与环境接手结果会继续更新主分支，最新记录以 `docs/DEPLOYMENT_STATUS.json` 为准。
 
 | 项目 | 目标或状态 |
 | --- | --- |
 | 本地默认环境准备 | 已于 2026-11-05 完整运行 `bash scripts/codex-setup.sh`；安装、构建、221 项数据校验及 V4 前向/开发两组重放通过 |
-| 拟建 GitHub 仓库 | `MComen9/caiso-market-desk`，实际创建与推送结果由发布记录确认 |
-| GitHub Pages | 待配置及核验；以 GitHub 返回的实际站点 URL 为准 |
-| 数据 Release | 待上传及核验；附件清单与校验值应随发行记录保存 |
-| Codex Cloud 环境 | 待创建、安装验证和发布；仓库存在不等于环境已发布 |
+| GitHub 仓库 | [MComen9/caiso-market-desk](https://github.com/MComen9/caiso-market-desk) 已公开，完整代码基线共 551 个文件 |
+| GitHub Pages | [公开平台](https://mcomen9.github.io/caiso-market-desk/) 已部署；8 项匿名请求均为 HTTP 200 且 SHA-256 一致，预测 CSV 为 72 行 |
+| 数据 Release | 核验时为 `draft_prepared`：`v2026.11.05` 草稿（ID `434763595`），已附 3 个 ZIP，尚未公开发布 |
+| Codex Cloud 环境 | 接手文件已准备；项目云环境尚未创建/发布，首任务未验证；当前可控云浏览器中的 ChatGPT 尚未登录 |
 | 原 ChatGPT 会话 | 业务上下文整理在本文件及相关文档中，不假定原会话会自动搬入 Codex |
 
-发布完成后应更新此表或链接到明确的发行记录，不留与实际状态冲突的“待发布”或“已完成”表述。
+已核验的 `sourceCommit` 为 `20476ca855a106f81d24b3087203d7aa714ba66c`，对应树 `4d08fbf82c347be9e37217d24a2c092c152b5227`。这是已验证的平台与数据代码基线，不用于自引用后续状态文档提交。[质量检查运行](https://github.com/MComen9/caiso-market-desk/actions/runs/41966590699)和 [Pages 发布运行](https://github.com/MComen9/caiso-market-desk/actions/runs/41966708144)均为成功。
+
+Release 正式发布或 Codex 接手完成后，再据各自的实际回执更新。GitHub 与 Pages 已完成不能替代 Codex 环境发布和首任务验证。
 
 ## 2. 建议阅读顺序
 
@@ -154,9 +156,15 @@ DA 基线为 14 日同小时 DA 均值，价差基线为零价差；派生 FMM �
 
 ## 6. 第一次 Codex 任务
 
-建议直接使用以下请求，完成环境接手而不改变研究结论：
+建议直接使用以下请求，仅完成环境与冻结成果验收：
 
-> 读取 AGENTS.md、README.md 和 docs/CODEX_HANDOFF.md。确认当前代码、公开数据、冻结 V4 模型与发布状态。按仓库实际脚本完成依赖安装、只读前端构建、数据完整性检查和 V4 前向/开发窗口模拟复现；核对未来实际值仍为空。输出检查结果、实际运行命令和仍未完成的事项。不要重训模型、修改冻结预测、抓取外部数据、采购服务、开启定时任务或改变线上权限。需要修改迁移兼容性问题时，使用独立分支，保留旧数值基线。
+> 这是 CAISO 项目迁移后的首次验收，只验证环境和冻结成果，不做优化。请确认当前仓库为 MComen9/caiso-market-desk，读取 AGENTS.md、README.md、docs/CODEX_HANDOFF.md 和 docs/DEPLOYMENT_STATUS.json，记录实际代码提交。
+>
+> 从仓库根目录执行 `bash scripts/codex-setup.sh`。该脚本已经依次包含默认 `npm run setup`、`npm run build`、`npm run verify`，无需重复执行相同阶段；不要附加 `--research` 或 `--workbench`。允许按锁文件安装依赖，以及在忽略目录中产生构建和临时验证文件。
+>
+> 核对 221 项公开数据与清单的字节和 SHA-256 一致；冻结 V4 前向与开发窗口模拟关键字段完全一致；2026-10-31 PT 的 72 条预测实际价格仍为空，FMM 等于 DA＋价差。报告真正执行的命令、通过/失败结果、当前提交和仍未完成的远端事项。
+>
+> 不重新训练、不抓取市场数据、不采购服务、不改变预测或数据、不修改受版本控制的代码和文档、不提交、不创建 PR、不部署网站或环境、不初始化数据库。若检查失败，只报告失败命令、原因和修复建议，等待后续明确的修复任务。不要把原始历史窗口重新称为独立测试集。
 
 安装和验证命令应从根 README 及实际脚本读取，不把上述自然语言请求当成 shell 命令。
 
