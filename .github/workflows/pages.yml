@@ -1,0 +1,46 @@
+name: Publish research platform
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: apps/viewer/package-lock.json
+      - name: Read Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
+      - run: npm run setup
+      - name: Build the public viewer
+        run: npm run build
+        env:
+          PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+      - run: npm run verify
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: apps/viewer/dist
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
