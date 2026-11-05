@@ -1,0 +1,24 @@
+name: Quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: apps/viewer/package-lock.json
+      - run: npm run setup
+      - run: npm run build
+        env:
+          PUBLIC_BASE_PATH: /caiso-market-desk/
+      - run: npm run verify
