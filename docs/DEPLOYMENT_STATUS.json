@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
   "preparedDate": "2026-11-05",
-  "checkedAt": "2026-11-05T04:17:49.136815Z",
+  "checkedAt": "2026-11-05T04:35:08.672746Z",
+  "checkedAtScope": "latest_pages_post_release_verification",
   "recordType": "verification_snapshot_main_records_updated_after_publication",
   "intendedRepository": "MComen9/caiso-market-desk",
   "github": {
@@ -22,32 +23,89 @@
     "status": "deployed",
     "url": "https://mcomen9.github.io/caiso-market-desk/",
     "source": "GitHub Actions",
-    "sourceCommit": "20476ca855a106f81d24b3087203d7aa714ba66c",
+    "sourceCommit": "9a3d74a0a67515406cef6c9238af7b3c8653ce31",
     "verified": true,
     "deploymentRun": {
-      "id": 41966708144,
+      "id": 41967970912,
+      "url": "https://github.com/MComen9/caiso-market-desk/actions/runs/41967970912",
+      "attempt": 2,
+      "status": "completed",
+      "conclusion": "success",
+      "startedAt": "2026-11-05T04:32:45Z",
+      "completedAt": "2026-11-05T04:33:55Z",
+      "deployJobId": 127050878149
+    },
+    "environment": {
+      "name": "github-pages",
+      "deploymentPolicy": "selected_branches_and_tags",
+      "allowedBranches": ["main"],
+      "allowedTags": ["v*"]
+    },
+    "initialDeployment": {
+      "runId": 41966708144,
       "url": "https://github.com/MComen9/caiso-market-desk/actions/runs/41966708144",
+      "sourceCommit": "20476ca855a106f81d24b3087203d7aa714ba66c",
       "conclusion": "success"
     },
+    "previousReleaseDeploymentAttempts": [
+      {
+        "runId": 41967970912,
+        "attempt": 1,
+        "conclusion": "failure",
+        "reason": "tag_not_allowed_by_github_pages_environment_protection_rules"
+      }
+    ],
     "anonymousVerification": {
       "checkedAt": "2026-11-05T04:17:49.136815Z",
+      "scope": "initial_deployment_snapshot",
+      "sourceCommit": "20476ca855a106f81d24b3087203d7aa714ba66c",
       "authentication": "none",
       "httpChecks": 8,
       "passedChecks": 8,
       "sha256Matches": 8,
       "forecastCsvRows": 72
+    },
+    "postReleaseAnonymousVerification": {
+      "checkedAt": "2026-11-05T04:35:08.672746Z",
+      "sourceCommit": "9a3d74a0a67515406cef6c9238af7b3c8653ce31",
+      "authentication": "none",
+      "httpChecks": 2,
+      "passedChecks": 2,
+      "sha256Matches": 2,
+      "checkedPaths": ["/caiso-market-desk/", "/caiso-market-desk/data/forecast-lab/v4/forward-predictions.csv"],
+      "forecastCsvRows": 72
     }
   },
   "releases": {
-    "status": "draft_prepared",
+    "status": "published",
     "id": 434763595,
-    "intendedTag": "v2026.11.05",
-    "url": null,
-    "published": false,
-    "attachedZipCount": 3
+    "tag": "v2026.11.05",
+    "url": "https://github.com/MComen9/caiso-market-desk/releases/tag/v2026.11.05",
+    "sourceCommit": "9a3d74a0a67515406cef6c9238af7b3c8653ce31",
+    "published": true,
+    "publishedAt": "2026-11-05T04:27:55Z",
+    "attachedZipCount": 3,
+    "attachedAssetCount": 5,
+    "verified": true,
+    "verificationScope": "uploaded_asset_digests_and_scoped_anonymous_checks",
+    "digestMatchCount": 5,
+    "anonymousVerification": {
+      "checkedAt": "2026-11-05T04:29:57.663268Z",
+      "authentication": "none",
+      "httpChecks": 6,
+      "passedChecks": 6,
+      "releasePageGet": "passed",
+      "manifestFilesGet": 2,
+      "manifestSha256Matches": 2,
+      "zipHeadChecks": 3,
+      "zipContentLengthMatches": 3,
+      "fullZipBodiesDownloaded": 0,
+      "anonymousZipFullDownloadVerified": false
+    }
   },
   "codex": {
     "status": "handoff_files_prepared",
+    "statusScope": "this_migration_delivery",
     "blocker": "chatgpt_sign_in_required_in_controlled_cloud_browser",
     "environmentPublished": false,
     "firstTaskVerified": false

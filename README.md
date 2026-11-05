@@ -11,7 +11,7 @@
 | 使用者 | 入口 |
 |---|---|
 | 查看平台的业务同事 | [公开只读网页](https://mcomen9.github.io/caiso-market-desk/)；也可打开[轻量数据页](https://mcomen9.github.io/caiso-market-desk/quick-view.html) |
-| 下载和分析数据 | 网站下载入口、`data/published/` 和 `data/manifest.json`；下述核验时整批 ZIP 的 Release 为草稿，正式发行状态见 `docs/DEPLOYMENT_STATUS.json` |
+| 下载和分析数据 | [正式发行 v2026.11.05](https://github.com/MComen9/caiso-market-desk/releases/tag/v2026.11.05)、网站下载入口、`data/published/` 和 `data/manifest.json` |
 | 研究预测和模拟 | `apps/workbench/research/`；最新 V4 说明见 `data/published/forecast-lab/v4/README.md` |
 | 修改公开网页 | `apps/viewer/` |
 | 扩展 API、数据库和完整工作台 | `apps/workbench/` |
@@ -82,14 +82,21 @@ python3 scripts/package-release.py
 ## GitHub 发布
 
 - `Quality checks`：主分支提交与 PR 运行构建、类型/路径检查、数据校验和冻结模拟复现。
-- `Publish research platform`：发布 Release 或从 Actions 手动运行时，构建并发布 Pages。
+- `Publish research platform`：发布使用 `v*` 标签的正式 Release，或从 `main` 在 Actions 手动运行时，构建并发布 Pages。
 - Pages 的构建源已配置为 **GitHub Actions**，站点已部署。
+- `github-pages` 发布环境保留 `main` 分支并允许 `v*` 标签；其他环境设置未改动。
 - 发布目录仅为 `apps/viewer/dist`，不会把工作台写 API 或数据库暴露到公网。
 - 公开访问、下载和 Codex 环境的真实完成状态见 [`docs/DEPLOYMENT_STATUS.json`](docs/DEPLOYMENT_STATUS.json)。
 
 已验证代码基线为 [`20476ca855a106f81d24b3087203d7aa714ba66c`](https://github.com/MComen9/caiso-market-desk/commit/20476ca855a106f81d24b3087203d7aa714ba66c)，共 551 个文件；该 SHA 表示首次上线核验所用的代码基线，不是后续状态文档提交的自引用版本。[质量检查](https://github.com/MComen9/caiso-market-desk/actions/runs/41966590699)和 [Pages 发布](https://github.com/MComen9/caiso-market-desk/actions/runs/41966708144)均成功。
 
-2026-11-05 12:17:49（北京时间）的匿名核验中，首页、静态资源、轻量页、站点清单及 V4 CSV/JSON/复现包共 8 项请求全部返回 HTTP 200，字节 SHA-256 与本地发行内容一致；预测 CSV 为 72 行。核验时 `v2026.11.05` Release 为已附 3 个 ZIP 的草稿（`draft_prepared`），尚未公开发布。这是该次核验的状态快照；正式发布后会继续更新主分支记录。
+2026-11-05 12:17:49（北京时间）的首次平台匿名核验中，首页、静态资源、轻量页、站点清单及 V4 CSV/JSON/复现包共 8 项请求全部返回 HTTP 200，字节 SHA-256 与本地发行内容一致；预测 CSV 为 72 行。这一时间表示该次平台核验，不是后续 Release 的发布时间。
+
+[v2026.11.05](https://github.com/MComen9/caiso-market-desk/releases/tag/v2026.11.05) 于 2026-11-05 12:27:55（北京时间）正式发布，代码快照为 [`9a3d74a`](https://github.com/MComen9/caiso-market-desk/commit/9a3d74a0a67515406cef6c9238af7b3c8653ce31)。3 个 ZIP、`SHA256SUMS.txt` 和 `release-manifest.json` 共 5 个附件已上传，服务端摘要与本地文件一致。
+
+12:29:57 的 Release 匿名检查为 6/6 通过：发行页 GET 可读、2 个清单文件 GET 内容及哈希匹配、3 个 ZIP 的 HEAD 请求返回 HTTP 200 且长度匹配；未匿名完整下载这 3 个 ZIP。源码发行包保持上述提交的冻结内容，其文档反映打包时状态；最新发布和 Codex 接手状态由主分支持续记录。
+
+正式发行触发的 [Pages 发布运行](https://github.com/MComen9/caiso-market-desk/actions/runs/41967970912)第 2 次执行于 12:33:55 成功完成，部署源为 `9a3d74a`。12:35:08 的发布后匿名复核确认首页和 72 行预测 CSV 均返回 HTTP 200，字节哈希与本地一致。首次执行因标签未获发布环境规则允许而失败的记录保留在状态文件中。
 
 本次迁移默认延续公开分享范围。未来若需要仅团队可见、多人在线运行预测或保存实验，需要配置应用登录与后端权限。
 
@@ -100,7 +107,7 @@ Codex 环境准备命令为 `bash scripts/codex-setup.sh`；详细接手任务�
 
 源码和数据可以成为 Codex 的项目上下文；原 ChatGPT 对话不会仅因仓库发布而自动转成一个已验证的 Codex 云环境。
 
-当前 Codex 接手文件和本地准备验证已完成；该项目的 Codex Cloud 环境尚未创建或发布，首任务尚未验证。当前可控云浏览器中的 ChatGPT 尚未登录，需要完成登录后继续环境配置。
+当前 Codex 接手文件和本地准备验证已完成；本次尚未完成 Codex Cloud 环境创建/发布与首任务验收。当前可控云浏览器中的 ChatGPT 尚未登录，需要完成登录后继续环境配置；账号内是否已有可复用环境尚未核实。
 
 ## 来源与使用范围
 

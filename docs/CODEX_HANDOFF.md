@@ -8,20 +8,22 @@
 
 ### 远端状态
 
-以下是截至 2026-11-05 12:17:49（北京时间）的部署和匿名核验状态快照；后续正式发布与环境接手结果会继续更新主分支，最新记录以 `docs/DEPLOYMENT_STATUS.json` 为准。
+平台首次匿名核验发生于 2026-11-05 12:17:49，Release 于 12:27:55 正式发布、于 12:29:57 完成限定范围的匿名检查；发行触发的 Pages 第 2 次执行于 12:33:55 成功，并于 12:35:08 通过首页与预测 CSV 匿名复核（均为北京时间）。这些时间分别对应不同操作。最新发布与环境接手记录以主分支的 `docs/DEPLOYMENT_STATUS.json` 为准。
 
 | 项目 | 目标或状态 |
 | --- | --- |
 | 本地默认环境准备 | 已于 2026-11-05 完整运行 `bash scripts/codex-setup.sh`；安装、构建、221 项数据校验及 V4 前向/开发两组重放通过 |
 | GitHub 仓库 | [MComen9/caiso-market-desk](https://github.com/MComen9/caiso-market-desk) 已公开，完整代码基线共 551 个文件 |
-| GitHub Pages | [公开平台](https://mcomen9.github.io/caiso-market-desk/) 已部署；8 项匿名请求均为 HTTP 200 且 SHA-256 一致，预测 CSV 为 72 行 |
-| 数据 Release | 核验时为 `draft_prepared`：`v2026.11.05` 草稿（ID `434763595`），已附 3 个 ZIP，尚未公开发布 |
-| Codex Cloud 环境 | 接手文件已准备；项目云环境尚未创建/发布，首任务未验证；当前可控云浏览器中的 ChatGPT 尚未登录 |
+| GitHub Pages | [公开平台](https://mcomen9.github.io/caiso-market-desk/) 已部署发行提交 `9a3d74a`；首次 8 项匿名证据保留，发布后首页与 72 行 CSV 的 2 项复核也均为 HTTP 200 且 SHA-256 一致 |
+| 数据 Release | [v2026.11.05](https://github.com/MComen9/caiso-market-desk/releases/tag/v2026.11.05) 已正式发布（ID `434763595`）；5 个附件服务端摘要一致，6/6 匿名检查通过：发行页 GET、2 清单 GET 内容/哈希、3 ZIP HEAD 状态/长度；未匿名完整下载 ZIP |
+| Codex Cloud 环境 | 接手文件已准备；本次尚未完成 Codex Cloud 环境创建/发布与首任务验收；当前可控云浏览器中的 ChatGPT 尚未登录，账号内是否已有可复用环境未核实 |
 | 原 ChatGPT 会话 | 业务上下文整理在本文件及相关文档中，不假定原会话会自动搬入 Codex |
 
 已核验的 `sourceCommit` 为 `20476ca855a106f81d24b3087203d7aa714ba66c`，对应树 `4d08fbf82c347be9e37217d24a2c092c152b5227`。这是已验证的平台与数据代码基线，不用于自引用后续状态文档提交。[质量检查运行](https://github.com/MComen9/caiso-market-desk/actions/runs/41966590699)和 [Pages 发布运行](https://github.com/MComen9/caiso-market-desk/actions/runs/41966708144)均为成功。
 
-Release 正式发布或 Codex 接手完成后，再据各自的实际回执更新。GitHub 与 Pages 已完成不能替代 Codex 环境发布和首任务验证。
+正式 Release 的 `sourceCommit` 为 `9a3d74a0a67515406cef6c9238af7b3c8653ce31`，源码发行包冻结在该提交，其文档保留打包时状态；后续状态文档在主分支更新，不重写发行附件。GitHub、Pages 和 Release 已完成不能替代 Codex 环境发布和首任务验证。
+
+[发行触发的 Pages 运行](https://github.com/MComen9/caiso-market-desk/actions/runs/41967970912)第 2 次执行成功；发布环境保留 `main` 并允许 `v*` 标签。第 1 次因标签被环境规则拒绝的历史保留在状态记录中，没有将它改写为成功。
 
 ## 2. 建议阅读顺序
 
