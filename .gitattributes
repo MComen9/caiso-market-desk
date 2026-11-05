@@ -1,0 +1,14 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.zip binary
+*.gz binary
+*.pdf binary
+*.xlsx binary
+*.docx binary
+/data/published/** -text
+/data/downloads/** -text
+/apps/workbench/data/** -text
+/apps/workbench/research/output*/** -text

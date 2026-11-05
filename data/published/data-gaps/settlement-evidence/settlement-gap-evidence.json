@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 2,
+  "collectedAtUtc": "2026-10-30T07:09:30.156031+00:00",
+  "scope": "CAISO convergence bidding data requirements and public rate evidence; not a complete settlement engine",
+  "energySettlement": {
+    "status": "verified_official_rule",
+    "chargeCodes": [
+      "6013",
+      "6473"
+    ],
+    "dayAheadPrice": "IFM/DAM LMP",
+    "realtimePrice": "simple mean of four 15-minute FMM LMP intervals at the same eligible node per hour",
+    "doNotSubstitute": [
+      "5-minute RTD LMP",
+      "Hourly RTM LAP price"
+    ],
+    "sources": [
+      "https://www.caiso.com/documents/cg-cc-6473-convergence-bidding-real-time-energy-congestion-and-loss-settlement-incremental-update.docx",
+      "https://www.caiso.com/documents/presentation-dame-edam-and-edam-caiso-balancing-authority-participation-rules-settlements-refresher-training.pdf"
+    ]
+  },
+  "publicRates": [
+    {
+      "chargeCode": "4560",
+      "name": "Market Services Charge",
+      "currency": "USD",
+      "unit": "USD/MWh",
+      "validFrom": "2026-01-01",
+      "validToExclusive": "2026-10-01",
+      "value": 0.1416,
+      "virtualVolumeBasis": "abs(day-ahead virtual demand awards)+abs(day-ahead virtual supply awards)",
+      "completeCost": false,
+      "sources": [
+        "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf",
+        "https://www.caiso.com/documents/cg-cc-4560-gmc-market-services-charge.docx"
+      ]
+    },
+    {
+      "chargeCode": "4560",
+      "name": "Market Services Charge",
+      "currency": "USD",
+      "unit": "USD/MWh",
+      "validFrom": "2026-10-01",
+      "validToExclusive": null,
+      "value": 0.1216,
+      "virtualVolumeBasis": "abs(day-ahead virtual demand awards)+abs(day-ahead virtual supply awards)",
+      "completeCost": false,
+      "sources": [
+        "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf",
+        "https://www.caiso.com/documents/cg-cc-4560-gmc-market-services-charge.docx"
+      ]
+    },
+    {
+      "chargeCode": "4515",
+      "name": "Bid Segment Fee",
+      "currency": "USD",
+      "unit": "USD/final clean bid segment",
+      "validFrom": "2026-01-01",
+      "validToExclusive": null,
+      "value": 0.005,
+      "virtualVolumeBasis": "count of final valid submitted nonzero virtual bid segments; does not require award",
+      "completeCost": false,
+      "sources": [
+        "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf",
+        "https://www.caiso.com/documents/cg-cc-4515-gmc-bid-transaction-fee-incremental-update.docx"
+      ]
+    },
+    {
+      "chargeCode": "4575",
+      "name": "SCID Monthly Fee",
+      "currency": "USD",
+      "unit": "USD/SCID/month",
+      "validFrom": "2026-01-01",
+      "validToExclusive": null,
+      "value": 1500,
+      "virtualVolumeBasis": null,
+      "applicability": "SC-level reference only; allocation to an individual trading strategy depends on SC arrangement/contract",
+      "completeCost": false,
+      "sources": [
+        "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "virtual_forecasted_movement",
+      "priority": "P0",
+      "needed": [
+        "hourly own virtual awards by node and direction including prior-day last hour",
+        "virtual forecasted-movement MW",
+        "15-minute nodal FMM FRU and FRD prices",
+        "settlement sign and BAA attribution"
+      ],
+      "publicPart": "FRU/FRD nodal prices via public OASIS; model can estimate movement from its simulated awards",
+      "restrictedPart": "actual Virtual Forecasted Movement and participant award reports from CMRI; final bill determinants from MRI-S",
+      "status": "official formulas acquired; market data collection pending root probe",
+      "sources": [
+        "https://www.caiso.com/documents/cg-cc-6473-convergence-bidding-real-time-energy-congestion-and-loss-settlement-incremental-update.docx",
+        "https://www.caiso.com/documents/business-requirements-specification-day-ahead-market-enhancement.pdf"
+      ]
+    },
+    {
+      "id": "actual_settlement_and_allocations",
+      "priority": "P0",
+      "needed": [
+        "SC bill determinants",
+        "T+settlement version",
+        "CC6636 IFM BCR tier1 allocation",
+        "CC6806 and applicable RUC allocations",
+        "pass-through adjustments",
+        "broker/SC contractual service fees"
+      ],
+      "publicPart": "rules and aggregate reports",
+      "restrictedPart": "MRI-S participant statements, invoices, bill determinant files; broker/SC agreement",
+      "status": "requires participant authorization or user-supplied statements",
+      "sources": [
+        "https://www.caiso.com/systems-applications/portals-applications/market-results-interface-settlements-mri-s",
+        "https://www.caiso.com/market-operations/settlements"
+      ]
+    },
+    {
+      "id": "node_eligibility_constraints",
+      "priority": "P0",
+      "needed": [
+        "eligible node list with effective dates",
+        "nodal supply/demand MW limits",
+        "nodal-group limits and binding constraints",
+        "actual own award quantity"
+      ],
+      "publicPart": "ATL_CBNODE, CB_NODAL_LIMITS, CB_NODAL_GRP_CNSTR_PRC",
+      "restrictedPart": "own actual bids and awards, participant-specific restrictions",
+      "status": "downloaded eligibility list; exact research node IDs not present; related eligible IDs require mapping; limits returned no data",
+      "sources": [
+        "https://www.caiso.com/documents/oasis-interfacespecification_v5_1_1clean_fall2017release.pdf",
+        "https://oasis.caiso.com/mrioasis/logon.do"
+      ],
+      "newFinding": "Three all-hours research node IDs absent; six ONPEAK/OFFPEAK IDs present, all with PT effective range 2011-01-26 00:00:00 to 2030-12-31 23:59:59 in current downloaded version."
+    },
+    {
+      "id": "credit_budget",
+      "priority": "P1",
+      "needed": [
+        "quarterly node supply/demand credit reference prices",
+        "participant collateral and available credit",
+        "SC agreement and financing rate"
+      ],
+      "publicPart": "PRC_DS_REF quarterly supply/demand reference values",
+      "restrictedPart": "participant-specific collateral, credit limit, estimated aggregate liability and financing costs",
+      "status": "reference API documented; private fields unavailable",
+      "sources": [
+        "https://www.caiso.com/documents/oasis-interfacespecification_v5_1_1clean_fall2017release.pdf",
+        "https://www.caiso.com/market-operations/settlements"
+      ]
+    },
+    {
+      "id": "market_virtual_awards",
+      "priority": "P1",
+      "needed": [
+        "node-hour net virtual cleared MW",
+        "system virtual supply and demand MW"
+      ],
+      "publicPart": "ENE_CB_CLR_AWARDS, ENE_CB_AWARDS",
+      "restrictedPart": null,
+      "status": "public API names documented; root live verification pending",
+      "caveat": "Net node awards post after associated real-time markets close; not same-day pre-bid information. null and zero have different meanings. Not proof of own order fill.",
+      "sources": [
+        "https://www.caiso.com/documents/oasis-interfacespecification_v5_1_1clean_fall2017release.pdf"
+      ]
+    }
+  ],
+  "documentReceipts": [
+    {
+      "name": "cc6473-2026-incremental.docx",
+      "sourceUrl": "https://www.caiso.com/documents/cg-cc-6473-convergence-bidding-real-time-energy-congestion-and-loss-settlement-incremental-update.docx",
+      "fetchedAtUtc": "2026-10-30T07:06:35.880344+00:00",
+      "httpStatus": 200,
+      "bytes": 201622,
+      "sha256": "29300ed3379e556b51f00963c8dba71bf825f1cef5f19a7031a483ec612a9320",
+      "file": "official-documents/cc6473-2026-incremental.docx"
+    },
+    {
+      "name": "cc4515-2026-incremental.docx",
+      "sourceUrl": "https://www.caiso.com/documents/cg-cc-4515-gmc-bid-transaction-fee-incremental-update.docx",
+      "fetchedAtUtc": "2026-10-30T07:06:36.519365+00:00",
+      "httpStatus": 200,
+      "bytes": 126596,
+      "sha256": "7f69741ea90c572720b9dc0b4392b09ae38b6f0f279793aab696c2b7af551e01",
+      "file": "official-documents/cc4515-2026-incremental.docx"
+    },
+    {
+      "name": "gmc-rates-effective-2026-10-01.pdf",
+      "sourceUrl": "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf",
+      "fetchedAtUtc": "2026-10-30T07:06:36.845647+00:00",
+      "httpStatus": 200,
+      "bytes": 277490,
+      "sha256": "13d0b169b85d055da9b14aec99fcfe4b85ef7e586df5b1897fd1af7270613225",
+      "file": "official-documents/gmc-rates-effective-2026-10-01.pdf"
+    },
+    {
+      "name": "settlements-training-2026-04-21.pdf",
+      "sourceUrl": "https://www.caiso.com/documents/presentation-dame-edam-and-edam-caiso-balancing-authority-participation-rules-settlements-refresher-training.pdf",
+      "fetchedAtUtc": "2026-10-30T07:06:37.479864+00:00",
+      "httpStatus": 200,
+      "bytes": 3068417,
+      "sha256": "dcdabf95b0e7e14c2404044a88694475620b3fce79756357d64439e27e848f46",
+      "file": "official-documents/settlements-training-2026-04-21.pdf"
+    },
+    {
+      "name": "settlement-user-group-2026-06-17.pdf",
+      "sourceUrl": "https://www.caiso.com/documents/agenda-settlement-user-group-jun-17-2026.pdf",
+      "fetchedAtUtc": "2026-10-30T07:06:38.051286+00:00",
+      "httpStatus": 200,
+      "bytes": 900814,
+      "sha256": "8200b6158948c25a3b0b7001f6545251a3eb788827aef3344b5e758072333fba",
+      "file": "official-documents/settlement-user-group-2026-06-17.pdf"
+    },
+    {
+      "name": "cc4560-market-services-2026.docx",
+      "sourceUrl": "https://www.caiso.com/documents/cg-cc-4560-gmc-market-services-charge.docx",
+      "fetchedAtUtc": "2026-10-30T07:08:23.680238+00:00",
+      "httpStatus": 200,
+      "bytes": 137604,
+      "sha256": "3fe3d93948952b27cfd2bb45923b2a950391d845d1c9eb3414e8e0f18eb8556b",
+      "file": "official-documents/cc4560-market-services-2026.docx"
+    }
+  ],
+  "remainingUncertainty": [
+    "Latest configuration may amend incremental guides; production full settlement must reconcile with applicable tariff and actual MRI-S bills.",
+    "Public reference rates cannot replace all participant-specific costs.",
+    "Public aggregate cleared virtual volumes do not identify own award or guarantee fill."
+  ],
+  "compiledAtUtc": "2026-10-30T07:14:33.438642+00:00",
+  "title": "CAISO 结算与交易节点数据缺口证据",
+  "summaryZh": "公开费率已核对；未成交的有效报价段仍可能收取每段0.005美元。三个人工研究枢纽ID未匹配本次资格列表，需映射六个ONPEAK/OFFPEAK节点。当前统一成交费用假设不完整。",
+  "nodeEligibility": {
+    "file": "node-eligibility-check.json",
+    "sourceRows": 3568,
+    "exactResearchNodeMatches": 0,
+    "relatedEligibleNodeMatches": 6,
+    "executionReadiness": "reference_nodes_only_mapping_not_verified",
+    "sourceFetchedAt": "2026-10-30T07:09:02.924Z"
+  },
+  "manualVerification": {
+    "ratePdfPage": 2,
+    "ratePdfTextExtractionTool": "pdftotext -f 2 -l 2 -layout",
+    "valuesChecked": {
+      "4560_2026_01_01": 0.1416,
+      "4560_2026_10_01": 0.1216,
+      "4515_perSegment": 0.005,
+      "4575_perMonth": 1500
+    },
+    "feeBasisCheckedAgainst": [
+      "cc4515-2026-incremental.docx",
+      "cc4560-market-services-2026.docx"
+    ],
+    "originalDocumentsUnchanged": true
+  },
+  "files": {
+    "documentation": "SETTLEMENT_DATA_GAPS.md",
+    "nodeEligibility": "node-eligibility-check.json",
+    "documentReceipts": "public-document-receipts.json",
+    "manifest": "manifest.json",
+    "download": "download-evidence.zip"
+  },
+  "attribution": {
+    "publisher": "California Independent System Operator (CAISO)",
+    "officialDocumentNoticesPreserved": true,
+    "termsUrl": "https://www.caiso.com/privacy-terms-of-use",
+    "analysisAuthor": "CAISO Market Desk research pipeline",
+    "containsPrivateAccountData": false
+  }
+}

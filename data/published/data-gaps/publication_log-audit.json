@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "dataset": "publication_log",
+  "generatedAt": "2026-10-30T07:44:31.181Z",
+  "rows": 47373,
+  "fields": [
+    "PUBLICATION_ID",
+    "PUBLICATION_DATE_GMT",
+    "REPORT_NAME",
+    "MARKET_RUN_ID",
+    "INTERVAL_START_GMT",
+    "INTERVAL_END_GMT",
+    "ATLPUBVERSION",
+    "STATUS"
+  ],
+  "download": "/data/data-gaps/publication_log.json.gz",
+  "bytes": 433602,
+  "sha256": "4c38c44a4f630ec6d7c93606cea0d44702eaf1bba615197d64f647e7a1c6cdb2",
+  "sampleRows": [
+    {
+      "PUBLICATION_ID": "64471465",
+      "PUBLICATION_DATE_GMT": "2026-10-27T07:01:00-00:00",
+      "REPORT_NAME": "PUB_CB_BID",
+      "MARKET_RUN_ID": "DAM",
+      "INTERVAL_START_GMT": "2026-07-29T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-07-30T07:00:00-00:00",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed"
+    },
+    {
+      "PUBLICATION_ID": "64471520",
+      "PUBLICATION_DATE_GMT": "2026-10-27T07:01:00-00:00",
+      "REPORT_NAME": "PUB_BID",
+      "MARKET_RUN_ID": "DAM",
+      "INTERVAL_START_GMT": "2026-07-29T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-07-30T07:00:00-00:00",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed"
+    },
+    {
+      "PUBLICATION_ID": "64481053",
+      "PUBLICATION_DATE_GMT": "2026-10-27T07:01:00-00:00",
+      "REPORT_NAME": "PUB_BID",
+      "MARKET_RUN_ID": "RTM",
+      "INTERVAL_START_GMT": "2026-07-29T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-07-29T08:00:00-00:00",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed"
+    },
+    {
+      "PUBLICATION_ID": "64481727",
+      "PUBLICATION_DATE_GMT": "2026-10-27T07:01:00-00:00",
+      "REPORT_NAME": "PUB_BID",
+      "MARKET_RUN_ID": "RTM",
+      "INTERVAL_START_GMT": "2026-07-29T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-07-29T08:00:00-00:00",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed"
+    },
+    {
+      "PUBLICATION_ID": "64482363",
+      "PUBLICATION_DATE_GMT": "2026-10-27T07:01:00-00:00",
+      "REPORT_NAME": "PUB_BID",
+      "MARKET_RUN_ID": "RTM",
+      "INTERVAL_START_GMT": "2026-07-29T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-07-29T08:00:00-00:00",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed"
+    },
+    {
+      "PUBLICATION_ID": "64483035",
+      "PUBLICATION_DATE_GMT": "2026-10-27T07:01:00-00:00",
+      "REPORT_NAME": "PUB_BID",
+      "MARKET_RUN_ID": "RTM",
+      "INTERVAL_START_GMT": "2026-07-29T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-07-29T08:00:00-00:00",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "publication_log_2026-10-27_2026-10-28",
+      "dataset": "publication_log",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261027T07%3A00-0000&enddatetime=20261028T07%3A00-0000&queryname=ATL_PUB",
+      "fetchedAt": "2026-10-30T07:19:11.458Z",
+      "sha256": "0a0a60b18063e05c62d88fbc41bbe0f8d2d5f6764361bdc2898bc9296a66f7fb",
+      "bytes": 401514,
+      "rowCount": 21924
+    },
+    {
+      "id": "publication_log_2026-10-28_2026-10-29",
+      "dataset": "publication_log",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ATL_PUB",
+      "fetchedAt": "2026-10-30T07:10:22.734Z",
+      "sha256": "02185eb5624df41741dac0e63994061426c0fa7ca2fdb6a4b4eee693dfd98007",
+      "bytes": 462810,
+      "rowCount": 25449
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "classification": "source_publication_event_log",
+  "notes": [
+    "真实源发布事件，不等于下载时间。日志未包含对应完整数值快照，不能单凭它把当前历史值标成当时发行值。"
+  ]
+}

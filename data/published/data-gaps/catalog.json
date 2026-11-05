@@ -1,0 +1,939 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-30T08:40:03.744Z",
+  "headline": "当前预测输入与参考数据",
+  "summary": "V4已使用366天、26,352个节点小时完成训练、开发评估和2026-10-31 PT预测。其余来源保留参考，本轮不使用、不采购，也不阻塞当前预测。",
+  "items": [
+    {
+      "id": "seasonal-prices",
+      "title": "当前价格历史与预测输入",
+      "category": "prediction",
+      "priority": "P0",
+      "status": "ready",
+      "statusLabel": "V4 核心输入 · 已运行",
+      "before": "原价格档案仅180天，缺冬春季，无法检验完整季节变化。",
+      "coverage": "2025-10-29—2026-10-29 PT，366天、26,352个完整节点小时。",
+      "useCase": "用完整DAM/FMM小时价格、滞后统计、跨枢纽及日历特征直接预测。",
+      "modelStatus": "已用于V4训练、开发评估及2026-10-31 PT预测；不改写V1/V2/V3。",
+      "limitation": "特征与标签截止D−2；历史重建使用当前取得的价格版本。最终28天仍称开发评估，不作为全新独立测试。",
+      "metrics": [
+        {
+          "label": "完整交易日",
+          "value": "366"
+        },
+        {
+          "label": "节点小时",
+          "value": "26,352"
+        },
+        {
+          "label": "本轮新增节点小时",
+          "value": "72"
+        },
+        {
+          "label": "预测节点小时",
+          "value": "72"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OASIS保留期与查询范围",
+          "url": "https://www.caiso.com/documents/oasis-frequently-asked-questions.pdf"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "当前价格输入",
+          "href": "/data/current-inputs/price-history-current.json.gz"
+        },
+        {
+          "label": "覆盖与新增价格审计",
+          "href": "/data/current-inputs/current-prices-audit.json"
+        },
+        {
+          "label": "V4 模型评估",
+          "href": "/data/forecast-lab/v4/report.json"
+        }
+      ],
+      "sampleRows": [],
+      "modelUse": "current"
+    },
+    {
+      "id": "node-mapping",
+      "title": "研究枢纽与候选峰谷节点",
+      "category": "settlement",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "价格映射参考 · 48条冲突保留",
+      "before": "原模型的三个全时段枢纽ID没有与虚拟交易资格列表及峰谷时段建立映射。",
+      "coverage": "10/28查询资格列表3,568条；2026-05-02—2026-10-28 PT，64,800条价格对照。7/3 DAM 06–21点有冲突。",
+      "useCase": "核对参考枢纽与六个ONPEAK/OFFPEAK节点，保留官方日历和实际返回节点两个字段，为后续申报规则改造提供输入。",
+      "modelStatus": "本轮不使用峰谷申报映射；V4继续使用三个研究枢纽的参考价格。",
+      "limitation": "六个峰谷ID在资格表中，三个旧参考ID未出现。64,800条价格逐值相等，但7/3 PT 06–21点的DAM有48条日历ON、实际节点OFFPEAK；同小时FMM正常。原因未确认，异常已单列，自动映射未通过。单节点限额返回空，不能解释为无限额。",
+      "metrics": [
+        {
+          "label": "对照价格数",
+          "value": "64800"
+        },
+        {
+          "label": "峰谷日历不符",
+          "value": "48"
+        },
+        {
+          "label": "最大价格差 $/MWh",
+          "value": "0.0"
+        },
+        {
+          "label": "节点组约束样本",
+          "value": "490"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CAISO SIBR用户指南",
+          "url": "https://www.caiso.com/documents/sibr_scuserguidewebsdk35v71.pdf"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "节点与价格映射",
+          "href": "/data/data-gaps/tradable-node-map-180d.json.gz"
+        },
+        {
+          "label": "48条冲突及独立核验",
+          "href": "/data/data-gaps/node-mapping-discrepancies.json"
+        },
+        {
+          "label": "资格核对",
+          "href": "/data/data-gaps/settlement-evidence/node-eligibility-check.json"
+        },
+        {
+          "label": "节点组约束",
+          "href": "/data/data-gaps/cb_group_limits.json.gz"
+        }
+      ],
+      "sampleRows": [
+        {
+          "market": "DAM",
+          "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+          "researchNode": "TH_NP15_GEN-APND",
+          "startUtc": "2026-07-03T13:00:00.000Z",
+          "endUtc": "2026-07-03T14:00:00.000Z",
+          "officialPeakFlag": "ON",
+          "lmp": 23.49507,
+          "researchLmp": 23.49507,
+          "difference": 0.0,
+          "calendarNodeMatch": "否",
+          "priceMatchesReference": "是",
+          "mappingStatus": "calendar_conflict"
+        },
+        {
+          "market": "DAM",
+          "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+          "researchNode": "TH_NP15_GEN-APND",
+          "startUtc": "2026-07-03T14:00:00.000Z",
+          "endUtc": "2026-07-03T15:00:00.000Z",
+          "officialPeakFlag": "ON",
+          "lmp": 7.11707,
+          "researchLmp": 7.11707,
+          "difference": 0.0,
+          "calendarNodeMatch": "否",
+          "priceMatchesReference": "是",
+          "mappingStatus": "calendar_conflict"
+        },
+        {
+          "market": "DAM",
+          "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+          "researchNode": "TH_NP15_GEN-APND",
+          "startUtc": "2026-07-03T15:00:00.000Z",
+          "endUtc": "2026-07-03T16:00:00.000Z",
+          "officialPeakFlag": "ON",
+          "lmp": 7.28371,
+          "researchLmp": 7.28371,
+          "difference": 0.0,
+          "calendarNodeMatch": "否",
+          "priceMatchesReference": "是",
+          "mappingStatus": "calendar_conflict"
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "settlement-costs",
+      "title": "完整结算、FRP与真实交易成本",
+      "category": "settlement",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "规则与费率已取得",
+      "before": "历史模型仅计能源价差和人工设定的成交MWh费用，缺Forecasted Movement与提交费等。",
+      "coverage": "6份官方结算/费率原件；2026年1月及10月生效费率；FRP节点价尚未取得有效数据。",
+      "useCase": "核对官方结算规则和费用口径；V4按统一假设比较研究策略，不等待完整结算数据。",
+      "modelStatus": "V4使用固定 $1/MWh 成交费用情景；以下官方结算材料本轮不入模，保留参考。",
+      "limitation": "V4按每模拟成交MWh扣 $1，输出情景损益；未覆盖的费用不被解释为零，也不称完整账户净收益。CC4515有效非零报价段即使未成交也可能收费。FRP GroupZip返回1015、SingleZip候选参数返回1001；没有以影子价格替代节点价格。SC合同、信用和最终结算需参与者数据。",
+      "metrics": [
+        {
+          "label": "CC4560 1–9月",
+          "value": "$0.1416/MWh"
+        },
+        {
+          "label": "CC4560 10月起",
+          "value": "$0.1216/MWh"
+        },
+        {
+          "label": "CC4515",
+          "value": "$0.005/有效报价段"
+        },
+        {
+          "label": "CC4575",
+          "value": "$1,500/SCID/月"
+        }
+      ],
+      "sources": [
+        {
+          "label": "2026官方费率",
+          "url": "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf"
+        },
+        {
+          "label": "MRI-S结算文件",
+          "url": "https://www.caiso.com/systems-applications/portals-applications/market-results-interface-settlements-mri-s"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "结算证据包",
+          "href": "/data/data-gaps/settlement-evidence/download-evidence.zip"
+        },
+        {
+          "label": "规则和费率JSON",
+          "href": "/data/data-gaps/settlement-evidence/settlement-gap-evidence.json"
+        }
+      ],
+      "sampleRows": [],
+      "modelUse": "reference"
+    },
+    {
+      "id": "official-forecasts",
+      "title": "180天官方负荷与风光预测",
+      "category": "prediction",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "历史值齐全 · 发行版本未齐",
+      "before": "负荷/风光预测接口已接，但训练档案只有10/28、10/29两日快照。",
+      "coverage": "2026-05-02—10-28 PT，4,320系统小时；DAM/2DA/7DA负荷、六个分区风光及派生净负荷。",
+      "useCase": "形成与180天价格/实际基本面对齐的预测面板，支持预测误差和供需预期分析。",
+      "modelStatus": "本轮不使用，保留参考。已取得且独立核验，尚未入模；历史版本未知",
+      "limitation": "普通CSV不含逐值实际发行时间；publishTimeUtc保留null。DAM/2DA/7DA是预测期限，不是同一预测的三次发行。不能当作已证明无前视的回测输入。",
+      "metrics": [
+        {
+          "label": "系统小时",
+          "value": "4320"
+        },
+        {
+          "label": "源数值字段",
+          "value": "9"
+        },
+        {
+          "label": "派生数值字段",
+          "value": "3"
+        },
+        {
+          "label": "缺失值",
+          "value": "0"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CAISO OASIS官方API说明",
+          "url": "https://www.caiso.com/documents/oasis-frequently-asked-questions.pdf"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "预测历史面板",
+          "href": "/data/data-gaps/official-forecast-history-180d.json.gz"
+        },
+        {
+          "label": "独立数值核验",
+          "href": "/data/data-gaps/forecast-history-verification.json"
+        }
+      ],
+      "sampleRows": [
+        {
+          "startUtc": "2026-05-02T07:00:00.000Z",
+          "endUtc": "2026-05-02T08:00:00.000Z",
+          "localDate": "2026-05-02",
+          "localHour": "00:00",
+          "utcOffset": "-07:00",
+          "loadDamMw": 22492.24,
+          "load2daMw": 22388.68,
+          "load7daMw": 22629.08,
+          "solarNp15Mw": 0.0,
+          "solarSp15Mw": 0.0,
+          "solarZp26Mw": 0.0,
+          "windNp15Mw": 970.96,
+          "windSp15Mw": 630.52,
+          "windZp26Mw": 24.57,
+          "solarCaisoMw": 0.0,
+          "windCaisoMw": 1626.05,
+          "netLoadDamMw": 20866.190000000002,
+          "publishTimeUtc": null
+        },
+        {
+          "startUtc": "2026-05-02T08:00:00.000Z",
+          "endUtc": "2026-05-02T09:00:00.000Z",
+          "localDate": "2026-05-02",
+          "localHour": "01:00",
+          "utcOffset": "-07:00",
+          "loadDamMw": 21421.04,
+          "load2daMw": 21311.99,
+          "load7daMw": 21600.4,
+          "solarNp15Mw": 0.0,
+          "solarSp15Mw": 0.0,
+          "solarZp26Mw": 0.0,
+          "windNp15Mw": 1001.41,
+          "windSp15Mw": 429.94,
+          "windZp26Mw": 21.2,
+          "solarCaisoMw": 0.0,
+          "windCaisoMw": 1452.55,
+          "netLoadDamMw": 19968.49,
+          "publishTimeUtc": null
+        },
+        {
+          "startUtc": "2026-05-02T09:00:00.000Z",
+          "endUtc": "2026-05-02T10:00:00.000Z",
+          "localDate": "2026-05-02",
+          "localHour": "02:00",
+          "utcOffset": "-07:00",
+          "loadDamMw": 20400.07,
+          "load2daMw": 20303.08,
+          "load7daMw": 20569.3,
+          "solarNp15Mw": 0.0,
+          "solarSp15Mw": 0.0,
+          "solarZp26Mw": 0.0,
+          "windNp15Mw": 1000.34,
+          "windSp15Mw": 297.96,
+          "windZp26Mw": 16.39,
+          "solarCaisoMw": 0.0,
+          "windCaisoMw": 1314.69,
+          "netLoadDamMw": 19085.38,
+          "publishTimeUtc": null
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "forecast-vintages",
+      "title": "带历史消息时间的风光预测档案",
+      "category": "prediction",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "源历史消息已取得 · 全版本未知",
+      "before": "原有SLD_REN_FCST快照没有真实源消息时间，无法核对截点。",
+      "coverage": "EDAM XML：CISO 180天、4,320个目标小时；其中截点前记录1,344条。",
+      "useCase": "将目标区间、源消息时间、官方发布事件、本次获取时间分开，为按时点选择历史预测提供证据。",
+      "modelStatus": "本轮不使用，保留参考。仅截点前记录可进入进一步时点核验；尚未入模",
+      "limitation": "研究截点为D−1 09:55 PT，晚于截点的消息不能用于该次预测。单日样本的XML消息比同报告同目标日发布事件晚145秒；两者均早于截点，但没有publication ID或内容摘要绑定，未证明历史字节或全部发行版本。",
+      "metrics": [
+        {
+          "label": "目标小时 / 预期",
+          "value": "4320 / 4320"
+        },
+        {
+          "label": "截点前消息 / CISO消息",
+          "value": "56 / 180"
+        },
+        {
+          "label": "截点前小时记录",
+          "value": "1344"
+        },
+        {
+          "label": "发布日志事件",
+          "value": "47373"
+        }
+      ],
+      "sources": [
+        {
+          "label": "GridStatus开源EDAM解析",
+          "url": "https://opensource.gridstatus.io/en/latest/_modules/gridstatus/caiso/caiso.html#CAISO.get_edam_wind_solar_forecast"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "带时间风光档案",
+          "href": "/data/data-gaps/edam-wind-solar-vintages.json.gz"
+        },
+        {
+          "label": "发布日志",
+          "href": "/data/data-gaps/publication_log.json.gz"
+        },
+        {
+          "label": "单日时间交叉核验",
+          "href": "/data/data-gaps/edam-vintage-verification.json"
+        }
+      ],
+      "sampleRows": [
+        {
+          "sourceMessageTimeUtc": "2026-05-01T16:05:31.000Z",
+          "startUtc": "2026-05-02T07:00:00.000Z",
+          "endUtc": "2026-05-02T08:00:00.000Z",
+          "baa": "CISO",
+          "solarMw": 0.0,
+          "windMw": 1783.49,
+          "researchCutoffUtc": "2026-05-01T16:55:00.000Z",
+          "messageBeforeCutoff": "是",
+          "sourceFile": "20260502_20260502_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+        },
+        {
+          "sourceMessageTimeUtc": "2026-05-01T16:05:31.000Z",
+          "startUtc": "2026-05-02T08:00:00.000Z",
+          "endUtc": "2026-05-02T09:00:00.000Z",
+          "baa": "CISO",
+          "solarMw": 0.0,
+          "windMw": 1609.43,
+          "researchCutoffUtc": "2026-05-01T16:55:00.000Z",
+          "messageBeforeCutoff": "是",
+          "sourceFile": "20260502_20260502_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+        },
+        {
+          "sourceMessageTimeUtc": "2026-05-01T16:05:31.000Z",
+          "startUtc": "2026-05-02T09:00:00.000Z",
+          "endUtc": "2026-05-02T10:00:00.000Z",
+          "baa": "CISO",
+          "solarMw": 0.0,
+          "windMw": 1476.48,
+          "researchCutoffUtc": "2026-05-01T16:55:00.000Z",
+          "messageBeforeCutoff": "是",
+          "sourceFile": "20260502_20260502_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "weather",
+      "title": "天气预测与历史预报批次",
+      "category": "prediction",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "当前预测与历史批次样本已取得",
+      "before": "平台此前没有规范化天气数据，也没有可区分模式初始化与发布时刻的历史预报。",
+      "coverage": "NWS三个城市468点位小时；Sacramento指定GFS历史run 72小时。",
+      "useCase": "温度、湿度、风速、云量和辐射可解释负荷与风光变化，后续需匹配负荷区/电站装机权重。",
+      "modelStatus": "本轮不使用，保留参考。已规范化样本，尚未形成180天加权气象面板或入模",
+      "limitation": "三个城市不是枢纽中心，也没有负荷/装机权重。历史run初始化时间不等于公开可用时间；Open-Meteo免费托管限非商业用途，商业接入需相应方案或自建。",
+      "metrics": [
+        {
+          "label": "NWS点位",
+          "value": "3"
+        },
+        {
+          "label": "NWS点位小时",
+          "value": "468"
+        },
+        {
+          "label": "历史run小时",
+          "value": "72"
+        },
+        {
+          "label": "历史样本空值",
+          "value": "2"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NWS开放API",
+          "url": "https://www.weather.gov/documentation/services-web-api"
+        },
+        {
+          "label": "历史天气批次API",
+          "url": "https://open-meteo.com/en/docs/single-runs-api"
+        },
+        {
+          "label": "Open-Meteo使用条款",
+          "url": "https://open-meteo.com/en/terms"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "天气/停运证据包",
+          "href": "/data/data-gaps/weather-evidence/weather-outage-evidence.zip"
+        },
+        {
+          "label": "天气数据清单",
+          "href": "/data/data-gaps/weather-evidence/weather-audit.json"
+        }
+      ],
+      "sampleRows": [
+        {
+          "locationId": "sacramento",
+          "locationLabel": "Sacramento",
+          "startUtc": "2026-10-30T07:00:00+00:00",
+          "endUtc": "2026-10-30T08:00:00+00:00",
+          "temperature": 56,
+          "temperatureUnit": "F",
+          "relativeHumidityPercent": 72,
+          "precipitationProbabilityPercent": 0,
+          "windSpeedRaw": "1 mph",
+          "windDirection": "SSE",
+          "shortForecast": "Mostly Cloudy"
+        },
+        {
+          "locationId": "fresno",
+          "locationLabel": "Fresno",
+          "startUtc": "2026-10-30T07:00:00+00:00",
+          "endUtc": "2026-10-30T08:00:00+00:00",
+          "temperature": 62,
+          "temperatureUnit": "F",
+          "relativeHumidityPercent": 70,
+          "precipitationProbabilityPercent": 12,
+          "windSpeedRaw": "0 mph",
+          "windDirection": "",
+          "shortForecast": "Cloudy"
+        },
+        {
+          "locationId": "los_angeles",
+          "locationLabel": "Los Angeles",
+          "startUtc": "2026-10-30T06:00:00+00:00",
+          "endUtc": "2026-10-30T07:00:00+00:00",
+          "temperature": 63,
+          "temperatureUnit": "F",
+          "relativeHumidityPercent": 81,
+          "precipitationProbabilityPercent": 33,
+          "windSpeedRaw": "5 mph",
+          "windDirection": "S",
+          "shortForecast": "Chance Rain Showers"
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "private-execution",
+      "title": "自己的报价、成交、结算与信用",
+      "category": "settlement",
+      "priority": "P2",
+      "status": "blocked",
+      "statusLabel": "需要参与者授权或文件",
+      "before": "当前只有研究生成的订单，没有自己的正式提交回执、出清回执、结算账单或信用余额。",
+      "coverage": "公开聚合出清可取得；账户级数据尚未提供。",
+      "useCase": "核对真实执行、Forecasted Movement、分摊费用和资金约束，形成真实收益标签。",
+      "modelStatus": "本轮不使用，保留参考。未取得，不能用公开总量代替账户记录",
+      "limitation": "MRI-S/CMRI需要参与者证书和授权；SC服务费分摊还需合同。当前12/6/2 MWh是研究约束，不是已核验的账户额度。",
+      "metrics": [
+        {
+          "label": "公共系统出清样本",
+          "value": "48"
+        },
+        {
+          "label": "账户级成交/结算",
+          "value": "未取得"
+        }
+      ],
+      "sources": [
+        {
+          "label": "MRI-S",
+          "url": "https://www.caiso.com/systems-applications/portals-applications/market-results-interface-settlements-mri-s"
+        },
+        {
+          "label": "CMRI",
+          "url": "https://www.caiso.com/systems-applications/portals-applications/customer-market-results-interface-cmri"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "公共虚拟交易总量",
+          "href": "/data/data-gaps/cb_system_awards.json.gz"
+        }
+      ],
+      "sampleRows": [],
+      "modelUse": "reference"
+    },
+    {
+      "id": "price-components",
+      "title": "原生电价与拥塞、损耗等分量",
+      "category": "prediction",
+      "priority": "P2",
+      "status": "ready",
+      "statusLabel": "从现有缓存完整回收",
+      "before": "模型档案只保存LMP及小时FMM均值；已取到的MCE/MCC/MCL/MGHG尚未整理使用。",
+      "coverage": "180天、3枢纽；DAM 12,960条＋FMM 51,840条，共64,800个原生区间。",
+      "useCase": "研究拥塞、损耗、能源和排放分量对节点价差的贡献，保留15分钟结构。",
+      "modelStatus": "本轮不使用，保留参考。已整理、尚未入模；FMM没有被压平为小时",
+      "limitation": "分量属于当前取得的历史修订版本，四分量加总容差为$0.0001/MWh。5分钟RTD仍仅有7日页面预载，未扩展为长历史；RTD不能替代虚拟交易FMM能源结算。拥塞分量也不是物理约束或完整结算成本。",
+      "metrics": [
+        {
+          "label": "原生区间",
+          "value": "64,800"
+        },
+        {
+          "label": "分量数值",
+          "value": "259,200"
+        },
+        {
+          "label": "缺失区间",
+          "value": "0"
+        },
+        {
+          "label": "超加总容差",
+          "value": "0"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OASIS价格API说明",
+          "url": "https://www.caiso.com/documents/oasis-frequently-asked-questions.pdf"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "原生价格分量",
+          "href": "/data/data-gaps/price-components-180d.json.gz"
+        },
+        {
+          "label": "来源与一致性审计",
+          "href": "/data/data-gaps/price-components-audit.json"
+        }
+      ],
+      "sampleRows": [],
+      "modelUse": "reference"
+    },
+    {
+      "id": "fuel-carbon",
+      "title": "燃料价格、排放价格与燃料区映射",
+      "category": "market",
+      "priority": "P2",
+      "status": "ready",
+      "statusLabel": "180天数据及区域表已取得",
+      "before": "缺少气价成本驱动及燃料区到加州价格区域的明确映射。",
+      "coverage": "180天；868,176条燃料区小时索引、180条排放价格索引；184条区域映射。",
+      "useCase": "构造燃料成本、区域价差与排放成本特征。先按BA=CISO和明确的Pricing Hub筛选，不按名称前缀猜测。",
+      "modelStatus": "本轮不使用，保留参考。已取得、尚未入模；当前映射没有历史效期",
+      "limitation": "燃料价格是公开索引，不是机组合同成本。184条映射中57条BA=CISO；FRPGE与FRPGE1属于不同BA，未匹配区域需保留未知。排放索引与LMP的MGHG分量不同。",
+      "metrics": [
+        {
+          "label": "燃料区小时行",
+          "value": "868176"
+        },
+        {
+          "label": "排放日索引",
+          "value": "180"
+        },
+        {
+          "label": "映射条目",
+          "value": "184"
+        },
+        {
+          "label": "CISO燃料区",
+          "value": "57"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CAISO燃料区定义表",
+          "url": "https://www.caiso.com/documents/fuelregion_electricregiondefinitions.xlsx"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "燃料价格历史",
+          "href": "/data/data-gaps/fuel_prices.json.gz"
+        },
+        {
+          "label": "排放价格历史",
+          "href": "/data/data-gaps/ghg_allowance.json.gz"
+        },
+        {
+          "label": "燃料区映射",
+          "href": "/data/data-gaps/weather-evidence/fuel-region-mapping.json"
+        }
+      ],
+      "sampleRows": [
+        {
+          "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+          "FUEL_REGION_ID": "FRAEC1",
+          "PRC": 1.73
+        },
+        {
+          "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+          "FUEL_REGION_ID": "FRAVA",
+          "PRC": 1.02
+        },
+        {
+          "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+          "FUEL_REGION_ID": "FRAVRN",
+          "PRC": 1.01
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "outages",
+      "title": "发电停运与未来停运计划",
+      "category": "market",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "计划和明细样本已取得",
+      "before": "当前模型没有发电停运特征，公开快照未形成连续发行档案。",
+      "coverage": "10/28汇总报告的三个枢纽5,230条计划行；10/29 AM 628行；10/28前日明细2,235区间行。",
+      "useCase": "识别可用容量变化、停运类型和持续区间；未来计划与事后实际分别使用。",
+      "modelStatus": "本轮不使用，保留参考。已取得、尚未形成180天按发行时点选择的面板",
+      "limitation": "AM含其他BA和跨区域重复，前日表有未定结束时间。计划包含未来日期，不是未来实际；Aggregate与燃料子项不能重复相加，不能直接累加所有行的MW。",
+      "metrics": [
+        {
+          "label": "枢纽计划行",
+          "value": "5230"
+        },
+        {
+          "label": "AM行",
+          "value": "628"
+        },
+        {
+          "label": "前日区间行",
+          "value": "2235"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CAISO停运信息",
+          "url": "https://www.caiso.com/market-operations/outages"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "三枢纽停运计划",
+          "href": "/data/data-gaps/generation_outages.json.gz"
+        },
+        {
+          "label": "机组明细与原件",
+          "href": "/data/data-gaps/weather-evidence/weather-outage-evidence.zip"
+        }
+      ],
+      "sampleRows": [
+        {
+          "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+          "TRADING_HUB": "NP15",
+          "FUEL_CATEGORY": "Hydro",
+          "MW": 3979.85
+        },
+        {
+          "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+          "TRADING_HUB": "NP15",
+          "FUEL_CATEGORY": "Not Avail",
+          "MW": 1.15
+        },
+        {
+          "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+          "TRADING_HUB": "NP15",
+          "FUEL_CATEGORY": "Renewable",
+          "MW": 946.0
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "transmission",
+      "title": "输电接口容量、计划与约束",
+      "category": "market",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "公开接口样本已取得",
+      "before": "缺供需之外的网络约束信息；拥塞价格分量不能替代物理约束数据。",
+      "coverage": "10/28日前接口报表36,816行。",
+      "useCase": "区分接口方向、容量、计划和余量，支持进口约束与拥塞场景分析。",
+      "modelStatus": "本轮不使用，保留参考。已取得单日样本，尚未入模或取得完整拓扑",
+      "limitation": "TR_TYPE和LABEL含不同指标，不能累加为净进口。详细输电停运和完整网络模型的部分资料需要证书；历史发行、约束到目标节点的影响关系仍缺。",
+      "metrics": [
+        {
+          "label": "接口指标行",
+          "value": "36816"
+        },
+        {
+          "label": "当前历史覆盖",
+          "value": "1日"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OASIS公开数据",
+          "url": "https://www.caiso.com/systems-applications/portals-applications/open-access-same-time-information-system-oasis"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "输电接口样本",
+          "href": "/data/data-gaps/transmission_usage.json.gz"
+        }
+      ],
+      "sampleRows": [
+        {
+          "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+          "MARKET_RUN_ID": "DAM",
+          "TI_ID": "ADLANTO-SP_ITC",
+          "TI_DIRECTION": "E",
+          "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+          "TR_TYPE": "RATING_ATC",
+          "LABEL": "ATC",
+          "MW": 896.0
+        },
+        {
+          "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+          "MARKET_RUN_ID": "DAM",
+          "TI_ID": "ADLANTO-SP_ITC",
+          "TI_DIRECTION": "E",
+          "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+          "TR_TYPE": "TRNS_AS_IMPORT_IFM",
+          "LABEL": "AS from Imports",
+          "MW": 0.0
+        },
+        {
+          "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+          "MARKET_RUN_ID": "DAM",
+          "TI_ID": "ADLANTO-SP_ITC",
+          "TI_DIRECTION": "E",
+          "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+          "TR_TYPE": "TRNS_ENE_IMPORT_IFM",
+          "LABEL": "Scheduled Net Energy from Imports/Exports",
+          "MW": -235.0
+        }
+      ],
+      "modelUse": "reference"
+    },
+    {
+      "id": "external-access",
+      "title": "Outlook历史与GridStatus托管",
+      "category": "market",
+      "priority": "P2",
+      "status": "blocked",
+      "statusLabel": "已核验当前访问限制",
+      "before": "Outlook只有两日预载快照；GridStatus有适配器，没有托管历史数据。",
+      "coverage": "本轮线上检查：Outlook demand源返回403；GridStatus configured=false。",
+      "useCase": "补充发电结构、进口、储能等连续历史，或使用托管数据历史发行服务。",
+      "modelStatus": "本轮不使用，保留参考。现有官方OASIS和本轮新增公开数据可独立使用",
+      "limitation": "Outlook受当前服务器访问限制；GridStatus需Key和对应数据集权限。未绕过限制、未购买套餐、未把两日快照扩写为180天。",
+      "metrics": [
+        {
+          "label": "Outlook源响应",
+          "value": "403"
+        },
+        {
+          "label": "GridStatus Key",
+          "value": "未配置"
+        },
+        {
+          "label": "已保留Outlook日期",
+          "value": "2"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Today’s Outlook",
+          "url": "https://www.caiso.com/todays-outlook"
+        },
+        {
+          "label": "GridStatus API Key",
+          "url": "https://www.gridstatus.io/settings/api"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "本轮连通检查",
+          "href": "/data/data-gaps/source-status.json"
+        }
+      ],
+      "sampleRows": [],
+      "modelUse": "reference"
+    },
+    {
+      "id": "eia-system-reference",
+      "title": "EIA-930 系统状态参考",
+      "category": "market",
+      "priority": "P2",
+      "status": "partial",
+      "statusLabel": "小时面板已取得 · 本轮不入模",
+      "before": "此前没有独立的EIA系统需求、发电和交换历史面板。",
+      "coverage": "2025-10-29—2026-10-29 PT，8,784个时间区间；需求等主要列有效8,706小时，逐列有效数见审计。",
+      "useCase": "保留需求、发电结构和净交换的独立研究参考，不作为V4预测依赖。",
+      "modelStatus": "本轮不使用，保留参考；3个全空列排除，缺失值未补零。",
+      "limitation": "电池储能、抽水蓄能与CFE交换全空，不能据此称储能数据已补齐。其余列有不同缺失和报告延迟；8,784是时间区间数，不是每列有效值数。当前下载未证明历史首次发行。",
+      "metrics": [
+        {
+          "label": "时间区间",
+          "value": "8784"
+        },
+        {
+          "label": "需求有效小时",
+          "value": "8706"
+        },
+        {
+          "label": "全空列排除",
+          "value": "3"
+        },
+        {
+          "label": "V4 使用",
+          "value": "否"
+        }
+      ],
+      "sources": [
+        {
+          "label": "EIA-930 官方说明",
+          "url": "https://www.eia.gov/electricity/930-content/about.html"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "EIA 归一小时面板",
+          "href": "/data/current-inputs/eia/eia930-ciso-current.json.gz"
+        },
+        {
+          "label": "逐字段覆盖审计",
+          "href": "/data/current-inputs/eia/eia930-ciso-audit.json"
+        },
+        {
+          "label": "源响应回执",
+          "href": "/data/current-inputs/eia/receipt.json"
+        }
+      ],
+      "sampleRows": [],
+      "modelUse": "reference"
+    }
+  ],
+  "downloads": [
+    {
+      "label": "本轮采集与使用说明",
+      "href": "/data/current-inputs/README.md"
+    },
+    {
+      "label": "新增采集文件清单",
+      "href": "/data/current-inputs/manifest.json"
+    },
+    {
+      "label": "当前价格覆盖审计",
+      "href": "/data/current-inputs/current-prices-audit.json"
+    },
+    {
+      "label": "此前参考数据包",
+      "href": "/data/data-gaps/caiso-data-gap-delivery.zip"
+    },
+    {
+      "label": "此前OASIS原始证据",
+      "href": "/data/data-gaps/oasis-public-responses.zip"
+    },
+    {
+      "label": "完整数据目录说明",
+      "href": "/data/data-gaps/DATA_GAPS_README.md"
+    }
+  ],
+  "warnings": [
+    "当前预测已运行；数据取得状态与本轮是否入模分别显示。历史缺口仅保留为参考详情，不作为本轮待办。",
+    "V4模拟按固定 $1/MWh 费用情景评价；未来实际价格与实际收益保持为空。"
+  ]
+}

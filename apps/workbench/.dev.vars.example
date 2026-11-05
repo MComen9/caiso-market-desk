@@ -1,0 +1,2 @@
+# Optional service. No credential is included; public CAISO sources do not need it.
+# GRIDSTATUS_API_KEY=

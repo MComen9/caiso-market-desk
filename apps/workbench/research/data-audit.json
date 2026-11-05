@@ -1,0 +1,924 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-10-29T15:52:17.327436Z",
+  "scope": "Read-only file audit of repository price, fundamentals and Outlook snapshots plus the two normalized local oasis-probe snapshots. This file does not claim a read of production D1 records or an upstream re-download.",
+  "classification": "Observed existing-data eligibility audit; not proof of contemporaneous historical publication vintages and not a model-performance report.",
+  "timeZone": "America/Los_Angeles",
+  "priceUnit": "USD/MWh",
+  "eligibleTrainingData": [
+    {
+      "file": "data/strategy-history.json",
+      "archiveId": "oasis-research-2026-09-03-2026-10-28",
+      "startDate": "2026-09-03",
+      "endDate": "2026-10-28",
+      "fetchedAt": "2026-10-29T15:18:54.609Z",
+      "rows": 4032,
+      "days": 56,
+      "nodes": [
+        "TH_NP15_GEN-APND",
+        "TH_SP15_GEN-APND",
+        "TH_ZP26_GEN-APND"
+      ],
+      "uniqueNodeUtcKeys": 4032,
+      "duplicateNodeUtcKeys": 0,
+      "missingDaRows": 0,
+      "missingFmmRows": 0,
+      "completePairedRows": 4032,
+      "latestActualIntervalEndUtc": "2026-10-29T07:00:00.000Z",
+      "nodeDayHourCounts": {
+        "24": 168
+      },
+      "declaredRowsDigest": "18eb997e1eafb0481fa2cf58b40e2d8fbfa5918b7cf44b1167e366a539319ab8",
+      "computedRowsDigest": "18eb997e1eafb0481fa2cf58b40e2d8fbfa5918b7cf44b1167e366a539319ab8",
+      "digestMatches": true,
+      "sourceUrls": [
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&startdatetime=20261022T07%3A00-0000&enddatetime=20261029T07%3A00-0000&version=12&market_run_id=DAM&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND&resultformat=6",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&startdatetime=20261022T07%3A00-0000&enddatetime=20261029T07%3A00-0000&version=3&market_run_id=RTPD&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND&resultformat=6",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20260903T07%3A00-0000&enddatetime=20260910T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20260903T07%3A00-0000&enddatetime=20260910T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20260910T07%3A00-0000&enddatetime=20260917T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20260910T07%3A00-0000&enddatetime=20260917T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20260917T07%3A00-0000&enddatetime=20260924T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20260917T07%3A00-0000&enddatetime=20260924T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20260924T07%3A00-0000&enddatetime=20261001T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20260924T07%3A00-0000&enddatetime=20261001T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20261001T07%3A00-0000&enddatetime=20261008T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20261001T07%3A00-0000&enddatetime=20261008T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20261008T07%3A00-0000&enddatetime=20261015T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20261008T07%3A00-0000&enddatetime=20261015T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&version=12&market_run_id=DAM&resultformat=6&startdatetime=20261015T07%3A00-0000&enddatetime=20261022T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND",
+        "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&version=3&market_run_id=RTPD&resultformat=6&startdatetime=20261015T07%3A00-0000&enddatetime=20261022T07%3A00-0000&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND"
+      ],
+      "intendedTargets": [
+        "day-ahead LMP",
+        "hourly mean of four FMM LMPs minus day-ahead LMP"
+      ],
+      "warnings": [
+        "56 日真实 OASIS DA / FMM 价格；2026-10-29 获取的历史版本，可能含事后修订。",
+        "历史基线在每个模拟截点之前滚动训练，但不证明当时原始价格发布值或预测实际存在。"
+      ]
+    }
+  ],
+  "contextOnlyData": [
+    {
+      "family": "OASIS load and renewable forecasts / actuals",
+      "file": "public/data/fundamentals-snapshot.json",
+      "snapshotTargetDates": [
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "trainingEligibility": "excluded_from_core_price_model",
+      "reason": "Only two target dates are present; current-day actuals and real-time runs are partial. No row-level issuedAt fields were observed. No aligned 56-day historical feature or forecast-vintage panel is present."
+    },
+    {
+      "family": "Today’s Outlook demand, net demand, generation, storage, emissions and resource forecasts",
+      "file": "public/data/outlook_snapshot_2026-10-28_2026-10-29.json",
+      "snapshotTargetDates": [
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "trainingEligibility": "excluded_from_core_price_model",
+      "reason": "Only two captured snapshot target dates; row-level issuedAt absent. Seven-day outlook target timestamps extend into November, which denotes forecast horizons, not additional observed historical training days."
+    },
+    {
+      "family": "OASIS RTD five-minute LMP and LMP components",
+      "file": "public/data/prices-bootstrap.json",
+      "publishedSnapshotDays": 7,
+      "publishedSnapshotRtdRows": 6048,
+      "localProbeUnionDays": 8,
+      "localProbeUnionRtdRows": 6912,
+      "trainingEligibility": "excluded_from_56_day_core_model",
+      "reason": "Verified local union spans Oct 21–28 only. It cannot be backfilled to 56 days or treated as the virtual-trade FMM settlement target."
+    },
+    {
+      "family": "GridStatus",
+      "trainingEligibility": "not_present_in_audited_snapshots",
+      "reason": "No GridStatus historical training dataset was identified in the audited existing files; API capability alone is not a dataset."
+    }
+  ],
+  "deduplication": {
+    "exactDuplicateFilePairs": [
+      {
+        "a": "data/bootstrap.json",
+        "b": "public/data/prices-bootstrap.json",
+        "identicalBytes": true
+      },
+      {
+        "a": "data/fundamentals-bootstrap.json",
+        "b": "public/data/fundamentals-snapshot.json",
+        "identicalBytes": true
+      },
+      {
+        "a": "data/outlook-bootstrap.json",
+        "b": "public/data/outlook_snapshot_2026-10-28_2026-10-29.json",
+        "identicalBytes": true
+      }
+    ],
+    "localProbeUnion": [
+      {
+        "market": "DAM",
+        "uniqueRows": 576,
+        "uniqueTargetDays": 8,
+        "startDate": "2026-10-21",
+        "endDate": "2026-10-28"
+      },
+      {
+        "market": "RTPD",
+        "uniqueRows": 2304,
+        "uniqueTargetDays": 8,
+        "startDate": "2026-10-21",
+        "endDate": "2026-10-28"
+      },
+      {
+        "market": "RTM",
+        "uniqueRows": 6912,
+        "uniqueTargetDays": 8,
+        "startDate": "2026-10-21",
+        "endDate": "2026-10-28"
+      }
+    ],
+    "localProbeOverlapPriceConflicts": 0,
+    "rule": "Deduplicate on source market, node and UTC target start. Overlapping copies do not increase sample size. Normalized hourly prices retain only complete four-interval FMM groups."
+  },
+  "priceDistribution": [
+    {
+      "node": "TH_NP15_GEN-APND",
+      "dam": {
+        "minimum": 19.99274,
+        "maximum": 242.52269,
+        "negativeRows": 0,
+        "zeroRows": 0
+      },
+      "fmm": {
+        "minimum": -9.793145,
+        "maximum": 385.4298725,
+        "negativeRows": 1,
+        "zeroRows": 0
+      }
+    },
+    {
+      "node": "TH_SP15_GEN-APND",
+      "dam": {
+        "minimum": -40,
+        "maximum": 228.96292,
+        "negativeRows": 1,
+        "zeroRows": 0
+      },
+      "fmm": {
+        "minimum": -15.09534,
+        "maximum": 353.50061,
+        "negativeRows": 30,
+        "zeroRows": 0
+      }
+    },
+    {
+      "node": "TH_ZP26_GEN-APND",
+      "dam": {
+        "minimum": -0.61503,
+        "maximum": 237.17299,
+        "negativeRows": 3,
+        "zeroRows": 0
+      },
+      "fmm": {
+        "minimum": -29.15918,
+        "maximum": 383.6424925,
+        "negativeRows": 31,
+        "zeroRows": 0
+      }
+    }
+  ],
+  "plannedEvaluationWindows": [
+    {
+      "role": "initialHistory",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-24",
+      "targetRowsPresent": 1584
+    },
+    {
+      "role": "validation",
+      "startDate": "2026-09-25",
+      "endDate": "2026-10-06",
+      "targetRowsPresent": 864
+    },
+    {
+      "role": "selectionAvailabilityGap",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-07",
+      "targetRowsPresent": 72
+    },
+    {
+      "role": "calibration",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-13",
+      "targetRowsPresent": 432
+    },
+    {
+      "role": "calibrationAvailabilityGap",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-14",
+      "targetRowsPresent": 72
+    },
+    {
+      "role": "holdout",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-28",
+      "targetRowsPresent": 1008
+    }
+  ],
+  "temporalEligibilityRules": [
+    "For target day D, only completed target days through D-2 may enter fitted features, labels, tuning results or calibration residuals under the conservative full-day policy.",
+    "Validation through Oct 6 is available for Oct 8 simulated prediction; Oct 7 is the availability gap. Calibration through Oct 13 is available for Oct 15 simulated prediction; Oct 14 is the gap.",
+    "Daily rolling refits may add earlier test-day labels only after their configured availability date. Hyperparameters and model-family choice remain fixed before the holdout.",
+    "Historical hypothetical decisionAsOf is distinct from actual run generatedAt/issuedAt. Never stamp retrospective predictions as genuinely issued at a past cutoff.",
+    "Actual source rows may reflect Oct 29 revisions; even a time-ordered reconstruction does not establish the historical original publication vintage.",
+    "For a true forward forecast, actual generatedAt must precede the configured D-1 09:55 Pacific research cutoff. Otherwise label the missed cutoff or choose the next eligible day.",
+    "UTC interval identity and local timezone offsets must be preserved; the inspected 56-day archive happens to contain 24-hour days but later dates may have 23 or 25 hours."
+  ],
+  "limitations": [
+    "Only 56 days and 3 correlated hubs are observed; rows are not statistically independent days.",
+    "Latest historical prices can still be provisional or revised. CAISO Section 35 specifies ordinary DA/RT correction windows; this audit does not determine each individual price’s final settlement status.",
+    "Missing load/weather/renewable forecast vintages must not be filled with future realizations, typical days or forecasts captured after the historical decision cutoff.",
+    "The input price target supports an energy-spread study. Full virtual settlement also includes other components, including virtual Forecasted Movement under the current tariff.",
+    "No evidence in this file demonstrates profitable live trading or calibrated probabilistic coverage."
+  ],
+  "officialReferences": [
+    {
+      "title": "CAISO Appendix A, May 29 2026: Market Close",
+      "url": "https://www.caiso.com/documents/appendix-a-master-definition-supplement-as-of-may-29-2026.pdf",
+      "supports": "DAM close is 10:00 Pacific on the day ahead; 09:55 is an internal research assumption."
+    },
+    {
+      "title": "CAISO Section11, July 22 2026: Virtual Awards",
+      "url": "https://www.caiso.com/documents/section-11-california-iso-settlements-and-billing-as-of-jul-22-2026.pdf",
+      "supports": "Four FMM hourly average and additional virtual Forecasted Movement settlement."
+    },
+    {
+      "title": "CAISO Section 35, May 1 2026: Price Correction",
+      "url": "https://www.caiso.com/documents/section-35-market-validation-and-price-correction-as-of-may-1-2026.pdf",
+      "supports": "Provisional prices and usual third/fifth-business-day DA/RT correction windows."
+    },
+    {
+      "title": "scikit-learn: Lagged features for time series forecasting",
+      "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
+      "supports": "Time-ordered evaluation avoids overly optimistic shuffled splits."
+    },
+    {
+      "title": "scikit-learn: Common pitfalls",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "supports": "Training-only preprocessing and no test-data model selection."
+    },
+    {
+      "title": "scikit-learn: TimeSeriesSplit",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+      "supports": "Ordered expanding train windows and explicit gaps."
+    }
+  ],
+  "snapshotFeedInventory": [
+    {
+      "file": "public/data/fundamentals-snapshot.json",
+      "sha256": "fad1ebf3d754f1462f06d3382db3fcd590623a25839ed396c94b7f4c06fa6ec1",
+      "snapshotGeneratedAt": "2026-10-29T09:55:27.566Z",
+      "snapshotTargetDates": [
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "feeds": [
+        {
+          "targetDate": "2026-10-28",
+          "feed": "load_dam",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:26.506612Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=DAM&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "load_rtpd",
+          "status": "ok",
+          "rowCount": 96,
+          "nonNullValueCount": 3552,
+          "totalValueCount": 3552,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:34.280249Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=RTM&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&execution_type=RTPD"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "load_rtd",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 10656,
+          "totalValueCount": 10656,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:42.659487Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=RTM&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&execution_type=RTD"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "load_2da",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:50.158055Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=2DA&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "load_7da",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:58.155207Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=7DA&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "load_actual",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 888,
+          "totalValueCount": 888,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:06.155739Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=ACTUAL&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "renewables_dam",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 216,
+          "totalValueCount": 216,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:14.213214Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=DAM&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "renewables_rtpd",
+          "status": "ok",
+          "rowCount": 96,
+          "nonNullValueCount": 4128,
+          "totalValueCount": 4128,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:22.266157Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=RTPD&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "renewables_rtd",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 12384,
+          "totalValueCount": 12384,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:30.692060Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=RTD&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "renewables_hasp",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 216,
+          "totalValueCount": 216,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:38.157965Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=HASP&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "renewables_actual",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 192,
+          "totalValueCount": 192,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:46.178390Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=ACTUAL&resultformat=6&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "load_dam",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:52:54.154334Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=DAM&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "load_rtpd",
+          "status": "partial",
+          "rowCount": 14,
+          "nonNullValueCount": 518,
+          "totalValueCount": 518,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T10:15:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:02.143953Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=RTM&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000&execution_type=RTPD"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "load_rtd",
+          "status": "partial",
+          "rowCount": 36,
+          "nonNullValueCount": 1332,
+          "totalValueCount": 1332,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:10.620662Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=RTM&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000&execution_type=RTD"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "load_2da",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:18.156503Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=2DA&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "load_7da",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:26.156494Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=7DA&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "load_actual",
+          "status": "partial",
+          "rowCount": 2,
+          "nonNullValueCount": 74,
+          "totalValueCount": 74,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T08:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:34.140637Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_FCST&version=1&market_run_id=ACTUAL&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "renewables_dam",
+          "status": "ok",
+          "rowCount": 24,
+          "nonNullValueCount": 216,
+          "totalValueCount": 216,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T06:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:42.214105Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=DAM&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "renewables_rtpd",
+          "status": "partial",
+          "rowCount": 14,
+          "nonNullValueCount": 602,
+          "totalValueCount": 602,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T10:15:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:50.149032Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=RTPD&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "renewables_rtd",
+          "status": "partial",
+          "rowCount": 36,
+          "nonNullValueCount": 1548,
+          "totalValueCount": 1548,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:53:58.180475Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=RTD&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "renewables_hasp",
+          "status": "partial",
+          "rowCount": 5,
+          "nonNullValueCount": 45,
+          "totalValueCount": 45,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T11:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:54:06.137716Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=HASP&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "renewables_actual",
+          "status": "partial",
+          "rowCount": 2,
+          "nonNullValueCount": 16,
+          "totalValueCount": 16,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T08:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:54:14.137583Z",
+          "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=SLD_REN_FCST&version=1&market_run_id=ACTUAL&resultformat=6&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000"
+        }
+      ]
+    },
+    {
+      "file": "public/data/outlook_snapshot_2026-10-28_2026-10-29.json",
+      "sha256": "96554f1dd4dd73952de6667a48d380d5fb124d4bf5c43652a326174938391fb6",
+      "snapshotGeneratedAt": "2026-10-29T09:51:54.040036Z",
+      "snapshotTargetDates": [
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "feeds": [
+        {
+          "targetDate": "2026-10-28",
+          "feed": "demand",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 864,
+          "totalValueCount": 1152,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:51.943503Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/demand.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "netdemand",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 1152,
+          "totalValueCount": 1440,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:51.942540Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/netdemand.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "fuelsource",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 3744,
+          "totalValueCount": 3744,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:51.943012Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/fuelsource.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "storage",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 864,
+          "totalValueCount": 864,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:52.197604Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/storage.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "hybrids",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 1728,
+          "totalValueCount": 1728,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:52.237582Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/hybrids.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "co2",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 1728,
+          "totalValueCount": 1728,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:52.349138Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/co2.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "rtm_forecast",
+          "status": "ok",
+          "rowCount": 289,
+          "nonNullValueCount": 2599,
+          "totalValueCount": 2601,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:52.456639Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/rtm_forecast.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "rtm_forecast_7day",
+          "status": "partial",
+          "rowCount": 2305,
+          "nonNullValueCount": 14684,
+          "totalValueCount": 20745,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-11-05T08:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:52.490929Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/rtm_forecast_7day.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "wind_solar_wo_hybrids",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 576,
+          "totalValueCount": 576,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-28T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:52.606724Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/wind_solar_wo_hybrids.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "stats",
+          "status": "unavailable",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:52.748555Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/stats.txt"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "peak_and_daily",
+          "status": "ok",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:52.748582Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/peak_and_daily.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "peak_and_daily_hybrids",
+          "status": "ok",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:52.836846Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/peak_and_daily_hybrids.csv"
+        },
+        {
+          "targetDate": "2026-10-28",
+          "feed": "peak_and_daily_storage",
+          "status": "ok",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:52.875751Z",
+          "sourceUrl": "https://www.caiso.com/outlook/history/20261028/peak_and_daily_storage.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "demand",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 610,
+          "totalValueCount": 1152,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.012898Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/demand.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "netdemand",
+          "status": "ok",
+          "rowCount": 288,
+          "nonNullValueCount": 644,
+          "totalValueCount": 1440,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T06:55:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.070675Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/netdemand.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "fuelsource",
+          "status": "ok",
+          "rowCount": 34,
+          "nonNullValueCount": 442,
+          "totalValueCount": 442,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.093600Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/fuelsource.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "storage",
+          "status": "ok",
+          "rowCount": 34,
+          "nonNullValueCount": 102,
+          "totalValueCount": 102,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.139291Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/storage.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "hybrids",
+          "status": "ok",
+          "rowCount": 34,
+          "nonNullValueCount": 204,
+          "totalValueCount": 204,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.149720Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/hybrids.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "co2",
+          "status": "ok",
+          "rowCount": 34,
+          "nonNullValueCount": 204,
+          "totalValueCount": 204,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.344244Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/co2.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "rtm_forecast",
+          "status": "ok",
+          "rowCount": 289,
+          "nonNullValueCount": 1845,
+          "totalValueCount": 2601,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-30T07:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.376982Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/rtm_forecast.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "rtm_forecast_7day",
+          "status": "partial",
+          "rowCount": 2305,
+          "nonNullValueCount": 13342,
+          "totalValueCount": 20745,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-11-06T08:00:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.398429Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/rtm_forecast_7day.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "wind_solar_wo_hybrids",
+          "status": "ok",
+          "rowCount": 34,
+          "nonNullValueCount": 68,
+          "totalValueCount": 68,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": "2026-10-29T07:00:00.000Z",
+          "lastTargetStartUtc": "2026-10-29T09:45:00.000Z",
+          "fetchedAt": "2026-10-29T09:51:53.435606Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/wind_solar_wo_hybrids.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "stats",
+          "status": "ok",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:53.589446Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/stats.txt"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "peak_and_daily",
+          "status": "unavailable",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:53.621665Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/peak_and_daily.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "peak_and_daily_hybrids",
+          "status": "unavailable",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:53.683800Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/peak_and_daily_hybrids.csv"
+        },
+        {
+          "targetDate": "2026-10-29",
+          "feed": "peak_and_daily_storage",
+          "status": "unavailable",
+          "rowCount": 0,
+          "nonNullValueCount": 0,
+          "totalValueCount": 0,
+          "rowIssuedAtCount": 0,
+          "firstTargetStartUtc": null,
+          "lastTargetStartUtc": null,
+          "fetchedAt": "2026-10-29T09:51:53.786920Z",
+          "sourceUrl": "https://www.caiso.com/outlook/current/peak_and_daily_storage.csv"
+        }
+      ]
+    }
+  ]
+}

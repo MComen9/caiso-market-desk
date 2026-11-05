@@ -1,0 +1,73 @@
+{
+  "engineVersion": "caiso-python-strategy-3.0.0",
+  "generatedAt": "2026-10-29T16:47:10.163Z",
+  "executedAt": "2026-10-29T16:47:10.163Z",
+  "forecastGeneratedAt": "2026-10-29T16:46:16.719Z",
+  "inputDigest": "3abb51b8f301b5bb0d7c88ac1840365b02af17d3a36b01ad501f1b0e2974bc41",
+  "classification": "forward_forecast",
+  "config": {
+    "sel": [
+      "TH_NP15_GEN-APND",
+      "TH_SP15_GEN-APND",
+      "TH_ZP26_GEN-APND"
+    ],
+    "total": 12,
+    "k": 0.5,
+    "dp": 10,
+    "capPer": 2.0,
+    "capNode": 6.0,
+    "maxCells": 12,
+    "strat": "normal",
+    "maxNeg": 10,
+    "feePerMWh": 0.0,
+    "tieFill": false,
+    "aggressiveBuyQuote": 1000.0,
+    "aggressiveSellQuote": -150.0
+  },
+  "day": {
+    "date": "2026-10-30",
+    "status": "forecast_only",
+    "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+    "today": true,
+    "pnl": null,
+    "knownNetPnl": 0,
+    "grossPnl": null,
+    "fees": null,
+    "predPnl": null,
+    "expected": 0,
+    "gross": 0,
+    "unallocatedMWh": 12,
+    "filled": 0,
+    "settledMWh": 0,
+    "n": 0,
+    "hit": 0,
+    "expectedHours": 72,
+    "forecastHours": 72,
+    "availableActualHours": 0,
+    "rows": []
+  },
+  "backtest": {
+    "classification": "本地研究模拟",
+    "eq": [],
+    "daily": [],
+    "total": null,
+    "maxdd": null,
+    "ndays": 0,
+    "evaluatedDays": 0,
+    "incompleteDays": 0,
+    "noSignalDays": 0,
+    "winRate": null,
+    "perMWh": null,
+    "filled": 0,
+    "settledMWh": 0,
+    "totalTrades": 0,
+    "totExp": 0,
+    "totGross": 0,
+    "fees": 0,
+    "days": [],
+    "warnings": [
+      "电价×电量简化损益；不含 Forecasted Movement、uplift、信用资金及全部结算费用。",
+      "没有年化 Sharpe；预期损益假设所有计划成交，并不是实际收益。"
+    ]
+  }
+}

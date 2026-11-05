@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "dataset": "cb_system_awards",
+  "generatedAt": "2026-10-30T07:44:31.799Z",
+  "rows": 48,
+  "fields": [
+    "GROUP",
+    "INTERVALENDTIME_GMT",
+    "INTERVALSTARTTIME_GMT",
+    "MARKET_RUN_ID",
+    "MW",
+    "OPR_DT",
+    "OPR_HR",
+    "VIRTUALBID_TYPE",
+    "XML_DATA_ITEM"
+  ],
+  "download": "/data/data-gaps/cb_system_awards.json.gz",
+  "bytes": 1206,
+  "sha256": "81781aa87f8b6c8cb76de7801029ef30f32048aa7216ccf83cbe3fc8fc355dc9",
+  "sampleRows": [
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "MW": "2971.08",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "1",
+      "VIRTUALBID_TYPE": "CAISO Total Demand Awards",
+      "XML_DATA_ITEM": "ISO_TOT_DMD_MW"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-28T09:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "MW": "3014.84",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "2",
+      "VIRTUALBID_TYPE": "CAISO Total Demand Awards",
+      "XML_DATA_ITEM": "ISO_TOT_DMD_MW"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-28T10:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T09:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "MW": "3150.74",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "3",
+      "VIRTUALBID_TYPE": "CAISO Total Demand Awards",
+      "XML_DATA_ITEM": "ISO_TOT_DMD_MW"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-28T11:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T10:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "MW": "3128.48",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "4",
+      "VIRTUALBID_TYPE": "CAISO Total Demand Awards",
+      "XML_DATA_ITEM": "ISO_TOT_DMD_MW"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-28T12:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T11:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "MW": "3265.63",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "5",
+      "VIRTUALBID_TYPE": "CAISO Total Demand Awards",
+      "XML_DATA_ITEM": "ISO_TOT_DMD_MW"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-28T13:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T12:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "MW": "3323.45",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "6",
+      "VIRTUALBID_TYPE": "CAISO Total Demand Awards",
+      "XML_DATA_ITEM": "ISO_TOT_DMD_MW"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cb_system_awards_2026-10-28_2026-10-29",
+      "dataset": "cb_system_awards",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ENE_CB_AWARDS",
+      "fetchedAt": "2026-10-30T07:17:17.681Z",
+      "sha256": "eb4fbba833642ca0233ddfcbaecaa17377218e9d9527596eb744d3df86dab5c1",
+      "bytes": 1004,
+      "rowCount": 48
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "classification": "public_market_report_sample"
+}

@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "caiso-public-2026-11-02",
+  "sourceCommit": "1f1ba8c4a8652dc753e803df4a5448baa94ae0b0",
+  "forecastModel": "caiso-current-data-4.0.0+99bd6a8751fe",
+  "forecastTargetDatePT": "2026-10-31",
+  "forecastGeneratedAt": "2026-10-30T08:34:02.166Z",
+  "readOnly": true,
+  "liveData": false,
+  "fileCount": 221,
+  "totalBytes": 157016050,
+  "files": [
+    {
+      "path": "current-inputs/README.md",
+      "bytes": 3641,
+      "sha256": "02334b3e7f1257c03fd7657c92de894153e3f65f703df5361320b9e2d0e43a61"
+    },
+    {
+      "path": "current-inputs/acquisition-summary.json",
+      "bytes": 1883,
+      "sha256": "721d5f47c1653daaf3012672b6a83748cb7b4bee0124615b1beb3ce9e1cc1a03"
+    },
+    {
+      "path": "current-inputs/current-prices-audit.json",
+      "bytes": 935,
+      "sha256": "d89b209cb4658bdb9b052bb98a14ac40345106cf938b44302e1fba7b95d5fce2"
+    },
+    {
+      "path": "current-inputs/eia/eia930-ciso-audit.json",
+      "bytes": 11298,
+      "sha256": "e83253fc71e7bcde9756e6362c06bb61dc00ef7a4b805247667da87fb6811715"
+    },
+    {
+      "path": "current-inputs/eia/eia930-ciso-current.json.gz",
+      "bytes": 468657,
+      "sha256": "eaae88bf4d68d526e4d00684a2431374a7af672a8a6f6428c93a195c7f4062a1"
+    },
+    {
+      "path": "current-inputs/eia/receipt.json",
+      "bytes": 835,
+      "sha256": "52c1479055bb0056c79859a100b0d4a257d5fa1b76db5e48012e1de1a38fe70a"
+    },
+    {
+      "path": "current-inputs/eia/source-notes.txt",
+      "bytes": 37905,
+      "sha256": "359125f32088fa9a74de3057160d9c79fa8e38cc8bf2ef51b88426a489b66e70"
+    },
+    {
+      "path": "current-inputs/manifest.json",
+      "bytes": 3678,
+      "sha256": "d576313e6a8d5bace2a19711b472d360c61f793ce732c5ac7d2eafe0c5fce0c3"
+    },
+    {
+      "path": "current-inputs/oasis/price_dam_2026-10-29_2026-10-30.json",
+      "bytes": 3150,
+      "sha256": "b29ec0df12fb12b471a0b66a1a80ef75088ed14dd21cc92b45f754bbb14f2468"
+    },
+    {
+      "path": "current-inputs/oasis/price_dam_2026-10-29_2026-10-30.zip",
+      "bytes": 3896,
+      "sha256": "fc72d836e3ca68fd35295e32426dbf9dd8e9f54028d5af6803ff1891a436ca9f"
+    },
+    {
+      "path": "current-inputs/oasis/price_fmm_2026-10-29_2026-10-30.json",
+      "bytes": 3171,
+      "sha256": "de7c2a8128d672990a0a3264850783934c587248d17d627f19a4fdd3d296169d"
+    },
+    {
+      "path": "current-inputs/oasis/price_fmm_2026-10-29_2026-10-30.zip",
+      "bytes": 15025,
+      "sha256": "3240d2ac6bebd91f66181b916807da7d01264aa46a90d8a27c792f2900dbfaec"
+    },
+    {
+      "path": "current-inputs/oasis/receipts.json",
+      "bytes": 7223,
+      "sha256": "89ad1dbf6881e405e6b222d3de03496fd0c8a1db89f1e85c42647843954842fd"
+    },
+    {
+      "path": "current-inputs/optional/frp_nodal_2026-10-29_2026-10-30.json",
+      "bytes": 1120,
+      "sha256": "41ec664f25bd367ce1d1d1f073a3dd0ecf4d2023cca9289c9ca440533cca8783"
+    },
+    {
+      "path": "current-inputs/optional/frp_nodal_2026-10-29_2026-10-30.zip",
+      "bytes": 681,
+      "sha256": "c9bf6b84e8e283958c0f8a0633717db2dd6b6d1332eeadd548a1bd1e5fd7117d"
+    },
+    {
+      "path": "current-inputs/price-addendum.json",
+      "bytes": 18967,
+      "sha256": "d21f76a240d9b3f2aaa5e7b8a51d0832e6f46c3bb0eccb5a076763c31ffa5faa"
+    },
+    {
+      "path": "current-inputs/price-history-current.json.gz",
+      "bytes": 417347,
+      "sha256": "18a18e1504d8fb3c1493f3c8bf6f7ba33181f68bba4130dc72625cdd0244cc98"
+    },
+    {
+      "path": "data-gaps/DATA_GAPS_README.md",
+      "bytes": 12419,
+      "sha256": "a28c55a5bc29d119789805d145efbf1c7ca9d5b54574dc7664ddd7c83ea061f0"
+    },
+    {
+      "path": "data-gaps/acquisition-audit.json",
+      "bytes": 346031,
+      "sha256": "876349db4b68ee8af88ad7a8e38abcf7276cbb749cc66472afe13b2dd22660d5"
+    },
+    {
+      "path": "data-gaps/caiso-data-gap-delivery.zip",
+      "bytes": 11980694,
+      "sha256": "95c1f2e4e7b05294f5287b71edc184a36fe9f9dd541b6ce2b9af8c823db17555"
+    },
+    {
+      "path": "data-gaps/catalog.json",
+      "bytes": 34608,
+      "sha256": "0d4136db102af23b6cf8d1a9d6753298e24e83d1758daeb0c282e2d2520721d3"
+    },
+    {
+      "path": "data-gaps/cb_group_limits-audit.json",
+      "bytes": 3676,
+      "sha256": "457d5156d8c91923d34dad02d7186db5351c4b0aff9bab612ff3aa59e018b2c9"
+    },
+    {
+      "path": "data-gaps/cb_group_limits.json.gz",
+      "bytes": 8492,
+      "sha256": "7aea63dafc53a90f2b34b505f99b69265c31b371439abdbfb7117d05905acc39"
+    },
+    {
+      "path": "data-gaps/cb_nodes-audit.json",
+      "bytes": 2236,
+      "sha256": "7a87d266b82c1726f3b035e7791a1aab217b3fc95b3658c5bae54f2b70745a04"
+    },
+    {
+      "path": "data-gaps/cb_nodes.json.gz",
+      "bytes": 23122,
+      "sha256": "ff4dd93731231cda710649c16db274a387783c13cb9e2520cb513366d8d0721a"
+    },
+    {
+      "path": "data-gaps/cb_system_awards-audit.json",
+      "bytes": 3137,
+      "sha256": "cef23bc6049f01a5f05d1f77aa63d4c5b69db999087d8268cfed779d51129c58"
+    },
+    {
+      "path": "data-gaps/cb_system_awards.json.gz",
+      "bytes": 1206,
+      "sha256": "81781aa87f8b6c8cb76de7801029ef30f32048aa7216ccf83cbe3fc8fc355dc9"
+    },
+    {
+      "path": "data-gaps/edam-vintage-verification.json",
+      "bytes": 16225,
+      "sha256": "873c1176ded7aa4c2bac969e10df9fe5b133ce16ef46b754b01a50e2cc199ddd"
+    },
+    {
+      "path": "data-gaps/edam-wind-solar-vintages-audit.json",
+      "bytes": 89679,
+      "sha256": "9cb43a3c7e3f16c22ae40491eef09144c52292c7e72cbaa4384045b770619f1d"
+    },
+    {
+      "path": "data-gaps/edam-wind-solar-vintages.json.gz",
+      "bytes": 170955,
+      "sha256": "da26d86d641c186836a75ba5d87a9c21ab66aaedd587f3f23d40218cb3b35b5d"
+    },
+    {
+      "path": "data-gaps/edam_renewables-audit.json",
+      "bytes": 3154,
+      "sha256": "e0bf05449297b0276f4b93a6ba63e38cf85a0956cefe7eeda32040bacf7536cd"
+    },
+    {
+      "path": "data-gaps/edam_renewables.json.gz",
+      "bytes": 1745,
+      "sha256": "994c8fdc1b42be13556d85defa0065ad09013d01b3d0933dc790c01e3ff7f351"
+    },
+    {
+      "path": "data-gaps/forecast-history-verification.json",
+      "bytes": 9185,
+      "sha256": "d5c08e9cb8167f7474cca47dd338629943f1b3913e3d155cd7227d8a120edd18"
+    },
+    {
+      "path": "data-gaps/fuel_prices-audit.json",
+      "bytes": 4618,
+      "sha256": "bbf02d2e144e04276a4ee0ff0e4310c34df119e6d832d3d5d4d1a0d7a474ab28"
+    },
+    {
+      "path": "data-gaps/fuel_prices.json.gz",
+      "bytes": 3073936,
+      "sha256": "50f0ab20089345080292147bdfa5ef86bfcb8a63b5994d9680dd0107e30a00d2"
+    },
+    {
+      "path": "data-gaps/generation_outages-audit.json",
+      "bytes": 2872,
+      "sha256": "cf78e2661ef791fc8051fba0dbe4679ca5831e167668c9cc8fdb013b912100ef"
+    },
+    {
+      "path": "data-gaps/generation_outages.json.gz",
+      "bytes": 23906,
+      "sha256": "99c6aee635f05db3959fbbafe7a26ccb3a231eb412a6cbcb2cb7d98c9809f504"
+    },
+    {
+      "path": "data-gaps/ghg_allowance-audit.json",
+      "bytes": 4285,
+      "sha256": "c6a8d9fc73e9237612217b15f011772d6297ba902b3b8b881642d3da16b237c1"
+    },
+    {
+      "path": "data-gaps/ghg_allowance.json.gz",
+      "bytes": 2298,
+      "sha256": "5fab1a39abd907954b2469c32978007eaf96d8e466720e48d291e9f1dee7a4a5"
+    },
+    {
+      "path": "data-gaps/node-mapping-discrepancies.json",
+      "bytes": 91111,
+      "sha256": "8a6cb653f1a22be9529eb1461546af96cd2b3b6793b08237d4cd758772fd6d6c"
+    },
+    {
+      "path": "data-gaps/oasis-public-responses.zip",
+      "bytes": 17433197,
+      "sha256": "8a6aa56bfe1638e368c6a602c3079293cb2829c941398e73733e76f30284ce19"
+    },
+    {
+      "path": "data-gaps/official-forecast-history-180d-audit.json",
+      "bytes": 16438,
+      "sha256": "8ee526ff9e5d9117611538da7877b7b2872c670a20cbf804c77bb64577b30c1d"
+    },
+    {
+      "path": "data-gaps/official-forecast-history-180d.json.gz",
+      "bytes": 226556,
+      "sha256": "79e75cffcd9e3e11f0a3bcd81d433b387f1c60f008f63debcc3a1040b09fe9b6"
+    },
+    {
+      "path": "data-gaps/peak_calendar-audit.json",
+      "bytes": 2339,
+      "sha256": "de84bbf01e3a4395c3b654166ba73ff4062e357f9fadac4c079addf90a4aa2e9"
+    },
+    {
+      "path": "data-gaps/peak_calendar.json.gz",
+      "bytes": 3022,
+      "sha256": "fb0109087aa7ff9b143cff1919b9df3ad627c3f31cad03414d94daac2761cd36"
+    },
+    {
+      "path": "data-gaps/price-components-180d.json.gz",
+      "bytes": 1646811,
+      "sha256": "3c34531e5b4dec36f31ceca39f93167b95262cf78982fb39fc6027f3212b95df"
+    },
+    {
+      "path": "data-gaps/price-components-audit.json",
+      "bytes": 32474,
+      "sha256": "a11aadda676b704641a0132fb8b17ab74e3c4a5ab2bbdc9baa30b6fb39521768"
+    },
+    {
+      "path": "data-gaps/price-history-365d-audit.json",
+      "bytes": 10631,
+      "sha256": "801db446e04ab6b099eb4be76d239c187c6fe5a319a40724eed3f96479c9ce18"
+    },
+    {
+      "path": "data-gaps/price-history-365d.json.gz",
+      "bytes": 416081,
+      "sha256": "a09d9f5f9d56aa1894d14aea6cfe422374525521b93280933eb30fd94d862377"
+    },
+    {
+      "path": "data-gaps/publication_log-audit.json",
+      "bytes": 3744,
+      "sha256": "297659350f7fbfd40968bef16ec777e7a970c22cd4dfa14081722978d05f2919"
+    },
+    {
+      "path": "data-gaps/publication_log.json.gz",
+      "bytes": 433602,
+      "sha256": "4c38c44a4f630ec6d7c93606cea0d44702eaf1bba615197d64f647e7a1c6cdb2"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/SETTLEMENT_DATA_GAPS.md",
+      "bytes": 8804,
+      "sha256": "f970a42641a498f72ae6949cb49771f3d114d45946062b040655cf91030a65ac"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/download-evidence.zip",
+      "bytes": 4053200,
+      "sha256": "6b65f5ab0b9b33a399db044774e2cdcccfe87954e0c3912db9d1f428d14b5d34"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/manifest.json",
+      "bytes": 3705,
+      "sha256": "cc363ae91d4d0ec8f8ebb41c4acaa76466440007a8f721629667f72bb701fd3a"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/node-eligibility-check.json",
+      "bytes": 5231,
+      "sha256": "6ff706e3f811fd99c1dbb827a178b6de3a3f6751b8c4b0c9478c20b67137ed65"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_limits_NP15_2026-10-28_2026-10-29.json",
+      "bytes": 1149,
+      "sha256": "450720c6da815bc82cf607762a7a7cc90f7e3f02d496a89e4192cbfcc38781a6"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_limits_NP15_2026-10-28_2026-10-29.zip",
+      "bytes": 659,
+      "sha256": "7fff8fc0b4b21db6ba716456b680d9159cad0679714d9d0e7d73b844a76d96cc"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_limits_SP15_2026-10-28_2026-10-29.json",
+      "bytes": 1149,
+      "sha256": "98822b3e16fdfb796cdb2e2eae00e30a5bc45c5fff31ab05499f8ec24078d3ae"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_limits_SP15_2026-10-28_2026-10-29.zip",
+      "bytes": 661,
+      "sha256": "fd7996293082234507e7226c55042f9206e43bda085108026f14095ab7c8220a"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_limits_ZP26_2026-10-28_2026-10-29.json",
+      "bytes": 1149,
+      "sha256": "4b42e92ecec2edadb3a24024286f8afc6fd97713bdc9e5dd058fa96baa4bd1e0"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_limits_ZP26_2026-10-28_2026-10-29.zip",
+      "bytes": 660,
+      "sha256": "fa15104ca1ff7b7e3a27753f27aaa5c5a43f87fcf5080d4c14d2f8ecbc4cdbb8"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_nodes_2026-10-28_2026-10-29.json",
+      "bytes": 2079,
+      "sha256": "5c40b2d58601e694b4defebc09365ad7277c904e393eeb17cc6eaec9623502cc"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/cb_nodes_2026-10-28_2026-10-29.zip",
+      "bytes": 26401,
+      "sha256": "49be04208436c4ffa1f0c55e8995f829f025365fb531bf3d69eeb95e7b8a09c1"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/oasis-evidence/convergence-bidding-nodes.csv",
+      "bytes": 388649,
+      "sha256": "41f66a79105c3e187d147b0e7f85d87649666c8d1448c874d28ca15a5a23cc47"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/official-documents/cc4515-2026-incremental.docx",
+      "bytes": 126596,
+      "sha256": "7f69741ea90c572720b9dc0b4392b09ae38b6f0f279793aab696c2b7af551e01"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/official-documents/cc4560-market-services-2026.docx",
+      "bytes": 137604,
+      "sha256": "3fe3d93948952b27cfd2bb45923b2a950391d845d1c9eb3414e8e0f18eb8556b"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/official-documents/cc6473-2026-incremental.docx",
+      "bytes": 201622,
+      "sha256": "29300ed3379e556b51f00963c8dba71bf825f1cef5f19a7031a483ec612a9320"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/official-documents/gmc-rates-effective-2026-10-01.pdf",
+      "bytes": 277490,
+      "sha256": "13d0b169b85d055da9b14aec99fcfe4b85ef7e586df5b1897fd1af7270613225"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/official-documents/settlement-user-group-2026-06-17.pdf",
+      "bytes": 900814,
+      "sha256": "8200b6158948c25a3b0b7001f6545251a3eb788827aef3344b5e758072333fba"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/official-documents/settlements-training-2026-04-21.pdf",
+      "bytes": 3068417,
+      "sha256": "dcdabf95b0e7e14c2404044a88694475620b3fce79756357d64439e27e848f46"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/public-document-receipts.json",
+      "bytes": 2576,
+      "sha256": "95f2c195e2e00387f733a9b3ffc6bc8e3c2daf2ee81fbd4d56e66d3ed6f188c5"
+    },
+    {
+      "path": "data-gaps/settlement-evidence/settlement-gap-evidence.json",
+      "bytes": 12037,
+      "sha256": "be33d185905f129aa487985e2a9abb19f8bde09081cbe0c11c4fbcc511c47b50"
+    },
+    {
+      "path": "data-gaps/source-status.json",
+      "bytes": 1858,
+      "sha256": "94936262e69f6dedf5ecda4d6ef606862101133e3da0ba8c6eea52fcc1813780"
+    },
+    {
+      "path": "data-gaps/tradable-node-map-14d-audit.json",
+      "bytes": 6059,
+      "sha256": "5de132450f0b676d0495e2c94d0ddfc0a340bdd3d1b97328f084bacdfdc0c2cc"
+    },
+    {
+      "path": "data-gaps/tradable-node-map-14d.json.gz",
+      "bytes": 65582,
+      "sha256": "41db706bb2645731f5a86c7a034a1ac6b058f586cabd03a03452a1e2ff9bd856"
+    },
+    {
+      "path": "data-gaps/tradable-node-map-180d-audit.json",
+      "bytes": 19107,
+      "sha256": "f986c1bf67e3cc8ffe47b7a46c4e6f53f0c81cdeb98a90ef180d718e90533db5"
+    },
+    {
+      "path": "data-gaps/tradable-node-map-180d.json.gz",
+      "bytes": 797606,
+      "sha256": "b95a0b45e702d462fb148faac8fb531801d6796df1b0ffdb8648fc82c4d58d3f"
+    },
+    {
+      "path": "data-gaps/transmission_usage-audit.json",
+      "bytes": 3391,
+      "sha256": "90496c2f4c6a37bcae73392ea2656a6d564ebbce75deedcd0308a64025c07e3c"
+    },
+    {
+      "path": "data-gaps/transmission_usage.json.gz",
+      "bytes": 167263,
+      "sha256": "c0c8e3fb228cef5e9dd30d802157dd6cb0aa3e0f6c799b05f046097a9de89404"
+    },
+    {
+      "path": "data-gaps/weather-evidence/curtailed-non-operational-generator-am-report-20261029.xlsx",
+      "bytes": 73022,
+      "sha256": "22d036fc4e84bb92ef3a62244097d6933dd9fc2a6fdec3d5049421a79e80e949"
+    },
+    {
+      "path": "data-gaps/weather-evidence/curtailed-non-operational-generator-am-report-20261029.xlsx.extracted.json",
+      "bytes": 188185,
+      "sha256": "6f43c7536af2042ffd04a53229e3411dd1249a6723747bd846f76ef3589dec64"
+    },
+    {
+      "path": "data-gaps/weather-evidence/curtailed-non-operational-generator-am-report-20261029.xlsx.receipt.json",
+      "bytes": 337,
+      "sha256": "5c590ef3bf235d9605695aa22bd400e2356fa4edd2da9271895c0c521f598f53"
+    },
+    {
+      "path": "data-gaps/weather-evidence/curtailed-non-operational-generator-prior-trade-date-report-20261028.xlsx",
+      "bytes": 169265,
+      "sha256": "e50f9a4a98523c024c1ef7c98b48a53cfa8b8f5fde220f03ecc82f7ccc0b3cf2"
+    },
+    {
+      "path": "data-gaps/weather-evidence/curtailed-non-operational-generator-prior-trade-date-report-20261028.xlsx.extracted.json",
+      "bytes": 708797,
+      "sha256": "1cc6339fae47f737c9b8da1a07ac8c6b92b3d3988316c354897065f7ddad2ead"
+    },
+    {
+      "path": "data-gaps/weather-evidence/curtailed-non-operational-generator-prior-trade-date-report-20261028.xlsx.receipt.json",
+      "bytes": 352,
+      "sha256": "481a32edd8f711bb14cc1121250da312fb3d89d0da4ed932d7cd4e0646e72cf5"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fresno-hourly.json",
+      "bytes": 162688,
+      "sha256": "d93bf733ee338b83149027ed47c9796f6f9e0326aa32fea20066a05f59caf48b"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fresno-hourly.receipt.json",
+      "bytes": 349,
+      "sha256": "7633abc631f7b70d5d7a32797abed8b359f88c14d3da0c12d4bfa8b67de09423"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fresno-point.json",
+      "bytes": 3928,
+      "sha256": "493632d3210f711ff7000905fbb65ecb09c5d111a44fa1ea5a625949cf02c4f4"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fresno-point.receipt.json",
+      "bytes": 307,
+      "sha256": "5607284853dcbb26063acec7c8abf23379c09ef0b5ef58fa16515d3c62e10b36"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fuel-region-mapping.json",
+      "bytes": 95773,
+      "sha256": "2f956ab1eee171183717fee0a4c750a9b6b0f68644ee2b9a103c9305d28e3864"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fuel-region-mapping.raw.json",
+      "bytes": 51832,
+      "sha256": "a3e12b89602da6e9fbb04dd165145614b6c2ce5e2c50d06d21ff3328cfd257a1"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fuelregion_electricregiondefinitions.xlsx",
+      "bytes": 68636,
+      "sha256": "c5a41f5dd5fcb40f2eb9314bd11816f0215129165100adef99b0d0d6b6cdadad"
+    },
+    {
+      "path": "data-gaps/weather-evidence/fuelregion_electricregiondefinitions.xlsx.receipt.json",
+      "bytes": 319,
+      "sha256": "5d02ff29760f0ee142ff1687d1d598760446f7b1e8b52881376236d7c6a78930"
+    },
+    {
+      "path": "data-gaps/weather-evidence/generator-outages-am-20261029.json",
+      "bytes": 168100,
+      "sha256": "9911d34608b752f7e9967b05fc8eda597358314e4bf170874aacf0dbceed2616"
+    },
+    {
+      "path": "data-gaps/weather-evidence/generator-outages-prior-20261028.json",
+      "bytes": 978572,
+      "sha256": "a83f15360b94b7d63d133b67ac570fcf83be96962d179fe60f8879b6eb4854fe"
+    },
+    {
+      "path": "data-gaps/weather-evidence/los_angeles-hourly.json",
+      "bytes": 163548,
+      "sha256": "d078cbf82f281b40da2878de98ac7fb5a27419c3e105ad8d84c951fc30a4b3d5"
+    },
+    {
+      "path": "data-gaps/weather-evidence/los_angeles-hourly.receipt.json",
+      "bytes": 349,
+      "sha256": "4acb0d09d7ced680038dd8cf29987ff516b1146365200885b3a85db5dff04be3"
+    },
+    {
+      "path": "data-gaps/weather-evidence/los_angeles-point.json",
+      "bytes": 3933,
+      "sha256": "45042bdf014033c4b8e3d79143c02798b4eac199a02d21cd7367a7d1963267f5"
+    },
+    {
+      "path": "data-gaps/weather-evidence/los_angeles-point.receipt.json",
+      "bytes": 307,
+      "sha256": "017aebf2931d0560f33946238382c181229cbdd51fea081eeb519c65368a5923"
+    },
+    {
+      "path": "data-gaps/weather-evidence/nws-weather-snapshot.json",
+      "bytes": 182137,
+      "sha256": "919dc4401f01fbf447a4bab204a3470caa7fb044ba9eafd112ec06f2f91ebcb2"
+    },
+    {
+      "path": "data-gaps/weather-evidence/open-meteo-single-run-20261014-sacramento.json",
+      "bytes": 26039,
+      "sha256": "dfca92f6005d0998f98fb9dcb32e24a62a9168c92e94e62cde0c0490c21dc338"
+    },
+    {
+      "path": "data-gaps/weather-evidence/open-meteo-single-run-20261014-sacramento.raw.json",
+      "bytes": 3186,
+      "sha256": "2e878ba103365ec10f1e4e6b3f6201856dd94c5ed541175b1b662e8a062206ac"
+    },
+    {
+      "path": "data-gaps/weather-evidence/open-meteo-single-run-20261014-sacramento.receipt.json",
+      "bytes": 1113,
+      "sha256": "044129f752b546399f44005860cc7b1c11a68633c1af0ae1ea7bf7a34df1fec6"
+    },
+    {
+      "path": "data-gaps/weather-evidence/outage-samples-manifest.json",
+      "bytes": 1144,
+      "sha256": "44f2389ac4ef5d5b72fdb7952e3b3237b2533e14ae86c0acbfccde512f8ccccc"
+    },
+    {
+      "path": "data-gaps/weather-evidence/sacramento-hourly.json",
+      "bytes": 162763,
+      "sha256": "a5584322593625a619aa2d14c2bd6bdb23babded4bd711013253a54e86869723"
+    },
+    {
+      "path": "data-gaps/weather-evidence/sacramento-hourly.receipt.json",
+      "bytes": 348,
+      "sha256": "e0964c6169b4c1724209416b99bceac6fdd8b5d939919b9679452af9aa64a0cf"
+    },
+    {
+      "path": "data-gaps/weather-evidence/sacramento-point.json",
+      "bytes": 3927,
+      "sha256": "c239d7aaaf444a80751fe8bc502a3332a73b2b36e05c112e6595c2de625b555d"
+    },
+    {
+      "path": "data-gaps/weather-evidence/sacramento-point.receipt.json",
+      "bytes": 307,
+      "sha256": "520e937e260a2c76d96f068ae40fafb4ad2c885027d23a9e710cf1c057814b94"
+    },
+    {
+      "path": "data-gaps/weather-evidence/verification.json",
+      "bytes": 684,
+      "sha256": "7cf51262dfd15f7c3de3ddde952ab7ad36e6b57cd12e07b973b6464447dcfdbb"
+    },
+    {
+      "path": "data-gaps/weather-evidence/weather-audit.json",
+      "bytes": 19059,
+      "sha256": "40dc978c65180c003c2a4f99dd4c9e4677f7911d2dabfa51bc0b22d28c0cda44"
+    },
+    {
+      "path": "data-gaps/weather-evidence/weather-outage-evidence.zip",
+      "bytes": 435578,
+      "sha256": "e8ad7b1ed990f6c667c02d116fe8652b4089bb041549ccad661736415d29a09a"
+    },
+    {
+      "path": "data-gaps/weather-evidence/weather-release.json",
+      "bytes": 212,
+      "sha256": "61e40def8a059e072ce1ea3d05c4bf7ca3baa2b4e82f6d0d6fc6e4d9b456764a"
+    },
+    {
+      "path": "forecast-lab/all-walk-forward.json",
+      "bytes": 2614316,
+      "sha256": "ff0a8aa751a975e82f89f1638d923f0d524f54c08d553c072bb483b2d564c2a6"
+    },
+    {
+      "path": "forecast-lab/caiso-forecast-research.zip",
+      "bytes": 1422059,
+      "sha256": "2f020a45a5d7ffbc034da6e1f4563ee5b00c03cb087a90dedcdec22970e1c948"
+    },
+    {
+      "path": "forecast-lab/candidate-predictions.json",
+      "bytes": 2869943,
+      "sha256": "73b857cd402981825378121c844b8b322902ec4458d7f5a3be44746efd7ffd15"
+    },
+    {
+      "path": "forecast-lab/data-audit.json",
+      "bytes": 41969,
+      "sha256": "3e16f29ba7636530b4e457c3c926f43d6844be3f9ee4ed35e57483005ce210d3"
+    },
+    {
+      "path": "forecast-lab/embedded-data.json",
+      "bytes": 59276,
+      "sha256": "6452986b9c39c5ea1985740a87008c1dccfd467613156f46ab157da09972848f"
+    },
+    {
+      "path": "forecast-lab/forecast-archive-receipt.json",
+      "bytes": 809,
+      "sha256": "2620a5f10b4600a3082b40e38aa720dbaa40670a8c48d5f91732d31276c89e50"
+    },
+    {
+      "path": "forecast-lab/forecast-forward.json",
+      "bytes": 61952,
+      "sha256": "1f8d7aa1ece385e52ed59f28e6a28d854a8bde650b79f46423989ebef0059c5f"
+    },
+    {
+      "path": "forecast-lab/forecast-history.json",
+      "bytes": 875372,
+      "sha256": "592feacf9073c53c68842420f4ae680178b03f772973198d7a0ae81f497e91f1"
+    },
+    {
+      "path": "forecast-lab/forward-plan.json",
+      "bytes": 15835,
+      "sha256": "e4e54bb3288a518b54c61eaa156cda077d7f6809f794cf45a21edd93addd1acc"
+    },
+    {
+      "path": "forecast-lab/holdout-fee-1-sensitivity.json",
+      "bytes": 286694,
+      "sha256": "cb556ba6d3eaa411d8ce96229b45f79160a2af29c2759ed6dc7c2d94221708cc"
+    },
+    {
+      "path": "forecast-lab/holdout-input.json",
+      "bytes": 782951,
+      "sha256": "36f54f8eb43f1cdf90b0e6fa94fca1d519b46e9f68c517ad94fc590ce6109e54"
+    },
+    {
+      "path": "forecast-lab/holdout-simulation.json",
+      "bytes": 286380,
+      "sha256": "1490e644bdc0eca2b4f604eefaabd8d51918e075ae4f83609aca381209a6651e"
+    },
+    {
+      "path": "forecast-lab/models.json",
+      "bytes": 10026,
+      "sha256": "595c233bdc4236c3b447ac4a51dee895d5cefc933f5498239e9a6b3cf4bd1f71"
+    },
+    {
+      "path": "forecast-lab/predictions.csv",
+      "bytes": 487905,
+      "sha256": "f2de4998344f4f3bd430435b4b38547023d3a2b4abd7b7f1ac807b7ab7799d44"
+    },
+    {
+      "path": "forecast-lab/release-manifest.json",
+      "bytes": 7393,
+      "sha256": "f0e45e1134e76a6baab45497568075cbd41437991c1994b2521ca98eb9e67764"
+    },
+    {
+      "path": "forecast-lab/report.json",
+      "bytes": 27268,
+      "sha256": "b078fe82d6bea66eeb6928607c25fb7587e8eabd81ce6bfe3043b602f5ef6992"
+    },
+    {
+      "path": "forecast-lab/simulation-summary.json",
+      "bytes": 4853,
+      "sha256": "47ff138a60d5ef0dc84ba95b679d7b5a2313139822099ccb0b32932cb7a06cd1"
+    },
+    {
+      "path": "forecast-lab/trading_strategy.py",
+      "bytes": 18967,
+      "sha256": "bec974b02fc7c61a3a69519c24e377db8e40495b13100af83b6fcf070bc18f91"
+    },
+    {
+      "path": "forecast-lab/v2/ablation.json",
+      "bytes": 892193,
+      "sha256": "102ed65817ae02df9260fbb8278936eaf9886c4016548445f33a26fbfbbb7313"
+    },
+    {
+      "path": "forecast-lab/v2/all-walk-forward.json",
+      "bytes": 9842661,
+      "sha256": "922cf669d17735714224b6aac61118f7c4d9b1999a98b9f3d2822e63992528e7"
+    },
+    {
+      "path": "forecast-lab/v2/caiso-v2-public-results.zip",
+      "bytes": 7595714,
+      "sha256": "b8e99b25d83e27ea1359497c1d16b32e3aa6665286c2aa2eae60d3955ad7a80b"
+    },
+    {
+      "path": "forecast-lab/v2/candidate-predictions.json",
+      "bytes": 17742792,
+      "sha256": "ec18fb08d53e58be05d999d0e68f6f714b46df2521ed192891a6c5d1d117160b"
+    },
+    {
+      "path": "forecast-lab/v2/data-audit.json",
+      "bytes": 4831,
+      "sha256": "b1a82b120976de9e4f1214f663edf45b6eb2057b6a199d5860d5624457ecb146"
+    },
+    {
+      "path": "forecast-lab/v2/development-forecast.json",
+      "bytes": 1147397,
+      "sha256": "1b950eac1f8d3c54abf032535549b6b3cdabee2af1dcc2400a0671dfceb9216e"
+    },
+    {
+      "path": "forecast-lab/v2/embedded-data.json",
+      "bytes": 59291,
+      "sha256": "cea19ebdc15fd550dc356f1e738a3b9a66f3dc9aa4cb20b6012eb7a9760d7606"
+    },
+    {
+      "path": "forecast-lab/v2/forecast-archive-receipt.json",
+      "bytes": 809,
+      "sha256": "075fe62b4e8f421493bad5d01da2214ddf2ad145b37b0873dbb2a480f3c6f739"
+    },
+    {
+      "path": "forecast-lab/v2/forecast-forward.json",
+      "bytes": 63737,
+      "sha256": "7ebb5717da1b3b15f1e2cf96f4be153d3c903677f96e0ba37c7e6777f721e6af"
+    },
+    {
+      "path": "forecast-lab/v2/forecast-history.json",
+      "bytes": 8511036,
+      "sha256": "77d0410bfbb23f544d761bb474f8bf3a922c81dae70e148ff525396f7a23dfa0"
+    },
+    {
+      "path": "forecast-lab/v2/forward-plan.json",
+      "bytes": 1778,
+      "sha256": "924113f501d111dc0ba58f5a6825d9a6b17728eb6b444e489e3b03a747c7aeef"
+    },
+    {
+      "path": "forecast-lab/v2/holdout-fee-1-sensitivity.json",
+      "bytes": 80416,
+      "sha256": "15bfc07efc4d3e92334a60268a79199aefb9f506534720502e65e44bb3061dba"
+    },
+    {
+      "path": "forecast-lab/v2/holdout-input.json",
+      "bytes": 782253,
+      "sha256": "3368604d2ba92d41a1fc65a86eccd553edaa4e374c091e5ec869c35eb4894d0b"
+    },
+    {
+      "path": "forecast-lab/v2/holdout-simulation.json",
+      "bytes": 80413,
+      "sha256": "c3ffce5b03ef9e40a76680390fafd8774d65791eedae7d0d881f168bd9b59f1c"
+    },
+    {
+      "path": "forecast-lab/v2/models.json",
+      "bytes": 27395,
+      "sha256": "7142f3f808774b2277eb68d3ff3d25f154650580c3ab3014534dbcd29c945b98"
+    },
+    {
+      "path": "forecast-lab/v2/predictions.csv",
+      "bytes": 4456255,
+      "sha256": "8b896735f419cd15caccc817dcecd6cc48374043ade77004b8682dd3b4f7d4da"
+    },
+    {
+      "path": "forecast-lab/v2/protocol.json",
+      "bytes": 2465,
+      "sha256": "f6a267a4dd20338f1e3a7387ff2bbd5b0aee2a6a6436145c874f2654f0c072b4"
+    },
+    {
+      "path": "forecast-lab/v2/release-manifest.json",
+      "bytes": 15914,
+      "sha256": "9c7d3d450270a2b1a9a6b4cb45cdbf7d988f774694a32d66c09a4f3e6f0635aa"
+    },
+    {
+      "path": "forecast-lab/v2/report.json",
+      "bytes": 251213,
+      "sha256": "c2bc103170166b6b9174d062263703c79e766609b56fa9af652b430411298626"
+    },
+    {
+      "path": "forecast-lab/v2/rolling-input.json",
+      "bytes": 7275577,
+      "sha256": "077e5884ef83a35ac0d8eb7b9faf36b9f472ac2c12ef71ae4dc8703a37a5a417"
+    },
+    {
+      "path": "forecast-lab/v2/rolling-simulation-fee-1.json",
+      "bytes": 1401430,
+      "sha256": "40ce1e419046378c18037a93d1bc4ca6730c3daa7c3a0e4867433d8b4f4d08fd"
+    },
+    {
+      "path": "forecast-lab/v2/simulation-summary.json",
+      "bytes": 5548,
+      "sha256": "fbe8d33e9105437abed6d93f70230d01bb23ef9c9cc72c73e94ee23b6f1a6b77"
+    },
+    {
+      "path": "forecast-lab/v2/strategy-comparison.json",
+      "bytes": 6473,
+      "sha256": "d32e5971c59857902f0db757b1c667d933fe5090ae5f87db5c6ea7cf6f7159a0"
+    },
+    {
+      "path": "forecast-lab/v2/trading_strategy.py",
+      "bytes": 18967,
+      "sha256": "bec974b02fc7c61a3a69519c24e377db8e40495b13100af83b6fcf070bc18f91"
+    },
+    {
+      "path": "forecast-lab/v3/caiso-v3-public-results.zip",
+      "bytes": 1298612,
+      "sha256": "7fa3d1339c4cb12ff11743332eb0979a2c8027ec957decb57a1d1cf610be36ed"
+    },
+    {
+      "path": "forecast-lab/v3/decision-plan-input.json",
+      "bytes": 2244467,
+      "sha256": "7784e39965989b2ef6d0a2041fffaf925120f4a51eac19fe99c34674f4002f1b"
+    },
+    {
+      "path": "forecast-lab/v3/decision-plans.json",
+      "bytes": 1779968,
+      "sha256": "c9564ae7e311d86426bcfd51d83ad3c792f7afbe77ffdb75c86a0bbc92f6afcb"
+    },
+    {
+      "path": "forecast-lab/v3/decision-points.json",
+      "bytes": 4641405,
+      "sha256": "918bedff1044f4487c523826860c5563a9a2428a353b6a54c3144762475b334b"
+    },
+    {
+      "path": "forecast-lab/v3/decision_strategy.py",
+      "bytes": 13841,
+      "sha256": "eff368c2c8a826cfaa762e4b3f91856ff464d15be6e42717ce7bdfacbaa0732a"
+    },
+    {
+      "path": "forecast-lab/v3/fundamentals-audit.json",
+      "bytes": 11964,
+      "sha256": "dbe7022409e364079be9077bf97d30211709ecaba9523e54ac562ed40569074a"
+    },
+    {
+      "path": "forecast-lab/v3/fundamentals-verification.json",
+      "bytes": 343,
+      "sha256": "f19636216a1c4d1a71097e9f79ed560a71f48273c8b1afa352af7a105b923135"
+    },
+    {
+      "path": "forecast-lab/v3/models.json",
+      "bytes": 954350,
+      "sha256": "a99d53e580aec77363ef48180943ed9ed4dff47144fc800b6bad81f40d5293a5"
+    },
+    {
+      "path": "forecast-lab/v3/protocol.json",
+      "bytes": 3062,
+      "sha256": "d06923c7bf52b89795956c4f4e0076b1b31ec385086a92a8ee8c8d264403470f"
+    },
+    {
+      "path": "forecast-lab/v3/release-manifest.json",
+      "bytes": 26274,
+      "sha256": "fdadf21730b3e298c779b4570d59a35d6786110efab1af7a276f00abea4a8af4"
+    },
+    {
+      "path": "forecast-lab/v3/replay-verification.json",
+      "bytes": 14495,
+      "sha256": "918f6a122bd40cb7d74dd44acb8902b9e2e674a6ea1e5e280cba1822ccf941ab"
+    },
+    {
+      "path": "forecast-lab/v3/report.json",
+      "bytes": 214643,
+      "sha256": "9e0dd485c572b07f5ec710c68fe695410c74a5d4af0ea4422d74db0389696f09"
+    },
+    {
+      "path": "forecast-lab/v4/README.md",
+      "bytes": 4305,
+      "sha256": "d2963734098fc28fb51406fc84b03b4880893d0db996d0517a855cff7eba7b63"
+    },
+    {
+      "path": "forecast-lab/v4/all-walk-forward.json",
+      "bytes": 6454428,
+      "sha256": "58c14bd11d060d21eea6f66b531f85ceb3fec0170519e694fbc487f055fbdbf3"
+    },
+    {
+      "path": "forecast-lab/v4/caiso-current-forecast.zip",
+      "bytes": 3047786,
+      "sha256": "63b70cfc4bbec780e8ed19f58f144f8db9e326378f47936e84ea8c2f8918df18"
+    },
+    {
+      "path": "forecast-lab/v4/data-audit.json",
+      "bytes": 8079,
+      "sha256": "63e8c49bf48d3c3edcd215e1e632813eb91cc311aa688711db99b6a862a4f6a9"
+    },
+    {
+      "path": "forecast-lab/v4/embedded-data.json",
+      "bytes": 46136,
+      "sha256": "c4e9b0ae23401640f40d2bec6aacec89a8971065b00a1060e722fe29abf0b6f0"
+    },
+    {
+      "path": "forecast-lab/v4/forecast-archive-receipt.json",
+      "bytes": 443,
+      "sha256": "342e825bc99b078643c6e147af53165ac199cb760c3cf31db047ba0490df95c9"
+    },
+    {
+      "path": "forecast-lab/v4/forecast-csv.html",
+      "bytes": 65158,
+      "sha256": "3e5cd93f1a7489d926196d5f8bccb4119df191cfa043055adffd708e14d15dd2"
+    },
+    {
+      "path": "forecast-lab/v4/forecast-forward.json",
+      "bytes": 71900,
+      "sha256": "7a5627048042d9ae938d9cfc0e2ab7c8525a838a59d56998af8edf55cc351b4a"
+    },
+    {
+      "path": "forecast-lab/v4/forecast-history.json",
+      "bytes": 2070060,
+      "sha256": "a718a0e6c7f2cd7bd1bcc792e62c6fcc69ce5994a742c9de7a938b470a69ad52"
+    },
+    {
+      "path": "forecast-lab/v4/forward-plan.json",
+      "bytes": 1375,
+      "sha256": "c650d948fb1f7826d632b7c1e1cde702b85bfbdb20d41eb1db147e4109ee8e84"
+    },
+    {
+      "path": "forecast-lab/v4/forward-predictions.csv",
+      "bytes": 27106,
+      "sha256": "4851744e3c3b0195b03e4ead1f888766c1440a3eda6987c992812124a1cc8713"
+    },
+    {
+      "path": "forecast-lab/v4/holdout-fee-1-sensitivity.json",
+      "bytes": 112854,
+      "sha256": "c08462ad86956b8ce939d53d28be42ad64c6c6d4d53bfc5a3f6f3e66907ff311"
+    },
+    {
+      "path": "forecast-lab/v4/holdout-input.json",
+      "bytes": 1132353,
+      "sha256": "1931663feaa33e117ca847b28ac137dc81f2c8c12d70fc139da5a6a4e81023b9"
+    },
+    {
+      "path": "forecast-lab/v4/holdout-simulation.json",
+      "bytes": 112854,
+      "sha256": "c08462ad86956b8ce939d53d28be42ad64c6c6d4d53bfc5a3f6f3e66907ff311"
+    },
+    {
+      "path": "forecast-lab/v4/holdout-zero-fee-simulation.json",
+      "bytes": 112329,
+      "sha256": "f55cfa56146820b6d983b51ed2a523f90df3f9383c259e1aa9a2264016fbe3f0"
+    },
+    {
+      "path": "forecast-lab/v4/input-price-history.json.gz",
+      "bytes": 417347,
+      "sha256": "18a18e1504d8fb3c1493f3c8bf6f7ba33181f68bba4130dc72625cdd0244cc98"
+    },
+    {
+      "path": "forecast-lab/v4/models.json",
+      "bytes": 376624,
+      "sha256": "bc19522ba0706889707caf24788f6c3777d621d16c82f5e7ed0423109ad63452"
+    },
+    {
+      "path": "forecast-lab/v4/predictions.csv",
+      "bytes": 871017,
+      "sha256": "96896438e69a3abd0f4ba1c9746ccad3881b0b4ca14f482a13733ddf7d1cfca4"
+    },
+    {
+      "path": "forecast-lab/v4/protocol.json",
+      "bytes": 2276,
+      "sha256": "96215f4ef248c741b10d50e5f04cd3978799920d81f9f0bc2e17a8e90c0ef5df"
+    },
+    {
+      "path": "forecast-lab/v4/release-manifest.json",
+      "bytes": 9566,
+      "sha256": "4bbec780aee51f039fe22f6139d6050f0f9ec0570a194441e74dee80b1b44a00"
+    },
+    {
+      "path": "forecast-lab/v4/replay-verification.json",
+      "bytes": 1783,
+      "sha256": "e2a7caba39aaf301d5deb80e549e44f508da3a575092bab9ba774fb51515751d"
+    },
+    {
+      "path": "forecast-lab/v4/report.json",
+      "bytes": 52080,
+      "sha256": "ed52b383d15a22a20ec24730d406ed1892707b4345d8207871d00ca36fa18a26"
+    },
+    {
+      "path": "forecast-lab/v4/simulation-summary.json",
+      "bytes": 4721,
+      "sha256": "9e9acd7e6f68164f6185cf1a26ca98bd9cd895d75e2d2d18368b8825f901da8e"
+    },
+    {
+      "path": "forecast-lab/v4/trading_strategy.py",
+      "bytes": 18967,
+      "sha256": "bec974b02fc7c61a3a69519c24e377db8e40495b13100af83b6fcf070bc18f91"
+    },
+    {
+      "path": "fundamentals-caiso.csv",
+      "bytes": 216634,
+      "sha256": "3a2fa157bbfb995d6630b47e43701d68e34bfe1ae349ba2e58273be7881ee3f4"
+    },
+    {
+      "path": "fundamentals-provenance.json",
+      "bytes": 13745,
+      "sha256": "268c5f8c7ecd4c459813f34daa6043107ef1d86ebc9ba96da3b3a0f6fd6ef077"
+    },
+    {
+      "path": "fundamentals-snapshot.json",
+      "bytes": 1098882,
+      "sha256": "fad1ebf3d754f1462f06d3382db3fcd590623a25839ed396c94b7f4c06fa6ec1"
+    },
+    {
+      "path": "oasis_prices_2026-10-21_2026-10-27.csv",
+      "bytes": 1464016,
+      "sha256": "d7bc87c666dfcaff59c435c8adb9e5398dcc2cbf58b72335c9fd783e0ee1f030"
+    },
+    {
+      "path": "oasis_prices_2026-10-22_2026-10-28.csv",
+      "bytes": 1464882,
+      "sha256": "93140e7bc1806c9ac5674c265bcb30488146e94e24ed7833533387aa9528b4b6"
+    },
+    {
+      "path": "outlook_provenance.json",
+      "bytes": 10975,
+      "sha256": "e42f590185be0847858cad03c226a44383d1f738ff96bcccf9b389a01935b3e9"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/co2.csv",
+      "bytes": 8102,
+      "sha256": "63f7e944078b089a65b06762b01e79c80bb71670a63bc8bfb3fb78c08e801242"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/demand.csv",
+      "bytes": 7585,
+      "sha256": "cbb7d98a7b4848c3f3c8d58d42aca9a4cd231aa333b2383df49e46412106e670"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/fuelsource.csv",
+      "bytes": 18070,
+      "sha256": "7b63469c82f957189782090a8c6983c137653eb738f49d074e97f161620d9419"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/hybrids.csv",
+      "bytes": 7744,
+      "sha256": "411c39557fca581892160da80f1c5134f95f476788e52eedf3a70ba59795a8c7"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/netdemand.csv",
+      "bytes": 9165,
+      "sha256": "aedb9a148da49eab941e5353a55ec40f1a9477a4dbbe29ed3c14f35e941fe999"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/peak_and_daily.csv",
+      "bytes": 368,
+      "sha256": "c441a848c7a56058de416c6f4d37223c2fac0e9cf0e8fa1230b44649a1f37e5e"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/peak_and_daily_hybrids.csv",
+      "bytes": 280,
+      "sha256": "27726a7824ee5919c5d5471b6ec41caf39e9fed546d51573b6a0b80559d88c96"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/peak_and_daily_storage.csv",
+      "bytes": 237,
+      "sha256": "15bf78b03206588d1b81ca439f30bd103ae9cf397e6064e6c2106454ddb09d44"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/rtm_forecast.csv",
+      "bytes": 20001,
+      "sha256": "4e82d84045de0f5c7478e53e65aa53b2902e5047fec39145cfac113e4b8eb829"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/rtm_forecast_7day.csv",
+      "bytes": 129265,
+      "sha256": "9dc18aa47e1833cf091412279aa9ae699b114a6a1b2b631e891444af5a659d9d"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/storage.csv",
+      "bytes": 6297,
+      "sha256": "0f2cccc9e35f7cc370851943bca0e1ce35addc5987c8abc8289c4cb5e1ba8b75"
+    },
+    {
+      "path": "outlook_raw/2026-10-28/wind_solar_wo_hybrids.csv",
+      "bytes": 4830,
+      "sha256": "accecc04def252274b0440a7bbef69b330a03f309ccd3805642a4aafa52f2ac3"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/co2.csv",
+      "bytes": 999,
+      "sha256": "63da36e2ac1843ee871b2cb96d6a7a7161043723f549cc77f9a73e3a907f9f6d"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/demand.csv",
+      "bytes": 6315,
+      "sha256": "f16109c33f8c0ebce709208fe772f841a1f927c8fab51999d8bdf85b2ff56728"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/fuelsource.csv",
+      "bytes": 2214,
+      "sha256": "d18daa4791d82bad6184e0baedf3e87a32bb5871c0fbfaf86b898197e27670f0"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/hybrids.csv",
+      "bytes": 907,
+      "sha256": "8392ade364b13831d452b00f277ec8ad5d896ef2aea13b9de9198f50e0c98a6c"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/netdemand.csv",
+      "bytes": 6786,
+      "sha256": "1199815e10f0025571032bc6ccd99ad3fdc29b97732d131f316f180676f95217"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/rtm_forecast.csv",
+      "bytes": 16638,
+      "sha256": "bf2d8f2c719afc652dfdadbadd83cdf214e531b5e69f28e11e475bf2de242a6a"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/rtm_forecast_7day.csv",
+      "bytes": 122974,
+      "sha256": "f4a39cc364858af08b03b85c398c0a63cb5b01fd411d0bdea591dea195a20db9"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/stats.txt",
+      "bytes": 2513,
+      "sha256": "204bc55d90af4cddd7859ed5e00d9764de433bd042267316c1cf685759f8f22b"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/storage.csv",
+      "bytes": 731,
+      "sha256": "a13c4ac38d1c3e523d3900526b3fd24efe9f0ea921d7d9f0e036f85878cf034a"
+    },
+    {
+      "path": "outlook_raw/2026-10-29/wind_solar_wo_hybrids.csv",
+      "bytes": 593,
+      "sha256": "6a45b9ff61e0d11fbfd055f86b6b4f57d7dd08ba874504fdf013b09fab1a8e39"
+    },
+    {
+      "path": "outlook_snapshot_2026-10-28_2026-10-29.json",
+      "bytes": 2355943,
+      "sha256": "96554f1dd4dd73952de6667a48d380d5fb124d4bf5c43652a326174938391fb6"
+    },
+    {
+      "path": "prices-bootstrap.json",
+      "bytes": 2560095,
+      "sha256": "8544d7db5656d2137b00cd49311c6cc95032a47e443c8cd81cbec95fb5e52f64"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2256,
+      "sha256": "3e7d7b41dab107039e7e03510eb8e93546604a70b12a7f5fc6c6e670b35d0227"
+    }
+  ]
+}

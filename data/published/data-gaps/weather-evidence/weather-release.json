@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "archive": "weather-outage-evidence.zip",
+  "bytes": 435578,
+  "sha256": "e8ad7b1ed990f6c667c02d116fe8652b4089bb041549ccad661736415d29a09a",
+  "members": 39,
+  "allChecksPassed": true
+}

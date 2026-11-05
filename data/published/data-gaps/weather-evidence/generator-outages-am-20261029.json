@@ -1,0 +1,6322 @@
+{
+  "schemaVersion": 1,
+  "classification": "historical_report_retrieved_today",
+  "reportType": "am_snapshot",
+  "tradeDatePt": "2026-10-29",
+  "sourceGeneratedTimeRaw": "Report Generated on : 10/29/2026 07:30:02 (PPT)",
+  "sourcePublishTimeUtc": null,
+  "receipt": {
+    "sourceUrl": "https://www.caiso.com/documents/curtailed-non-operational-generator-am-report-20261029.xlsx",
+    "fetchedAtUtc": "2026-10-30T07:07:19.441100+00:00",
+    "httpStatus": 200,
+    "bytes": 73022,
+    "sha256": "22d036fc4e84bb92ef3a62244097d6933dd9fc2a6fdec3d5049421a79e80e949",
+    "lastModified": "Thu, 29 Oct 2026 15:30:45 GMT"
+  },
+  "columns": [
+    "resourceId",
+    "resourceName",
+    "outageType",
+    "capacityMw",
+    "curtailedMw",
+    "zoneName",
+    "balancingArea"
+  ],
+  "rows": [
+    {
+      "resourceId": "BIGSKY_2_SOLAR1",
+      "resourceName": "Antelope Big Sky Ranch",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 7.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 10
+    },
+    {
+      "resourceId": "BIGSKY_2_SOLAR6",
+      "resourceName": "Solverde 1",
+      "outageType": "Forced",
+      "capacityMw": 85.0,
+      "curtailedMw": 28.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 11
+    },
+    {
+      "resourceId": "BIGSKY_2_SOLAR7",
+      "resourceName": "Big Sky Solar 1",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 14.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 12
+    },
+    {
+      "resourceId": "BISHOP_1_ALAMO",
+      "resourceName": "BISHOP CREEK PLANT 2 AND 6",
+      "outageType": "Planned/Forced",
+      "capacityMw": 13.4,
+      "curtailedMw": 12.1,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 13
+    },
+    {
+      "resourceId": "BISHOP_1_UNITS",
+      "resourceName": "BISHOP CREEK PLANT 3 AND 4",
+      "outageType": "Planned/Forced",
+      "capacityMw": 15.8,
+      "curtailedMw": 9.7,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 14
+    },
+    {
+      "resourceId": "BKRFLD_2_SOLAR1",
+      "resourceName": "Bakersfield 111",
+      "outageType": "Forced",
+      "capacityMw": 1.38,
+      "curtailedMw": 1.38,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 15
+    },
+    {
+      "resourceId": "BLACK_7_UNIT 1",
+      "resourceName": "JAMES B. BLACK 1",
+      "outageType": "Planned",
+      "capacityMw": 85.0,
+      "curtailedMw": 85.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 16
+    },
+    {
+      "resourceId": "BLACK_7_UNIT 1",
+      "resourceName": "JAMES B. BLACK 1",
+      "outageType": "Planned",
+      "capacityMw": 85.0,
+      "curtailedMw": 85.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 17
+    },
+    {
+      "resourceId": "BLACK_7_UNIT 2",
+      "resourceName": "JAMES B. BLACK 2",
+      "outageType": "Planned",
+      "capacityMw": 84.1,
+      "curtailedMw": 84.1,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 18
+    },
+    {
+      "resourceId": "BLACK_7_UNIT 2",
+      "resourceName": "JAMES B. BLACK 2",
+      "outageType": "Planned",
+      "capacityMw": 84.1,
+      "curtailedMw": 84.1,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 19
+    },
+    {
+      "resourceId": "BLAST_1_WIND",
+      "resourceName": "Mountain View IV Wind",
+      "outageType": "Planned",
+      "capacityMw": 49.0,
+      "curtailedMw": 14.1,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 20
+    },
+    {
+      "resourceId": "BLCKBT_2_STONEY",
+      "resourceName": "BLACK BUTTE HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 6.2,
+      "curtailedMw": 6.2,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 21
+    },
+    {
+      "resourceId": "BLKCRK_2_SOLAR1",
+      "resourceName": "McCoy Station",
+      "outageType": "Planned",
+      "capacityMw": 250.0,
+      "curtailedMw": 208.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 22
+    },
+    {
+      "resourceId": "BLM W_2_COSBT1",
+      "resourceName": "Coso Battery Storage",
+      "outageType": "Forced",
+      "capacityMw": 60.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 23
+    },
+    {
+      "resourceId": "BNNIEN_7_ALTAPH",
+      "resourceName": "ALTA POWER HOUSE",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 24
+    },
+    {
+      "resourceId": "BOGUE_1_UNITA1",
+      "resourceName": "Feather River Energy Center, Unit #1",
+      "outageType": "Forced",
+      "capacityMw": 48.69,
+      "curtailedMw": 3.69,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 25
+    },
+    {
+      "resourceId": "BOGUE_1_UNITA1",
+      "resourceName": "Feather River Energy Center, Unit #1",
+      "outageType": "Forced",
+      "capacityMw": 48.69,
+      "curtailedMw": 3.69,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 26
+    },
+    {
+      "resourceId": "BRDSLD_2_HIWIND",
+      "resourceName": "High Winds Energy Center",
+      "outageType": "Forced",
+      "capacityMw": 158.4,
+      "curtailedMw": 27.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 27
+    },
+    {
+      "resourceId": "BRDSLD_2_MTZUM2",
+      "resourceName": "NextEra Energy Montezuma Wind II",
+      "outageType": "Forced",
+      "capacityMw": 78.2,
+      "curtailedMw": 11.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 28
+    },
+    {
+      "resourceId": "BRDSLD_2_MTZUMA",
+      "resourceName": "FPL Energy Montezuma Wind",
+      "outageType": "Forced",
+      "capacityMw": 36.8,
+      "curtailedMw": 11.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 29
+    },
+    {
+      "resourceId": "BRDSLD_2_SHLO3B",
+      "resourceName": "Shiloh IV Wind Project",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 5.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 30
+    },
+    {
+      "resourceId": "BREGGO_6_DEGRSL",
+      "resourceName": "Desert Green Solar Farm",
+      "outageType": "Planned",
+      "capacityMw": 6.3,
+      "curtailedMw": 6.3,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 31
+    },
+    {
+      "resourceId": "BRODIE_2_WIND",
+      "resourceName": "Coram Brodie Wind Project",
+      "outageType": "Forced",
+      "capacityMw": 102.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 32
+    },
+    {
+      "resourceId": "BUCKCK_7_OAKFLT",
+      "resourceName": "Oak Flat",
+      "outageType": "Forced",
+      "capacityMw": 1.3,
+      "curtailedMw": 1.3,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 33
+    },
+    {
+      "resourceId": "BUCKCK_7_PL1X2",
+      "resourceName": "BUCKS CREEK AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 59.0,
+      "curtailedMw": 59.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 34
+    },
+    {
+      "resourceId": "BURNYF_2_UNIT 1",
+      "resourceName": "Burney Forest Power",
+      "outageType": "Planned/Forced",
+      "capacityMw": 29.0,
+      "curtailedMw": 29.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 35
+    },
+    {
+      "resourceId": "CABALO_2_M2BSR1",
+      "resourceName": "Mustang 2 Barbaro Solar",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 50.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 36
+    },
+    {
+      "resourceId": "CABALO_2_M2WSR2",
+      "resourceName": "Mustang 2 Whirlaway Solar",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 100.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 37
+    },
+    {
+      "resourceId": "CALFTN_2_CFSBT1",
+      "resourceName": "California Flats Solar Battery",
+      "outageType": "Forced",
+      "capacityMw": 60.0,
+      "curtailedMw": 6.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 38
+    },
+    {
+      "resourceId": "CALGEN_1_UNITS",
+      "resourceName": "Coso Navy 1",
+      "outageType": "Forced",
+      "capacityMw": 55.0,
+      "curtailedMw": 12.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 39
+    },
+    {
+      "resourceId": "CALPIN_1_AGNEW",
+      "resourceName": "Agnews Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 28.56,
+      "curtailedMw": 0.56,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 40
+    },
+    {
+      "resourceId": "CAMCHE_1_PL1X3",
+      "resourceName": "CAMANCHE UNITS 1, 2 &amp; 3 AGGREGATE",
+      "outageType": "Planned/Forced",
+      "capacityMw": 9.99,
+      "curtailedMw": 8.99,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 41
+    },
+    {
+      "resourceId": "CAMPFW_7_FARWST",
+      "resourceName": "CAMP FAR WEST HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 6.8,
+      "curtailedMw": 6.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 42
+    },
+    {
+      "resourceId": "CAM_2_UNIT1",
+      "resourceName": "Camino Powerhouse Unit 1",
+      "outageType": "Planned",
+      "capacityMw": 80.0,
+      "curtailedMw": 80.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 43
+    },
+    {
+      "resourceId": "CAM_2_UNIT1",
+      "resourceName": "Camino Powerhouse Unit 1",
+      "outageType": "Planned",
+      "capacityMw": 80.0,
+      "curtailedMw": 80.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 44
+    },
+    {
+      "resourceId": "CAM_2_UNIT2",
+      "resourceName": "Camino Powerhouse Unit 2",
+      "outageType": "Planned/Forced",
+      "capacityMw": 76.0,
+      "curtailedMw": 76.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 45
+    },
+    {
+      "resourceId": "CAM_2_UNIT2",
+      "resourceName": "Camino Powerhouse Unit 2",
+      "outageType": "Planned/Forced",
+      "capacityMw": 76.0,
+      "curtailedMw": 76.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 46
+    },
+    {
+      "resourceId": "CAPWD_1_QF",
+      "resourceName": "Edom Hills Wind Farm",
+      "outageType": "Forced",
+      "capacityMw": 19.55,
+      "curtailedMw": 19.55,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 47
+    },
+    {
+      "resourceId": "CARBOU_7_PL4X5",
+      "resourceName": "CARIBOU PH 2 UNIT 4 &amp; 5 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 120.0,
+      "curtailedMw": 14.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 48
+    },
+    {
+      "resourceId": "CARBOU_7_PL4X5",
+      "resourceName": "CARIBOU PH 2 UNIT 4 &amp; 5 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 120.0,
+      "curtailedMw": 14.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 49
+    },
+    {
+      "resourceId": "CARLS1_2_CARCT1",
+      "resourceName": "Carlsbad 1",
+      "outageType": "Forced",
+      "capacityMw": 422.0,
+      "curtailedMw": 422.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 50
+    },
+    {
+      "resourceId": "CARLS2_1_CARCT1",
+      "resourceName": "Carlsbad 2",
+      "outageType": "Forced",
+      "capacityMw": 105.5,
+      "curtailedMw": 105.5,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 51
+    },
+    {
+      "resourceId": "CASCES_6_CESBT1",
+      "resourceName": "Cascade Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 25.0,
+      "curtailedMw": 25.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 52
+    },
+    {
+      "resourceId": "CASCES_6_CESBT2",
+      "resourceName": "Cascade Energy Storage Expansion",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 53
+    },
+    {
+      "resourceId": "CASPP_2_UNIT_2",
+      "resourceName": "Castaic Power Plant UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 238.0,
+      "curtailedMw": 238.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 54
+    },
+    {
+      "resourceId": "CASPP_2_UNIT_3",
+      "resourceName": "Castaic Power Plant UNIT 3",
+      "outageType": "Planned",
+      "capacityMw": 238.0,
+      "curtailedMw": 238.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 55
+    },
+    {
+      "resourceId": "CASPP_2_UNIT_6",
+      "resourceName": "Castaic Power Plant UNIT 6",
+      "outageType": "Forced",
+      "capacityMw": 238.0,
+      "curtailedMw": 238.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 56
+    },
+    {
+      "resourceId": "CASPP_2_UNIT_7",
+      "resourceName": "Castaic Power Plant UNIT 7",
+      "outageType": "Forced",
+      "capacityMw": 56.0,
+      "curtailedMw": 56.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 57
+    },
+    {
+      "resourceId": "DAIRLD_1_MD2BM1",
+      "resourceName": "Madera Digester Genset 2",
+      "outageType": "Planned",
+      "capacityMw": 0.8,
+      "curtailedMw": 0.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 58
+    },
+    {
+      "resourceId": "DELAMO_2_SOLRC1",
+      "resourceName": "Golden Springs Building C1",
+      "outageType": "Forced",
+      "capacityMw": 1.16,
+      "curtailedMw": 1.16,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 59
+    },
+    {
+      "resourceId": "DELSUR_6_CREST",
+      "resourceName": "Delsur Aggregate Solar Resources",
+      "outageType": "Forced",
+      "capacityMw": 8.5,
+      "curtailedMw": 1.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 60
+    },
+    {
+      "resourceId": "DELTA_2_PL1X4",
+      "resourceName": "DELTA ENERGY CENTER AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 880.0,
+      "curtailedMw": 26.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 61
+    },
+    {
+      "resourceId": "DIABLO_7_UNIT 1",
+      "resourceName": "Diablo Canyon Unit 1",
+      "outageType": "Planned/Forced",
+      "capacityMw": 1150.0,
+      "curtailedMw": 1150.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 62
+    },
+    {
+      "resourceId": "DONNLS_7_UNIT",
+      "resourceName": "Donnells Hydro",
+      "outageType": "Forced",
+      "capacityMw": 72.0,
+      "curtailedMw": 1.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 63
+    },
+    {
+      "resourceId": "DONPEDRO_6_MIDUNIT1",
+      "resourceName": "Don Pedro Generation Station Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 55.0,
+      "curtailedMw": 55.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 64
+    },
+    {
+      "resourceId": "DONPEDRO_6_MIDUNIT2",
+      "resourceName": "Don Pedro Generation Station Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 55.0,
+      "curtailedMw": 55.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 65
+    },
+    {
+      "resourceId": "DONPEDRO_6_MIDUNIT3",
+      "resourceName": "Don Pedro Generation Station Unit 3",
+      "outageType": "Planned/Forced",
+      "capacityMw": 55.0,
+      "curtailedMw": 55.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 66
+    },
+    {
+      "resourceId": "DONPEDRO_6_MIDUNIT4",
+      "resourceName": "Don Pedro Generation Station Unit 4",
+      "outageType": "Forced",
+      "capacityMw": 38.0,
+      "curtailedMw": 38.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 67
+    },
+    {
+      "resourceId": "DONPEDRO_6_UNIT2",
+      "resourceName": "Don Pedro Unit 2",
+      "outageType": "Planned",
+      "capacityMw": 55.0,
+      "curtailedMw": 55.0,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 68
+    },
+    {
+      "resourceId": "DOSPAL_1_DPSSR1",
+      "resourceName": "Dos Palos Clean Power",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 2.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 69
+    },
+    {
+      "resourceId": "DSABLA_7_UNIT",
+      "resourceName": "De Sabla Hydro",
+      "outageType": "Forced",
+      "capacityMw": 18.5,
+      "curtailedMw": 18.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 70
+    },
+    {
+      "resourceId": "DSABLA_7_UNIT",
+      "resourceName": "De Sabla Hydro",
+      "outageType": "Forced",
+      "capacityMw": 18.5,
+      "curtailedMw": 18.5,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 71
+    },
+    {
+      "resourceId": "DSRTHV_2_DH2BT1",
+      "resourceName": "Desert Harvest BESS",
+      "outageType": "Forced",
+      "capacityMw": 35.0,
+      "curtailedMw": 1.35,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 72
+    },
+    {
+      "resourceId": "DTCHWD_2_BT3WND",
+      "resourceName": "Brookfield Tehachapi 3",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 1.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 73
+    },
+    {
+      "resourceId": "DUANE_1_PL1X3",
+      "resourceName": "DONALD VON RAESFELD POWER PROJECT",
+      "outageType": "Forced",
+      "capacityMw": 147.8,
+      "curtailedMw": 7.8,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 74
+    },
+    {
+      "resourceId": "DVLCYN_1_UNITS",
+      "resourceName": "DEVIL CANYON HYDRO UNITS 1-4 AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 235.0,
+      "curtailedMw": 15.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 75
+    },
+    {
+      "resourceId": "DYLAN_2_BMTBT1",
+      "resourceName": "Beaumont BESS",
+      "outageType": "Planned/Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 9.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 76
+    },
+    {
+      "resourceId": "EASLEY_5_EL2BT3",
+      "resourceName": "Easley II Power Plant BESS2C",
+      "outageType": "Forced",
+      "capacityMw": 53.0,
+      "curtailedMw": 53.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 77
+    },
+    {
+      "resourceId": "EASLEY_5_EL2BT4",
+      "resourceName": "Easley II Power Plant BESS2D",
+      "outageType": "Forced",
+      "capacityMw": 22.0,
+      "curtailedMw": 22.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 78
+    },
+    {
+      "resourceId": "EASTWD_7_UNIT",
+      "resourceName": "EASTWOOD PUMP-GEN",
+      "outageType": "Planned/Forced",
+      "capacityMw": 200.0,
+      "curtailedMw": 200.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 79
+    },
+    {
+      "resourceId": "ECASCO_2_SJGBT1",
+      "resourceName": "San Jacinto Grid",
+      "outageType": "Forced",
+      "capacityMw": 65.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 80
+    },
+    {
+      "resourceId": "ELAND1_2_HYBRID",
+      "resourceName": "Eland 1 Hybrid Resource",
+      "outageType": "Planned",
+      "capacityMw": 175.0,
+      "curtailedMw": 95.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 81
+    },
+    {
+      "resourceId": "ELCAJN_6_EB1BT1",
+      "resourceName": "Eastern BESS 1",
+      "outageType": "Planned",
+      "capacityMw": 7.5,
+      "curtailedMw": 5.5,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 82
+    },
+    {
+      "resourceId": "ELCEN92_6_ELSTM_4",
+      "resourceName": "ELCEN92_6_ELSTM_4",
+      "outageType": "Forced",
+      "capacityMw": 80.0,
+      "curtailedMw": 80.0,
+      "zoneName": "IID Gen",
+      "balancingArea": "IID",
+      "sourceRow": 83
+    },
+    {
+      "resourceId": "ELDORO_7_UNIT 1",
+      "resourceName": "El Dorado Unit 1",
+      "outageType": "Planned/Forced",
+      "capacityMw": 11.0,
+      "curtailedMw": 11.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 84
+    },
+    {
+      "resourceId": "ELDORO_7_UNIT 2",
+      "resourceName": "El Dorado Unit 2",
+      "outageType": "Planned",
+      "capacityMw": 11.0,
+      "curtailedMw": 11.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 85
+    },
+    {
+      "resourceId": "ELECTR_7_PL1X3",
+      "resourceName": "ELECTRA PH UNIT 1 &amp; 2 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 93.0,
+      "curtailedMw": 93.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 86
+    },
+    {
+      "resourceId": "ELECTR_7_PL1X3",
+      "resourceName": "ELECTRA PH UNIT 1 &amp; 2 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 93.0,
+      "curtailedMw": 93.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 87
+    },
+    {
+      "resourceId": "ELKCRK_6_STONYG",
+      "resourceName": "STONEY GORGE HYDRO AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 4.9,
+      "curtailedMw": 4.9,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 88
+    },
+    {
+      "resourceId": "ELKHIL_2_PL1X3",
+      "resourceName": "ELK HILLS COMBINED CYCLE (AGGREGATE)",
+      "outageType": "Forced",
+      "capacityMw": 551.7,
+      "curtailedMw": 57.7,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 89
+    },
+    {
+      "resourceId": "ELKHRN_1_EESX3",
+      "resourceName": "Elkhorn Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 182.5,
+      "curtailedMw": 182.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 90
+    },
+    {
+      "resourceId": "ELK_6_BRU",
+      "resourceName": "Bruceville Solar FIT",
+      "outageType": "Forced",
+      "capacityMw": 18.0,
+      "curtailedMw": 6.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 91
+    },
+    {
+      "resourceId": "ELK_6_BRU",
+      "resourceName": "Bruceville Solar FIT",
+      "outageType": "Forced",
+      "capacityMw": 18.0,
+      "curtailedMw": 6.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 92
+    },
+    {
+      "resourceId": "ESCNDO_6_EB1BT1",
+      "resourceName": "Escondido BESS 1",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 93
+    },
+    {
+      "resourceId": "ESCNDO_6_EB2BT2",
+      "resourceName": "Escondido BESS 2",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 94
+    },
+    {
+      "resourceId": "ESCNDO_6_EB3BT3",
+      "resourceName": "Escondido BESS 3",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 95
+    },
+    {
+      "resourceId": "RDGPOWER_1_UNIT3",
+      "resourceName": "REDDING GT 3",
+      "outageType": "Forced",
+      "capacityMw": 26.0,
+      "curtailedMw": 3.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 96
+    },
+    {
+      "resourceId": "RDGPOWER_1_UNIT4-6",
+      "resourceName": "REDDING CC 4-6",
+      "outageType": "Forced",
+      "capacityMw": 126.0,
+      "curtailedMw": 14.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 97
+    },
+    {
+      "resourceId": "RECTOR_2_KAWEAH",
+      "resourceName": "KAWEAH PH 2 &amp; 3 PSP AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 6.55,
+      "curtailedMw": 6.55,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 98
+    },
+    {
+      "resourceId": "RECTOR_2_KAWH 1",
+      "resourceName": "KAWEAH PH 1 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 2.25,
+      "curtailedMw": 2.25,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 99
+    },
+    {
+      "resourceId": "RECTOR_2_QF",
+      "resourceName": "Kaweah Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 20.09,
+      "curtailedMw": 20.09,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 100
+    },
+    {
+      "resourceId": "REDBLF_6_UNIT",
+      "resourceName": "RED BLUFF PEAKER PLANT",
+      "outageType": "Forced",
+      "capacityMw": 44.0,
+      "curtailedMw": 44.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 101
+    },
+    {
+      "resourceId": "REP_6_UNITS",
+      "resourceName": "Roseville Energy Park",
+      "outageType": "Forced",
+      "capacityMw": 164.0,
+      "curtailedMw": 2.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 102
+    },
+    {
+      "resourceId": "RICHMN_7_BAYENV",
+      "resourceName": "BAY ENVIRONMENTAL (NOVE POWER)",
+      "outageType": "Forced",
+      "capacityMw": 2.5,
+      "curtailedMw": 2.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 103
+    },
+    {
+      "resourceId": "RIOBRV_6_UNIT 1",
+      "resourceName": "RIO BRAVO HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 14.0,
+      "curtailedMw": 14.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 104
+    },
+    {
+      "resourceId": "ROB_6_UNIT",
+      "resourceName": "Robbs Peak Powerhouse",
+      "outageType": "Planned/Forced",
+      "capacityMw": 26.0,
+      "curtailedMw": 26.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 105
+    },
+    {
+      "resourceId": "ROB_6_UNIT",
+      "resourceName": "Robbs Peak Powerhouse",
+      "outageType": "Planned/Forced",
+      "capacityMw": 26.0,
+      "curtailedMw": 26.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 106
+    },
+    {
+      "resourceId": "ROCKWOOD_7_ROCKWOD1",
+      "resourceName": "ROCKWOOD_7_ROCKWOD1",
+      "outageType": "Forced",
+      "capacityMw": 26.4,
+      "curtailedMw": 26.4,
+      "zoneName": "IID Gen",
+      "balancingArea": "IID",
+      "sourceRow": 107
+    },
+    {
+      "resourceId": "ROLLIN_6_UNIT",
+      "resourceName": "ROLLINS HYDRO",
+      "outageType": "Planned",
+      "capacityMw": 13.5,
+      "curtailedMw": 13.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 108
+    },
+    {
+      "resourceId": "ROLLIN_6_UNIT",
+      "resourceName": "ROLLINS HYDRO",
+      "outageType": "Planned",
+      "capacityMw": 13.5,
+      "curtailedMw": 13.5,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 109
+    },
+    {
+      "resourceId": "RPEAK_6_UNITS",
+      "resourceName": "Roseville Peakers TM2500",
+      "outageType": "Forced",
+      "capacityMw": 55.0,
+      "curtailedMw": 11.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 110
+    },
+    {
+      "resourceId": "RSEC_6_CTG3",
+      "resourceName": "Sunset Energy Center CT3",
+      "outageType": "Forced",
+      "capacityMw": 32.0,
+      "curtailedMw": 32.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 111
+    },
+    {
+      "resourceId": "RSEC_6_CTG4",
+      "resourceName": "Sunset Energy Center CT4",
+      "outageType": "Forced",
+      "capacityMw": 32.0,
+      "curtailedMw": 32.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 112
+    },
+    {
+      "resourceId": "RUSCTY_2_UNITS",
+      "resourceName": "Russell City Energy Center",
+      "outageType": "Forced",
+      "capacityMw": 615.18,
+      "curtailedMw": 19.18,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 113
+    },
+    {
+      "resourceId": "RUSSELL_2_SOLANO1",
+      "resourceName": "Solano Renewables 1",
+      "outageType": "Forced",
+      "capacityMw": 255.9,
+      "curtailedMw": 25.9,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 114
+    },
+    {
+      "resourceId": "RVRVEW_1_UNITA1",
+      "resourceName": "Riverview Energy Center (GP Antioch)",
+      "outageType": "Forced",
+      "capacityMw": 48.7,
+      "curtailedMw": 48.7,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 115
+    },
+    {
+      "resourceId": "RVSIDE_6_RERCU2",
+      "resourceName": "Riverside Energy Res. Ctr Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 48.5,
+      "curtailedMw": 8.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 116
+    },
+    {
+      "resourceId": "SALTSP_7_UNITS",
+      "resourceName": "SALT SPRINGS HYDRO AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 46.0,
+      "curtailedMw": 34.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 117
+    },
+    {
+      "resourceId": "SALTSP_7_UNITS",
+      "resourceName": "SALT SPRINGS HYDRO AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 46.0,
+      "curtailedMw": 34.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 118
+    },
+    {
+      "resourceId": "SANBRN_2_SS2BT3",
+      "resourceName": "Sanborn Solar 2 SBESS 3",
+      "outageType": "Forced",
+      "capacityMw": 169.0,
+      "curtailedMw": 19.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 119
+    },
+    {
+      "resourceId": "SANLOB_1_LNDFIL",
+      "resourceName": "Cold Canyon",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 0.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 120
+    },
+    {
+      "resourceId": "SANTFG_7_UNITS",
+      "resourceName": "GEYSERS CALISTOGA AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 72.0,
+      "curtailedMw": 15.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 121
+    },
+    {
+      "resourceId": "SANTGO_2_LNDFL1",
+      "resourceName": "Bowerman Power",
+      "outageType": "Forced",
+      "capacityMw": 19.6,
+      "curtailedMw": 6.1,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 122
+    },
+    {
+      "resourceId": "SAUGUS_7_CHIQCN",
+      "resourceName": "Chiquita Canyon Landfill Fac",
+      "outageType": "Forced",
+      "capacityMw": 8.0,
+      "curtailedMw": 8.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 123
+    },
+    {
+      "resourceId": "SBERDO_2_PSP3",
+      "resourceName": "Mountainview Gen Sta. Unit 3",
+      "outageType": "Forced",
+      "capacityMw": 555.0,
+      "curtailedMw": 555.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 124
+    },
+    {
+      "resourceId": "SBERDO_2_PSP4",
+      "resourceName": "Mountainview Gen Sta. Unit 4",
+      "outageType": "Forced",
+      "capacityMw": 555.0,
+      "curtailedMw": 555.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 125
+    },
+    {
+      "resourceId": "SBERDO_2_SNTANA",
+      "resourceName": "SANTA ANA PSP",
+      "outageType": "Forced",
+      "capacityMw": 6.95,
+      "curtailedMw": 6.95,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 126
+    },
+    {
+      "resourceId": "SBERDO_6_MILLCK",
+      "resourceName": "MILL CREEK PSP",
+      "outageType": "Planned",
+      "capacityMw": 3.93,
+      "curtailedMw": 3.93,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 127
+    },
+    {
+      "resourceId": "SCAGS_1_UNIT_1",
+      "resourceName": "Scattergood Generating Station UNIT 1",
+      "outageType": "Planned",
+      "capacityMw": 105.0,
+      "curtailedMw": 105.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 128
+    },
+    {
+      "resourceId": "SCAGS_1_UNIT_2",
+      "resourceName": "Scattergood Generating Station UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 177.0,
+      "curtailedMw": 44.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 129
+    },
+    {
+      "resourceId": "SCAGS_2_CC_4_5",
+      "resourceName": "Scattergood Generating Station CC",
+      "outageType": "Forced",
+      "capacityMw": 311.0,
+      "curtailedMw": 11.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 130
+    },
+    {
+      "resourceId": "SCAGS_2_UNIT_7",
+      "resourceName": "Scattergood Generating Station UNIT 7",
+      "outageType": "Planned",
+      "capacityMw": 102.0,
+      "curtailedMw": 102.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 131
+    },
+    {
+      "resourceId": "SCARLT_2_SSABT1",
+      "resourceName": "Scarlet Solar CA 1A",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 3.7,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 132
+    },
+    {
+      "resourceId": "SCARLT_2_SSBBT1",
+      "resourceName": "Scarlet Solar CA 1B",
+      "outageType": "Forced",
+      "capacityMw": 30.0,
+      "curtailedMw": 3.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 133
+    },
+    {
+      "resourceId": "SCEC_1_PDRP124",
+      "resourceName": "LCR AMS Hybrid West LA 1-C-LCRLL",
+      "outageType": "Forced",
+      "capacityMw": 2.41,
+      "curtailedMw": 2.41,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 134
+    },
+    {
+      "resourceId": "SCEC_1_PDRP173",
+      "resourceName": "LCR AMS Hybrid West LA 2-C-LSCE",
+      "outageType": "Forced",
+      "capacityMw": 2.53,
+      "curtailedMw": 2.53,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 135
+    },
+    {
+      "resourceId": "SCEC_1_PDRP175",
+      "resourceName": "VLTS_PDR_SCEC_01",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 136
+    },
+    {
+      "resourceId": "SCEN_6_PDRP79",
+      "resourceName": "VLTS_PDR_SCEN_01",
+      "outageType": "Planned",
+      "capacityMw": 5.5,
+      "curtailedMw": 5.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 137
+    },
+    {
+      "resourceId": "SCEW_2_PDRP03",
+      "resourceName": "LCR AMS Hybrid Irvine 1-W-LPIPO",
+      "outageType": "Forced",
+      "capacityMw": 5.29,
+      "curtailedMw": 5.29,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 138
+    },
+    {
+      "resourceId": "SCEW_2_PDRP09",
+      "resourceName": "LCR AMS Hybrid Irvine 2-W-LPIPO",
+      "outageType": "Forced",
+      "capacityMw": 2.65,
+      "curtailedMw": 2.65,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 139
+    },
+    {
+      "resourceId": "SCEW_2_PDRP10",
+      "resourceName": "LCR AMS Hybrid Irvine 2-W-LSCE",
+      "outageType": "Forced",
+      "capacityMw": 2.65,
+      "curtailedMw": 2.65,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 140
+    },
+    {
+      "resourceId": "SCEW_2_PDRP114",
+      "resourceName": "LCR AMS Hybrid West LA 1-W-SCE",
+      "outageType": "Forced",
+      "capacityMw": 6.78,
+      "curtailedMw": 6.78,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 141
+    },
+    {
+      "resourceId": "SCEW_2_PDRP159",
+      "resourceName": "LCR AMS Hybrid West LA 1-W-LNEI1",
+      "outageType": "Forced",
+      "capacityMw": 8.19,
+      "curtailedMw": 8.19,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 142
+    },
+    {
+      "resourceId": "SCEW_2_PDRP160",
+      "resourceName": "LCR AMS Hybrid West LA 2-W-LSCE",
+      "outageType": "Forced",
+      "capacityMw": 5.39,
+      "curtailedMw": 5.39,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 143
+    },
+    {
+      "resourceId": "SCEW_2_PDRP163",
+      "resourceName": "LCR AMS Hybrid West LA 2-W-LPIPO",
+      "outageType": "Forced",
+      "capacityMw": 8.28,
+      "curtailedMw": 8.28,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 144
+    },
+    {
+      "resourceId": "SCEW_2_PDRP167",
+      "resourceName": "LCR AMS Hybrid West LA 1-W-2-SCE",
+      "outageType": "Forced",
+      "capacityMw": 9.09,
+      "curtailedMw": 9.09,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 145
+    },
+    {
+      "resourceId": "SCEW_2_PDRP168",
+      "resourceName": "VLTS_PDR_SCEW_01",
+      "outageType": "Planned",
+      "capacityMw": 6.5,
+      "curtailedMw": 6.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 146
+    },
+    {
+      "resourceId": "SCHD_1_PDRP53",
+      "resourceName": "VLTS_PDR_SCHD_01",
+      "outageType": "Planned",
+      "capacityMw": 9.0,
+      "curtailedMw": 9.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 147
+    },
+    {
+      "resourceId": "SCNW_6_PDRP59",
+      "resourceName": "VLTS_PDR_SCNW_1",
+      "outageType": "Planned",
+      "capacityMw": 7.0,
+      "curtailedMw": 7.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 148
+    },
+    {
+      "resourceId": "MCSWAN_6_UNITS",
+      "resourceName": "MC SWAIN HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 9.0,
+      "curtailedMw": 9.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 149
+    },
+    {
+      "resourceId": "MDFKRL_2_PROJCT",
+      "resourceName": "MIDDLE FORK AND RALSTON PSP",
+      "outageType": "Planned/Forced",
+      "capacityMw": 210.0,
+      "curtailedMw": 210.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 150
+    },
+    {
+      "resourceId": "MELONP_7_UNITS",
+      "resourceName": "New Melones Aggregation",
+      "outageType": "Forced",
+      "capacityMw": 380.0,
+      "curtailedMw": 10.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 151
+    },
+    {
+      "resourceId": "MERCFL_6_UNIT",
+      "resourceName": "Merced Falls Powerhouse",
+      "outageType": "Forced",
+      "capacityMw": 3.5,
+      "curtailedMw": 3.5,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 152
+    },
+    {
+      "resourceId": "METEC_2_PL1X3",
+      "resourceName": "Metcalf Energy Center",
+      "outageType": "Forced",
+      "capacityMw": 597.05,
+      "curtailedMw": 16.05,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 153
+    },
+    {
+      "resourceId": "MIDWD_2_WIND2",
+      "resourceName": "Coram Energy",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 1.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 154
+    },
+    {
+      "resourceId": "MIDWD_7_CORAMB",
+      "resourceName": "CELLC 7.5 MW Tehachapi Project",
+      "outageType": "Forced",
+      "capacityMw": 7.5,
+      "curtailedMw": 1.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 155
+    },
+    {
+      "resourceId": "MIRLOM_2_MLBBTA",
+      "resourceName": "Mira Loma BESS A",
+      "outageType": "Planned/Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 156
+    },
+    {
+      "resourceId": "MIRLOM_2_MLBBTB",
+      "resourceName": "Mira Loma BESS B",
+      "outageType": "Planned/Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 157
+    },
+    {
+      "resourceId": "MIRLOM_6_PEAKER",
+      "resourceName": "Mira Loma Peaker",
+      "outageType": "Forced",
+      "capacityMw": 47.18,
+      "curtailedMw": 1.86,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 158
+    },
+    {
+      "resourceId": "MNDALY_6_MCGRTH",
+      "resourceName": "McGrath Beach Peaker",
+      "outageType": "Planned/Forced",
+      "capacityMw": 48.56,
+      "curtailedMw": 4.84,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 159
+    },
+    {
+      "resourceId": "MNDOTA_1_SOLAR1",
+      "resourceName": "North Star Solar 1",
+      "outageType": "Forced",
+      "capacityMw": 60.0,
+      "curtailedMw": 4.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 160
+    },
+    {
+      "resourceId": "MOJAVE_1_SIPHON",
+      "resourceName": "MOJAVE SIPHON POWER PLANT",
+      "outageType": "Planned",
+      "capacityMw": 14.36,
+      "curtailedMw": 0.36,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 161
+    },
+    {
+      "resourceId": "MONTPH_7_UNITS",
+      "resourceName": "MONTICELLO HYDRO AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 12.5,
+      "curtailedMw": 7.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 162
+    },
+    {
+      "resourceId": "MOORPK_2_ACOBT1",
+      "resourceName": "Acorn I BESS",
+      "outageType": "Forced",
+      "capacityMw": 1.95,
+      "curtailedMw": 1.95,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 163
+    },
+    {
+      "resourceId": "MOSSLD_2_PSP1",
+      "resourceName": "MOSS LANDING POWER BLOCK 1",
+      "outageType": "Forced",
+      "capacityMw": 510.0,
+      "curtailedMw": 23.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 164
+    },
+    {
+      "resourceId": "MOSSLD_2_PSP2",
+      "resourceName": "MOSS LANDING POWER BLOCK 2",
+      "outageType": "Forced",
+      "capacityMw": 510.0,
+      "curtailedMw": 28.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 165
+    },
+    {
+      "resourceId": "MRCHNT_2_PL1X3",
+      "resourceName": "Desert Star Energy Center",
+      "outageType": "Forced",
+      "capacityMw": 494.58,
+      "curtailedMw": 494.58,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 166
+    },
+    {
+      "resourceId": "MRGT_6_MEF2",
+      "resourceName": "Miramar Energy Facility II",
+      "outageType": "Planned/Forced",
+      "capacityMw": 44.0,
+      "curtailedMw": 44.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 167
+    },
+    {
+      "resourceId": "MRGT_6_MMAREF",
+      "resourceName": "Miramar Energy Facility",
+      "outageType": "Planned/Forced",
+      "capacityMw": 45.0,
+      "curtailedMw": 45.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 168
+    },
+    {
+      "resourceId": "MRGT_6_TGEBT1",
+      "resourceName": "Top Gun Energy Storage",
+      "outageType": "Planned/Forced",
+      "capacityMw": 30.0,
+      "curtailedMw": 30.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 169
+    },
+    {
+      "resourceId": "MRLSDS_6_SOLAR1",
+      "resourceName": "Morelos Solar",
+      "outageType": "Forced",
+      "capacityMw": 15.0,
+      "curtailedMw": 15.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 170
+    },
+    {
+      "resourceId": "MTNPOS_1_UNIT",
+      "resourceName": "MT.POSO COGENERATION CO.",
+      "outageType": "Forced",
+      "capacityMw": 46.64,
+      "curtailedMw": 46.64,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 171
+    },
+    {
+      "resourceId": "MTWIND_1_MVPWD1",
+      "resourceName": "Mountain View Power Project I Repower",
+      "outageType": "Planned",
+      "capacityMw": 66.6,
+      "curtailedMw": 6.6,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 172
+    },
+    {
+      "resourceId": "NAROW1_2_UNIT",
+      "resourceName": "NARROWS PH 1 UNIT",
+      "outageType": "Forced",
+      "capacityMw": 12.0,
+      "curtailedMw": 2.6,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 173
+    },
+    {
+      "resourceId": "NAROW2_2_UNIT",
+      "resourceName": "Narrows Powerhouse Unit 2",
+      "outageType": "Planned/Forced",
+      "capacityMw": 55.0,
+      "curtailedMw": 55.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 174
+    },
+    {
+      "resourceId": "NAVYII_2_UNITS",
+      "resourceName": "COSO POWER DEVELOPER (NAVY II) AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 47.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 175
+    },
+    {
+      "resourceId": "NCPA_7_GP1UN2",
+      "resourceName": "NCPA GEO PLANT 1 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 50.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 176
+    },
+    {
+      "resourceId": "NCPA_7_GP2UN3",
+      "resourceName": "NCPA GEO PLANT 2 UNIT 3",
+      "outageType": "Forced",
+      "capacityMw": 42.42,
+      "curtailedMw": 42.42,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 177
+    },
+    {
+      "resourceId": "NEENCH_6_SOLAR",
+      "resourceName": "Alpine Solar",
+      "outageType": "Forced",
+      "capacityMw": 66.0,
+      "curtailedMw": 5.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 178
+    },
+    {
+      "resourceId": "NORCNV_1_NCVBT1",
+      "resourceName": "North Central Valley",
+      "outageType": "Forced",
+      "capacityMw": 132.0,
+      "curtailedMw": 10.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 179
+    },
+    {
+      "resourceId": "NOVATO_6_LNDFL",
+      "resourceName": "Redwood Renewable Energy",
+      "outageType": "Forced",
+      "capacityMw": 3.9,
+      "curtailedMw": 3.9,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 180
+    },
+    {
+      "resourceId": "NWCSTL_7_UNIT 1",
+      "resourceName": "NEWCASTLE HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 12.0,
+      "curtailedMw": 12.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 181
+    },
+    {
+      "resourceId": "NZWIND_6_CALWND",
+      "resourceName": "Wind Resource I",
+      "outageType": "Forced",
+      "capacityMw": 9.0,
+      "curtailedMw": 9.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 182
+    },
+    {
+      "resourceId": "OAKWD_6_QF",
+      "resourceName": "Oak Creek",
+      "outageType": "Forced",
+      "capacityMw": 27.87,
+      "curtailedMw": 1.35,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 183
+    },
+    {
+      "resourceId": "OASIS_6_AR4SR2",
+      "resourceName": "Arrache 4006 II",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 184
+    },
+    {
+      "resourceId": "OASIS_6_SOLAR1",
+      "resourceName": "Morgan Lancaster I",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 185
+    },
+    {
+      "resourceId": "OCOTLO_6_OCWSB1",
+      "resourceName": "Ocotillo Wells Solar and BESS",
+      "outageType": "Forced",
+      "capacityMw": 49.89,
+      "curtailedMw": 49.89,
+      "zoneName": "IID Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 186
+    },
+    {
+      "resourceId": "OCTILO_5_WIND",
+      "resourceName": "Ocotillo Wind Energy Facility",
+      "outageType": "Forced",
+      "capacityMw": 265.0,
+      "curtailedMw": 35.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 187
+    },
+    {
+      "resourceId": "OGPP_2_OG",
+      "resourceName": "Owens Gorge Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 110.0,
+      "curtailedMw": 16.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 188
+    },
+    {
+      "resourceId": "OGROVE_6_PL1X2",
+      "resourceName": "Orange Grove Energy Center",
+      "outageType": "Planned",
+      "capacityMw": 96.0,
+      "curtailedMw": 96.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 189
+    },
+    {
+      "resourceId": "OILFLD_7_QFUNTS",
+      "resourceName": "Nacimiento Hydroelectric Plant",
+      "outageType": "Forced",
+      "capacityMw": 3.8,
+      "curtailedMw": 3.62,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 190
+    },
+    {
+      "resourceId": "SZWDS_3_SZWX14",
+      "resourceName": "SunZia Wind South",
+      "outageType": "Forced",
+      "capacityMw": 2561.2,
+      "curtailedMw": 76.2,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 191
+    },
+    {
+      "resourceId": "GASKW1_2_GW2BT2",
+      "resourceName": "Gaskell West Alamo BESS",
+      "outageType": "Forced",
+      "capacityMw": 21.62,
+      "curtailedMw": 21.62,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 192
+    },
+    {
+      "resourceId": "GONZAG_6_GNZWD3",
+      "resourceName": "Gonzaga Hybrid Wind",
+      "outageType": "Forced",
+      "capacityMw": 51.85,
+      "curtailedMw": 10.55,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 193
+    },
+    {
+      "resourceId": "INTMNT_3_CC_3_PASADENA",
+      "resourceName": "Intermountain; Unit 3 PASA Share",
+      "outageType": "Forced",
+      "capacityMw": 31.0,
+      "curtailedMw": 31.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 194
+    },
+    {
+      "resourceId": "INTMNT_3_CC_4_PASADENA",
+      "resourceName": "INTMNT_PASA_UNIT4",
+      "outageType": "Forced",
+      "capacityMw": 31.0,
+      "curtailedMw": 31.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 195
+    },
+    {
+      "resourceId": "KSTRGE_1_KEYBT3",
+      "resourceName": "Key Storage 1 A",
+      "outageType": "Forced",
+      "capacityMw": 190.0,
+      "curtailedMw": 190.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 196
+    },
+    {
+      "resourceId": "KSTRGE_1_KEYBT4",
+      "resourceName": "Key Storage 1 B",
+      "outageType": "Forced",
+      "capacityMw": 35.0,
+      "curtailedMw": 35.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 197
+    },
+    {
+      "resourceId": "KSTRGE_1_KEYBX2",
+      "resourceName": "Key Storage 1",
+      "outageType": "Forced",
+      "capacityMw": 75.0,
+      "curtailedMw": 75.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 198
+    },
+    {
+      "resourceId": "LALPAG_1_LALBT1",
+      "resourceName": "Lake Alpaugh Battery Storage",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 3.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 199
+    },
+    {
+      "resourceId": "MULQNY_2_MRWWD1",
+      "resourceName": "Mulqueeney Ranch Wind",
+      "outageType": "Forced",
+      "capacityMw": 80.0,
+      "curtailedMw": 80.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 200
+    },
+    {
+      "resourceId": "OASIS_6_AR4SR1",
+      "resourceName": "Arrache 4006 I",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 201
+    },
+    {
+      "resourceId": "OASIS_6_AR8SR1",
+      "resourceName": "Arrache 8083 I",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 202
+    },
+    {
+      "resourceId": "OASIS_6_AR8SR2",
+      "resourceName": "Arrache 8083 II",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 203
+    },
+    {
+      "resourceId": "OASIS_6_AR8SR3",
+      "resourceName": "Arrache 8083 III",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 204
+    },
+    {
+      "resourceId": "PGCC_1_PDRP24",
+      "resourceName": "VLTS_PDR_PGCC_01",
+      "outageType": "Planned",
+      "capacityMw": 7.0,
+      "curtailedMw": 7.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 205
+    },
+    {
+      "resourceId": "PGCC_1_PDRP60",
+      "resourceName": "VLTS_PDR_PGCC_D",
+      "outageType": "Planned",
+      "capacityMw": 7.0,
+      "curtailedMw": 7.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 206
+    },
+    {
+      "resourceId": "PGEB_2_PDRP107",
+      "resourceName": "VLTS_PDR_PGEB_02",
+      "outageType": "Planned",
+      "capacityMw": 7.5,
+      "curtailedMw": 7.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 207
+    },
+    {
+      "resourceId": "PGEB_2_PDRP111",
+      "resourceName": "VLTS_PDR_PGEB_03",
+      "outageType": "Planned",
+      "capacityMw": 4.0,
+      "curtailedMw": 4.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 208
+    },
+    {
+      "resourceId": "PGEB_2_PDRP93",
+      "resourceName": "VLTS_PDR_PGEB_1",
+      "outageType": "Planned",
+      "capacityMw": 9.0,
+      "curtailedMw": 9.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 209
+    },
+    {
+      "resourceId": "PGF1_2_PDRP108",
+      "resourceName": "VLTS_PDR_PGF1_02",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 210
+    },
+    {
+      "resourceId": "PGF1_2_PDRP111",
+      "resourceName": "VLTS_PDR_PGF1_03",
+      "outageType": "Planned",
+      "capacityMw": 9.9,
+      "curtailedMw": 9.9,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 211
+    },
+    {
+      "resourceId": "PGF1_2_PDRP116",
+      "resourceName": "VLTS_PDR_PGF1_04",
+      "outageType": "Planned",
+      "capacityMw": 9.9,
+      "curtailedMw": 9.9,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 212
+    },
+    {
+      "resourceId": "PGF1_2_PDRP120",
+      "resourceName": "VLTS_PDR_PGF1_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 213
+    },
+    {
+      "resourceId": "PGFG_1_PDRP77",
+      "resourceName": "VLTS_PDR_PGFG_01",
+      "outageType": "Planned",
+      "capacityMw": 5.0,
+      "curtailedMw": 5.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 214
+    },
+    {
+      "resourceId": "PGKN_2_PDRP32",
+      "resourceName": "VLTS_PDR_PGKN_1",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 215
+    },
+    {
+      "resourceId": "PGKN_2_PDRP59",
+      "resourceName": "VLTS_PDR_PGKN_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 216
+    },
+    {
+      "resourceId": "PGNB_2_PDRP101",
+      "resourceName": "VLTS_PDR_PGNB_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 217
+    },
+    {
+      "resourceId": "PGNB_2_PDRP43",
+      "resourceName": "VLTS_PDR_PGNB_02",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 218
+    },
+    {
+      "resourceId": "PGNP_2_PDRP39",
+      "resourceName": "VLTS_PDR_PGNP_02",
+      "outageType": "Planned",
+      "capacityMw": 8.0,
+      "curtailedMw": 8.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 219
+    },
+    {
+      "resourceId": "PGNP_2_PDRP53",
+      "resourceName": "VLTS_PDR_PGNP_04",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 220
+    },
+    {
+      "resourceId": "PGNP_2_PDRP60",
+      "resourceName": "VLTS_PDR_PGNP_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 221
+    },
+    {
+      "resourceId": "PGP2_2_PDRP101",
+      "resourceName": "VLTS_PDR_PGP2_02",
+      "outageType": "Planned",
+      "capacityMw": 5.0,
+      "curtailedMw": 5.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 222
+    },
+    {
+      "resourceId": "PGP2_2_PDRP58",
+      "resourceName": "PGP2_2_PDRP58",
+      "outageType": "Planned",
+      "capacityMw": 5.0,
+      "curtailedMw": 5.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 223
+    },
+    {
+      "resourceId": "PGSB_1_PDRP111",
+      "resourceName": "VLTS_PDR_PGSB_05",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 224
+    },
+    {
+      "resourceId": "PGSB_1_PDRP87",
+      "resourceName": "VLTS_PDR_PGSB_1",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 225
+    },
+    {
+      "resourceId": "PGSB_1_PDRP97",
+      "resourceName": "VLTS_PDR_PGSB_03",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 226
+    },
+    {
+      "resourceId": "PGSF_2_PDRP100",
+      "resourceName": "VLTS_PDR_PGSF_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 227
+    },
+    {
+      "resourceId": "PGSF_2_PDRP49",
+      "resourceName": "VLTS_PDR_PGSF_1",
+      "outageType": "Planned",
+      "capacityMw": 3.5,
+      "curtailedMw": 3.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 228
+    },
+    {
+      "resourceId": "PGSF_2_PDRP58",
+      "resourceName": "VLTS_PDR_PGSF_02",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 229
+    },
+    {
+      "resourceId": "PGSI_1_PDRP100",
+      "resourceName": "VLTS_PDR_PGSI_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 230
+    },
+    {
+      "resourceId": "PGSI_1_PDRP59",
+      "resourceName": "VLTS_PDR_PGSI_03",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 231
+    },
+    {
+      "resourceId": "PGST_2_PDRP40",
+      "resourceName": "VLTS_PDR_PGST_2",
+      "outageType": "Planned",
+      "capacityMw": 3.5,
+      "curtailedMw": 3.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 232
+    },
+    {
+      "resourceId": "PGZP_2_PDRP50",
+      "resourceName": "VLTS_PDR_PGZP_02",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 233
+    },
+    {
+      "resourceId": "PGZP_2_PDRP61",
+      "resourceName": "VLTS_PDR_PGZP_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 234
+    },
+    {
+      "resourceId": "RDWAY_1_SCKSR1",
+      "resourceName": "Sheep Creek",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 235
+    },
+    {
+      "resourceId": "SCARLT_2_SS2SR1",
+      "resourceName": "Scarlet Solar 2 PV",
+      "outageType": "Forced",
+      "capacityMw": 200.0,
+      "curtailedMw": 21.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 236
+    },
+    {
+      "resourceId": "SCARLT_2_SSASR1",
+      "resourceName": "Scarlet Solar CA 1A PV",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 5.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 237
+    },
+    {
+      "resourceId": "SCARLT_2_SSBSR1",
+      "resourceName": "Scarlet Solar CA 1B PV",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 50.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 238
+    },
+    {
+      "resourceId": "SCEN_6_PDRP109",
+      "resourceName": "VLTS_PDR_SCEN_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 239
+    },
+    {
+      "resourceId": "SCHD_1_PDRP70",
+      "resourceName": "VLTS_PDR_SCHD_D",
+      "outageType": "Planned",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 240
+    },
+    {
+      "resourceId": "SCNW_6_PDRP68",
+      "resourceName": "VLTS_PDR_SCNW_03",
+      "outageType": "Planned",
+      "capacityMw": 9.95,
+      "curtailedMw": 9.95,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 241
+    },
+    {
+      "resourceId": "SHANDN_2_SBBBM1",
+      "resourceName": "San Bernardino Biogas",
+      "outageType": "Forced",
+      "capacityMw": 2.6,
+      "curtailedMw": 2.6,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 242
+    },
+    {
+      "resourceId": "HARBGN_7_UNITS",
+      "resourceName": "HARBOR COGEN COMBINED CYCLE",
+      "outageType": "Forced",
+      "capacityMw": 109.01,
+      "curtailedMw": 24.01,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 243
+    },
+    {
+      "resourceId": "HARDWK_6_STWBM1",
+      "resourceName": "Still Water Ranch Dairy",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 244
+    },
+    {
+      "resourceId": "HARGS_1_CC_1_2_5",
+      "resourceName": "Harbor Generating Station Combined Cycle",
+      "outageType": "Planned",
+      "capacityMw": 212.0,
+      "curtailedMw": 212.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 245
+    },
+    {
+      "resourceId": "HARGS_1_UNIT_14",
+      "resourceName": "Harbor Generating Station UNIT 14",
+      "outageType": "Forced",
+      "capacityMw": 44.0,
+      "curtailedMw": 44.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 246
+    },
+    {
+      "resourceId": "HATLOS_6_LSCRK",
+      "resourceName": "Lost Creek 1 &amp; 2 Hydro Conversion",
+      "outageType": "Forced",
+      "capacityMw": 1.7,
+      "curtailedMw": 0.7,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 247
+    },
+    {
+      "resourceId": "HAYGS_2_CC8_9_10",
+      "resourceName": "Haynes Generating Station Combined Cycle",
+      "outageType": "Planned/Forced",
+      "capacityMw": 575.0,
+      "curtailedMw": 575.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 248
+    },
+    {
+      "resourceId": "HAYGS_2_UNIT_1",
+      "resourceName": "Haynes Generating Station UNIT 1",
+      "outageType": "Planned",
+      "capacityMw": 222.0,
+      "curtailedMw": 222.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 249
+    },
+    {
+      "resourceId": "HAYGS_2_UNIT_12",
+      "resourceName": "Haynes Generating Station UNIT 12",
+      "outageType": "Forced",
+      "capacityMw": 96.0,
+      "curtailedMw": 96.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 250
+    },
+    {
+      "resourceId": "HAYGS_2_UNIT_2",
+      "resourceName": "Haynes Generating Station UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 222.0,
+      "curtailedMw": 222.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 251
+    },
+    {
+      "resourceId": "HAYPRS_6_HAYHD1",
+      "resourceName": "Haypress Lower",
+      "outageType": "Forced",
+      "capacityMw": 5.8,
+      "curtailedMw": 5.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 252
+    },
+    {
+      "resourceId": "HAYPRS_6_HAYHD2",
+      "resourceName": "Haypress Middle",
+      "outageType": "Forced",
+      "capacityMw": 6.7,
+      "curtailedMw": 6.7,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 253
+    },
+    {
+      "resourceId": "HELMPG_7_UNIT 1",
+      "resourceName": "HELMS PUMP-GEN UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 407.0,
+      "curtailedMw": 407.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 254
+    },
+    {
+      "resourceId": "HELMPG_7_UNIT 2",
+      "resourceName": "HELMS PUMP-GEN UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 407.0,
+      "curtailedMw": 407.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 255
+    },
+    {
+      "resourceId": "HELMPG_7_UNIT 3",
+      "resourceName": "HELMS PUMP-GEN UNIT 3",
+      "outageType": "Planned",
+      "capacityMw": 404.0,
+      "curtailedMw": 404.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 256
+    },
+    {
+      "resourceId": "HENRTA_6_ELCTG1",
+      "resourceName": "ELECTROLYTE UNIT 1",
+      "outageType": "Planned",
+      "capacityMw": 50.0,
+      "curtailedMw": 50.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 257
+    },
+    {
+      "resourceId": "HENRTA_6_SOLAR1",
+      "resourceName": "Lemoore 1",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.2,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 258
+    },
+    {
+      "resourceId": "HENRTA_6_SOLAR2",
+      "resourceName": "Westside Solar Power PV1",
+      "outageType": "Forced",
+      "capacityMw": 2.0,
+      "curtailedMw": 2.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 259
+    },
+    {
+      "resourceId": "HNTGBH_2_PL1X3",
+      "resourceName": "Huntington Beach Energy",
+      "outageType": "Planned",
+      "capacityMw": 673.8,
+      "curtailedMw": 30.8,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 260
+    },
+    {
+      "resourceId": "HNTGBH_7_UNIT 2",
+      "resourceName": "HUNTINGTON BEACH GEN STA. UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 226.84,
+      "curtailedMw": 226.84,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 261
+    },
+    {
+      "resourceId": "HOOVER_2_LDWP",
+      "resourceName": "Hoover Power Plant - LADWP Share",
+      "outageType": "Forced",
+      "capacityMw": 537.0,
+      "curtailedMw": 299.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 262
+    },
+    {
+      "resourceId": "HUMBPP_1_UNITS3",
+      "resourceName": "Humboldt Bay Generating Station 3",
+      "outageType": "Planned",
+      "capacityMw": 65.08,
+      "curtailedMw": 16.27,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 263
+    },
+    {
+      "resourceId": "HUMBPP_1_UNITS3",
+      "resourceName": "Humboldt Bay Generating Station 3",
+      "outageType": "Planned",
+      "capacityMw": 65.08,
+      "curtailedMw": 16.27,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 264
+    },
+    {
+      "resourceId": "HYTTHM_2_UNITS",
+      "resourceName": "HYATT-THERMALITO PUMP-GEN (AGGREGATE)",
+      "outageType": "Planned/Forced",
+      "capacityMw": 933.1,
+      "curtailedMw": 493.1,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 265
+    },
+    {
+      "resourceId": "INDIGO_1_UNIT 1",
+      "resourceName": "INDIGO PEAKER UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 45.3,
+      "curtailedMw": 4.4,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 266
+    },
+    {
+      "resourceId": "INDIGO_1_UNIT 2",
+      "resourceName": "INDIGO PEAKER UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 45.3,
+      "curtailedMw": 4.4,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 267
+    },
+    {
+      "resourceId": "INDIGO_1_UNIT 3",
+      "resourceName": "INDIGO PEAKER UNIT 3",
+      "outageType": "Forced",
+      "capacityMw": 45.3,
+      "curtailedMw": 4.4,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 268
+    },
+    {
+      "resourceId": "INTGS_3_CC_3",
+      "resourceName": "Intermountain Generating Station UNITS",
+      "outageType": "Forced",
+      "capacityMw": 338.0,
+      "curtailedMw": 338.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 269
+    },
+    {
+      "resourceId": "INTGS_3_CC_4",
+      "resourceName": "Intermountain Generating Station UNITS",
+      "outageType": "Planned",
+      "capacityMw": 338.0,
+      "curtailedMw": 338.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 270
+    },
+    {
+      "resourceId": "INTGS_3_CC_4_UAM",
+      "resourceName": "Intermountain Generating Station UNITS",
+      "outageType": "Planned",
+      "capacityMw": 4.0,
+      "curtailedMw": 4.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 271
+    },
+    {
+      "resourceId": "INTKEP_2_UNITS",
+      "resourceName": "CCSF Hetch_Hetchy Hydro Aggregate",
+      "outageType": "Planned/Forced",
+      "capacityMw": 405.0,
+      "curtailedMw": 309.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 272
+    },
+    {
+      "resourceId": "INTMNT_3_ANAHEIM",
+      "resourceName": "Intermountain Power Project",
+      "outageType": "Forced",
+      "capacityMw": 234.0,
+      "curtailedMw": 234.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 273
+    },
+    {
+      "resourceId": "INTMNT_3_CC_3_ANAHEIM",
+      "resourceName": "Intermountain Generating Station UNITS",
+      "outageType": "Forced",
+      "capacityMw": 67.0,
+      "curtailedMw": 67.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 274
+    },
+    {
+      "resourceId": "INTMNT_3_CC_3_RIVERSIDE",
+      "resourceName": "Intermountain; Unit 3 RVS Share",
+      "outageType": "Forced",
+      "capacityMw": 39.0,
+      "curtailedMw": 39.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 275
+    },
+    {
+      "resourceId": "INTMNT_3_CC_4_ANAHEIM",
+      "resourceName": "Intermountain Generating Station UNITS",
+      "outageType": "Forced",
+      "capacityMw": 67.0,
+      "curtailedMw": 67.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 276
+    },
+    {
+      "resourceId": "INTMNT_3_CC_4_RIVERSIDE",
+      "resourceName": "Intermountain; Unit 4 RVS Share",
+      "outageType": "Planned",
+      "capacityMw": 39.0,
+      "curtailedMw": 39.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 277
+    },
+    {
+      "resourceId": "IVWEST_2_SOLAR1",
+      "resourceName": "Imperial Valley West ( Q # 608)",
+      "outageType": "Forced",
+      "capacityMw": 150.0,
+      "curtailedMw": 66.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 278
+    },
+    {
+      "resourceId": "JACMSR_1_JACSR1",
+      "resourceName": "Jacumba Solar Farm",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 279
+    },
+    {
+      "resourceId": "JAWBNE_2_NSRWND",
+      "resourceName": "North Sky River Wind Project",
+      "outageType": "Forced",
+      "capacityMw": 160.0,
+      "curtailedMw": 3.2,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 280
+    },
+    {
+      "resourceId": "JAWBNE_2_SRWWD2",
+      "resourceName": "Sky River Wind Repower B",
+      "outageType": "Forced",
+      "capacityMw": 30.2,
+      "curtailedMw": 3.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 281
+    },
+    {
+      "resourceId": "JFK_6_UNIT",
+      "resourceName": "Jones Fork Powerhouse",
+      "outageType": "Planned",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 282
+    },
+    {
+      "resourceId": "JFK_6_UNIT",
+      "resourceName": "Jones Fork Powerhouse",
+      "outageType": "Planned",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 283
+    },
+    {
+      "resourceId": "JOHANN_2_OCEBT2",
+      "resourceName": "Orange County Energy Storage 2",
+      "outageType": "Forced",
+      "capacityMw": 9.0,
+      "curtailedMw": 9.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 284
+    },
+    {
+      "resourceId": "JOHANN_2_OCEBT3",
+      "resourceName": "Orange County Energy Storage 3",
+      "outageType": "Forced",
+      "capacityMw": 6.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 285
+    },
+    {
+      "resourceId": "JOHANN_2_T1BBT1",
+      "resourceName": "Titanium 1 BESS",
+      "outageType": "Forced",
+      "capacityMw": 1.4,
+      "curtailedMw": 1.4,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 286
+    },
+    {
+      "resourceId": "KEKAWK_6_UNIT",
+      "resourceName": "STS HYDROPOWER LTD. (KEKAWAKA)",
+      "outageType": "Forced",
+      "capacityMw": 5.5,
+      "curtailedMw": 5.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 287
+    },
+    {
+      "resourceId": "ESNHWR_2_WC1BT1",
+      "resourceName": "Wildcat I BESS",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 288
+    },
+    {
+      "resourceId": "KELSO_2_UNITS",
+      "resourceName": "Mariposa Energy",
+      "outageType": "Forced",
+      "capacityMw": 198.03,
+      "curtailedMw": 9.82,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 289
+    },
+    {
+      "resourceId": "OLIVEP_1_SOLAR",
+      "resourceName": "White River Solar",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 5.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 290
+    },
+    {
+      "resourceId": "SEAWND_2_AMWWD1",
+      "resourceName": "Alta Mesa Wind",
+      "outageType": "Planned/Forced",
+      "capacityMw": 27.0,
+      "curtailedMw": 13.84,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 291
+    },
+    {
+      "resourceId": "SENTNL_2_CTG1",
+      "resourceName": "Sentinel Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 107.68,
+      "curtailedMw": 7.48,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 292
+    },
+    {
+      "resourceId": "SENTNL_2_CTG2",
+      "resourceName": "Sentinel Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 104.19,
+      "curtailedMw": 7.49,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 293
+    },
+    {
+      "resourceId": "SENTNL_2_CTG3",
+      "resourceName": "Sentinel Unit 3",
+      "outageType": "Forced",
+      "capacityMw": 105.69,
+      "curtailedMw": 7.49,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 294
+    },
+    {
+      "resourceId": "SENTNL_2_CTG4",
+      "resourceName": "Sentinel Unit 4",
+      "outageType": "Forced",
+      "capacityMw": 106.55,
+      "curtailedMw": 7.45,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 295
+    },
+    {
+      "resourceId": "SENTNL_2_CTG5",
+      "resourceName": "Sentinel Unit 5",
+      "outageType": "Forced",
+      "capacityMw": 107.52,
+      "curtailedMw": 7.52,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 296
+    },
+    {
+      "resourceId": "SENTNL_2_CTG6",
+      "resourceName": "Sentinel Unit 6",
+      "outageType": "Forced",
+      "capacityMw": 105.0,
+      "curtailedMw": 7.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 297
+    },
+    {
+      "resourceId": "SENTNL_2_CTG7",
+      "resourceName": "Sentinel Unit 7",
+      "outageType": "Planned",
+      "capacityMw": 106.73,
+      "curtailedMw": 106.73,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 298
+    },
+    {
+      "resourceId": "SENTNL_2_CTG8",
+      "resourceName": "Sentinel Unit 8",
+      "outageType": "Forced",
+      "capacityMw": 106.85,
+      "curtailedMw": 7.45,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 299
+    },
+    {
+      "resourceId": "SHASTRD_7_UNITS",
+      "resourceName": "Shasta and Trinity River Division Agg",
+      "outageType": "Planned/Forced",
+      "capacityMw": 1265.0,
+      "curtailedMw": 399.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 300
+    },
+    {
+      "resourceId": "SIGHEB_6_MIRDYN",
+      "resourceName": "Heber South",
+      "outageType": "Forced",
+      "capacityMw": 18.0,
+      "curtailedMw": 5.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 301
+    },
+    {
+      "resourceId": "SISPRG_2_DS3BT1",
+      "resourceName": "Daggett Solar 3 a BESS",
+      "outageType": "Forced",
+      "capacityMw": 61.5,
+      "curtailedMw": 61.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 302
+    },
+    {
+      "resourceId": "SISPRG_2_DS3BT2",
+      "resourceName": "Daggett Solar 3 b BESS",
+      "outageType": "Forced",
+      "capacityMw": 60.0,
+      "curtailedMw": 60.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 303
+    },
+    {
+      "resourceId": "SISPRG_2_DS3BT3",
+      "resourceName": "Daggett Solar 3 cd BESS",
+      "outageType": "Forced",
+      "capacityMw": 12.5,
+      "curtailedMw": 12.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 304
+    },
+    {
+      "resourceId": "SISPRG_2_DS3BT4",
+      "resourceName": "Daggett Solar 3 e BESS",
+      "outageType": "Forced",
+      "capacityMw": 15.0,
+      "curtailedMw": 15.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 305
+    },
+    {
+      "resourceId": "SISPRG_2_DS3SR1",
+      "resourceName": "Daggett Solar 3 a PV",
+      "outageType": "Forced",
+      "capacityMw": 123.0,
+      "curtailedMw": 123.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 306
+    },
+    {
+      "resourceId": "SISPRG_2_DS3SR2",
+      "resourceName": "Daggett Solar 3 b PV",
+      "outageType": "Forced",
+      "capacityMw": 110.0,
+      "curtailedMw": 110.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 307
+    },
+    {
+      "resourceId": "SISPRG_2_DS3SR3",
+      "resourceName": "Daggett Solar 3 cd PV",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 50.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 308
+    },
+    {
+      "resourceId": "SISPRG_2_DS3SR4",
+      "resourceName": "Daggett Solar 3 e PV",
+      "outageType": "Forced",
+      "capacityMw": 17.0,
+      "curtailedMw": 17.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 309
+    },
+    {
+      "resourceId": "SLATE_2_SLASR5",
+      "resourceName": "Slate 5",
+      "outageType": "Forced",
+      "capacityMw": 26.0,
+      "curtailedMw": 1.15,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 310
+    },
+    {
+      "resourceId": "SLRMS3_2_SRMSR1",
+      "resourceName": "SILVER RIDGE MOUNT SIGNAL 3",
+      "outageType": "Forced",
+      "capacityMw": 250.0,
+      "curtailedMw": 137.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 311
+    },
+    {
+      "resourceId": "SLUISP_2_UNITS",
+      "resourceName": "SAN LUIS (GIANELLI) PUMP-GEN (AGGREGATE)",
+      "outageType": "Planned/Forced",
+      "capacityMw": 374.43,
+      "curtailedMw": 125.43,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 312
+    },
+    {
+      "resourceId": "SLYCRK_1_UNIT 1",
+      "resourceName": "SLY CREEK HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 13.0,
+      "curtailedMw": 3.25,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 313
+    },
+    {
+      "resourceId": "SMUDGO_7_UNIT 1",
+      "resourceName": "SONOMA POWER PLANT",
+      "outageType": "Forced",
+      "capacityMw": 64.8,
+      "curtailedMw": 11.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 314
+    },
+    {
+      "resourceId": "SMYRNA_1_DL1SR1",
+      "resourceName": "Delano Land 1",
+      "outageType": "Planned/Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 315
+    },
+    {
+      "resourceId": "SNCLRA_2_HOWLNG",
+      "resourceName": "Houwelings Nurseries Oxnard, Inc",
+      "outageType": "Forced",
+      "capacityMw": 12.71,
+      "curtailedMw": 11.51,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 316
+    },
+    {
+      "resourceId": "SNCLRA_2_SILBT1",
+      "resourceName": "Silverstrand BESS",
+      "outageType": "Planned",
+      "capacityMw": 11.0,
+      "curtailedMw": 11.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 317
+    },
+    {
+      "resourceId": "SNCLRA_2_UNIT",
+      "resourceName": "Channel Islands Power",
+      "outageType": "Forced",
+      "capacityMw": 27.5,
+      "curtailedMw": 27.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 318
+    },
+    {
+      "resourceId": "SNCLRA_2_UNIT1",
+      "resourceName": "New Indy Oxnard",
+      "outageType": "Forced",
+      "capacityMw": 27.8,
+      "curtailedMw": 27.8,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 319
+    },
+    {
+      "resourceId": "SNCLRA_2_VESBT1",
+      "resourceName": "Ventura Energy Storage",
+      "outageType": "Planned/Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 5.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 320
+    },
+    {
+      "resourceId": "SNCLRA_6_PROCGN",
+      "resourceName": "Procter and Gamble Oxnard 2",
+      "outageType": "Forced",
+      "capacityMw": 47.9,
+      "curtailedMw": 47.9,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 321
+    },
+    {
+      "resourceId": "SNMALF_6_UNITS",
+      "resourceName": "Sonoma County Landfill",
+      "outageType": "Planned/Forced",
+      "capacityMw": 5.0,
+      "curtailedMw": 5.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 322
+    },
+    {
+      "resourceId": "SPAULD_6_UNIT12",
+      "resourceName": "SPAULDING HYDRO PH 1 &amp; 2 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 11.4,
+      "curtailedMw": 4.4,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 323
+    },
+    {
+      "resourceId": "SPAULD_6_UNIT12",
+      "resourceName": "SPAULDING HYDRO PH 1 &amp; 2 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 11.4,
+      "curtailedMw": 4.4,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 324
+    },
+    {
+      "resourceId": "SPBURN_2_UNIT 1",
+      "resourceName": "Burney Biomass",
+      "outageType": "Forced",
+      "capacityMw": 22.0,
+      "curtailedMw": 22.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 325
+    },
+    {
+      "resourceId": "SPBURN_2_UNIT 1",
+      "resourceName": "Burney Biomass",
+      "outageType": "Forced",
+      "capacityMw": 22.0,
+      "curtailedMw": 22.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 326
+    },
+    {
+      "resourceId": "SPBURN_7_SNOWMT",
+      "resourceName": "Burney Creek Hydro",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 327
+    },
+    {
+      "resourceId": "SPR1PP_2_SOLAR",
+      "resourceName": "Springbok 1 Power Plant",
+      "outageType": "Planned/Forced",
+      "capacityMw": 114.0,
+      "curtailedMw": 114.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 328
+    },
+    {
+      "resourceId": "SPR2PP_2_SOLAR",
+      "resourceName": "Springbok 2 Power Plant",
+      "outageType": "Planned/Forced",
+      "capacityMw": 157.0,
+      "curtailedMw": 157.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 329
+    },
+    {
+      "resourceId": "SPR3PP_2_SOLAR",
+      "resourceName": "Springbok 3 Power Plant",
+      "outageType": "Planned/Forced",
+      "capacityMw": 91.0,
+      "curtailedMw": 91.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 330
+    },
+    {
+      "resourceId": "SPRGVL_2_TULESC",
+      "resourceName": "TULE RIVER HYDRO PLANT (SCE)",
+      "outageType": "Planned",
+      "capacityMw": 2.5,
+      "curtailedMw": 2.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 331
+    },
+    {
+      "resourceId": "STANTN_2_STAGT1",
+      "resourceName": "Stanton 1",
+      "outageType": "Planned",
+      "capacityMw": 49.65,
+      "curtailedMw": 10.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 332
+    },
+    {
+      "resourceId": "STRAUS_1_STRWD1",
+      "resourceName": "Strauss Wind, LLC",
+      "outageType": "Forced",
+      "capacityMw": 95.25,
+      "curtailedMw": 3.85,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 333
+    },
+    {
+      "resourceId": "STROUD_6_SOLAR",
+      "resourceName": "Stroud Solar Station",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 334
+    },
+    {
+      "resourceId": "SUNRIS_2_PL1X3",
+      "resourceName": "Sunrise Power Project AGGREGATE II",
+      "outageType": "Forced",
+      "capacityMw": 600.0,
+      "curtailedMw": 22.51,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 335
+    },
+    {
+      "resourceId": "SUNSET_2_UNITS",
+      "resourceName": "MIDWAY SUNSET COGENERATION PLANT",
+      "outageType": "Forced",
+      "capacityMw": 248.0,
+      "curtailedMw": 84.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 336
+    },
+    {
+      "resourceId": "SUTTER_2_CISO",
+      "resourceName": "Sutter Power Plant Pseudo-CISO",
+      "outageType": "Planned/Forced",
+      "capacityMw": 275.0,
+      "curtailedMw": 275.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 337
+    },
+    {
+      "resourceId": "SUTTER_2_PSEUDOBANC",
+      "resourceName": "SUTTER_2_PSEUDOBANC",
+      "outageType": "Planned/Forced",
+      "capacityMw": 275.0,
+      "curtailedMw": 275.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 338
+    },
+    {
+      "resourceId": "SZWDN_3_SZWX6",
+      "resourceName": "SunZia Wind North",
+      "outageType": "Forced",
+      "capacityMw": 1089.0,
+      "curtailedMw": 31.5,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 339
+    },
+    {
+      "resourceId": "ESQUON_6_LNDFIL",
+      "resourceName": "Neal Road Landfill Generating Facility",
+      "outageType": "Forced",
+      "capacityMw": 2.1,
+      "curtailedMw": 0.28,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 340
+    },
+    {
+      "resourceId": "EXCHEC_7_UNIT 1",
+      "resourceName": "EXCHEQUER HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 94.5,
+      "curtailedMw": 9.5,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 341
+    },
+    {
+      "resourceId": "FLOWD2_2_FPLWND",
+      "resourceName": "DIABLO WINDS",
+      "outageType": "Forced",
+      "capacityMw": 18.0,
+      "curtailedMw": 5.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 342
+    },
+    {
+      "resourceId": "FMEADO_6_HELLHL",
+      "resourceName": "FMEADO_6_HELLHL",
+      "outageType": "Planned/Forced",
+      "capacityMw": 0.6,
+      "curtailedMw": 0.6,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 343
+    },
+    {
+      "resourceId": "FMEADO_7_UNIT",
+      "resourceName": "FRENCH MEADOWS HYDRO",
+      "outageType": "Planned/Forced",
+      "capacityMw": 16.0,
+      "curtailedMw": 16.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 344
+    },
+    {
+      "resourceId": "FOLSOM_7_UNITS",
+      "resourceName": "Folsom and Nimbus Aggregation",
+      "outageType": "Planned/Forced",
+      "capacityMw": 224.0,
+      "curtailedMw": 124.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 345
+    },
+    {
+      "resourceId": "FORBST_7_UNIT 1",
+      "resourceName": "FORBESTOWN HYDRO",
+      "outageType": "Forced",
+      "capacityMw": 37.5,
+      "curtailedMw": 1.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 346
+    },
+    {
+      "resourceId": "GARNET_1_SOLAR2",
+      "resourceName": "Garnet Solar Power Generation Station 1",
+      "outageType": "Forced",
+      "capacityMw": 4.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 347
+    },
+    {
+      "resourceId": "GARNET_2_HYDRO",
+      "resourceName": "Whitewater Hydro",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 348
+    },
+    {
+      "resourceId": "GATEWY_2_GESBT1",
+      "resourceName": "Gateway Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 250.0,
+      "curtailedMw": 250.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 349
+    },
+    {
+      "resourceId": "GATWAY_2_PL1X3",
+      "resourceName": "GATEWAY GENERATING STATION",
+      "outageType": "Forced",
+      "capacityMw": 585.0,
+      "curtailedMw": 65.7,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 350
+    },
+    {
+      "resourceId": "GEYS11_7_UNIT11",
+      "resourceName": "GEYSERS UNIT 11 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 86.8,
+      "curtailedMw": 7.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 351
+    },
+    {
+      "resourceId": "GEYS12_7_UNIT12",
+      "resourceName": "GEYSERS UNIT 12 (HEALDSBURG)",
+      "outageType": "Planned/Forced",
+      "capacityMw": 57.0,
+      "curtailedMw": 57.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 352
+    },
+    {
+      "resourceId": "GEYS13_7_UNIT13",
+      "resourceName": "GEYSERS UNIT 13 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 73.0,
+      "curtailedMw": 27.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 353
+    },
+    {
+      "resourceId": "GEYS14_7_UNIT14",
+      "resourceName": "GEYSERS UNIT 14 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 70.0,
+      "curtailedMw": 8.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 354
+    },
+    {
+      "resourceId": "GEYS16_7_UNIT16",
+      "resourceName": "GEYSERS UNIT 16 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 63.0,
+      "curtailedMw": 19.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 355
+    },
+    {
+      "resourceId": "GEYS17_7_UNIT17",
+      "resourceName": "GEYSERS UNIT 17 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 75.5,
+      "curtailedMw": 1.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 356
+    },
+    {
+      "resourceId": "GEYS18_7_UNIT18",
+      "resourceName": "GEYSERS UNIT 18 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 72.0,
+      "curtailedMw": 31.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 357
+    },
+    {
+      "resourceId": "GEYS20_7_UNIT20",
+      "resourceName": "GEYSERS UNIT 20 (HEALDSBURG)",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 17.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 358
+    },
+    {
+      "resourceId": "GILROY_1_UNIT",
+      "resourceName": "GILROY COGEN AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 120.0,
+      "curtailedMw": 17.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 359
+    },
+    {
+      "resourceId": "GLDFGR_6_SOLAR1",
+      "resourceName": "Portal Ridge B",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 2.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 360
+    },
+    {
+      "resourceId": "GLNARM_7_UNIT 1",
+      "resourceName": "GLEN ARM UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 22.13,
+      "curtailedMw": 7.13,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 361
+    },
+    {
+      "resourceId": "GLNARM_7_UNIT 4",
+      "resourceName": "GLEN ARM UNIT 4",
+      "outageType": "Forced",
+      "capacityMw": 42.42,
+      "curtailedMw": 4.42,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 362
+    },
+    {
+      "resourceId": "GOLETA_2_PAIBT2",
+      "resourceName": "PAINTER BESS",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 363
+    },
+    {
+      "resourceId": "GOLETA_2_VALBT1",
+      "resourceName": "Vallecito Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 2.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 364
+    },
+    {
+      "resourceId": "GOLETA_6_EXGEN",
+      "resourceName": "EXXON COMPANY USA",
+      "outageType": "Forced",
+      "capacityMw": 48.2,
+      "curtailedMw": 38.2,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 365
+    },
+    {
+      "resourceId": "GRIZLY_1_UNIT 1",
+      "resourceName": "GRIZZLY HYDRO",
+      "outageType": "Planned",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 366
+    },
+    {
+      "resourceId": "GRIZLY_1_UNIT 1",
+      "resourceName": "GRIZZLY HYDRO",
+      "outageType": "Planned",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 367
+    },
+    {
+      "resourceId": "GRSCRK_6_BGCKWW",
+      "resourceName": "BIG CREEK WATER WORKS - CEDAR FLAT",
+      "outageType": "Forced",
+      "capacityMw": 5.0,
+      "curtailedMw": 5.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 368
+    },
+    {
+      "resourceId": "GYS5X6_7_UNITS",
+      "resourceName": "GEYSERS UNITS 5 &amp; 6 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 98.43,
+      "curtailedMw": 16.43,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 369
+    },
+    {
+      "resourceId": "GYS7X8_7_UNITS",
+      "resourceName": "GEYSERS UNITS 7 &amp; 8 AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 95.8,
+      "curtailedMw": 13.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 370
+    },
+    {
+      "resourceId": "GYSRVL_7_WSPRNG",
+      "resourceName": "Warm Springs Hydro",
+      "outageType": "Forced",
+      "capacityMw": 3.75,
+      "curtailedMw": 3.75,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 371
+    },
+    {
+      "resourceId": "HAASPH_7_PL1X2",
+      "resourceName": "HAAS PH UNIT 1 &amp; 2 AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 144.0,
+      "curtailedMw": 72.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 372
+    },
+    {
+      "resourceId": "HAASPH_7_PL1X2",
+      "resourceName": "HAAS PH UNIT 1 &amp; 2 AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 144.0,
+      "curtailedMw": 72.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 373
+    },
+    {
+      "resourceId": "HALSEY_6_UNIT",
+      "resourceName": "HALSEY HYDRO",
+      "outageType": "Planned/Forced",
+      "capacityMw": 13.5,
+      "curtailedMw": 13.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 374
+    },
+    {
+      "resourceId": "OMAR_2_UNIT 1",
+      "resourceName": "KERN RIVER COGENERATION CO. UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 75.0,
+      "curtailedMw": 75.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 375
+    },
+    {
+      "resourceId": "OMAR_2_UNIT 2",
+      "resourceName": "KERN RIVER COGENERATION CO. UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 75.0,
+      "curtailedMw": 75.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 376
+    },
+    {
+      "resourceId": "OMAR_2_UNIT 3",
+      "resourceName": "KERN RIVER COGENERATION CO. UNIT 3",
+      "outageType": "Forced",
+      "capacityMw": 75.0,
+      "curtailedMw": 75.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 377
+    },
+    {
+      "resourceId": "OMAR_2_UNIT 4",
+      "resourceName": "KERN RIVER COGENERATION CO. UNIT 4",
+      "outageType": "Forced",
+      "capacityMw": 75.0,
+      "curtailedMw": 75.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 378
+    },
+    {
+      "resourceId": "ORMOND_7_UNIT 1",
+      "resourceName": "ORMOND BEACH GEN STA. UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 741.27,
+      "curtailedMw": 741.27,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 379
+    },
+    {
+      "resourceId": "ORMOND_7_UNIT 2",
+      "resourceName": "ORMOND BEACH GEN STA. UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 750.0,
+      "curtailedMw": 750.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 380
+    },
+    {
+      "resourceId": "OTMESA_2_PL1X3",
+      "resourceName": "OTAY MESA ENERGY CENTER",
+      "outageType": "Planned/Forced",
+      "capacityMw": 603.68,
+      "curtailedMw": 603.68,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 381
+    },
+    {
+      "resourceId": "OXBOW_6_DRUM",
+      "resourceName": "OXBOW HYDRO",
+      "outageType": "Planned",
+      "capacityMw": 5.8,
+      "curtailedMw": 5.8,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 382
+    },
+    {
+      "resourceId": "PACLUM_6_UNIT",
+      "resourceName": "Humboldt Redwood",
+      "outageType": "Forced",
+      "capacityMw": 28.8,
+      "curtailedMw": 3.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 383
+    },
+    {
+      "resourceId": "PACLUM_6_UNIT",
+      "resourceName": "Humboldt Redwood",
+      "outageType": "Forced",
+      "capacityMw": 28.8,
+      "curtailedMw": 3.8,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 384
+    },
+    {
+      "resourceId": "PADUA_2_ONTARO",
+      "resourceName": "ONTARIO/SIERRA HYDRO PSP",
+      "outageType": "Planned",
+      "capacityMw": 1.92,
+      "curtailedMw": 1.92,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 385
+    },
+    {
+      "resourceId": "PALSEL_6_PLSBT1",
+      "resourceName": "Paulsell Solar Energy Center BESS",
+      "outageType": "Forced",
+      "capacityMw": 15.0,
+      "curtailedMw": 3.34,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 386
+    },
+    {
+      "resourceId": "PANERO_2_MWPWD1",
+      "resourceName": "Mesa Wind Project",
+      "outageType": "Planned",
+      "capacityMw": 30.0,
+      "curtailedMw": 15.43,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 387
+    },
+    {
+      "resourceId": "PARDEB_6_UNITS",
+      "resourceName": "Pardee Power House",
+      "outageType": "Forced",
+      "capacityMw": 30.0,
+      "curtailedMw": 10.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 388
+    },
+    {
+      "resourceId": "PGG_2_PL",
+      "resourceName": "Procter &amp; Gamble CoGen",
+      "outageType": "Planned/Forced",
+      "capacityMw": 126.0,
+      "curtailedMw": 68.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 389
+    },
+    {
+      "resourceId": "PGG_2_PL",
+      "resourceName": "Procter &amp; Gamble CoGen",
+      "outageType": "Planned/Forced",
+      "capacityMw": 126.0,
+      "curtailedMw": 68.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 390
+    },
+    {
+      "resourceId": "PINFLT_7_UNITS",
+      "resourceName": "PINE FLAT HYDRO AGGREGATE",
+      "outageType": "Planned/Forced",
+      "capacityMw": 198.51,
+      "curtailedMw": 198.51,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 391
+    },
+    {
+      "resourceId": "PIOPIC_2_CTG1",
+      "resourceName": "Pio Pico Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 111.3,
+      "curtailedMw": 5.32,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 392
+    },
+    {
+      "resourceId": "PIOPIC_2_CTG2",
+      "resourceName": "Pio Pico Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 112.7,
+      "curtailedMw": 7.1,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 393
+    },
+    {
+      "resourceId": "PIOPIC_2_CTG3",
+      "resourceName": "Pio Pico Unit 3",
+      "outageType": "Forced",
+      "capacityMw": 112.0,
+      "curtailedMw": 6.51,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 394
+    },
+    {
+      "resourceId": "PIT3_7_PL1X3",
+      "resourceName": "PIT PH 3 UNITS 1, 2 &amp; 3 AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 70.6,
+      "curtailedMw": 24.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 395
+    },
+    {
+      "resourceId": "PIT3_7_PL1X3",
+      "resourceName": "PIT PH 3 UNITS 1, 2 &amp; 3 AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 70.6,
+      "curtailedMw": 24.0,
+      "zoneName": "Pit River Area",
+      "balancingArea": "CISO",
+      "sourceRow": 396
+    },
+    {
+      "resourceId": "PIT6_7_UNIT 1",
+      "resourceName": "PIT PH 6 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 39.0,
+      "curtailedMw": 4.2,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 397
+    },
+    {
+      "resourceId": "PIT6_7_UNIT 1",
+      "resourceName": "PIT PH 6 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 39.0,
+      "curtailedMw": 4.2,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 398
+    },
+    {
+      "resourceId": "PIT6_7_UNIT 1",
+      "resourceName": "PIT PH 6 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 39.0,
+      "curtailedMw": 4.2,
+      "zoneName": "Pit River Area",
+      "balancingArea": "CISO",
+      "sourceRow": 399
+    },
+    {
+      "resourceId": "PIT6_7_UNIT 2",
+      "resourceName": "PIT PH 6 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 40.0,
+      "curtailedMw": 5.2,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 400
+    },
+    {
+      "resourceId": "PIT6_7_UNIT 2",
+      "resourceName": "PIT PH 6 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 40.0,
+      "curtailedMw": 5.2,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 401
+    },
+    {
+      "resourceId": "PIT6_7_UNIT 2",
+      "resourceName": "PIT PH 6 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 40.0,
+      "curtailedMw": 5.2,
+      "zoneName": "Pit River Area",
+      "balancingArea": "CISO",
+      "sourceRow": 402
+    },
+    {
+      "resourceId": "PIT7_7_UNIT 1",
+      "resourceName": "PIT PH 7 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 55.7,
+      "curtailedMw": 2.02,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 403
+    },
+    {
+      "resourceId": "PIT7_7_UNIT 1",
+      "resourceName": "PIT PH 7 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 55.7,
+      "curtailedMw": 2.02,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 404
+    },
+    {
+      "resourceId": "PIT7_7_UNIT 1",
+      "resourceName": "PIT PH 7 UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 55.7,
+      "curtailedMw": 2.02,
+      "zoneName": "Pit River Area",
+      "balancingArea": "CISO",
+      "sourceRow": 405
+    },
+    {
+      "resourceId": "PIT7_7_UNIT 2",
+      "resourceName": "PIT PH 7 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 54.6,
+      "curtailedMw": 0.92,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 406
+    },
+    {
+      "resourceId": "PIT7_7_UNIT 2",
+      "resourceName": "PIT PH 7 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 54.6,
+      "curtailedMw": 0.92,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 407
+    },
+    {
+      "resourceId": "PIT7_7_UNIT 2",
+      "resourceName": "PIT PH 7 UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 54.6,
+      "curtailedMw": 0.92,
+      "zoneName": "Pit River Area",
+      "balancingArea": "CISO",
+      "sourceRow": 408
+    },
+    {
+      "resourceId": "PLAINV_6_SOLAR3",
+      "resourceName": "Sierra Solar Greenworks LLC",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 1.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 409
+    },
+    {
+      "resourceId": "PNCHEG_2_PL1X4",
+      "resourceName": "PANOCHE ENERGY CENTER (Aggregated)",
+      "outageType": "Planned/Forced",
+      "capacityMw": 417.0,
+      "curtailedMw": 139.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 410
+    },
+    {
+      "resourceId": "PNCHPP_1_PL1X2",
+      "resourceName": "Midway Peaking Aggregate",
+      "outageType": "Forced",
+      "capacityMw": 119.91,
+      "curtailedMw": 39.12,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 411
+    },
+    {
+      "resourceId": "PNOCHE_1_PL1X2",
+      "resourceName": "Panoche Peaker",
+      "outageType": "Planned",
+      "capacityMw": 49.97,
+      "curtailedMw": 8.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 412
+    },
+    {
+      "resourceId": "POLRIS_2_ASEBT1",
+      "resourceName": "Antelope Solar 2 Estrella BESS",
+      "outageType": "Forced",
+      "capacityMw": 28.0,
+      "curtailedMw": 8.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 413
+    },
+    {
+      "resourceId": "POLRIS_2_ASRBT1",
+      "resourceName": "Antelope Solar 2 Raceway BESS",
+      "outageType": "Forced",
+      "capacityMw": 80.0,
+      "curtailedMw": 13.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 414
+    },
+    {
+      "resourceId": "PP_1_PP",
+      "resourceName": "PP1 UNIT 1A",
+      "outageType": "Planned",
+      "capacityMw": 61.0,
+      "curtailedMw": 45.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 415
+    },
+    {
+      "resourceId": "PTRPP_2_SOLAR",
+      "resourceName": "Pine Tree Solar Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 3.5,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 416
+    },
+    {
+      "resourceId": "PTRPP_2_WIND",
+      "resourceName": "Pine Tree Wind Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 135.0,
+      "curtailedMw": 57.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 417
+    },
+    {
+      "resourceId": "PUTHCR_1_SOLAR1",
+      "resourceName": "Putah Creek Solar Farm",
+      "outageType": "Forced",
+      "capacityMw": 1.98,
+      "curtailedMw": 0.98,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 418
+    },
+    {
+      "resourceId": "PWEST_1_UNIT",
+      "resourceName": "PACIFIC WEST 1 WIND GENERATION",
+      "outageType": "Planned/Forced",
+      "capacityMw": 2.1,
+      "curtailedMw": 2.1,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 419
+    },
+    {
+      "resourceId": "RAMON_2_SCEDYN",
+      "resourceName": "RAMON_2_SCEDYN",
+      "outageType": "Forced",
+      "capacityMw": 8.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 420
+    },
+    {
+      "resourceId": "RATSKE_2_WAVBT1",
+      "resourceName": "Antelope Valley BESS, LLC",
+      "outageType": "Forced",
+      "capacityMw": 125.96,
+      "curtailedMw": 3.22,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 421
+    },
+    {
+      "resourceId": "RDCLD_3_WIND",
+      "resourceName": "Red Cloud Wind Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 331.0,
+      "curtailedMw": 58.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 422
+    },
+    {
+      "resourceId": "RDGPOWER_1_UNIT1",
+      "resourceName": "REDDING GT 1",
+      "outageType": "Forced",
+      "capacityMw": 18.0,
+      "curtailedMw": 2.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 423
+    },
+    {
+      "resourceId": "RDGPOWER_1_UNIT2",
+      "resourceName": "REDDING GT 2",
+      "outageType": "Forced",
+      "capacityMw": 26.0,
+      "curtailedMw": 2.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 424
+    },
+    {
+      "resourceId": "CENTER_6_PEAKER",
+      "resourceName": "Center Peaker",
+      "outageType": "Planned",
+      "capacityMw": 47.3,
+      "curtailedMw": 47.3,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 425
+    },
+    {
+      "resourceId": "CHINO_2_APEBT1",
+      "resourceName": "Pomona Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 1.6,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 426
+    },
+    {
+      "resourceId": "CHINO_2_SOLAR2",
+      "resourceName": "Kona Solar - Terra Francesca",
+      "outageType": "Forced",
+      "capacityMw": 1.49,
+      "curtailedMw": 1.49,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 427
+    },
+    {
+      "resourceId": "CIG_6_PL",
+      "resourceName": "Carson ICE CoGen",
+      "outageType": "Forced",
+      "capacityMw": 61.0,
+      "curtailedMw": 6.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 428
+    },
+    {
+      "resourceId": "CIG_6_PL",
+      "resourceName": "Carson ICE CoGen",
+      "outageType": "Forced",
+      "capacityMw": 61.0,
+      "curtailedMw": 6.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 429
+    },
+    {
+      "resourceId": "CLARIBEL_6_EROCKGEN",
+      "resourceName": "Enchanted Rock Claribel",
+      "outageType": "Forced",
+      "capacityMw": 47.97,
+      "curtailedMw": 47.97,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 430
+    },
+    {
+      "resourceId": "CLOVER_2_UNIT",
+      "resourceName": "Clover Creek",
+      "outageType": "Forced",
+      "capacityMw": 0.99,
+      "curtailedMw": 0.99,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 431
+    },
+    {
+      "resourceId": "CLRMNT_6_CLEBT1",
+      "resourceName": "Clairemont Energy Storage",
+      "outageType": "Planned",
+      "capacityMw": 9.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 432
+    },
+    {
+      "resourceId": "CMBLND_2_DS2BT1",
+      "resourceName": "Daggett 2 a BESS",
+      "outageType": "Forced",
+      "capacityMw": 52.0,
+      "curtailedMw": 52.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 433
+    },
+    {
+      "resourceId": "CMBLND_2_DS2BT2",
+      "resourceName": "Daggett 2 b BESS",
+      "outageType": "Forced",
+      "capacityMw": 33.0,
+      "curtailedMw": 33.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 434
+    },
+    {
+      "resourceId": "CMBLND_2_DS2BT3",
+      "resourceName": "Daggett 2 c BESS",
+      "outageType": "Forced",
+      "capacityMw": 46.0,
+      "curtailedMw": 46.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 435
+    },
+    {
+      "resourceId": "CMBLND_2_DS2SR1",
+      "resourceName": "Daggett 2 a PV",
+      "outageType": "Forced",
+      "capacityMw": 65.0,
+      "curtailedMw": 65.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 436
+    },
+    {
+      "resourceId": "CMBLND_2_DS2SR2",
+      "resourceName": "Daggett 2 b PV",
+      "outageType": "Forced",
+      "capacityMw": 65.0,
+      "curtailedMw": 65.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 437
+    },
+    {
+      "resourceId": "CMBLND_2_DS2SR3",
+      "resourceName": "Daggett 2 c PV",
+      "outageType": "Forced",
+      "capacityMw": 52.0,
+      "curtailedMw": 52.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 438
+    },
+    {
+      "resourceId": "CMRRON_2_CMNWD1",
+      "resourceName": "Cimarron Wind",
+      "outageType": "Planned",
+      "capacityMw": 300.0,
+      "curtailedMw": 9.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 439
+    },
+    {
+      "resourceId": "CMS3PP_5_SOLAR",
+      "resourceName": "Copper Mountain Solar 3",
+      "outageType": "Forced",
+      "capacityMw": 210.0,
+      "curtailedMw": 21.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 440
+    },
+    {
+      "resourceId": "COACHSS_6_COACHLA2",
+      "resourceName": "COACHSS_6_COACHLA2",
+      "outageType": "Planned",
+      "capacityMw": 21.7,
+      "curtailedMw": 21.7,
+      "zoneName": "IID Gen",
+      "balancingArea": "IID",
+      "sourceRow": 441
+    },
+    {
+      "resourceId": "COCOPP_2_CTG1",
+      "resourceName": "Marsh Landing 1",
+      "outageType": "Forced",
+      "capacityMw": 204.2,
+      "curtailedMw": 5.65,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 442
+    },
+    {
+      "resourceId": "COCOPP_2_CTG2",
+      "resourceName": "Marsh Landing 2",
+      "outageType": "Forced",
+      "capacityMw": 202.7,
+      "curtailedMw": 4.99,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 443
+    },
+    {
+      "resourceId": "COCOPP_2_CTG3",
+      "resourceName": "Marsh Landing 3",
+      "outageType": "Forced",
+      "capacityMw": 208.96,
+      "curtailedMw": 11.68,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 444
+    },
+    {
+      "resourceId": "COCOPP_2_CTG4",
+      "resourceName": "Marsh Landing 4",
+      "outageType": "Forced",
+      "capacityMw": 204.29,
+      "curtailedMw": 5.15,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 445
+    },
+    {
+      "resourceId": "COLGAT_7_UNIT 1",
+      "resourceName": "Colgate Powerhouse Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 176.72,
+      "curtailedMw": 176.72,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 446
+    },
+    {
+      "resourceId": "COLGAT_7_UNIT 2",
+      "resourceName": "Colgate Powerhouse Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 175.67,
+      "curtailedMw": 175.67,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 447
+    },
+    {
+      "resourceId": "COLPIN_6_COLLNS",
+      "resourceName": "Collins Pine",
+      "outageType": "Forced",
+      "capacityMw": 3.3,
+      "curtailedMw": 3.3,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 448
+    },
+    {
+      "resourceId": "COLUSA_2_PL1X3",
+      "resourceName": "Colusa Generating Station",
+      "outageType": "Forced",
+      "capacityMw": 641.0,
+      "curtailedMw": 22.3,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 449
+    },
+    {
+      "resourceId": "COLUSA_2_PL1X3",
+      "resourceName": "Colusa Generating Station",
+      "outageType": "Forced",
+      "capacityMw": 641.0,
+      "curtailedMw": 22.3,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 450
+    },
+    {
+      "resourceId": "COLVIL_7_PL1X2",
+      "resourceName": "COLLIERVILLE HYDRO UNIT 1 &amp; 2 AGGREGATE",
+      "outageType": "Planned",
+      "capacityMw": 246.86,
+      "curtailedMw": 120.36,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 451
+    },
+    {
+      "resourceId": "CONTRL_1_CASAD2",
+      "resourceName": "Mammoth G2",
+      "outageType": "Forced",
+      "capacityMw": 10.5,
+      "curtailedMw": 0.3,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 452
+    },
+    {
+      "resourceId": "CONTRL_1_LUNDY",
+      "resourceName": "LUNDY",
+      "outageType": "Forced",
+      "capacityMw": 3.0,
+      "curtailedMw": 3.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 453
+    },
+    {
+      "resourceId": "CONTRL_1_POOLE",
+      "resourceName": "POOLE HYDRO PLANT 1",
+      "outageType": "Planned/Forced",
+      "capacityMw": 11.07,
+      "curtailedMw": 11.07,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 454
+    },
+    {
+      "resourceId": "CONTRL_1_RUSHCK",
+      "resourceName": "RUSH CREEK",
+      "outageType": "Forced",
+      "capacityMw": 12.19,
+      "curtailedMw": 12.19,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 455
+    },
+    {
+      "resourceId": "COVERD_2_HCKHY1",
+      "resourceName": "HATCHET CREEK",
+      "outageType": "Forced",
+      "capacityMw": 6.89,
+      "curtailedMw": 6.89,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 456
+    },
+    {
+      "resourceId": "COVERD_2_RCKHY1",
+      "resourceName": "ROARING CREEK",
+      "outageType": "Forced",
+      "capacityMw": 2.0,
+      "curtailedMw": 2.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 457
+    },
+    {
+      "resourceId": "CPP_2_PL",
+      "resourceName": "Cosumnes Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 612.0,
+      "curtailedMw": 38.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 458
+    },
+    {
+      "resourceId": "CPP_2_PL",
+      "resourceName": "Cosumnes Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 612.0,
+      "curtailedMw": 38.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 459
+    },
+    {
+      "resourceId": "CRELMN_6_RAMSR3",
+      "resourceName": "Ramona Solar Energy",
+      "outageType": "Forced",
+      "capacityMw": 4.32,
+      "curtailedMw": 3.32,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 460
+    },
+    {
+      "resourceId": "CRIMSN_2_CRMBT1",
+      "resourceName": "Crimson",
+      "outageType": "Forced",
+      "capacityMw": 200.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 461
+    },
+    {
+      "resourceId": "CRNEVL_6_SJQN 2",
+      "resourceName": "SAN JOAQUIN 2",
+      "outageType": "Forced",
+      "capacityMw": 3.2,
+      "curtailedMw": 3.2,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 462
+    },
+    {
+      "resourceId": "CRWCKS_1_SOLAR1",
+      "resourceName": "Crow Creek Solar 1",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 463
+    },
+    {
+      "resourceId": "CSCGNR_1_UNIT 1",
+      "resourceName": "GIANERA PEAKER UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 24.75,
+      "curtailedMw": 24.75,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 464
+    },
+    {
+      "resourceId": "CSG_2_PL",
+      "resourceName": "Campbell Soup Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 171.0,
+      "curtailedMw": 1.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 465
+    },
+    {
+      "resourceId": "CSG_2_PL",
+      "resourceName": "Campbell Soup Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 171.0,
+      "curtailedMw": 1.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 466
+    },
+    {
+      "resourceId": "CUMMNG_6_SUNCT1",
+      "resourceName": "SunSelect 1",
+      "outageType": "Forced",
+      "capacityMw": 4.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 467
+    },
+    {
+      "resourceId": "CUYAMS_6_CUYSR1",
+      "resourceName": "Cuyama Solar",
+      "outageType": "Forced",
+      "capacityMw": 40.0,
+      "curtailedMw": 40.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 468
+    },
+    {
+      "resourceId": "KELYRG_6_UNIT",
+      "resourceName": "KELLY RIDGE HYDRO",
+      "outageType": "Planned/Forced",
+      "capacityMw": 11.0,
+      "curtailedMw": 11.0,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 469
+    },
+    {
+      "resourceId": "KERKH2_7_UNIT 1",
+      "resourceName": "KERKHOFF PH 2 UNIT #1",
+      "outageType": "Planned/Forced",
+      "capacityMw": 153.9,
+      "curtailedMw": 153.9,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 470
+    },
+    {
+      "resourceId": "KINGRV_7_UNIT 1",
+      "resourceName": "KINGS RIVER HYDRO UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 51.2,
+      "curtailedMw": 51.2,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 471
+    },
+    {
+      "resourceId": "KIRKER_7_KELCYN",
+      "resourceName": "KELLER CANYON LANDFILL GEN FACILICITY",
+      "outageType": "Forced",
+      "capacityMw": 3.56,
+      "curtailedMw": 2.26,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 472
+    },
+    {
+      "resourceId": "KNGBRD_2_SOLAR1",
+      "resourceName": "Kingbird Solar A",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 473
+    },
+    {
+      "resourceId": "KNGBRD_2_SOLAR2",
+      "resourceName": "Kingbird Solar B",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 474
+    },
+    {
+      "resourceId": "KNGCTY_6_UNITA1",
+      "resourceName": "King City Energy Center, Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 44.6,
+      "curtailedMw": 1.6,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 475
+    },
+    {
+      "resourceId": "KOLA_2_KLBBT2",
+      "resourceName": "Kola BESS 2",
+      "outageType": "Forced",
+      "capacityMw": 125.0,
+      "curtailedMw": 29.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 476
+    },
+    {
+      "resourceId": "KYCORA_6_KMSBT1",
+      "resourceName": "Kearny Mesa Storage",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 0.5,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 477
+    },
+    {
+      "resourceId": "LAMONT_1_SOLAR2",
+      "resourceName": "Redwood Solar Farm 4",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 17.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 478
+    },
+    {
+      "resourceId": "LAPLMA_2_UNIT 1",
+      "resourceName": "La Paloma Generating Plant Unit #1",
+      "outageType": "Forced",
+      "capacityMw": 267.0,
+      "curtailedMw": 18.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 479
+    },
+    {
+      "resourceId": "LAPLMA_2_UNIT 2",
+      "resourceName": "La Paloma Generating Plant Unit #2",
+      "outageType": "Forced",
+      "capacityMw": 266.0,
+      "curtailedMw": 17.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 480
+    },
+    {
+      "resourceId": "LAPLMA_2_UNIT 3",
+      "resourceName": "La Paloma Generating Plant Unit #3",
+      "outageType": "Forced",
+      "capacityMw": 266.0,
+      "curtailedMw": 22.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 481
+    },
+    {
+      "resourceId": "LAPLMA_2_UNIT 4",
+      "resourceName": "LA PALOMA GENERATING PLANT, UNIT #4",
+      "outageType": "Forced",
+      "capacityMw": 267.0,
+      "curtailedMw": 27.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 482
+    },
+    {
+      "resourceId": "LAROA2_2_UNITA1",
+      "resourceName": "LR2",
+      "outageType": "Forced",
+      "capacityMw": 322.0,
+      "curtailedMw": 12.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 483
+    },
+    {
+      "resourceId": "LEBECS_2_UNITS",
+      "resourceName": "Pastoria Energy Facility",
+      "outageType": "Forced",
+      "capacityMw": 799.47,
+      "curtailedMw": 17.47,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 484
+    },
+    {
+      "resourceId": "LECEF_1_UNITS",
+      "resourceName": "LOS ESTEROS ENERGY FACILITY AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 309.84,
+      "curtailedMw": 12.84,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 485
+    },
+    {
+      "resourceId": "LECONT_2_LESBT1",
+      "resourceName": "LeConte Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 125.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 486
+    },
+    {
+      "resourceId": "LEPRFD_1_KANSAS",
+      "resourceName": "Kansas",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 487
+    },
+    {
+      "resourceId": "LITLRK_6_SOLAR1",
+      "resourceName": "Lancaster Little Rock C",
+      "outageType": "Forced",
+      "capacityMw": 5.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 488
+    },
+    {
+      "resourceId": "LITLRK_6_SOLAR2",
+      "resourceName": "Palmdale 18",
+      "outageType": "Forced",
+      "capacityMw": 2.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 489
+    },
+    {
+      "resourceId": "LIVOAK_1_UNIT 1",
+      "resourceName": "LIVE OAK LIMITED",
+      "outageType": "Forced",
+      "capacityMw": 49.7,
+      "curtailedMw": 4.7,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 490
+    },
+    {
+      "resourceId": "LMBEPK_2_UNITA1",
+      "resourceName": "Lambie Energy Center, Unit #1",
+      "outageType": "Forced",
+      "capacityMw": 47.5,
+      "curtailedMw": 6.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 491
+    },
+    {
+      "resourceId": "LMBEPK_2_UNITA2",
+      "resourceName": "Creed Energy Center, Unit #1",
+      "outageType": "Planned/Forced",
+      "capacityMw": 47.6,
+      "curtailedMw": 47.6,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 492
+    },
+    {
+      "resourceId": "LMBEPK_2_UNITA3",
+      "resourceName": "Goose Haven Energy Center, Unit #1",
+      "outageType": "Forced",
+      "capacityMw": 47.75,
+      "curtailedMw": 1.75,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 493
+    },
+    {
+      "resourceId": "LMEC_1_PL1X3",
+      "resourceName": "Los Medanos Energy Center AGGREGATE",
+      "outageType": "Planned/Forced",
+      "capacityMw": 580.0,
+      "curtailedMw": 4.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 494
+    },
+    {
+      "resourceId": "LNL_6_UNIT",
+      "resourceName": "Loon Lake Powerhouse",
+      "outageType": "Planned",
+      "capacityMw": 78.0,
+      "curtailedMw": 78.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 495
+    },
+    {
+      "resourceId": "LNL_6_UNIT",
+      "resourceName": "Loon Lake Powerhouse",
+      "outageType": "Planned",
+      "capacityMw": 78.0,
+      "curtailedMw": 78.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 496
+    },
+    {
+      "resourceId": "LODI25_2_UNIT 1",
+      "resourceName": "LODI GAS TURBINE",
+      "outageType": "Forced",
+      "capacityMw": 25.0,
+      "curtailedMw": 3.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 497
+    },
+    {
+      "resourceId": "LODI25_6_ERKNG1",
+      "resourceName": "LODI STRATEGIC RESERVE",
+      "outageType": "Planned/Forced",
+      "capacityMw": 47.97,
+      "curtailedMw": 47.97,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 498
+    },
+    {
+      "resourceId": "LODIEC_2_PL1X2",
+      "resourceName": "Lodi Energy Center",
+      "outageType": "Forced",
+      "capacityMw": 302.58,
+      "curtailedMw": 27.58,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 499
+    },
+    {
+      "resourceId": "MAGUND_1_BKSSR2",
+      "resourceName": "Bakersfield Solar 1",
+      "outageType": "Forced",
+      "capacityMw": 5.25,
+      "curtailedMw": 2.25,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 500
+    },
+    {
+      "resourceId": "MARSHALL_7_EROCKUNIT1",
+      "resourceName": "EROCK MARSHALL UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 11.7,
+      "curtailedMw": 11.7,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 501
+    },
+    {
+      "resourceId": "MARSHALL_7_EROCKUNIT2",
+      "resourceName": "EROCK MARSHALL UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 11.7,
+      "curtailedMw": 11.7,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 502
+    },
+    {
+      "resourceId": "MARSHALL_7_EROCKUNIT3",
+      "resourceName": "EROCK MARSHALL UNIT 3",
+      "outageType": "Forced",
+      "capacityMw": 11.7,
+      "curtailedMw": 11.7,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 503
+    },
+    {
+      "resourceId": "MARSHALL_7_EROCKUNIT4",
+      "resourceName": "EROCK MARSHALL UNIT 4",
+      "outageType": "Forced",
+      "capacityMw": 11.7,
+      "curtailedMw": 11.7,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 504
+    },
+    {
+      "resourceId": "MCCLURE_1_MGSUNIT1",
+      "resourceName": "McClure Generation Station Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 53.5,
+      "curtailedMw": 53.5,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 505
+    },
+    {
+      "resourceId": "MCCLURE_1_MGSUNIT2",
+      "resourceName": "McClure Generation Station Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 53.5,
+      "curtailedMw": 53.5,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 506
+    },
+    {
+      "resourceId": "TEHAPI_2_PW2WD2",
+      "resourceName": "Point Wind 2",
+      "outageType": "Forced",
+      "capacityMw": 14.4,
+      "curtailedMw": 3.6,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 507
+    },
+    {
+      "resourceId": "TENGEN_2_PL1X2",
+      "resourceName": "Placerita Canyon Cogen",
+      "outageType": "Forced",
+      "capacityMw": 37.7,
+      "curtailedMw": 5.7,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 508
+    },
+    {
+      "resourceId": "TERMEX_2_PL1X3",
+      "resourceName": "TDM",
+      "outageType": "Forced",
+      "capacityMw": 625.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 509
+    },
+    {
+      "resourceId": "TITANS_2_TTSSR1",
+      "resourceName": "Titan Solar 1 Pseudo",
+      "outageType": "Forced",
+      "capacityMw": 70.0,
+      "curtailedMw": 33.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 510
+    },
+    {
+      "resourceId": "TOADTW_6_UNIT",
+      "resourceName": "TOAD TOWN",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 511
+    },
+    {
+      "resourceId": "TOADTW_6_UNIT",
+      "resourceName": "TOAD TOWN",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 512
+    },
+    {
+      "resourceId": "TRNQL8_2_ROJSR1",
+      "resourceName": "Tranquillity 8 Rojo",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 5.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 513
+    },
+    {
+      "resourceId": "TRNQLT_2_RETBT1",
+      "resourceName": "RE Tranquillity BESS",
+      "outageType": "Planned/Forced",
+      "capacityMw": 72.0,
+      "curtailedMw": 72.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 514
+    },
+    {
+      "resourceId": "TRNSWD_1_QF",
+      "resourceName": "FPL Energy C Wind",
+      "outageType": "Forced",
+      "capacityMw": 38.97,
+      "curtailedMw": 38.97,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 515
+    },
+    {
+      "resourceId": "TUPMAN_1_BIOGAS",
+      "resourceName": "ABEC Bidart-Stockale #1",
+      "outageType": "Forced",
+      "capacityMw": 0.6,
+      "curtailedMw": 0.6,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 516
+    },
+    {
+      "resourceId": "ULTPCH_1_UCSBT1",
+      "resourceName": "Ultrapower Chinese Station BESS",
+      "outageType": "Forced",
+      "capacityMw": 9.93,
+      "curtailedMw": 9.93,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 517
+    },
+    {
+      "resourceId": "ULTPFR_1_UNIT 1",
+      "resourceName": "Rio Bravo Fresno",
+      "outageType": "Forced",
+      "capacityMw": 24.3,
+      "curtailedMw": 24.3,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 518
+    },
+    {
+      "resourceId": "UNVRSY_1_UNIT 1",
+      "resourceName": "Berry Cogen 38 - Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 38.0,
+      "curtailedMw": 38.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 519
+    },
+    {
+      "resourceId": "UNV_2_UNIT",
+      "resourceName": "Union Valley Powerhouse",
+      "outageType": "Planned",
+      "capacityMw": 46.0,
+      "curtailedMw": 46.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 520
+    },
+    {
+      "resourceId": "UNV_2_UNIT",
+      "resourceName": "Union Valley Powerhouse",
+      "outageType": "Planned",
+      "capacityMw": 46.0,
+      "curtailedMw": 46.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 521
+    },
+    {
+      "resourceId": "USWND2_1_WIND1",
+      "resourceName": "Golden Hills A",
+      "outageType": "Forced",
+      "capacityMw": 42.96,
+      "curtailedMw": 42.96,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 522
+    },
+    {
+      "resourceId": "USWND2_1_WIND2",
+      "resourceName": "Golden Hills B",
+      "outageType": "Forced",
+      "capacityMw": 42.96,
+      "curtailedMw": 42.96,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 523
+    },
+    {
+      "resourceId": "USWND2_1_WIND3",
+      "resourceName": "Golden Hills C",
+      "outageType": "Forced",
+      "capacityMw": 46.0,
+      "curtailedMw": 46.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 524
+    },
+    {
+      "resourceId": "USWNDR_2_LABWD1",
+      "resourceName": "LaBrisa Wind Project",
+      "outageType": "Forced",
+      "capacityMw": 9.0,
+      "curtailedMw": 1.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 525
+    },
+    {
+      "resourceId": "USWPJR_2_UNITS",
+      "resourceName": "Vasco Wind",
+      "outageType": "Forced",
+      "capacityMw": 78.2,
+      "curtailedMw": 11.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 526
+    },
+    {
+      "resourceId": "VALLEY_5_ORTBT1",
+      "resourceName": "Ortega Grid",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 527
+    },
+    {
+      "resourceId": "VEAVST_1_SOLAR",
+      "resourceName": "Community Solar",
+      "outageType": "Forced",
+      "capacityMw": 14.4,
+      "curtailedMw": 7.2,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 528
+    },
+    {
+      "resourceId": "VEAVST_1_SOLAR",
+      "resourceName": "Community Solar",
+      "outageType": "Forced",
+      "capacityMw": 14.4,
+      "curtailedMw": 7.2,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 529
+    },
+    {
+      "resourceId": "VEDDER_1_SEKERN",
+      "resourceName": "TEXACO EXPLORATION &amp; PROD (SE KERN RIVER",
+      "outageType": "Forced",
+      "capacityMw": 34.47,
+      "curtailedMw": 12.47,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 530
+    },
+    {
+      "resourceId": "VESTAL_6_QF",
+      "resourceName": "Isabella Hydro Dam 1",
+      "outageType": "Forced",
+      "capacityMw": 11.95,
+      "curtailedMw": 11.95,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 531
+    },
+    {
+      "resourceId": "VICPAS_2_SLOBT1",
+      "resourceName": "Sloth BESS",
+      "outageType": "Forced",
+      "capacityMw": 15.0,
+      "curtailedMw": 15.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 532
+    },
+    {
+      "resourceId": "VICTOR_1_EXSLRA",
+      "resourceName": "Expressway Solar A",
+      "outageType": "Forced",
+      "capacityMw": 2.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 533
+    },
+    {
+      "resourceId": "VISTRA_5_PLABT1",
+      "resourceName": "Plano Storage 1",
+      "outageType": "Forced",
+      "capacityMw": 100.4,
+      "curtailedMw": 100.4,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 534
+    },
+    {
+      "resourceId": "VISTRA_5_PLABT2",
+      "resourceName": "Plano Storage 2",
+      "outageType": "Forced",
+      "capacityMw": 100.4,
+      "curtailedMw": 100.4,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 535
+    },
+    {
+      "resourceId": "VISTRA_5_PLABT3",
+      "resourceName": "Plano Storage 3",
+      "outageType": "Forced",
+      "capacityMw": 74.6,
+      "curtailedMw": 74.6,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 536
+    },
+    {
+      "resourceId": "VISTRA_5_PLABT4",
+      "resourceName": "Plano Storage 4",
+      "outageType": "Forced",
+      "capacityMw": 74.6,
+      "curtailedMw": 74.6,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 537
+    },
+    {
+      "resourceId": "VLCNTR_6_VCEBT2",
+      "resourceName": "Valley Center Energy Storage B",
+      "outageType": "Forced",
+      "capacityMw": 85.0,
+      "curtailedMw": 15.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 538
+    },
+    {
+      "resourceId": "VOLTA_7_PONHY1",
+      "resourceName": "Ponderosa Bailey Hydroelectric",
+      "outageType": "Forced",
+      "capacityMw": 1.25,
+      "curtailedMw": 1.25,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 539
+    },
+    {
+      "resourceId": "VSTAES_6_VESBT1",
+      "resourceName": "Vista Energy Storage",
+      "outageType": "Forced",
+      "capacityMw": 40.0,
+      "curtailedMw": 3.5,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 540
+    },
+    {
+      "resourceId": "WALNUTGT_6_UNIT2",
+      "resourceName": "Walnut GT Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 22.0,
+      "curtailedMw": 22.0,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 541
+    },
+    {
+      "resourceId": "WARNE_2_UNIT",
+      "resourceName": "WARNE HYDRO AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 76.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 542
+    },
+    {
+      "resourceId": "WAUKNA_1_SOLAR",
+      "resourceName": "Corcoran Solar",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 13.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 543
+    },
+    {
+      "resourceId": "WESTPT_2_UNIT",
+      "resourceName": "West Point Hydro Plant",
+      "outageType": "Planned",
+      "capacityMw": 14.0,
+      "curtailedMw": 14.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 544
+    },
+    {
+      "resourceId": "SHUTLE_6_RUISR1",
+      "resourceName": "Rutan 1",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 545
+    },
+    {
+      "resourceId": "SHUTLE_6_RUISR2",
+      "resourceName": "Rutan 2",
+      "outageType": "Forced",
+      "capacityMw": 1.5,
+      "curtailedMw": 1.5,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 546
+    },
+    {
+      "resourceId": "SHUTLE_6_RUISR3",
+      "resourceName": "Rutan 3",
+      "outageType": "Forced",
+      "capacityMw": 1.0,
+      "curtailedMw": 1.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 547
+    },
+    {
+      "resourceId": "SIGHEB_6_HE2SCEDYN",
+      "resourceName": "Heber 2",
+      "outageType": "Forced",
+      "capacityMw": 30.0,
+      "curtailedMw": 10.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 548
+    },
+    {
+      "resourceId": "SOL_5_SH3BX2",
+      "resourceName": "Sanborn Hybrid 3 Enterprise 1014 BESS",
+      "outageType": "Forced",
+      "capacityMw": 210.0,
+      "curtailedMw": 160.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 549
+    },
+    {
+      "resourceId": "STANTN_2_SBEBX2",
+      "resourceName": "Stanton Battery Energy Storage",
+      "outageType": "Planned/Forced",
+      "capacityMw": 68.8,
+      "curtailedMw": 2.4,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 550
+    },
+    {
+      "resourceId": "SUNSPT_2_WNBSR2",
+      "resourceName": "Windhub Solar B",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 551
+    },
+    {
+      "resourceId": "TVYVLY_6_KRSHY1",
+      "resourceName": "Kings River Syphon",
+      "outageType": "Forced",
+      "capacityMw": 1.3,
+      "curtailedMw": 1.3,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 552
+    },
+    {
+      "resourceId": "TWINKL_2_ASCSR3",
+      "resourceName": "Aratina Solar Center 2",
+      "outageType": "Forced",
+      "capacityMw": 150.0,
+      "curtailedMw": 150.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 553
+    },
+    {
+      "resourceId": "WRGTSR_2_WSFBT1",
+      "resourceName": "Wright Solar BESS",
+      "outageType": "Forced",
+      "capacityMw": 80.0,
+      "curtailedMw": 80.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 554
+    },
+    {
+      "resourceId": "WSTWND_2_M89BT2",
+      "resourceName": "Mojave 89 BESS 2B",
+      "outageType": "Forced",
+      "capacityMw": 70.6,
+      "curtailedMw": 10.6,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 555
+    },
+    {
+      "resourceId": "WHT_2_UNIT1",
+      "resourceName": "White Rock Powerhouse Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 116.0,
+      "curtailedMw": 8.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 556
+    },
+    {
+      "resourceId": "WHT_2_UNIT1",
+      "resourceName": "White Rock Powerhouse Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 116.0,
+      "curtailedMw": 8.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 557
+    },
+    {
+      "resourceId": "WHT_2_UNIT2",
+      "resourceName": "White Rock Powerhouse Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 133.0,
+      "curtailedMw": 28.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 558
+    },
+    {
+      "resourceId": "WHT_2_UNIT2",
+      "resourceName": "White Rock Powerhouse Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 133.0,
+      "curtailedMw": 28.0,
+      "zoneName": "EIM SMUD",
+      "balancingArea": "BANC",
+      "sourceRow": 559
+    },
+    {
+      "resourceId": "WISE_1_UNIT 1",
+      "resourceName": "Wise Hydro Unit 1",
+      "outageType": "Planned",
+      "capacityMw": 14.5,
+      "curtailedMw": 14.5,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 560
+    },
+    {
+      "resourceId": "WISE_1_UNIT 2",
+      "resourceName": "WISE HYDRO UNIT 2",
+      "outageType": "Planned/Forced",
+      "capacityMw": 3.2,
+      "curtailedMw": 3.2,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 561
+    },
+    {
+      "resourceId": "WISE_1_UNIT 2",
+      "resourceName": "WISE HYDRO UNIT 2",
+      "outageType": "Planned/Forced",
+      "capacityMw": 3.2,
+      "curtailedMw": 3.2,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 562
+    },
+    {
+      "resourceId": "WISHON_6_UNITS",
+      "resourceName": "Wishon/San Joaquin #1-A AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 18.4,
+      "curtailedMw": 13.8,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 563
+    },
+    {
+      "resourceId": "WNDMAS_2_UNIT 1",
+      "resourceName": "BUENA VISTA ENERGY, LLC",
+      "outageType": "Forced",
+      "capacityMw": 38.0,
+      "curtailedMw": 8.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 564
+    },
+    {
+      "resourceId": "WNDSTR_2_WIND",
+      "resourceName": "Windstar",
+      "outageType": "Forced",
+      "capacityMw": 120.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 565
+    },
+    {
+      "resourceId": "WOLFSK_1_UNITA1",
+      "resourceName": "Wolfskill Energy Center",
+      "outageType": "Forced",
+      "capacityMw": 48.68,
+      "curtailedMw": 4.68,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 566
+    },
+    {
+      "resourceId": "WOODLAND_7_WGSUNIT2",
+      "resourceName": "Woodland Generation Station Unit 2",
+      "outageType": "Planned/Forced",
+      "capacityMw": 83.0,
+      "curtailedMw": 83.0,
+      "zoneName": "BANC Gen",
+      "balancingArea": "BANC",
+      "sourceRow": 567
+    },
+    {
+      "resourceId": "WRGTSR_2_WSFSR1",
+      "resourceName": "Wright Solar Freeman",
+      "outageType": "Planned/Forced",
+      "capacityMw": 200.0,
+      "curtailedMw": 200.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 568
+    },
+    {
+      "resourceId": "WSTWND_2_M90WD2",
+      "resourceName": "Mojave 90",
+      "outageType": "Forced",
+      "capacityMw": 64.82,
+      "curtailedMw": 5.25,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 569
+    },
+    {
+      "resourceId": "WSTWND_2_SBSBT1",
+      "resourceName": "Sagebrush Solar 2",
+      "outageType": "Forced",
+      "capacityMw": 80.0,
+      "curtailedMw": 35.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 570
+    },
+    {
+      "resourceId": "YELPIN_2_YP2BT1",
+      "resourceName": "Yellow Pine 2 BESS",
+      "outageType": "Planned",
+      "capacityMw": 65.0,
+      "curtailedMw": 65.0,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 571
+    },
+    {
+      "resourceId": "YELPIN_2_YP2BT2",
+      "resourceName": "Yellow Pine 2 A BESS",
+      "outageType": "Planned",
+      "capacityMw": 53.0,
+      "curtailedMw": 53.0,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 572
+    },
+    {
+      "resourceId": "YELPIN_2_YP2BT3",
+      "resourceName": "Yellow Pine 2 B BESS",
+      "outageType": "Planned",
+      "capacityMw": 32.0,
+      "curtailedMw": 32.0,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 573
+    },
+    {
+      "resourceId": "YELPIN_2_YP2SR1",
+      "resourceName": "Yellow Pine 2",
+      "outageType": "Planned",
+      "capacityMw": 125.0,
+      "curtailedMw": 125.0,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 574
+    },
+    {
+      "resourceId": "YELPIN_2_YP2SR2",
+      "resourceName": "Yellow Pine 2 A PV",
+      "outageType": "Planned",
+      "capacityMw": 60.0,
+      "curtailedMw": 60.0,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 575
+    },
+    {
+      "resourceId": "YELPIN_2_YP2SR3",
+      "resourceName": "Yellow Pine 2 B PV",
+      "outageType": "Planned",
+      "capacityMw": 65.0,
+      "curtailedMw": 65.0,
+      "zoneName": "VEA Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 576
+    },
+    {
+      "resourceId": "YUBACT_6_UNITA1",
+      "resourceName": "Yuba City Energy Center (Calpine)",
+      "outageType": "Forced",
+      "capacityMw": 47.16,
+      "curtailedMw": 2.16,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 577
+    },
+    {
+      "resourceId": "YUBACT_6_UNITA1",
+      "resourceName": "Yuba City Energy Center (Calpine)",
+      "outageType": "Forced",
+      "capacityMw": 47.16,
+      "curtailedMw": 2.16,
+      "zoneName": "PGAE North",
+      "balancingArea": "CISO",
+      "sourceRow": 578
+    },
+    {
+      "resourceId": "YUCCA_1_YUCCGT21",
+      "resourceName": "YUCCA_1_YUCCGT21",
+      "outageType": "Planned",
+      "capacityMw": 21.7,
+      "curtailedMw": 21.7,
+      "zoneName": "IID Gen",
+      "balancingArea": "IID",
+      "sourceRow": 579
+    },
+    {
+      "resourceId": "ZOND_6_UNIT",
+      "resourceName": "ZOND WINDSYSTEMS INC.",
+      "outageType": "Forced",
+      "capacityMw": 17.1,
+      "curtailedMw": 17.1,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 580
+    },
+    {
+      "resourceId": "ARLVAL_5_SMTSR1",
+      "resourceName": "Saddle Mountain Solar",
+      "outageType": "Forced",
+      "capacityMw": 125.0,
+      "curtailedMw": 125.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 581
+    },
+    {
+      "resourceId": "ATLAS2_5_AC5SR5",
+      "resourceName": "Atlas Complex 5 PV",
+      "outageType": "Forced",
+      "capacityMw": 200.0,
+      "curtailedMw": 200.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 582
+    },
+    {
+      "resourceId": "BANKPP_2_NSPIN",
+      "resourceName": "BANKPP_2_NSPIN",
+      "outageType": "Forced",
+      "capacityMw": 270.0,
+      "curtailedMw": 270.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 583
+    },
+    {
+      "resourceId": "CAP_2_NBATTERYU2",
+      "resourceName": "Country Acres N Battery Unit 2",
+      "outageType": "Forced",
+      "capacityMw": 86.2,
+      "curtailedMw": 86.2,
+      "zoneName": "",
+      "balancingArea": "BANC",
+      "sourceRow": 584
+    },
+    {
+      "resourceId": "CAP_2_NSOLARU1",
+      "resourceName": "Country Acres N Solar Unit 1",
+      "outageType": "Forced",
+      "capacityMw": 176.1,
+      "curtailedMw": 176.1,
+      "zoneName": "",
+      "balancingArea": "BANC",
+      "sourceRow": 585
+    },
+    {
+      "resourceId": "CAP_2_SBATTERYU4",
+      "resourceName": "Country Acres S Battery Unit 4",
+      "outageType": "Forced",
+      "capacityMw": 86.2,
+      "curtailedMw": 86.2,
+      "zoneName": "",
+      "balancingArea": "BANC",
+      "sourceRow": 586
+    },
+    {
+      "resourceId": "CAP_2_SSOLARU3",
+      "resourceName": "Country Acres S Solar Unit 3",
+      "outageType": "Forced",
+      "capacityMw": 167.9,
+      "curtailedMw": 167.9,
+      "zoneName": "",
+      "balancingArea": "BANC",
+      "sourceRow": 587
+    },
+    {
+      "resourceId": "CHERRY_2_POMBT1",
+      "resourceName": "Pomegranate",
+      "outageType": "Forced",
+      "capacityMw": 40.0,
+      "curtailedMw": 40.0,
+      "zoneName": "",
+      "balancingArea": "CISO",
+      "sourceRow": 588
+    },
+    {
+      "resourceId": "ADLIN_1_UNITS",
+      "resourceName": "GEYSERS AIDLIN AGGREGATE",
+      "outageType": "Forced",
+      "capacityMw": 22.0,
+      "curtailedMw": 13.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 589
+    },
+    {
+      "resourceId": "ADLSPP_5_SOLAR",
+      "resourceName": "Adelanto Solar Power Plant",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 8.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 590
+    },
+    {
+      "resourceId": "ALAMIT_2_PL1X3",
+      "resourceName": "Alamitos Energy Center Unit 7",
+      "outageType": "Forced",
+      "capacityMw": 674.7,
+      "curtailedMw": 34.7,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 591
+    },
+    {
+      "resourceId": "ALAMIT_7_UNIT 3",
+      "resourceName": "ALAMITOS GEN STA. UNIT 3",
+      "outageType": "Forced",
+      "capacityMw": 326.76,
+      "curtailedMw": 326.76,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 592
+    },
+    {
+      "resourceId": "ALAMIT_7_UNIT 4",
+      "resourceName": "ALAMITOS GEN STA. UNIT 4",
+      "outageType": "Forced",
+      "capacityMw": 334.43,
+      "curtailedMw": 334.43,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 593
+    },
+    {
+      "resourceId": "ALAMIT_7_UNIT 5",
+      "resourceName": "ALAMITOS GEN STA. UNIT 5",
+      "outageType": "Forced",
+      "capacityMw": 480.0,
+      "curtailedMw": 480.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 594
+    },
+    {
+      "resourceId": "ALAMO_6_UNIT",
+      "resourceName": "ALAMO POWER PLANT",
+      "outageType": "Planned",
+      "capacityMw": 17.0,
+      "curtailedMw": 17.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 595
+    },
+    {
+      "resourceId": "ALMASL_2_AL6BT6",
+      "resourceName": "Almasol 6 BES",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 8.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 596
+    },
+    {
+      "resourceId": "ALMEGT_1_UNIT 1",
+      "resourceName": "ALAMEDA GT UNIT 1",
+      "outageType": "Forced",
+      "capacityMw": 25.0,
+      "curtailedMw": 1.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 597
+    },
+    {
+      "resourceId": "ALMEGT_1_UNIT 2",
+      "resourceName": "ALAMEDA GT UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 25.0,
+      "curtailedMw": 1.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 598
+    },
+    {
+      "resourceId": "ALMOND2_1_UNIT4",
+      "resourceName": "Almond Unit 4",
+      "outageType": "Planned",
+      "capacityMw": 53.0,
+      "curtailedMw": 53.0,
+      "zoneName": "TID Gen",
+      "balancingArea": "TIDC",
+      "sourceRow": 599
+    },
+    {
+      "resourceId": "ALPSLR_1_NTHSLR",
+      "resourceName": "Alpaugh North, LLC",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 8.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 600
+    },
+    {
+      "resourceId": "ALPSLR_1_SPSSLR",
+      "resourceName": "Alpaugh 50 LLC",
+      "outageType": "Forced",
+      "capacityMw": 50.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 601
+    },
+    {
+      "resourceId": "ALTA3A_2_CPCE4",
+      "resourceName": "Alta Wind 4",
+      "outageType": "Forced",
+      "capacityMw": 102.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 602
+    },
+    {
+      "resourceId": "ALTA3A_2_CPCE5",
+      "resourceName": "Alta Wind 5",
+      "outageType": "Forced",
+      "capacityMw": 168.0,
+      "curtailedMw": 6.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 603
+    },
+    {
+      "resourceId": "ALTA4A_2_CPCW1",
+      "resourceName": "Alta Wind 1",
+      "outageType": "Forced",
+      "capacityMw": 150.0,
+      "curtailedMw": 1.5,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 604
+    },
+    {
+      "resourceId": "ALTA4B_2_CPCW2",
+      "resourceName": "Alta Wind 2",
+      "outageType": "Forced",
+      "capacityMw": 150.0,
+      "curtailedMw": 12.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 605
+    },
+    {
+      "resourceId": "ALTA4B_2_CPCW3",
+      "resourceName": "Alta Wind 3",
+      "outageType": "Forced",
+      "capacityMw": 150.0,
+      "curtailedMw": 12.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 606
+    },
+    {
+      "resourceId": "ALTA6E_2_WIND10",
+      "resourceName": "Alta Wind 10",
+      "outageType": "Forced",
+      "capacityMw": 134.84,
+      "curtailedMw": 20.84,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 607
+    },
+    {
+      "resourceId": "ANGELA_1_ANGBT1",
+      "resourceName": "Angela BESS",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 2.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 608
+    },
+    {
+      "resourceId": "APXGS_5_CC",
+      "resourceName": "Apex Generating Station Combined Cycle",
+      "outageType": "Forced",
+      "capacityMw": 578.0,
+      "curtailedMw": 85.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 609
+    },
+    {
+      "resourceId": "ATHOS_5_AP2X2",
+      "resourceName": "Athos Power Plant 2",
+      "outageType": "Forced",
+      "capacityMw": 200.0,
+      "curtailedMw": 29.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 610
+    },
+    {
+      "resourceId": "ATLAS2_5_A4BSX2",
+      "resourceName": "Atlas Complex 4B PV",
+      "outageType": "Planned/Forced",
+      "capacityMw": 300.0,
+      "curtailedMw": 300.0,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 611
+    },
+    {
+      "resourceId": "ATLAS2_5_AC6SR6",
+      "resourceName": "Atlas Complex 6 PV",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 100.0,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 612
+    },
+    {
+      "resourceId": "ATLASC_5_ACBBT2",
+      "resourceName": "Atlas Complex 7A BESS",
+      "outageType": "Forced",
+      "capacityMw": 180.0,
+      "curtailedMw": 180.0,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 613
+    },
+    {
+      "resourceId": "ATLASC_5_ACBBT3",
+      "resourceName": "Atlas Complex 7B BESS",
+      "outageType": "Forced",
+      "capacityMw": 120.0,
+      "curtailedMw": 120.0,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 614
+    },
+    {
+      "resourceId": "ATLASC_5_ACBBT4",
+      "resourceName": "Atlas Complex 8A BESS",
+      "outageType": "Forced",
+      "capacityMw": 210.0,
+      "curtailedMw": 210.0,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 615
+    },
+    {
+      "resourceId": "ATLASC_5_ACBBT6",
+      "resourceName": "Atlas Complex 9 BESS",
+      "outageType": "Forced",
+      "capacityMw": 150.0,
+      "curtailedMw": 150.0,
+      "zoneName": "GRIDC Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 616
+    },
+    {
+      "resourceId": "ATWEL2_1_SOLAR1",
+      "resourceName": "Atwell West",
+      "outageType": "Planned",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 617
+    },
+    {
+      "resourceId": "ATWELL_1_SOLAR",
+      "resourceName": "Atwell Island PV Solar Generating Faci.",
+      "outageType": "Planned",
+      "capacityMw": 20.0,
+      "curtailedMw": 20.0,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 618
+    },
+    {
+      "resourceId": "BALCHS_7_UNIT 2",
+      "resourceName": "BALCH 2 PH UNIT 2",
+      "outageType": "Forced",
+      "capacityMw": 52.5,
+      "curtailedMw": 52.5,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 619
+    },
+    {
+      "resourceId": "BARRE_2_ALASB1",
+      "resourceName": "Los Alamitos 1",
+      "outageType": "Forced",
+      "capacityMw": 10.0,
+      "curtailedMw": 1.0,
+      "zoneName": "SDGE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 620
+    },
+    {
+      "resourceId": "BARRE_6_PEAKER",
+      "resourceName": "Barre Peaker",
+      "outageType": "Planned",
+      "capacityMw": 49.0,
+      "curtailedMw": 49.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 621
+    },
+    {
+      "resourceId": "BASICE_2_UNITS",
+      "resourceName": "King City Cogen",
+      "outageType": "Forced",
+      "capacityMw": 120.0,
+      "curtailedMw": 2.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 622
+    },
+    {
+      "resourceId": "BCNPPS2_2_SOLAR",
+      "resourceName": "Beacon Power Plant Site 2",
+      "outageType": "Forced",
+      "capacityMw": 47.0,
+      "curtailedMw": 47.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 623
+    },
+    {
+      "resourceId": "BCNPPS5_2_SOLAR",
+      "resourceName": "Beacon Power Plant Site 5",
+      "outageType": "Forced",
+      "capacityMw": 47.0,
+      "curtailedMw": 11.0,
+      "zoneName": "LADWP Gen",
+      "balancingArea": "LADWP",
+      "sourceRow": 624
+    },
+    {
+      "resourceId": "BDGRCK_1_UNITS",
+      "resourceName": "BADGER CREEK LIMITED",
+      "outageType": "Forced",
+      "capacityMw": 48.08,
+      "curtailedMw": 2.58,
+      "zoneName": "PGAE South",
+      "balancingArea": "CISO",
+      "sourceRow": 625
+    },
+    {
+      "resourceId": "BEARMT_1_UNIT",
+      "resourceName": "Bear Mountain Limited",
+      "outageType": "Forced",
+      "capacityMw": 49.21,
+      "curtailedMw": 1.51,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 626
+    },
+    {
+      "resourceId": "BELDEN_7_UNIT 1",
+      "resourceName": "BELDEN HYDRO",
+      "outageType": "Planned",
+      "capacityMw": 119.0,
+      "curtailedMw": 119.0,
+      "zoneName": "PGAE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 627
+    },
+    {
+      "resourceId": "BGSKYN_2_AS2SR1",
+      "resourceName": "Antelope Solar 2",
+      "outageType": "Forced",
+      "capacityMw": 105.0,
+      "curtailedMw": 50.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 628
+    },
+    {
+      "resourceId": "BGSKYN_2_ASPSR2",
+      "resourceName": "Antelope Solar 2 San Pablo",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 25.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 629
+    },
+    {
+      "resourceId": "BGSKYN_2_ASSR1B",
+      "resourceName": "Antelope Solar 1B",
+      "outageType": "Forced",
+      "capacityMw": 17.0,
+      "curtailedMw": 1.7,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 630
+    },
+    {
+      "resourceId": "BGSKYN_2_ASSR3A",
+      "resourceName": "Antelope Solar 3A",
+      "outageType": "Forced",
+      "capacityMw": 15.0,
+      "curtailedMw": 5.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 631
+    },
+    {
+      "resourceId": "BGSKYN_2_ASSR3B",
+      "resourceName": "Antelope Solar 3B",
+      "outageType": "Forced",
+      "capacityMw": 5.0,
+      "curtailedMw": 2.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 632
+    },
+    {
+      "resourceId": "BGSKYN_2_BS3SR3",
+      "resourceName": "Big Sky Solar 3",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 4.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 633
+    },
+    {
+      "resourceId": "BIGCRK_2_EXESWD",
+      "resourceName": "BIG CREEK HYDRO PROJECT PSP",
+      "outageType": "Planned/Forced",
+      "capacityMw": 820.0,
+      "curtailedMw": 385.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 634
+    },
+    {
+      "resourceId": "BIGSKY_2_AS2BT1",
+      "resourceName": "Antelope Solar 2 LAB",
+      "outageType": "Forced",
+      "capacityMw": 127.0,
+      "curtailedMw": 16.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 635
+    },
+    {
+      "resourceId": "BIGSKY_2_ASLBT2",
+      "resourceName": "Antelope Solar 2 Luna",
+      "outageType": "Forced",
+      "capacityMw": 100.0,
+      "curtailedMw": 3.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 636
+    },
+    {
+      "resourceId": "BIGSKY_2_BSKSR8",
+      "resourceName": "Big Sky Solar 8",
+      "outageType": "Forced",
+      "capacityMw": 20.0,
+      "curtailedMw": 10.0,
+      "zoneName": "SCE Gen",
+      "balancingArea": "CISO",
+      "sourceRow": 637
+    }
+  ],
+  "recordCount": 628,
+  "distinctResources": 587,
+  "resourceIdsWithMultipleRows": 37,
+  "balancingAreaRowCounts": {
+    "CISO": 535,
+    "BANC": 50,
+    "LADWP": 32,
+    "TIDC": 7,
+    "IID": 4
+  },
+  "notes": [
+    "Different zone labels may repeat the same resource; no MW aggregation has been applied.",
+    "Generated time printed in workbook is not a verified first-publication timestamp.",
+    "Contains multiple balancing areas; do not treat all rows as CAISO."
+  ]
+}

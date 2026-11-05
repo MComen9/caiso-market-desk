@@ -1,0 +1,23 @@
+name: 问题反馈
+description: 报告平台、数据或复现问题
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 所属模块
+      options: [共享网页, 数据与来源, 预测与模拟, 工作台API, 构建与部署, 文档]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 页面版本、数据日期或模型版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 操作步骤、预期结果、实际结果
+      description: 可提供截图和报错；不要粘贴凭据或内部交易记录。
+    validations:
+      required: true

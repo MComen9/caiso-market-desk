@@ -1,0 +1,10 @@
+import { createRoot } from 'react-dom/client';
+import MarketApp from './components/market-app';
+import './app/globals.css';
+import './app/market-workspace.css';
+import './app/strategy-lab.css';
+import './app/forecast-lab.css';
+import './app/data-readiness.css';
+const css=document.getElementById('viewer-style') as HTMLLinkElement | null;
+if(css) css.media='all';
+createRoot(document.getElementById('root')!).render(<MarketApp/>);

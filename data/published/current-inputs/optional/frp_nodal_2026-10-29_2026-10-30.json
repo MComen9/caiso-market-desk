@@ -1,0 +1,31 @@
+{
+  "id": "frp_nodal_2026-10-29_2026-10-30",
+  "dataset": "frp_nodal",
+  "startDate": "2026-10-29",
+  "endDateExclusive": "2026-10-30",
+  "url": "https://oasis.caiso.com/oasisapi/GroupZip?resultformat=6&version=1&startdatetime=20261029T07%3A00-0000&enddatetime=20261030T07%3A00-0000&groupid=RTPD_FLEX_RAMP_NODAL_PRC_GRP",
+  "parameters": {
+    "resultformat": "6",
+    "version": "1",
+    "startdatetime": "20261029T07:00-0000",
+    "enddatetime": "20261030T07:00-0000",
+    "groupid": "RTPD_FLEX_RAMP_NODAL_PRC_GRP"
+  },
+  "requestedAt": "2026-10-30T08:29:54.453Z",
+  "status": "unavailable",
+  "publishTimeUtc": null,
+  "vintageEvidence": "current_download_only",
+  "rawFile": "frp_nodal_2026-10-29_2026-10-30.zip",
+  "httpStatus": 200,
+  "lastModified": null,
+  "bytes": 681,
+  "sha256": "c9bf6b84e8e283958c0f8a0633717db2dd6b6d1332eeadd548a1bd1e5fd7117d",
+  "fetchedAt": "2026-10-30T08:29:54.562Z",
+  "error": {
+    "code": "1015",
+    "message": "GroupZip DownLoad is in Processing, Please Submit request after Sometime",
+    "members": [
+      "20261029_20261029_RTPD_FLEX_RAMP_NODAL_PRC_GRP_RTPD_N.xml"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "dataset": "ghg_allowance",
+  "generatedAt": "2026-10-30T07:44:30.133Z",
+  "rows": 180,
+  "fields": [
+    "INTERVALSTARTTIME_GMT",
+    "INTERVALENDTIME_GMT",
+    "GHG_PRC_IDX"
+  ],
+  "download": "/data/data-gaps/ghg_allowance.json.gz",
+  "bytes": 2298,
+  "sha256": "5fab1a39abd907954b2469c32978007eaf96d8e466720e48d291e9f1dee7a4a5",
+  "sampleRows": [
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-03T07:00:00-00:00",
+      "GHG_PRC_IDX": 29.09
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-03T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-04T07:00:00-00:00",
+      "GHG_PRC_IDX": 29.09
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-04T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-05T07:00:00-00:00",
+      "GHG_PRC_IDX": 29.09
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-05T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-06T07:00:00-00:00",
+      "GHG_PRC_IDX": 29.06
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-06T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-07T07:00:00-00:00",
+      "GHG_PRC_IDX": 29.05
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-07T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-08T07:00:00-00:00",
+      "GHG_PRC_IDX": 29.09
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghg_allowance_2026-05-02_2026-06-01",
+      "dataset": "ghg_allowance",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260502T07%3A00-0000&enddatetime=20260601T07%3A00-0000&queryname=PRC_GHG_ALLOWANCE",
+      "fetchedAt": "2026-10-30T07:11:11.047Z",
+      "sha256": "45e09e2cecf1ca1da29c1cf6104b3e9928e9d4b8e70dbc0d8f9b280dafb2ca42",
+      "bytes": 639,
+      "rowCount": 30
+    },
+    {
+      "id": "ghg_allowance_2026-06-01_2026-07-01",
+      "dataset": "ghg_allowance",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260601T07%3A00-0000&enddatetime=20260701T07%3A00-0000&queryname=PRC_GHG_ALLOWANCE",
+      "fetchedAt": "2026-10-30T07:11:59.055Z",
+      "sha256": "10343b561af746bd25150c8cd0a802eb068e4b488611d5531542e8f79d74ab38",
+      "bytes": 639,
+      "rowCount": 30
+    },
+    {
+      "id": "ghg_allowance_2026-07-01_2026-07-31",
+      "dataset": "ghg_allowance",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260701T07%3A00-0000&enddatetime=20260731T07%3A00-0000&queryname=PRC_GHG_ALLOWANCE",
+      "fetchedAt": "2026-10-30T07:12:47.071Z",
+      "sha256": "961027cef6238ff2436d26f847b6051a3cc1ceefb9e294bd09092e8795c9a33a",
+      "bytes": 634,
+      "rowCount": 30
+    },
+    {
+      "id": "ghg_allowance_2026-07-31_2026-08-30",
+      "dataset": "ghg_allowance",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260731T07%3A00-0000&enddatetime=20260830T07%3A00-0000&queryname=PRC_GHG_ALLOWANCE",
+      "fetchedAt": "2026-10-30T07:13:35.068Z",
+      "sha256": "7b7af310736083a6da68a68f6467be508e7417ab1f56731117cffafee4808674",
+      "bytes": 641,
+      "rowCount": 30
+    },
+    {
+      "id": "ghg_allowance_2026-08-30_2026-09-29",
+      "dataset": "ghg_allowance",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260830T07%3A00-0000&enddatetime=20260929T07%3A00-0000&queryname=PRC_GHG_ALLOWANCE",
+      "fetchedAt": "2026-10-30T07:14:23.076Z",
+      "sha256": "c70376416c460c952c8182c042a1147c0663738c72618d122d6599cb41ae0efb",
+      "bytes": 637,
+      "rowCount": 30
+    },
+    {
+      "id": "ghg_allowance_2026-09-29_2026-10-29",
+      "dataset": "ghg_allowance",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260929T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=PRC_GHG_ALLOWANCE",
+      "fetchedAt": "2026-10-30T07:15:11.071Z",
+      "sha256": "9a572c0eab450a93756e9943458cbd305154d6e1a4fc949472ab39e6327b75db",
+      "bytes": 634,
+      "rowCount": 30
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "unit": "USD/metric_ton_CO2e",
+  "classification": "historical_ghg_price_index_current_vintage",
+  "notes": [
+    "OASIS排放配额价格索引；不是节点LMP中的MGHG分量。"
+  ]
+}

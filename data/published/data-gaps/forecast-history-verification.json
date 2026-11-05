@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-30T07:44:49.622Z",
+  "verified": true,
+  "dataset": "official-forecast-history-180d",
+  "compressedFileSha256AtVerification": "79e75cffcd9e3e11f0a3bcd81d433b387f1c60f008f63debcc3a1040b09fe9b6",
+  "normalizedFieldsAndRowsSha256": "c0660da786e0e7c9353a2a83375d047a734c311b6bd90911fd6da90284e9f351",
+  "independentNormalizer": "Existing lib/fundamentals.ts normalizeFundamentalCsv; no import of new Python builder",
+  "normalizerSourceSha256": "d48940cfda7041e5d0c7cfc39c5141b57f25a3cc6420241e0aa4a2f6f03543f2",
+  "intervalSourceSha256": "54e7702619c26463259d453a00a620c13e779448edb9be93f12668f916df2bdf",
+  "utcHours": 4320,
+  "days": 180,
+  "feedHours": 17280,
+  "comparedValues": 51840,
+  "sourceReports": 24,
+  "sourceRows": 493416,
+  "wrongMarketRows": 0,
+  "sourceValuesExactAgreement": true,
+  "derivedValuesWithinTolerance": true,
+  "derivedAbsoluteToleranceMw": 1e-9,
+  "exactNumericAgreement": false,
+  "utcAndPacificAlignment": true,
+  "missingValuesPreserved": true,
+  "nullIssueTimesPreserved": true,
+  "marketAndAreaIsolationChecked": true,
+  "classification": "historical_forecast_values_current_vintage",
+  "causalReplayApproved": false,
+  "datasetResults": [
+    {
+      "id": "load_dam",
+      "market": "DAM",
+      "sourceReports": 6,
+      "sourceRows": 155520,
+      "days": 180,
+      "utcHours": 4320
+    },
+    {
+      "id": "load_2da",
+      "market": "2DA",
+      "sourceReports": 6,
+      "sourceRows": 155520,
+      "days": 180,
+      "utcHours": 4320
+    },
+    {
+      "id": "load_7da",
+      "market": "7DA",
+      "sourceReports": 6,
+      "sourceRows": 155280,
+      "days": 180,
+      "utcHours": 4320
+    },
+    {
+      "id": "renewables_dam",
+      "market": "DAM",
+      "sourceReports": 6,
+      "sourceRows": 27096,
+      "days": 180,
+      "utcHours": 4320
+    }
+  ],
+  "fieldStatistics": {
+    "loadDamMw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "load2daMw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "load7daMw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "solarNp15Mw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 1696,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "solarSp15Mw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 1623,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "solarZp26Mw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 1695,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "windNp15Mw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "windSp15Mw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "windZp26Mw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 4320,
+      "maximumAbsoluteDifferenceMw": 0
+    },
+    "solarCaisoMw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 1599,
+      "exactComparisons": 3770,
+      "maximumAbsoluteDifferenceMw": 3.637978807091713e-12
+    },
+    "windCaisoMw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 0,
+      "zero": 0,
+      "exactComparisons": 3274,
+      "maximumAbsoluteDifferenceMw": 9.094947017729282e-13
+    },
+    "netLoadDamMw": {
+      "compared": 4320,
+      "missing": 0,
+      "negative": 317,
+      "zero": 0,
+      "exactComparisons": 3710,
+      "maximumAbsoluteDifferenceMw": 7.275957614183426e-12
+    }
+  },
+  "sourceHashes": [
+    {
+      "id": "load_dam_2026-05-02_2026-06-01",
+      "dataset": "load_dam",
+      "sha256": "755b24ee0d2f5c80844f675bc18f54732ee254efe278818cf2d3d56fe4b8eb57",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_dam_2026-06-01_2026-07-01",
+      "dataset": "load_dam",
+      "sha256": "f9bc60de139b584fb89d12b58defa38a159a8bd02b3b5b042833839940a5892e",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_dam_2026-07-01_2026-07-31",
+      "dataset": "load_dam",
+      "sha256": "2e5102b5b25265f6742bf79c19288d05782b109cbb0ae4cd01117b4370e9f611",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_dam_2026-07-31_2026-08-30",
+      "dataset": "load_dam",
+      "sha256": "3a6876a11afc1607d791dda23a362c635e99c8a0f40c288e1eb2b65016b6dd7c",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_dam_2026-08-30_2026-09-29",
+      "dataset": "load_dam",
+      "sha256": "9cf6355ee80291039273795ef4aa653aa3e1975f707f2f503bbe6548c3e49f1e",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_dam_2026-09-29_2026-10-29",
+      "dataset": "load_dam",
+      "sha256": "810e938d0ef0389d8ebb5ddd6f9d240be91d8832b65b79e259249c2cd3ef818d",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_2da_2026-05-02_2026-06-01",
+      "dataset": "load_2da",
+      "sha256": "3e4d939c084a80edeed59d90b59909b08fa81b4f639c6ba03288a061230f9221",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_2da_2026-06-01_2026-07-01",
+      "dataset": "load_2da",
+      "sha256": "1eb3321fb4b176ce83270f62e008f4a62dcefb092b55f1156a0959b829ca7b70",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_2da_2026-07-01_2026-07-31",
+      "dataset": "load_2da",
+      "sha256": "86d62a34937dd90140ae83c7899ecf7b86b0695a0f217b09902a2515e9230e16",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_2da_2026-07-31_2026-08-30",
+      "dataset": "load_2da",
+      "sha256": "c3fe69f8fe0ec5de237267e86d169936af258a26b639ee736bd7c1b88ddc2724",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_2da_2026-08-30_2026-09-29",
+      "dataset": "load_2da",
+      "sha256": "0d8901a446c0fea3a01e4bfcd4b8a8d05417379821e297e9eef2adf9c1533485",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_2da_2026-09-29_2026-10-29",
+      "dataset": "load_2da",
+      "sha256": "af5a1718e964ba9c357ad40c704fc82d3b58ad0f05a6dca8e189e8a035c275e1",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_7da_2026-05-02_2026-06-01",
+      "dataset": "load_7da",
+      "sha256": "db45accbf2f54f89d0a35b6fc1a91d26fb61f58c536f4b33a1c41715995cdd7c",
+      "rawRows": 25680
+    },
+    {
+      "id": "load_7da_2026-06-01_2026-07-01",
+      "dataset": "load_7da",
+      "sha256": "9896aabd5c6c31940e204881952296d7e4c0ed7edfd1830bfaf3b11f5dd2f056",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_7da_2026-07-01_2026-07-31",
+      "dataset": "load_7da",
+      "sha256": "fde13374637c372e9030e01ec04415649668d1a3157ddda81d94caaf90a0b0fa",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_7da_2026-07-31_2026-08-30",
+      "dataset": "load_7da",
+      "sha256": "c5b45ee5fb32852dbdd6f5f08dc8c043c5894f9eca9d19f708a7cff5cb4442fa",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_7da_2026-08-30_2026-09-29",
+      "dataset": "load_7da",
+      "sha256": "a3dc68e1e6b561fb4b46c49e2bf4518f9a37154fef08a14ac9ff186c1410f526",
+      "rawRows": 25920
+    },
+    {
+      "id": "load_7da_2026-09-29_2026-10-29",
+      "dataset": "load_7da",
+      "sha256": "b6d0abc0b9341feda1f9e5262a16c3abacee47f3c0cb14048c3ba7a7590d129d",
+      "rawRows": 25920
+    },
+    {
+      "id": "renewables_dam_2026-05-02_2026-06-01",
+      "dataset": "renewables_dam",
+      "sha256": "c2a237a3c18fb33aedba9e37af10e7f7ac8ba6de6eabbc94f814ee7ee08916ba",
+      "rawRows": 4320
+    },
+    {
+      "id": "renewables_dam_2026-06-01_2026-07-01",
+      "dataset": "renewables_dam",
+      "sha256": "9e72922897db2cb668a01bf2b682ce11430f0626bb2bff873ea156e2d559e70c",
+      "rawRows": 4320
+    },
+    {
+      "id": "renewables_dam_2026-07-01_2026-07-31",
+      "dataset": "renewables_dam",
+      "sha256": "3b8f44d75ab939cc9b004c66e82686195261ba7bd29811061018600954fdf60d",
+      "rawRows": 4320
+    },
+    {
+      "id": "renewables_dam_2026-07-31_2026-08-30",
+      "dataset": "renewables_dam",
+      "sha256": "6afe6e516af33aab67cd55efe522d19d00cf6b7f1245fe73e2e65b89c7d90aaf",
+      "rawRows": 4320
+    },
+    {
+      "id": "renewables_dam_2026-08-30_2026-09-29",
+      "dataset": "renewables_dam",
+      "sha256": "918a76d056fd0c687a99033c741dd9093cc2825c5b0f4748a5e00122faf6a0e8",
+      "rawRows": 4776
+    },
+    {
+      "id": "renewables_dam_2026-09-29_2026-10-29",
+      "dataset": "renewables_dam",
+      "sha256": "89aae2eadd8ae89aa213bc8971f47c336b125aecffabbaa8cdff5d4ae5824833",
+      "rawRows": 5040
+    }
+  ],
+  "limitation": "This verifies normalization and archive consistency. Derived sums allow 1e-9 MW for Python/JavaScript floating-point summation differences; source values match exactly. It does not prove original historical publication vintages or make the panel eligible for causal replay."
+}

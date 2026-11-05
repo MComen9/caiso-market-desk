@@ -1,0 +1,29 @@
+{
+  "name": "caiso-market-desk-viewer",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Read-only CAISO market research and forecast snapshots, deployable to GitHub Pages.",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "dev": "node scripts/dev.cjs",
+    "preview": "node scripts/serve.cjs",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run verify",
+    "verify": "node scripts/verify.cjs",
+    "test": "npm run typecheck && node scripts/test-paths.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "1.31.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.0",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}

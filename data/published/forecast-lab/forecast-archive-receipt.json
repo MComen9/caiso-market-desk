@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "caiso-price-forecast-1.0.0+fa6800bacef8",
+  "forecastDate": "2026-10-30",
+  "forecastFileDigest": "1790225618d5bc0ecdce83e070e461bace88a5a97b503a0f9a256d442835dde6",
+  "batchId": "forecast_6863121e-cd60-47c3-8451-2b77eb620096",
+  "platformReceivedAt": "2026-10-29T15:56:04.984Z",
+  "batchDigest": "81e04a74ecffcfdf50804b33492ec08a2fc50cb23b5bc541dc45772002ecfacc",
+  "pointCount": 72,
+  "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+  "receivedBeforeCutoff": true,
+  "runId": "run_270f95c8-95f6-4bbb-8a0d-62ec4340f61c",
+  "runInputDigest": "25d4f06e338596ae8d8260dcdee9efbf459c7ec0c17b84b5951cf23b2c1ec868",
+  "replayIdentical": true,
+  "pythonAndPlatformExpectedPnlMatch": true,
+  "classification": "研究预测归档及模拟；未下单，实际损益为空"
+}

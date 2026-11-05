@@ -1,0 +1,319 @@
+{
+  "checkedAtUtc": "2026-11-05T02:28:49.772991+00:00",
+  "scope": "GitHub migration of the local workbench; no model retraining or remote deployment",
+  "commands": {
+    "npm ci": "passed",
+    "npm run typecheck": "passed",
+    "npm test": "passed; three optional original OASIS ZIP fixtures skipped because they are not shipped",
+    "npm run build": "passed; framework dynamic-import warnings only",
+    "npm run db:init": "passed on local Miniflare only",
+    "python scripts/replay-v4.py": "both frozen results identical",
+    "python research/test_extended_history.py": "passed: 5 existing regression tests",
+    "node scripts/test-local-boundary.mjs": "passed: loopback URLs, remote-header rejection, and CLI remote/tunnel/config override rejection"
+  },
+  "runtime": [
+    {
+      "path": "/api/strategy?resource=catalog",
+      "status": 200,
+      "persistent": true,
+      "priceArchives": 3,
+      "savedRuns": 0
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 12167
+    },
+    {
+      "path": "/api/gridstatus?resource=status",
+      "status": 200,
+      "bytes": 141,
+      "statusPayload": {
+        "configured": false,
+        "status": "not_configured",
+        "message": "尚未配置 GridStatus API Key。CAISO 官方公开数据可正常独立使用。"
+      }
+    },
+    {
+      "path": "/data/forecast-lab/v4/forward-predictions.csv",
+      "status": 200,
+      "bytes": 27106,
+      "rows": 72
+    },
+    {
+      "case": "remote-host-rejected",
+      "status": 403
+    }
+  ],
+  "originalDataFilesVerified": 52,
+  "originalDataBytesVerified": 31396587,
+  "pythonFilesCompiled": 49,
+  "unchangedInputsAndOutputs": [
+    {
+      "path": "data/strategy-bootstrap.json",
+      "bytes": 116174,
+      "sha256": "70ad9f0489f98128ae045b93b2dd31ce9f9a6d1d1e1f5dc4b4ab5cfdd32915b0"
+    },
+    {
+      "path": "data/strategy-history-current.json",
+      "bytes": 3506679,
+      "sha256": "601f0f9454680ab5d1f5dd1893e7fe96e6090bb87ddb2dd3c4a0176f9da2fb2d"
+    },
+    {
+      "path": "data/bootstrap.json",
+      "bytes": 2560095,
+      "sha256": "8544d7db5656d2137b00cd49311c6cc95032a47e443c8cd81cbec95fb5e52f64"
+    },
+    {
+      "path": "data/strategy-history-expanded.json",
+      "bytes": 2974495,
+      "sha256": "e33ff1f227e67041fa64ab280f38de32970ca85c496e0bb5a37bedc2c8ad04a7"
+    },
+    {
+      "path": "data/fundamentals-history-v3.json",
+      "bytes": 1901491,
+      "sha256": "c2ae6cbc795bd401d88081142ee15d0e012c0a96d2e658cd6f1bab65fc7c8876"
+    },
+    {
+      "path": "data/outlook-bootstrap.json",
+      "bytes": 2355943,
+      "sha256": "96554f1dd4dd73952de6667a48d380d5fb124d4bf5c43652a326174938391fb6"
+    },
+    {
+      "path": "data/strategy-history.json",
+      "bytes": 925439,
+      "sha256": "030ca6641f5b31e6dd25ce923a151a10d4a4f691e7984a4a2801f3003d8a9101"
+    },
+    {
+      "path": "data/fundamentals-bootstrap.json",
+      "bytes": 1098882,
+      "sha256": "fad1ebf3d754f1462f06d3382db3fcd590623a25839ed396c94b7f4c06fa6ec1"
+    },
+    {
+      "path": "data/outlook-raw.json",
+      "bytes": 398064,
+      "sha256": "2f33f70ec80b63caa2108e50167dbe7e75ce8ec15cce6e99c1aef8cc4e15d002"
+    },
+    {
+      "path": "data/fundamentals-raw/manifest.json",
+      "bytes": 13745,
+      "sha256": "268c5f8c7ecd4c459813f34daa6043107ef1d86ebc9ba96da3b3a0f6fd6ef077"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/load_2da.zip",
+      "bytes": 8768,
+      "sha256": "f2b718a04c946c313bb9b2c92a6492f23168c70bdd94e96940400cf746bc6315"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/renewables_rtpd.zip",
+      "bytes": 4303,
+      "sha256": "82e4667164a2bca9a0a157a0abe5257e134b27d9f3bba6145ba70ebd805f60dd"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/load_rtpd.zip",
+      "bytes": 5239,
+      "sha256": "b023385be24a2d8ba28e860672fe9cdc9ed4a8d2ec19c8e9f5eb7647fb7b837b"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/renewables_actual.zip",
+      "bytes": 599,
+      "sha256": "41074542b06f82baab5c2aab355d5e3e924dc179091eae716d675868405e07c5"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/renewables_rtd.zip",
+      "bytes": 9789,
+      "sha256": "9a12772a2995cd7c958c81b1491c0b94e7505d509461446deecb24dcf2696525"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/load_dam.zip",
+      "bytes": 8707,
+      "sha256": "bd739e032e160df74da2e7d755ef88e8029e16849bf76f61d8c28d6dbae50dc3"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/load_7da.zip",
+      "bytes": 8768,
+      "sha256": "ead1b9143988676a65cea9e8eed6e7ed33d0fa9c25edaca2a770c02a208af3f5"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/renewables_hasp.zip",
+      "bytes": 695,
+      "sha256": "d9d7e9e3f8eb7b739bc8fd6c98554590a92cd4f9aaa536bcd33fe26b6bae5edf"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/load_actual.zip",
+      "bytes": 1109,
+      "sha256": "ab48c01343d6a567f2659eea7889d153a6c186a2f58b51cfb878c70363483b2c"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/renewables_dam.zip",
+      "bytes": 1908,
+      "sha256": "93e31cefcfd23c9cce4e4ffcb51447f3d89523d1ddd5d34ddaf1e10fbbe2000b"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-29/load_rtd.zip",
+      "bytes": 12716,
+      "sha256": "5242725568fa2a7efe77b28f26ac064cdb23fca5a8ecd0c2ec6c63360b2f8750"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/load_2da.zip",
+      "bytes": 8697,
+      "sha256": "0cf01c3544ead34cc1a6486191cfedccbeb39b2a80f4cb371677720f8ba8353d"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/renewables_rtpd.zip",
+      "bytes": 31361,
+      "sha256": "5d458088e4d230dc5bfe2970937f4e70b8064f511385376b61cb6bbd4c549cfd"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/load_rtpd.zip",
+      "bytes": 34535,
+      "sha256": "1012657839229410ed69aa47aab0278d7b3d8b87d6312fe16d77e45e5a9ace48"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/renewables_actual.zip",
+      "bytes": 2171,
+      "sha256": "cdd9bf9d49787439fb086ca403fc85b5bad0015e77c184365dc61297ddb021dc"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/renewables_rtd.zip",
+      "bytes": 127164,
+      "sha256": "71a7ca59c1947713a2971d4ac55e53b1ffd108311d8ae3946d4c0c39a22db377"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/load_dam.zip",
+      "bytes": 8728,
+      "sha256": "fd876140a12f74066757df59ace7b6bacf7e0e1b6b4cfad355e72aaa05ccbd6a"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/load_7da.zip",
+      "bytes": 8780,
+      "sha256": "58698d60d55dd5ed3918bbd4cd7455397325dabe602739b3690c9d8f152c34d4"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/renewables_hasp.zip",
+      "bytes": 1917,
+      "sha256": "b7efce2fad1eee20ef661d9961dbd8e4d0f919f638edc1163bb1a0ee189b1f9d"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/load_actual.zip",
+      "bytes": 7375,
+      "sha256": "db54e0a82223dec6287e3864b7e1f421b44f581d528d687d65032379f3fc9326"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/renewables_dam.zip",
+      "bytes": 1923,
+      "sha256": "e42bf14014efd6b0078a691f09cc8151033b354382c73dc8a8fbc3f87263f8ff"
+    },
+    {
+      "path": "data/fundamentals-raw/2026-10-28/load_rtd.zip",
+      "bytes": 131050,
+      "sha256": "0ea279d3a9e9d7d24181c56741163906781fd99829fbbae0568efc677294a308"
+    },
+    {
+      "path": "research/output/holdout-fee-1-sensitivity.json",
+      "bytes": 286694,
+      "sha256": "cb556ba6d3eaa411d8ce96229b45f79160a2af29c2759ed6dc7c2d94221708cc"
+    },
+    {
+      "path": "research/output/forward-plan.json",
+      "bytes": 15835,
+      "sha256": "e4e54bb3288a518b54c61eaa156cda077d7f6809f794cf45a21edd93addd1acc"
+    },
+    {
+      "path": "research/output/holdout-simulation.json",
+      "bytes": 286380,
+      "sha256": "1490e644bdc0eca2b4f604eefaabd8d51918e075ae4f83609aca381209a6651e"
+    },
+    {
+      "path": "research/output/embedded-data.json",
+      "bytes": 59276,
+      "sha256": "6452986b9c39c5ea1985740a87008c1dccfd467613156f46ab157da09972848f"
+    },
+    {
+      "path": "research/output/holdout-input.json",
+      "bytes": 782951,
+      "sha256": "36f54f8eb43f1cdf90b0e6fa94fca1d519b46e9f68c517ad94fc590ce6109e54"
+    },
+    {
+      "path": "research/output/forward-cli-result.json",
+      "bytes": 15859,
+      "sha256": "36a2400b947aa8a0c684a41058a6f619cb888bd3190af10b345bc6cf456b5def"
+    },
+    {
+      "path": "research/output-v2/holdout-fee-1-sensitivity.json",
+      "bytes": 80416,
+      "sha256": "15bfc07efc4d3e92334a60268a79199aefb9f506534720502e65e44bb3061dba"
+    },
+    {
+      "path": "research/output-v2/forward-plan.json",
+      "bytes": 1778,
+      "sha256": "924113f501d111dc0ba58f5a6825d9a6b17728eb6b444e489e3b03a747c7aeef"
+    },
+    {
+      "path": "research/output-v2/strategy-comparison.json",
+      "bytes": 6473,
+      "sha256": "d32e5971c59857902f0db757b1c667d933fe5090ae5f87db5c6ea7cf6f7159a0"
+    },
+    {
+      "path": "research/output-v2/rolling-simulation-fee-1.json",
+      "bytes": 1401430,
+      "sha256": "40ce1e419046378c18037a93d1bc4ca6730c3daa7c3a0e4867433d8b4f4d08fd"
+    },
+    {
+      "path": "research/output-v2/holdout-simulation.json",
+      "bytes": 80413,
+      "sha256": "c3ffce5b03ef9e40a76680390fafd8774d65791eedae7d0d881f168bd9b59f1c"
+    },
+    {
+      "path": "research/output-v2/rolling-input.json",
+      "bytes": 7275577,
+      "sha256": "077e5884ef83a35ac0d8eb7b9faf36b9f472ac2c12ef71ae4dc8703a37a5a417"
+    },
+    {
+      "path": "research/output-v2/simulation-summary.json",
+      "bytes": 5548,
+      "sha256": "fbe8d33e9105437abed6d93f70230d01bb23ef9c9cc72c73e94ee23b6f1a6b77"
+    },
+    {
+      "path": "research/output-v2/embedded-data.json",
+      "bytes": 59291,
+      "sha256": "cea19ebdc15fd550dc356f1e738a3b9a66f3dc9aa4cb20b6012eb7a9760d7606"
+    },
+    {
+      "path": "research/output-v2/development-forecast.json",
+      "bytes": 1147397,
+      "sha256": "1b950eac1f8d3c54abf032535549b6b3cdabee2af1dcc2400a0671dfceb9216e"
+    },
+    {
+      "path": "research/output-v2/holdout-input.json",
+      "bytes": 782253,
+      "sha256": "3368604d2ba92d41a1fc65a86eccd553edaa4e374c091e5ec869c35eb4894d0b"
+    },
+    {
+      "path": "research/output-v3/decision-plan-input.json",
+      "bytes": 2244467,
+      "sha256": "7784e39965989b2ef6d0a2041fffaf925120f4a51eac19fe99c34674f4002f1b"
+    },
+    {
+      "path": "research/output-v3/development-ridge-replay.json",
+      "bytes": 76941,
+      "sha256": "86e88aade46ddf817998db928b2b34a6ef6723ca0005186c374401b1900e3ffb"
+    },
+    {
+      "path": "research/output-v3/replay-verification.json",
+      "bytes": 14495,
+      "sha256": "918f6a122bd40cb7d74dd44acb8902b9e2e674a6ea1e5e280cba1822ccf941ab"
+    },
+    {
+      "path": "research/output-v3/rolling-ridge-replay.json",
+      "bytes": 495804,
+      "sha256": "daf392e444042d55c94cca7d60716253c5a2891edbc63b8010d524abda365ae8"
+    }
+  ],
+  "limitations": [
+    "No real-browser visual verification in this subtask.",
+    "No live OASIS/Outlook/GridStatus acquisition performed.",
+    "Local URL/loopback guards are not user authentication.",
+    "No production database copied or connected."
+  ]
+}

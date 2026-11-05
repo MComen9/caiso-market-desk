@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-29T16:44:46.401Z",
+  "complete": true,
+  "startDate": "2026-05-02",
+  "endDate": "2026-10-28",
+  "days": 180,
+  "hourlyRows": 12960,
+  "uniqueKeys": 12960,
+  "originalRowsPreserved": 4032,
+  "originalInputSha256": "030ca6641f5b31e6dd25ce923a151a10d4a4f691e7984a4a2801f3003d8a9101",
+  "archiveDigest": "c052c888b909a8193881665136e0e608960f68c883dcf4f0473f2ba4a6810243",
+  "newRowsIndependentlyMatched": 8928,
+  "rawResponsesVerified": 36,
+  "normalizer": "Existing platform TypeScript lib/analytics.ts independently recomputed all additional hours",
+  "syntheticTestsPassed": 5,
+  "v1InputFileUnchanged": true
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "dataset": "cb_nodes",
+  "generatedAt": "2026-10-30T07:44:31.755Z",
+  "rows": 3568,
+  "fields": [
+    "NODE_ID",
+    "TIE",
+    "CB_START_EFFECTIVE_DATE_GMT",
+    "CB_END_EFFECTIVE_DATE_GMT"
+  ],
+  "download": "/data/data-gaps/cb_nodes.json.gz",
+  "bytes": 23122,
+  "sha256": "ff4dd93731231cda710649c16db274a387783c13cb9e2520cb513366d8d0721a",
+  "sampleRows": [
+    {
+      "NODE_ID": "0096WD_7_N001",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE_GMT": "2025-05-13T07:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "0096WD_7_N002",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE_GMT": "2015-01-15T08:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "2PBLSM34_7_N001",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE_GMT": "2025-05-13T07:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "3EMIDIO_6_N001",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "3EMIDIO_6_N002",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "4C744C12_7_N002",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE_GMT": "2015-01-15T08:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cb_nodes_2026-10-28_2026-10-29",
+      "dataset": "cb_nodes",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=2&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ATL_CBNODE",
+      "fetchedAt": "2026-10-30T07:09:02.924Z",
+      "sha256": "49be04208436c4ffa1f0c55e8995f829f025365fb531bf3d69eeb95e7b8a09c1",
+      "bytes": 26401,
+      "rowCount": 3568
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "classification": "convergence_bidding_node_eligibility_snapshot",
+  "notes": [
+    "资格列表需结合交易日有效期；不代表账户已获交易授权或信用额度。"
+  ]
+}

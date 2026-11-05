@@ -1,0 +1,36 @@
+{
+  "note": "Schema guide only; strings below are type descriptions, not generated results.",
+  "report.json": {
+    "schemaVersion": 1,
+    "experimentId": "string",
+    "modelVersion": "string",
+    "generatedAt": "UTC ISO string",
+    "classification": "historical_reconstruction_and_forward_forecast",
+    "sample": {"startDate": "PT date", "endDate": "PT date", "days": "number", "rows": "number", "nodes": ["string"], "inputSha256": "string", "archiveDigest": "string"},
+    "splits": {"validation": {"startDate": "2026-09-25", "endDate": "2026-10-06", "days": 12}, "calibration": {"startDate": "2026-10-08", "endDate": "2026-10-13", "days": 6}, "holdout": {"startDate": "2026-10-15", "endDate": "2026-10-28", "days": 14}, "purgedDates": ["2026-10-07", "2026-10-14"]},
+    "selectedModels": {"da": {"id": "string", "label": "string", "validationMae": "number", "baselineMae": "number", "improvementPct": "number"}, "spread": {"id": "string", "label": "string", "validationMae": "number", "baselineMae": "number", "improvementPct": "number"}},
+    "candidates": [{"id": "string", "label": "string", "family": "string", "params": {}, "validation": {"da": {"mae": "number", "rmse": "number", "bias": "number", "n": "number"}, "spread": {"mae": "number", "rmse": "number", "bias": "number", "n": "number", "signAccuracy": "0..1|null", "signalRate": "0..1"}}, "calibration": "same metric shape", "holdout": "same metric shape"}],
+    "holdout": {"selected": {"da": "metric object", "spread": "metric object"}, "baseline": {"da": "mean14 metric", "spread": "zero-spread metric"}, "daily": [{"date": "PT date", "daMae": "number", "spreadMae": "number", "signAccuracy": "0..1|null"}], "byNode": [{"node": "string", "da": "metric object", "spread": "metric object"}], "intervals": {"daCoverage80": "0..1", "spreadCoverage80": "0..1", "calibrationDays": 6}},
+    "forecast": {"targetDate": "PT date", "issuedAt": "UTC ISO string", "decisionAsOfUtc": "UTC ISO string", "trainingThrough": "PT date", "trainingEndUtc": "UTC ISO string", "rows": 72, "status": "before_cutoff|missed_cutoff", "url": "/data/forecast-lab/forecast-forward.json"},
+    "method": {"selectionRule": "string", "featureDelayDays": 2, "seed": 42, "featureNames": ["string"], "calibration": "string", "training": "string"},
+    "featureAudit": [{"source": "string", "status": "included|excluded", "reason": "string"}],
+    "warnings": ["string"],
+    "promotionGate": {"status": "research_only|needs_prospective_validation", "passedBaselineChecks": "boolean", "approvedForTrading": false, "summary": "string", "intervalNote": "string", "comparisons": [{"target": "da|spread", "label": "string", "selectedMae": "number", "baselineMae": "number", "improvementPct": "number", "passed": "boolean"}]},
+    "sources": [{"title": "string", "url": "https URL"}],
+    "artifacts": {"forward": "URL", "history": "URL", "walkForward": "URL", "csv": "URL", "models": "URL"}
+  },
+  "forecast-forward.json|forecast-history.json|all-walk-forward.json": {
+    "schemaVersion": 1,
+    "id": "string",
+    "name": "string",
+    "source": "string",
+    "modelVersion": "string",
+    "createdAt": "UTC ISO string",
+    "generatedAt": "UTC ISO string",
+    "digest": "string",
+    "classification": "forward_forecast|historical_reconstruction",
+    "metadata": {"selectedModels": {"da": "candidate id", "spread": "candidate id"}, "inputSha256": "string", "calibrationStart": "2026-10-08", "calibrationEnd": "2026-10-13", "featureDelayDays": 2},
+    "points": [{"node": "string", "startUtc": "UTC ISO string", "endUtc": "UTC ISO string", "localDate": "PT date", "localHour": "HH:00", "utcOffset": "±HH:MM", "predictedDa": "number", "predictedSpread": "number", "predictedFmm": "number", "sigma": "number|null", "issuedAt": "actual current generation UTC, even for historical reconstruction", "decisionAsOfUtc": "theoretical prior-day cutoff UTC", "modelVersion": "string", "trainingEndUtc": "UTC ISO string", "sampleCount": "number", "calibrationCount": "number", "daLow80": "number|null", "daHigh80": "number|null", "spreadLow80": "number|null", "spreadHigh80": "number|null", "actualDa": "number|null", "actualFmm": "number|null", "actualSpread": "number|null", "split": "warmup|validation|calibration|purge|holdout|forward", "classification": "historical_reconstruction|forward_forecast"}],
+    "warnings": ["string"]
+  }
+}

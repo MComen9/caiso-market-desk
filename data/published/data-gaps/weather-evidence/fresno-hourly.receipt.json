@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://api.weather.gov/gridpoints/HNX/52,100/forecast/hourly",
+  "fetchedAtUtc": "2026-10-30T07:05:29.300075+00:00",
+  "httpStatus": 200,
+  "contentType": "application/geo+json",
+  "lastModified": "Fri, 30 Oct 2026 06:59:58 GMT",
+  "bytes": 162688,
+  "sha256": "d93bf733ee338b83149027ed47c9796f6f9e0326aa32fea20066a05f59caf48b"
+}

@@ -1,0 +1,392 @@
+The information submitted by reporting entities is preliminary data and is made available "as-is" by EIA. Neither EIA nor reporting entities are responsible for reliance on the data for any specific use.
+For more details see: About the EIA-930 data
+Column | Description
+BA | 2-4 letter code that identifies the balancing authority
+
+UTC time | The end of the hour in Coordinated Universal Time (UTC) 
+
+Local date | The date (using local time zone) for which data has been reported
+
+Hour | The hour number for the day.  Hour 1 corresponds to the time period 12:00 AM - 1:00 AM
+
+Data issue | 1 indicates there is a data issue that has been flagged that requires attention.
+0 indicates no issues have been flagged.
+
+Local time | The end of the hour in local time
+
+Time zone | The local time zone
+
+Generation only? |  Y indicates the balancing authority is a generation-only BA. Generation-only BAs consist of a power plant or group of power plants and do not directly serve retail customers. Therefore, they only report net generation and interchange and do not report demand or demand forecasts. 
+
+Demand forecast | Each BA produces a day-ahead electricity demand forecast for every hour of the next day. These forecasts help BAs plan for and coordinate the reliable operation of their electric system on the following day. This column displays the actual data reported to EIA in MWh.
+
+Demand | Demand is a calculated value representing the amount of electricity load within the balancing authority’s electric system. A BA derives its demand value by taking the total metered net electricity generation within its electric system and subtracting the total metered net electricity interchange occurring between the BA and its neighboring BAs; electricity that is stored using an energy storage technology is reported as negative generation resulting in a reduced demand.  This column reflects the actual data reported to EIA in MWh. 
+
+Net generation | The metered output of electric generating units in the balancing authority’s electric system. This generation only includes generating units that are managed by the balancing authority or whose operations are visible to the balancing authority; electricity that is stored using an energy storage technology is reported as negative generation.  This column reflects the actual data reported to EIA in MWh.
+
+Total interchange | The net metered tie line flow from one BA to another directly interconnected BA. Total net interchange is the net sum of all interchange occurring between a BA and it's directly interconnected neighboring BAs.  Negative interchange values indicate net inflows, and positive interchange values indicate net outflows.  This column displays the actual data reported to EIA in MWh.
+
+Imputed demand | EIA imputes for anomalous values for total demand if the value is missing or reported as negative, zero, or at least 1.5 times greater than the maximum of past total demand values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Imputed net generation | EIA imputes for anomalous values for total net generation (NG) if the value is missing or if the value is as at least 1.5 times greater than the maximum of past positive net generation values reported by that BA or at least 1.5 times less than the minimum of past negative net generation values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Imputed total interchange | EIA imputes for anomalous values for total interchange if the value is as at least 1.5 times greater than the maximum of past positive total interchange values reported by that BA or at least 1.5 times less than the minimum of past negative total interchange values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Adjusted demand | This column displays the demand reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed demand.
+
+Adjusted net generation | This column displays the net generation reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed net generation.
+
+Adjusted total interchange | This column displays the total interchange reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed total interchange.
+
+DF | Demand forecast (DF): Each BA produces a day-ahead electricity demand forecast for every hour of the next day. These forecasts help BAs plan for and coordinate the reliable operation of their electric system on the following day. This column displays the actual data reported to EIA in MWh.
+
+D | Demand (D): A calculated value representing the amount of electricity load within the balancing authority’s electric system. A BA derives its demand value by taking the total metered net electricity generation within its electric system and subtracting the total metered net electricity interchange occurring between the BA and its neighboring BAs. This column displays the actual data reported to EIA in MWh. 
+
+NG | Net generation (NG): the metered output of electric generating units in the balancing authority’s electric system. This generation only includes generating units that are managed by the balancing authority or whose operations are visible to the balancing authority.  This column displays the actual data reported to EIA in MWh.
+
+TI | Total interchange (TI): the net metered tie line flow from one BA to another directly interconnected BA. Total net interchange is the net sum of all interchange occurring between a BA and it's directly interconnected neighboring BAs.  Negative interchange values indicate net inflows, and positive interchange values indicate net outflows.  This column displays the actual data reported to EIA in MWh.
+
+DS | Demand used to store energy (DS): This value represents the portion of total hourly demand that was used to store energy.  Respondents are not required to report this field.  EIA encourages respondents to report the energy storage as a negative contribution to net generation, but when respondents are unable to account for energy as negative generation, they must report the portion of total hourly demand that was used to store energy.
+
+Missing DIBA | 1 indicates that interchange with at least one directly interconnected balancing authority (DIBA) was not reported.
+0 indicates there is no missing interchange.
+
+Missing NG by energy source | 1 indicates that the detailed mix of net generation (NG) by energy source was required to be reported but is missing.
+0 indicates there is no missing generation data.  
+(Note: Balancing authorities were not required to report generation by energy source prior to July 1, 2018.)
+
+Missing D by subregion | 1 indicates that subregional demand (D) was required to be reported but is missing.
+0 indicates there is no missing subregional data.
+(Note: Only balancing authorities that calculate subregional demand during the normal course of business are required to report subregional demand.  Balancing authorities were not required to report subregional demand prior to July 1, 2018.)
+
+DF range error | This column indicates hours in which the demand forecast (DF) appears to be out of a reasonable range of expected values.
+
+D range error | This column indicates hours in which the demand (D) appears to be out of a reasonable range of expected values.
+
+NG range error | This column indicates hours in which the net generation (NG) appears to be out of a reasonable range of expected values.
+
+TI range error | This column indicates hours in which the total interchange (TI) appears to be out of a reasonable range of expected values.
+
+DS range error | This column indicates hours in which the demand used to store energy (DS) appears to be out of a reasonable range of expected values.
+
+Imputed D | EIA imputes for anomalous values for total demand (D) if the value is missing or reported as negative, zero, or at least 1.5 times greater than the maximum of past total demand values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Imputed NG | EIA imputes for anomalous values for total net generation (NG) if the value is missing or if the value is at least 1.5 times greater than the maximum of past positive net generation values reported by that BA or at least 1.5 times less than the minimum of past negative net generation values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Imputed TI | EIA imputes for anomalous values for total interchange (TI) if the value is as at least 1.5 times greater than the maximum of past positive total interchange values reported by that BA or at least 1.5 times less than the minimum of past negative total interchange values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Imputed DS | EIA imputes for anomalous values for demand used to store energy (DS) if the value is at least 1.5 times greater than the maximum of past total demand values reported by that BA. This column displays imputed values in MWh when they are made.
+
+Adjusted D | This column displays the demand (D) reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed demand.
+
+Adjusted NG | This column displays the net generation (NG) reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed net generation.
+
+Adjusted TI | This column displays the total interchange (TI) reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed total interchange.
+
+Adjusted DS | This column displays the demand used to store energy (DS) reported by the balancing authority in MWh unless imputation was required. When imputation was required, this column displays the imputed total interchange.
+
+Balance NG D TI | This column indicates when there is an imbalance between the reported net generation (NG), demand (D), and total interchange (TI).  Normally NG = D + TI. When there is an imbalance, this column displays NG - (D + TI). When the reported data balances, this column displays 0.
+
+Balance TI DIBA | This column indicates when there is an imbalance between the reported total interchange (TI) and the sum of interchange with all directly interconnected balancing authorities (DIBAs). When there is an imbalance, this column displays TI - Sum (DIBAs). When the reported data balances, this column displays 0.
+
+Balance NG | This column indicates when there is an imbalance between the reported total net generation (NG) and the sum of net generation from individual energy sources When there is an imbalance, this column displays (total net generation) - Sum (net generation by energy source). When the reported data balances, this column displays 0.
+
+Balance D | This column indicates when there is an imbalance between the reported total demand (D) and the sum of demand for each individual subregion. When there is an imbalance, this column displays (total demand) - Sum (demand by subregion). When the reported data balances, this column displays 0.
+
+Sum (NG) over energy sources | The sum of net generation from individual energy sources in MWh
+
+NG: COL | Net generation (NG) from coal (COL) reported by the balancing authority in MWh
+
+NG: NG | Net generation (NG) from natural gas (NG) reported by the balancing authority in MWh
+
+NG: NUC | Net generation (NG) from nuclear energy (NUC) reported by the balancing authority in MWh
+
+NG: OIL | Net generation (NG) from petroleum products (OIL) reported by the balancing authority in MWh
+
+NG: GEO | Net generation (NG) from geothermal (GEO) reported by the balancing authority in MWh
+
+NG: WAT | Net generation (NG) from hydro (WAT) reported by the balancing authority in MWh
+
+NG: PS | Net generation (NG) from pumped storage (PS) reported by the balancing authority in MWh
+
+NG: SUN | Net generation (NG) from solar energy (SUN) reported by the balancing authority in MWh
+
+NG: SNB | Net generation (NG) from solar with integrated battery storage (SNB) reported by the balancing authority in MWh
+
+NG: WND | Net generation (NG) from wind (WND) reported by the balancing authority in MWh
+
+NG: WNB | Net generation (NG) from wind with integrated battery storage (WNB) reported by the balancing authority in MWh
+
+NG: BAT | Net generation (NG) from battery storage (BAT) reported by the balancing authority in MWh
+
+NG: OES | Net generation (NG) from other energy storage (OES) reported by the balancing authority in MWh
+
+NG: UES | Net generation (NG) from unknown energy storage (UES).  This value is calculated as the negative of any demand used to store energy in MWh reported by the balancing authority
+
+NG: OTH | Net generation (NG) from other energy sources (OTH) reported by the balancing authority in MWh
+
+NG: UNK | Net generation (NG) from unknown energy sources (UNK) reported by the balancing authority in MWh
+
+COL   Gen Range Error | This column indicates hours in which generation from coal appears to be out of a reasonable range.
+
+NG    Gen Range Error | This column indicates hours in which generation from natural gas appears to be out of a reasonable range.
+
+NUC   Gen Range Error | This column indicates hours in which generation from nuclear energy appears to be out of a reasonable range.
+
+OIL   Gen Range Error | This column indicates hours in which generation from petroleum products appears to be out of a reasonable range.
+
+GEO   Gen Range Error | This column indicates hours in which generation from geothermal appears to be out of a reasonable range.
+
+WAT   Gen Range Error | This column indicates hours in which generation from hydro appears to be out of a reasonable range.
+
+PS    Gen Range Error | This column indicates hours in which generation from pumped storage appears to be out of a reasonable range.
+
+SUN   Gen Range Error | This column indicates hours in which generation from solar energy appears to be out of a reasonable range.
+
+SNB   Gen Range Error | This column indicates hours in which generation from solar with integrated battery storage appears to be out of a reasonable range.
+
+WND   Gen Range Error | This column indicates hours in which generation from wind appears to be out of a reasonable range.
+
+WNB   Gen Range Error | This column indicates hours in which generation from wind with integrated battery storage appears to be out of a reasonable range.
+
+BAT   Gen Range Error | This column indicates hours in which generation from battery storage appears to be out of a reasonable range.
+
+OES   Gen Range Error | This column indicates hours in which generation from other energy storage appears to be out of a reasonable range.
+
+OTH   Gen Range Error | This column indicates hours in which generation from other energy sources appears to be out of a reasonable range.
+
+UNK   Gen Range Error | This column indicates hours in which generation from unknown energy sources appears to be out of a reasonable range.
+
+Imputed COL Gen | This column displays imputed coal generation in MWh when imputations are made.
+
+Imputed NG Gen | This column displays imputed natural gas generation in MWh when imputations are made.
+
+Imputed NUC Gen | This column displays imputed nuclear generation in MWh when imputations are made.
+
+Imputed OIL Gen | This column displays imputed petroleum generation in MWh when imputations are made.
+
+Imputed GEO Gen | This column displays imputed geothermal generation in MWh when imputations are made.
+
+Imputed WAT Gen | This column displays imputed hydro storage generation in MWh when imputations are made.
+
+Imputed PS Gen | This column displays imputed pumped storage generation in MWh when imputations are made.
+
+Imputed SUN Gen | This column displays imputed solar generation in MWh when imputations are made.
+
+Imputed SNB Gen | This column displays imputed solar with integrated battery storage generation in MWh when imputations are made.
+
+Imputed WND Gen | This column displays imputed wind generation in MWh when imputations are made.
+
+Imputed WNB Gen | This column displays imputed solar with integrated battery storage generation in MWh when imputations are made.
+
+Imputed BAT Gen | This column displays imputed battery storage generation in MWh when imputations are made.
+
+Imputed OES Gen | This column displays imputed other energy storage generation in MWh when imputations are made.
+
+Imputed UES Gen | This column displays imputed unknown energy storage generation in MWh when imputations are made.
+
+Imputed OTH Gen | This column displays imputed other generation in MWh when imputations are made.
+
+Imputed UNK Gen | This column displays imputed unknown generation in MWh when imputations are made.
+
+Adjusted COL Gen | This column displays the coal generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted NG Gen | This column displays the natural gas generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted NUC Gen | This column displays the nuclear generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted OIL Gen | This column displays the petroleum generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted GEO Gen | This column displays the geothermal generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted WAT Gen | This column displays the hydro generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted PS Gen | This column displays the pumped storage generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted SUN Gen | This column displays the solar generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted SNB Gen | This column displays the solar with integrated battery storage generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted WND Gen | This column displays the wind generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted WNB Gen | This column displays the wind with integrated battery storage generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted BAT Gen | This column displays the battery storage generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted OES Gen | This column displays the other energy storage generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted UES Gen | This column displays the unknown energy storage generation calculated as the negative of any demand used to store energy in MWh reported by the balancing authority unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted OTH Gen | This column displays the other generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Adjusted UNK Gen | This column displays the unknown generation reported by the balancing authority in MWh unless imputation was required in which case the imputed generation is displayed.
+
+Sum (DIBA) | The sum of interchange in MWh with all directly interconnected balancing authorities (DIBAs)
+
+AZPS | The interchange from CISO to AZPS in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+BANC | The interchange from CISO to BANC in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+BPAT | The interchange from CISO to BPAT in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+CEN | The interchange from CISO to CEN in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+CFE | The interchange from CISO to CFE in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+IID | The interchange from CISO to IID in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+LDWP | The interchange from CISO to LDWP in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+NEVP | The interchange from CISO to NEVP in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+PACW | The interchange from CISO to PACW in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+SRP | The interchange from CISO to SRP in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+TIDC | The interchange from CISO to TIDC in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+WALC | The interchange from CISO to WALC in MWh (reported by CISO). Negative interchange values indicate net inflows into CISO, and positive interchange values indicate net outflows from CISO.
+Active AZPS | 1 indicates there is an active interconnection between CISO and AZPS for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active BANC | 1 indicates there is an active interconnection between CISO and BANC for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active BPAT | 1 indicates there is an active interconnection between CISO and BPAT for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active CEN | 1 indicates there is an active interconnection between CISO and CEN for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active CFE | 1 indicates there is an active interconnection between CISO and CFE for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active IID | 1 indicates there is an active interconnection between CISO and IID for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active LDWP | 1 indicates there is an active interconnection between CISO and LDWP for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active NEVP | 1 indicates there is an active interconnection between CISO and NEVP for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active PACW | 1 indicates there is an active interconnection between CISO and PACW for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active SRP | 1 indicates there is an active interconnection between CISO and SRP for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active TIDC | 1 indicates there is an active interconnection between CISO and TIDC for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+Active WALC | 1 indicates there is an active interconnection between CISO and WALC for the specified hour.
+0 indicates there is not an active interconnection.
+Respondents are required to report interchange for all active interconnections.
+From AZPS | The interchange from AZPS to CISO in MWh (reported by AZPS). Negative interchange values indicate net inflows into AZPS, and positive interchange values indicate net outflows from AZPS.
+From BANC | The interchange from BANC to CISO in MWh (reported by BANC). Negative interchange values indicate net inflows into BANC, and positive interchange values indicate net outflows from BANC.
+From BPAT | The interchange from BPAT to CISO in MWh (reported by BPAT). Negative interchange values indicate net inflows into BPAT, and positive interchange values indicate net outflows from BPAT.
+From CEN | The interchange from CEN to CISO in MWh (reported by CEN). Negative interchange values indicate net inflows into CEN, and positive interchange values indicate net outflows from CEN.
+From CFE | The interchange from CFE to CISO in MWh (reported by CFE). Negative interchange values indicate net inflows into CFE, and positive interchange values indicate net outflows from CFE.
+From IID | The interchange from IID to CISO in MWh (reported by IID). Negative interchange values indicate net inflows into IID, and positive interchange values indicate net outflows from IID.
+From LDWP | The interchange from LDWP to CISO in MWh (reported by LDWP). Negative interchange values indicate net inflows into LDWP, and positive interchange values indicate net outflows from LDWP.
+From NEVP | The interchange from NEVP to CISO in MWh (reported by NEVP). Negative interchange values indicate net inflows into NEVP, and positive interchange values indicate net outflows from NEVP.
+From PACW | The interchange from PACW to CISO in MWh (reported by PACW). Negative interchange values indicate net inflows into PACW, and positive interchange values indicate net outflows from PACW.
+From SRP | The interchange from SRP to CISO in MWh (reported by SRP). Negative interchange values indicate net inflows into SRP, and positive interchange values indicate net outflows from SRP.
+From TIDC | The interchange from TIDC to CISO in MWh (reported by TIDC). Negative interchange values indicate net inflows into TIDC, and positive interchange values indicate net outflows from TIDC.
+From WALC | The interchange from WALC to CISO in MWh (reported by WALC). Negative interchange values indicate net inflows into WALC, and positive interchange values indicate net outflows from WALC.
+Balance AZPS | This column indicates when there is an imbalance between the interchange from CISO to AZPS (reported by CISO) and the interchange from AZPS to CISO (reported by AZPS). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance BANC | This column indicates when there is an imbalance between the interchange from CISO to BANC (reported by CISO) and the interchange from BANC to CISO (reported by BANC). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance BPAT | This column indicates when there is an imbalance between the interchange from CISO to BPAT (reported by CISO) and the interchange from BPAT to CISO (reported by BPAT). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance CEN | This column indicates when there is an imbalance between the interchange from CISO to CEN (reported by CISO) and the interchange from CEN to CISO (reported by CEN). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance CFE | This column indicates when there is an imbalance between the interchange from CISO to CFE (reported by CISO) and the interchange from CFE to CISO (reported by CFE). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance IID | This column indicates when there is an imbalance between the interchange from CISO to IID (reported by CISO) and the interchange from IID to CISO (reported by IID). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance LDWP | This column indicates when there is an imbalance between the interchange from CISO to LDWP (reported by CISO) and the interchange from LDWP to CISO (reported by LDWP). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance NEVP | This column indicates when there is an imbalance between the interchange from CISO to NEVP (reported by CISO) and the interchange from NEVP to CISO (reported by NEVP). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance PACW | This column indicates when there is an imbalance between the interchange from CISO to PACW (reported by CISO) and the interchange from PACW to CISO (reported by PACW). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance SRP | This column indicates when there is an imbalance between the interchange from CISO to SRP (reported by CISO) and the interchange from SRP to CISO (reported by SRP). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance TIDC | This column indicates when there is an imbalance between the interchange from CISO to TIDC (reported by CISO) and the interchange from TIDC to CISO (reported by TIDC). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Balance WALC | This column indicates when there is an imbalance between the interchange from CISO to WALC (reported by CISO) and the interchange from WALC to CISO (reported by WALC). Normally, the interchanges should sum to zero. When the reported data balances, this column displays 0. When there is an imbalance, this column displays the non-zero sum.
+Pair mismatch | 1 indicates there was an interchange imbalance with at least one directly interconnected balancing authority.
+0 indicates there were no interchange imbalances with any directly interconnected balancing authorities.
+
+Sum (D) over subregions | The sum of demand in MWh for all subregions
+
+Subregion PGAE | Demand for Subregion PGAE reported by the balancing authority in MWh
+Subregion SDGE | Demand for Subregion SDGE reported by the balancing authority in MWh
+Subregion SCE | Demand for Subregion SCE reported by the balancing authority in MWh
+Subregion VEA | Demand for Subregion VEA reported by the balancing authority in MWh
+Active Subregion PGAE | 1 indicates the balancing authority is required to report demand for Subregion PGAE
+0 indicates the balancing authority is not required to report demand for the subregion.
+Active Subregion SDGE | 1 indicates the balancing authority is required to report demand for Subregion SDGE
+0 indicates the balancing authority is not required to report demand for the subregion.
+Active Subregion SCE | 1 indicates the balancing authority is required to report demand for Subregion SCE
+0 indicates the balancing authority is not required to report demand for the subregion.
+Active Subregion VEA | 1 indicates the balancing authority is required to report demand for Subregion VEA
+0 indicates the balancing authority is not required to report demand for the subregion.
+UTC0  reported | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File 0
+
+UTC1  reported | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File 1
+
+UTC2 reported | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File 2
+
+UTCD reported | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File D
+
+UTC0 mismatch | 1 indicates an incorrect UTC timestamp was reported by the balancing authority in daily submission File 0.
+0 indicates the UTC timestamp was correctly reported.
+
+UTC1 mismatch | 1 indicates an incorrect UTC timestamp was reported by the balancing authority in daily submission File 1.
+0 indicates the UTC timestamp was correctly reported.
+
+UTC2 mismatch | 1 indicates an incorrect UTC timestamp was reported by the balancing authority in daily submission File 2.
+0 indicates the UTC timestamp was correctly reported.
+
+UTCD mismatch | 1 indicates an incorrect UTC timestamp was reported by the balancing authority in daily submission File D.
+0 indicates the UTC timestamp was correctly reported.
+
+UTC offset calculated | The expected Coordinated Universal Time (UTC) offset based on the balancing authority's reporting time zone and the current time of year. Note: The UTC offset may change during daylight savings time.
+
+UTC0 offset | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File 0
+
+UTC1 offset | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File 1
+
+UTC2 offset | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File 2
+
+UTCD offset | The Coordinated Universal Time (UTC) timestamp reported by the balancing authority in daily submission File D
+
+UTC offset mismatch | 1 indicates an incorrect UTC offset reported by the balancing authority.
+0 indicates the UTC offset was correctly reported.
+
+File 0 | The file name of daily submission file 0
+
+File 1 | The file name of daily submission file 1
+
+File 2 | The file name of daily submission file 2
+
+File D | The file name of daily submission file D
+
+File 0 Processed Date | The date file 0 was processed by EIA
+
+File 1 Processed Date | The date file 1 was processed by EIA
+
+File 2 Processed Date | The date file 2 was processed by EIA
+
+File D Processed Date | The date file D was processed by EIA
+
+CO2 Factor: COL | Selected CO2 emissions factor for coal (lbs/kWh). Selection method described in EIA's FAQ: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11. For balancing authorities having insufficient historical data, a U.S. factor is used.
+
+CO2 Factor: NG | Selected CO2 emissions factor for natural gas (lbs/kWh). Selection method described in EIA's FAQ: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11. For balancing authorities having insufficient historical data, a U.S. factor is used.
+
+CO2 Factor: OIL | Selected CO2 emissions factor for petroleum (lbs/kWh). Selection method described in EIA's FAQ: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11. For balancing authorities having insufficient historical data, a U.S. factor is used.
+
+CO2 Emissions: COL | CO2 emissions from coal (metric tons)
+
+CO2 Emissions: NG | CO2 emissions from natural gas (metric tons)
+
+CO2 Emissions: OIL | CO2 emissions from petroleum (metric tons)
+
+CO2 Emissions: Other | CO2 emissions from sources other than coal, natural gas, and petroleum (metric tons)
+
+CO2 Emissions Generated | CO2 emissions generated from all sources (metric tons)
+
+CO2 Emissions Imported | CO2 emissions imported (metric tons)
+
+CO2 Emissions Exported | CO2 emissions exported (metric tons)
+
+CO2 Emissions Consumed | CO2 emissions consumed by balancing authority (metric tons)
+
+Positive Generation | The sum of reported generation (MWh) by energy source for energy sources having non-negative generation.
+
+Consumed Electricity | Consumed electricity (MWh) is calculated as the sum of reported generation by energy source plus the sum of imports from neighboring balancing authorities minus the sum of exports to neighboring balancing authorities.
+
+CO2 Emissions Intensity for Generated Electricity | CO2 emissions intensity for total generation (lbs/kWh)
+
+CO2 Emissions Intensity for Consumed Electricity | CO2 emissions intensity for total consumption (lbs/kWh)

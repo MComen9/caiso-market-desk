@@ -1,0 +1,10 @@
+{
+  "verifiedAt": "2026-10-29T17:30:53.585Z",
+  "archiveDigest": "b5f327f327f11fd5afbd24e1a6893741f7285de43f27b418ccb2c3017ecea05e",
+  "independentNormalizer": "lib/fundamentals.ts normalizeFundamentalCsv",
+  "utcHours": 4320,
+  "feedHours": 8640,
+  "valuesChecked": 43200,
+  "exactNumericAgreement": true,
+  "nullIssueTimesPreserved": true
+}

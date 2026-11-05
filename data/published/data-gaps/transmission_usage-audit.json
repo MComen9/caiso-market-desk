@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "dataset": "transmission_usage",
+  "generatedAt": "2026-10-30T07:44:30.574Z",
+  "rows": 36816,
+  "fields": [
+    "INTERVALSTARTTIME_GMT",
+    "INTERVALENDTIME_GMT",
+    "MARKET_RUN_ID",
+    "TI_ID",
+    "TI_DIRECTION",
+    "TI_CONSTRAINT_ID",
+    "TR_TYPE",
+    "LABEL",
+    "MW"
+  ],
+  "download": "/data/data-gaps/transmission_usage.json.gz",
+  "bytes": 167263,
+  "sha256": "c0c8e3fb228cef5e9dd30d802157dd6cb0aa3e0f6c799b05f046097a9de89404",
+  "sampleRows": [
+    {
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "TI_ID": "ADLANTO-SP_ITC",
+      "TI_DIRECTION": "E",
+      "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+      "TR_TYPE": "RATING_ATC",
+      "LABEL": "ATC",
+      "MW": 896.0
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "TI_ID": "ADLANTO-SP_ITC",
+      "TI_DIRECTION": "E",
+      "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+      "TR_TYPE": "TRNS_AS_IMPORT_IFM",
+      "LABEL": "AS from Imports",
+      "MW": 0.0
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "TI_ID": "ADLANTO-SP_ITC",
+      "TI_DIRECTION": "E",
+      "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+      "TR_TYPE": "TRNS_ENE_IMPORT_IFM",
+      "LABEL": "Scheduled Net Energy from Imports/Exports",
+      "MW": -235.0
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "TI_ID": "ADLANTO-SP_ITC",
+      "TI_DIRECTION": "E",
+      "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+      "TR_TYPE": "TRNS_RATING_CBM",
+      "LABEL": "CBM",
+      "MW": 0.0
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "TI_ID": "ADLANTO-SP_ITC",
+      "TI_DIRECTION": "E",
+      "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+      "TR_TYPE": "TRNS_RATING_CONSTRAINT",
+      "LABEL": "Constraint",
+      "MW": 0.0
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "MARKET_RUN_ID": "DAM",
+      "TI_ID": "ADLANTO-SP_ITC",
+      "TI_DIRECTION": "E",
+      "TI_CONSTRAINT_ID": "ADLANTO-SP_ITC",
+      "TR_TYPE": "TRNS_RATING_MTC",
+      "LABEL": "Market Transfer Capability",
+      "MW": 661.0
+    }
+  ],
+  "sources": [
+    {
+      "id": "transmission_usage_2026-10-28_2026-10-29",
+      "dataset": "transmission_usage",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=TRNS_USAGE&market_run_id=DAM&ti_id=ALL&ti_direction=ALL",
+      "fetchedAt": "2026-10-30T07:10:24.989Z",
+      "sha256": "63f36d318af1c1ebb11a0d34ee786533b6f6c9c45570dbabffb79d54a4575c5c",
+      "bytes": 217103,
+      "rowCount": 36816
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "unit": "MW",
+  "classification": "day_ahead_interface_usage",
+  "notes": [
+    "计划/限额/余量由TR_TYPE及LABEL区分，不能将所有行相加当成净进口。没有逐版本发布时间。"
+  ]
+}

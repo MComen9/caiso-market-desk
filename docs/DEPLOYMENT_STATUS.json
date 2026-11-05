@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "preparedDate": "2026-11-05",
+  "intendedRepository": "MComen9/caiso-market-desk",
+  "github": {
+    "status": "pending_browser_authentication",
+    "url": null,
+    "commit": null
+  },
+  "pages": {
+    "status": "not_deployed",
+    "url": null,
+    "verified": false
+  },
+  "releases": {
+    "status": "not_published",
+    "url": null
+  },
+  "codex": {
+    "status": "handoff_files_prepared",
+    "environmentPublished": false,
+    "firstTaskVerified": false
+  },
+  "data": {
+    "snapshotId": "caiso-public-2026-11-02",
+    "files": 221,
+    "forecastTargetDatePT": "2026-10-31"
+  },
+  "localValidation": {
+    "defaultCodexSetup": "passed",
+    "viewerRootAndProjectPaths": "passed",
+    "dataFilesVerified": 221,
+    "v4ForwardAndDevelopmentReplay": "exact_match",
+    "workbenchTypecheck": "passed",
+    "workbenchTests": "passed_with_3_optional_fixture_skips",
+    "workbenchBuild": "passed",
+    "browserOverview": "passed",
+    "remoteDeployment": "not_attempted",
+    "browserPredictionAndDownloads": "passed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "forecastFileDigest": "5f134eaf02e4348786d62c7ed226b48e050a04ae94a68f76608b6be14ba7b90e",
+  "batchId": "forecast_aa1ffb55-3421-4ab9-87d7-a3388e708096",
+  "platformReceivedAt": "2026-10-30T08:42:38.354Z",
+  "receivedBeforeCutoff": true,
+  "pointCount": 72,
+  "platformDigest": "8eae0a020314d7a58575c04a536f95181a78af44f4b328589344d698fd2267a4",
+  "modelVersion": "caiso-current-data-4.0.0+99bd6a8751fe",
+  "verifiedIdenticalPoints": true
+}

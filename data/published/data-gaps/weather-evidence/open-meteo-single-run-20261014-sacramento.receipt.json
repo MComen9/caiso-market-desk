@@ -1,0 +1,17 @@
+{
+  "sourceUrl": "https://single-runs-api.open-meteo.com/v1/forecast?latitude=38.5816&longitude=-121.4944&models=gfs_global&run=2026-10-14T00%3A00&forecast_days=3&timezone=GMT&hourly=temperature_2m%2Crelative_humidity_2m%2Cwind_speed_10m%2Ccloud_cover%2Cshortwave_radiation",
+  "fetchedAtUtc": "2026-10-30T07:07:57.773518+00:00",
+  "httpStatus": 200,
+  "contentType": "application/json; charset=utf-8",
+  "bytes": 3186,
+  "sha256": "2e878ba103365ec10f1e4e6b3f6201856dd94c5ed541175b1b662e8a062206ac",
+  "requestPurpose": "one non-commercial source-availability research sample; not a commercial platform data feed",
+  "requestedRunInitializationUtc": "2026-10-14T00:00:00Z",
+  "requestedModel": "gfs_global",
+  "sourceAvailabilityUtc": null,
+  "notes": [
+    "run is model initialization, not public availability or observed fetched-at time.",
+    "A backtest must still apply model distribution lag and distinguish reconstructed historical input from pre-archived own observations.",
+    "Open-Meteo hosted free tier is non-commercial only; commercial production requires appropriate plan or self-hosting."
+  ]
+}

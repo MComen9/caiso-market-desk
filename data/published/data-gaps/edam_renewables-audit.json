@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "dataset": "edam_renewables",
+  "generatedAt": "2026-10-30T07:44:31.784Z",
+  "rows": 96,
+  "fields": [
+    "_SOURCE_MESSAGE_TIME",
+    "INTERVAL_START_GMT",
+    "INTERVAL_END_GMT",
+    "BAA_GRP_ID",
+    "SOLAR",
+    "WIND",
+    "_SOURCE_FILE"
+  ],
+  "download": "/data/data-gaps/edam_renewables.json.gz",
+  "bytes": 1745,
+  "sha256": "994c8fdc1b42be13556d85defa0065ad09013d01b3d0933dc790c01e3ff7f351",
+  "sampleRows": [
+    {
+      "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+      "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+      "BAA_GRP_ID": "CISO",
+      "SOLAR": 0.0,
+      "WIND": 4699.75,
+      "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+    },
+    {
+      "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+      "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+      "BAA_GRP_ID": "PACE",
+      "SOLAR": 0.0,
+      "WIND": 1807.3,
+      "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+    },
+    {
+      "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+      "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+      "BAA_GRP_ID": "PACW",
+      "SOLAR": 0.0,
+      "WIND": 683.92,
+      "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+    },
+    {
+      "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+      "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+      "BAA_GRP_ID": "PGE",
+      "SOLAR": 0.0,
+      "WIND": 591.0,
+      "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+    },
+    {
+      "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+      "INTERVAL_START_GMT": "2026-10-28T08:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T09:00:00-00:00",
+      "BAA_GRP_ID": "CISO",
+      "SOLAR": 0.0,
+      "WIND": 4726.48,
+      "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+    },
+    {
+      "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+      "INTERVAL_START_GMT": "2026-10-28T08:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T09:00:00-00:00",
+      "BAA_GRP_ID": "PACE",
+      "SOLAR": 0.0,
+      "WIND": 2023.69,
+      "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+    }
+  ],
+  "sources": [
+    {
+      "id": "edam_renewables_2026-10-28_2026-10-29",
+      "dataset": "edam_renewables",
+      "url": "https://oasis.caiso.com/oasisapi/GroupZip?resultformat=5&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&groupid=EDAM_WND_SLR_FORECAST_GRP",
+      "fetchedAt": "2026-10-30T07:15:33.906Z",
+      "sha256": "8e77dacd077f0012a42a1625ca192316df3d8d637ebc8b9851168ffdc2f38bd0",
+      "bytes": 2179,
+      "rowCount": 96
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "unit": "MW",
+  "classification": "edam_forecast_xml_snapshot",
+  "notes": [
+    "源XML MessageHeader.TimeDate单独保存，需验证其与下载生成时间及历史发行批次的关系。"
+  ]
+}

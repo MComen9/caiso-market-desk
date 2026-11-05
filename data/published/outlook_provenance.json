@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-10-29T09:51:54.040036Z",
+  "files": [
+    {
+      "id": "demand",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/demand.csv",
+      "fetchedAt": "2026-10-29T09:51:51.943503Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "cbb7d98a7b4848c3f3c8d58d42aca9a4cd231aa333b2383df49e46412106e670",
+      "bytes": 7585,
+      "rawPath": "/data/outlook_raw/2026-10-28/demand.csv"
+    },
+    {
+      "id": "netdemand",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/netdemand.csv",
+      "fetchedAt": "2026-10-29T09:51:51.942540Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "aedb9a148da49eab941e5353a55ec40f1a9477a4dbbe29ed3c14f35e941fe999",
+      "bytes": 9165,
+      "rawPath": "/data/outlook_raw/2026-10-28/netdemand.csv"
+    },
+    {
+      "id": "fuelsource",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/fuelsource.csv",
+      "fetchedAt": "2026-10-29T09:51:51.943012Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "7b63469c82f957189782090a8c6983c137653eb738f49d074e97f161620d9419",
+      "bytes": 18070,
+      "rawPath": "/data/outlook_raw/2026-10-28/fuelsource.csv"
+    },
+    {
+      "id": "storage",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/storage.csv",
+      "fetchedAt": "2026-10-29T09:51:52.197604Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:42 GMT",
+      "sha256": "0f2cccc9e35f7cc370851943bca0e1ce35addc5987c8abc8289c4cb5e1ba8b75",
+      "bytes": 6297,
+      "rawPath": "/data/outlook_raw/2026-10-28/storage.csv"
+    },
+    {
+      "id": "hybrids",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/hybrids.csv",
+      "fetchedAt": "2026-10-29T09:51:52.237582Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "411c39557fca581892160da80f1c5134f95f476788e52eedf3a70ba59795a8c7",
+      "bytes": 7744,
+      "rawPath": "/data/outlook_raw/2026-10-28/hybrids.csv"
+    },
+    {
+      "id": "co2",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/co2.csv",
+      "fetchedAt": "2026-10-29T09:51:52.349138Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:42 GMT",
+      "sha256": "63f7e944078b089a65b06762b01e79c80bb71670a63bc8bfb3fb78c08e801242",
+      "bytes": 8102,
+      "rawPath": "/data/outlook_raw/2026-10-28/co2.csv"
+    },
+    {
+      "id": "rtm_forecast",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/rtm_forecast.csv",
+      "fetchedAt": "2026-10-29T09:51:52.456639Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "4e82d84045de0f5c7478e53e65aa53b2902e5047fec39145cfac113e4b8eb829",
+      "bytes": 20001,
+      "rawPath": "/data/outlook_raw/2026-10-28/rtm_forecast.csv"
+    },
+    {
+      "id": "rtm_forecast_7day",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/rtm_forecast_7day.csv",
+      "fetchedAt": "2026-10-29T09:51:52.490929Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "9dc18aa47e1833cf091412279aa9ae699b114a6a1b2b631e891444af5a659d9d",
+      "bytes": 129265,
+      "rawPath": "/data/outlook_raw/2026-10-28/rtm_forecast_7day.csv"
+    },
+    {
+      "id": "wind_solar_wo_hybrids",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/wind_solar_wo_hybrids.csv",
+      "fetchedAt": "2026-10-29T09:51:52.606724Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 07:01:43 GMT",
+      "sha256": "accecc04def252274b0440a7bbef69b330a03f309ccd3805642a4aafa52f2ac3",
+      "bytes": 4830,
+      "rawPath": "/data/outlook_raw/2026-10-28/wind_solar_wo_hybrids.csv"
+    },
+    {
+      "id": "stats",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/stats.txt",
+      "fetchedAt": "2026-10-29T09:51:52.748555Z",
+      "status": 0,
+      "error": "CAISO 系统摘要仅提供当前状态。"
+    },
+    {
+      "id": "peak_and_daily",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/peak_and_daily.csv",
+      "fetchedAt": "2026-10-29T09:51:52.748582Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:43:15 GMT",
+      "sha256": "c441a848c7a56058de416c6f4d37223c2fac0e9cf0e8fa1230b44649a1f37e5e",
+      "bytes": 368,
+      "rawPath": "/data/outlook_raw/2026-10-28/peak_and_daily.csv"
+    },
+    {
+      "id": "peak_and_daily_hybrids",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/peak_and_daily_hybrids.csv",
+      "fetchedAt": "2026-10-29T09:51:52.836846Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:43:16 GMT",
+      "sha256": "27726a7824ee5919c5d5471b6ec41caf39e9fed546d51573b6a0b80559d88c96",
+      "bytes": 280,
+      "rawPath": "/data/outlook_raw/2026-10-28/peak_and_daily_hybrids.csv"
+    },
+    {
+      "id": "peak_and_daily_storage",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.caiso.com/outlook/history/20261028/peak_and_daily_storage.csv",
+      "fetchedAt": "2026-10-29T09:51:52.875751Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:43:16 GMT",
+      "sha256": "15bf78b03206588d1b81ca439f30bd103ae9cf397e6064e6c2106454ddb09d44",
+      "bytes": 237,
+      "rawPath": "/data/outlook_raw/2026-10-28/peak_and_daily_storage.csv"
+    },
+    {
+      "id": "demand",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/demand.csv",
+      "fetchedAt": "2026-10-29T09:51:53.012898Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:11 GMT",
+      "sha256": "f16109c33f8c0ebce709208fe772f841a1f927c8fab51999d8bdf85b2ff56728",
+      "bytes": 6315,
+      "rawPath": "/data/outlook_raw/2026-10-29/demand.csv"
+    },
+    {
+      "id": "netdemand",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/netdemand.csv",
+      "fetchedAt": "2026-10-29T09:51:53.070675Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:11 GMT",
+      "sha256": "1199815e10f0025571032bc6ccd99ad3fdc29b97732d131f316f180676f95217",
+      "bytes": 6786,
+      "rawPath": "/data/outlook_raw/2026-10-29/netdemand.csv"
+    },
+    {
+      "id": "fuelsource",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/fuelsource.csv",
+      "fetchedAt": "2026-10-29T09:51:53.093600Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:10 GMT",
+      "sha256": "d18daa4791d82bad6184e0baedf3e87a32bb5871c0fbfaf86b898197e27670f0",
+      "bytes": 2214,
+      "rawPath": "/data/outlook_raw/2026-10-29/fuelsource.csv"
+    },
+    {
+      "id": "storage",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/storage.csv",
+      "fetchedAt": "2026-10-29T09:51:53.139291Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:11 GMT",
+      "sha256": "a13c4ac38d1c3e523d3900526b3fd24efe9f0ea921d7d9f0e036f85878cf034a",
+      "bytes": 731,
+      "rawPath": "/data/outlook_raw/2026-10-29/storage.csv"
+    },
+    {
+      "id": "hybrids",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/hybrids.csv",
+      "fetchedAt": "2026-10-29T09:51:53.149720Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:11 GMT",
+      "sha256": "8392ade364b13831d452b00f277ec8ad5d896ef2aea13b9de9198f50e0c98a6c",
+      "bytes": 907,
+      "rawPath": "/data/outlook_raw/2026-10-29/hybrids.csv"
+    },
+    {
+      "id": "co2",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/co2.csv",
+      "fetchedAt": "2026-10-29T09:51:53.344244Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:11 GMT",
+      "sha256": "63da36e2ac1843ee871b2cb96d6a7a7161043723f549cc77f9a73e3a907f9f6d",
+      "bytes": 999,
+      "rawPath": "/data/outlook_raw/2026-10-29/co2.csv"
+    },
+    {
+      "id": "rtm_forecast",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/rtm_forecast.csv",
+      "fetchedAt": "2026-10-29T09:51:53.376982Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:10 GMT",
+      "sha256": "bf2d8f2c719afc652dfdadbadd83cdf214e531b5e69f28e11e475bf2de242a6a",
+      "bytes": 16638,
+      "rawPath": "/data/outlook_raw/2026-10-29/rtm_forecast.csv"
+    },
+    {
+      "id": "rtm_forecast_7day",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/rtm_forecast_7day.csv",
+      "fetchedAt": "2026-10-29T09:51:53.398429Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:10 GMT",
+      "sha256": "f4a39cc364858af08b03b85c398c0a63cb5b01fd411d0bdea591dea195a20db9",
+      "bytes": 122974,
+      "rawPath": "/data/outlook_raw/2026-10-29/rtm_forecast_7day.csv"
+    },
+    {
+      "id": "wind_solar_wo_hybrids",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/wind_solar_wo_hybrids.csv",
+      "fetchedAt": "2026-10-29T09:51:53.435606Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:11 GMT",
+      "sha256": "6a45b9ff61e0d11fbfd055f86b6b4f57d7dd08ba874504fdf013b09fab1a8e39",
+      "bytes": 593,
+      "rawPath": "/data/outlook_raw/2026-10-29/wind_solar_wo_hybrids.csv"
+    },
+    {
+      "id": "stats",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/stats.txt",
+      "fetchedAt": "2026-10-29T09:51:53.589446Z",
+      "status": 200,
+      "lastModified": "Thu, 29 Oct 2026 09:49:10 GMT",
+      "sha256": "204bc55d90af4cddd7859ed5e00d9764de433bd042267316c1cf685759f8f22b",
+      "bytes": 2513,
+      "rawPath": "/data/outlook_raw/2026-10-29/stats.txt"
+    },
+    {
+      "id": "peak_and_daily",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/peak_and_daily.csv",
+      "fetchedAt": "2026-10-29T09:51:53.621665Z",
+      "status": 404,
+      "error": "官方尚未发布该日期数据。"
+    },
+    {
+      "id": "peak_and_daily_hybrids",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/peak_and_daily_hybrids.csv",
+      "fetchedAt": "2026-10-29T09:51:53.683800Z",
+      "status": 404,
+      "error": "官方尚未发布该日期数据。"
+    },
+    {
+      "id": "peak_and_daily_storage",
+      "date": "2026-10-29",
+      "sourceUrl": "https://www.caiso.com/outlook/current/peak_and_daily_storage.csv",
+      "fetchedAt": "2026-10-29T09:51:53.786920Z",
+      "status": 404,
+      "error": "官方尚未发布该日期数据。"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "dataset": "tradable-node-map-14d",
+  "generatedAt": "2026-10-30T07:44:32.515Z",
+  "rows": 5040,
+  "fields": [
+    "market",
+    "tradableNode",
+    "researchNode",
+    "startUtc",
+    "endUtc",
+    "officialPeakFlag",
+    "lmp",
+    "researchLmp",
+    "difference",
+    "calendarNodeMatch",
+    "priceMatchesReference",
+    "mappingStatus"
+  ],
+  "download": "/data/data-gaps/tradable-node-map-14d.json.gz",
+  "bytes": 65582,
+  "sha256": "41db706bb2645731f5a86c7a034a1ac6b058f586cabd03a03452a1e2ff9bd856",
+  "sampleRows": [
+    {
+      "market": "DAM",
+      "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+      "researchNode": "TH_NP15_GEN-APND",
+      "startUtc": "2026-10-15T07:00:00.000Z",
+      "endUtc": "2026-10-15T08:00:00.000Z",
+      "officialPeakFlag": "OFF",
+      "lmp": 50.90765,
+      "researchLmp": 50.90765,
+      "difference": 0.0,
+      "calendarNodeMatch": true,
+      "priceMatchesReference": true,
+      "mappingStatus": "consistent_sample"
+    },
+    {
+      "market": "DAM",
+      "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+      "researchNode": "TH_NP15_GEN-APND",
+      "startUtc": "2026-10-15T08:00:00.000Z",
+      "endUtc": "2026-10-15T09:00:00.000Z",
+      "officialPeakFlag": "OFF",
+      "lmp": 49.21717,
+      "researchLmp": 49.21717,
+      "difference": 0.0,
+      "calendarNodeMatch": true,
+      "priceMatchesReference": true,
+      "mappingStatus": "consistent_sample"
+    },
+    {
+      "market": "DAM",
+      "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+      "researchNode": "TH_NP15_GEN-APND",
+      "startUtc": "2026-10-15T09:00:00.000Z",
+      "endUtc": "2026-10-15T10:00:00.000Z",
+      "officialPeakFlag": "OFF",
+      "lmp": 46.06311,
+      "researchLmp": 46.06311,
+      "difference": 0.0,
+      "calendarNodeMatch": true,
+      "priceMatchesReference": true,
+      "mappingStatus": "consistent_sample"
+    },
+    {
+      "market": "DAM",
+      "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+      "researchNode": "TH_NP15_GEN-APND",
+      "startUtc": "2026-10-15T10:00:00.000Z",
+      "endUtc": "2026-10-15T11:00:00.000Z",
+      "officialPeakFlag": "OFF",
+      "lmp": 43.98852,
+      "researchLmp": 43.98852,
+      "difference": 0.0,
+      "calendarNodeMatch": true,
+      "priceMatchesReference": true,
+      "mappingStatus": "consistent_sample"
+    },
+    {
+      "market": "DAM",
+      "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+      "researchNode": "TH_NP15_GEN-APND",
+      "startUtc": "2026-10-15T11:00:00.000Z",
+      "endUtc": "2026-10-15T12:00:00.000Z",
+      "officialPeakFlag": "OFF",
+      "lmp": 44.22,
+      "researchLmp": 44.22,
+      "difference": 0.0,
+      "calendarNodeMatch": true,
+      "priceMatchesReference": true,
+      "mappingStatus": "consistent_sample"
+    },
+    {
+      "market": "DAM",
+      "tradableNode": "TH_NP15_GEN_OFFPEAK-APND",
+      "researchNode": "TH_NP15_GEN-APND",
+      "startUtc": "2026-10-15T12:00:00.000Z",
+      "endUtc": "2026-10-15T13:00:00.000Z",
+      "officialPeakFlag": "OFF",
+      "lmp": 48.4029,
+      "researchLmp": 48.4029,
+      "difference": 0.0,
+      "calendarNodeMatch": true,
+      "priceMatchesReference": true,
+      "mappingStatus": "consistent_sample"
+    }
+  ],
+  "startDate": "2026-10-15",
+  "endDate": "2026-10-28",
+  "sources": [
+    {
+      "id": "peak_calendar_2026-10-15_2026-10-29",
+      "dataset": "peak_calendar",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261015T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ATL_PEAK_ON_OFF",
+      "fetchedAt": "2026-10-30T07:15:49.822Z",
+      "sha256": "70bccbbbd0df72a79c613ba1d78a61eb41890769e03f80a81599e7815b9e956a",
+      "bytes": 2714,
+      "rowCount": 336
+    },
+    {
+      "id": "cb_tradable_dam_2026-10-15_2026-10-29",
+      "dataset": "cb_tradable_dam",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=12&startdatetime=20261015T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=PRC_LMP&market_run_id=DAM&node=TH_NP15_GEN_ONPEAK-APND%2CTH_NP15_GEN_OFFPEAK-APND%2CTH_SP15_GEN_ONPEAK-APND%2CTH_SP15_GEN_OFFPEAK-APND%2CTH_ZP26_GEN_ONPEAK-APND%2CTH_ZP26_GEN_OFFPEAK-APND",
+      "fetchedAt": "2026-10-30T07:15:59.310Z",
+      "sha256": "a373480c57add567492be9a2d819e1dbc0682c5134cab658d9e36c3056c7ca15",
+      "bytes": 53384,
+      "rowCount": 5040
+    },
+    {
+      "id": "cb_tradable_fmm_2026-10-15_2026-10-29",
+      "dataset": "cb_tradable_fmm",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=3&startdatetime=20261015T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=PRC_RTPD_LMP&market_run_id=RTPD&node=TH_NP15_GEN_ONPEAK-APND%2CTH_NP15_GEN_OFFPEAK-APND%2CTH_SP15_GEN_ONPEAK-APND%2CTH_SP15_GEN_OFFPEAK-APND%2CTH_ZP26_GEN_ONPEAK-APND%2CTH_ZP26_GEN_OFFPEAK-APND",
+      "fetchedAt": "2026-10-30T07:16:09.762Z",
+      "sha256": "ce9eace456022ede698fdc77100f2cf5e8640d986dc1cd1386ed1220e3c1ecb5",
+      "bytes": 219973,
+      "rowCount": 20160
+    }
+  ],
+  "marketCounts": {
+    "DAM": 1008,
+    "FMM": 4032
+  },
+  "expectedNativeIntervals": 5040,
+  "officialCalendarHours": 336,
+  "peakMappingMismatches": 0,
+  "complete": true,
+  "missingSourceIntervals": 0,
+  "unexpectedSourceIntervals": 0,
+  "missingTradablePrices": 0,
+  "missingCalendarHours": 0,
+  "duplicateMappedIntervals": 0,
+  "mappingConflictExamples": [],
+  "missingResearchPrices": 0,
+  "maximumPriceDifference": 0.0,
+  "comparisonTolerance": 0.0001,
+  "pricesBeyondTolerance": 0,
+  "mappingVerified": true,
+  "classification": "sample_verified_node_and_price_mapping",
+  "modelStatus": "not_integrated",
+  "rowStatusCounts": {
+    "consistent_sample": 5040
+  },
+  "notes": [
+    "保留六个ON/OFFPEAK节点实际返回的时段，不按日历强行改名或填零；与官方日历不一致的记录标记calendar_conflict。",
+    "consistent_sample只表示该行日历及价格一致，不等于账户或订单已获申报许可。",
+    "价格映射核验仅对实际取得的日期有效；限额和账户资格仍须单独验证。"
+  ]
+}

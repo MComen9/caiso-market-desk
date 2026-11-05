@@ -1,0 +1,1881 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "classification": "forward_forecast",
+    "dates": [
+      "2026-10-30"
+    ],
+    "ndays": 1,
+    "hist_end": "2026-10-28",
+    "today": "2026-10-30",
+    "total_mwh": 12,
+    "dp": 10,
+    "generatedAt": "2026-10-29T16:46:16.719Z",
+    "inputDigest": "3abb51b8f301b5bb0d7c88ac1840365b02af17d3a36b01ad501f1b0e2974bc41",
+    "forecastDigest": "421437a38a97bff8d9d8fb4942e3d36a5a39fdcf00e3342e57e9c9700b818c35",
+    "archiveDigest": "c052c888b909a8193881665136e0e608960f68c883dcf4f0473f2ba4a6810243",
+    "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+    "timeZone": "America/Los_Angeles",
+    "selectionMode": "manual",
+    "selectedNodes": [
+      "TH_NP15_GEN-APND",
+      "TH_SP15_GEN-APND",
+      "TH_ZP26_GEN-APND"
+    ],
+    "legacyNodeStatistics": "strat 中的 n/win/ev/pf=0 仅是旧 CLI 结构占位，表示未估计，不能解释为历史胜率或收益；维护版显式手选全部三个枢纽。",
+    "legacyCompatibility": "仅前向、正常 24 小时日可由原始脚本读取；历史重建与 DST 日使用随附维护版。",
+    "warnings": [
+      "未来小时的实际 DA/FMM 保留 null；预期损益不是已实现收益。",
+      "sigma 是历史逐时样本外残差尺度，不是已保证覆盖率或胜率。",
+      "小时 FMM 是完整四个 15 分钟价格的简单平均；未建模全部结算项。",
+      "历史重建预测现在才生成，decisionAsOfUtc 仅表示算法的信息截点，issuedAt 保留实际生成时间。"
+    ]
+  },
+  "nodes": [
+    {
+      "k": "TH_NP15_GEN-APND",
+      "name": "NP15",
+      "statsAvailable": false,
+      "strat": {
+        "normal": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "high_conf": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "half": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "aggressive": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "always_inc": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "cap_only": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "contrarian": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        }
+      }
+    },
+    {
+      "k": "TH_SP15_GEN-APND",
+      "name": "SP15",
+      "statsAvailable": false,
+      "strat": {
+        "normal": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "high_conf": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "half": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "aggressive": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "always_inc": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "cap_only": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "contrarian": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        }
+      }
+    },
+    {
+      "k": "TH_ZP26_GEN-APND",
+      "name": "ZP26",
+      "statsAvailable": false,
+      "strat": {
+        "normal": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "high_conf": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "half": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "aggressive": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "always_inc": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "cap_only": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        },
+        "contrarian": {
+          "n": 0,
+          "win": 0,
+          "ev": 0,
+          "pf": 0
+        }
+      }
+    }
+  ],
+  "hours": [
+    {
+      "startUtc": "2026-10-30T07:00:00.000Z",
+      "endUtc": "2026-10-30T08:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "00:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T08:00:00.000Z",
+      "endUtc": "2026-10-30T09:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "01:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T09:00:00.000Z",
+      "endUtc": "2026-10-30T10:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "02:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T10:00:00.000Z",
+      "endUtc": "2026-10-30T11:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "03:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T11:00:00.000Z",
+      "endUtc": "2026-10-30T12:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "04:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T12:00:00.000Z",
+      "endUtc": "2026-10-30T13:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "05:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T13:00:00.000Z",
+      "endUtc": "2026-10-30T14:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "06:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T14:00:00.000Z",
+      "endUtc": "2026-10-30T15:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "07:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T15:00:00.000Z",
+      "endUtc": "2026-10-30T16:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "08:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T16:00:00.000Z",
+      "endUtc": "2026-10-30T17:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "09:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T17:00:00.000Z",
+      "endUtc": "2026-10-30T18:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "10:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T18:00:00.000Z",
+      "endUtc": "2026-10-30T19:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "11:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T19:00:00.000Z",
+      "endUtc": "2026-10-30T20:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "12:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T20:00:00.000Z",
+      "endUtc": "2026-10-30T21:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "13:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T21:00:00.000Z",
+      "endUtc": "2026-10-30T22:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "14:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T22:00:00.000Z",
+      "endUtc": "2026-10-30T23:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "15:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-30T23:00:00.000Z",
+      "endUtc": "2026-10-31T00:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "16:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T00:00:00.000Z",
+      "endUtc": "2026-10-31T01:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "17:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T01:00:00.000Z",
+      "endUtc": "2026-10-31T02:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "18:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T02:00:00.000Z",
+      "endUtc": "2026-10-31T03:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "19:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T03:00:00.000Z",
+      "endUtc": "2026-10-31T04:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "20:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T04:00:00.000Z",
+      "endUtc": "2026-10-31T05:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "21:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T05:00:00.000Z",
+      "endUtc": "2026-10-31T06:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "22:00",
+      "utcOffset": "-07:00"
+    },
+    {
+      "startUtc": "2026-10-31T06:00:00.000Z",
+      "endUtc": "2026-10-31T07:00:00.000Z",
+      "localDate": "2026-10-30",
+      "localHour": "23:00",
+      "utcOffset": "-07:00"
+    }
+  ],
+  "series": {
+    "TH_NP15_GEN-APND": [
+      [
+        "2026-10-30T07:00:00.000Z",
+        null,
+        null,
+        -0.2472999242693834,
+        51.34553766666667,
+        6.856329672178804,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T08:00:00.000Z",
+        null,
+        null,
+        0.1474017824280691,
+        49.828912428571435,
+        6.856329672178804,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T09:00:00.000Z",
+        null,
+        null,
+        0.30507246176608244,
+        48.19568014285715,
+        6.856329672178804,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T10:00:00.000Z",
+        null,
+        null,
+        0.438075164267552,
+        47.5858578095238,
+        6.856329672178804,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T11:00:00.000Z",
+        null,
+        null,
+        -0.1263833489290675,
+        48.27124223809524,
+        6.856329672178804,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T12:00:00.000Z",
+        null,
+        null,
+        0.26948149573661756,
+        50.198211047619054,
+        6.856329672178804,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T13:00:00.000Z",
+        null,
+        null,
+        0.1077502658040807,
+        55.70838980952381,
+        9.198513841152403,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T14:00:00.000Z",
+        null,
+        null,
+        0.39220524610473156,
+        54.90999038095239,
+        9.198513841152403,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T15:00:00.000Z",
+        null,
+        null,
+        1.0244897605463845,
+        42.510480571428566,
+        9.198513841152403,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T16:00:00.000Z",
+        null,
+        null,
+        0.8588249272149043,
+        39.54182861904762,
+        9.198513841152403,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T17:00:00.000Z",
+        null,
+        null,
+        0.3563126233728963,
+        35.11798442857143,
+        9.198513841152403,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T18:00:00.000Z",
+        null,
+        null,
+        0.45440685813401976,
+        33.70654004761905,
+        9.198513841152403,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T19:00:00.000Z",
+        null,
+        null,
+        0.7006517380868553,
+        32.780156523809524,
+        15.066594058442707,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T20:00:00.000Z",
+        null,
+        null,
+        0.5181594883746753,
+        32.68605252380952,
+        15.066594058442707,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T21:00:00.000Z",
+        null,
+        null,
+        0.5331955667044516,
+        33.36622357142857,
+        15.066594058442707,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T22:00:00.000Z",
+        null,
+        null,
+        0.128958240264406,
+        37.05768223809523,
+        15.066594058442707,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T23:00:00.000Z",
+        null,
+        null,
+        -0.12133210744783499,
+        42.476806571428575,
+        15.066594058442707,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T00:00:00.000Z",
+        null,
+        null,
+        -1.5438028344270505,
+        56.48379142857143,
+        15.066594058442707,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T01:00:00.000Z",
+        null,
+        null,
+        -0.23143554691100976,
+        57.52826100000001,
+        12.988935553811459,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T02:00:00.000Z",
+        null,
+        null,
+        -0.24644975512986272,
+        56.06553400000001,
+        12.988935553811459,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T03:00:00.000Z",
+        null,
+        null,
+        0.18198345540751107,
+        55.51457666666667,
+        12.988935553811459,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T04:00:00.000Z",
+        null,
+        null,
+        0.8781664008292972,
+        55.32099333333335,
+        12.988935553811459,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T05:00:00.000Z",
+        null,
+        null,
+        0.10161507123898718,
+        53.632696,
+        12.988935553811459,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T06:00:00.000Z",
+        null,
+        null,
+        0.014742968567303743,
+        50.68295442857143,
+        12.988935553811459,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ]
+    ],
+    "TH_SP15_GEN-APND": [
+      [
+        "2026-10-30T07:00:00.000Z",
+        null,
+        null,
+        -0.2523939004501216,
+        51.12933161904762,
+        6.598810039185603,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T08:00:00.000Z",
+        null,
+        null,
+        0.18724485105806504,
+        49.90034271428572,
+        6.598810039185603,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T09:00:00.000Z",
+        null,
+        null,
+        0.18693791536340038,
+        48.207614285714286,
+        6.598810039185603,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T10:00:00.000Z",
+        null,
+        null,
+        0.32424500762714653,
+        47.91921947619048,
+        6.598810039185603,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T11:00:00.000Z",
+        null,
+        null,
+        -0.030442188881130823,
+        48.32042428571429,
+        6.598810039185603,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T12:00:00.000Z",
+        null,
+        null,
+        -0.08362351136771266,
+        50.10807476190477,
+        6.598810039185603,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T13:00:00.000Z",
+        null,
+        null,
+        -0.48393728963222815,
+        55.105154761904764,
+        14.427666298417236,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T14:00:00.000Z",
+        null,
+        null,
+        -0.5935299237460508,
+        51.29050928571429,
+        14.427666298417236,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T15:00:00.000Z",
+        null,
+        null,
+        0.33166274593849526,
+        29.528722904761903,
+        14.427666298417236,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T16:00:00.000Z",
+        null,
+        null,
+        0.6856812700898449,
+        21.562513142857146,
+        14.427666298417236,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T17:00:00.000Z",
+        null,
+        null,
+        -0.29690938001928713,
+        21.142837857142858,
+        14.427666298417236,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T18:00:00.000Z",
+        null,
+        null,
+        0.15349826438302533,
+        21.445978047619047,
+        14.427666298417236,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T19:00:00.000Z",
+        null,
+        null,
+        0.0830581564313487,
+        21.88226480952381,
+        14.706498983966778,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T20:00:00.000Z",
+        null,
+        null,
+        -0.8749801519104836,
+        22.14054085714286,
+        14.706498983966778,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T21:00:00.000Z",
+        null,
+        null,
+        -1.0354092304111107,
+        22.51827580952381,
+        14.706498983966778,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T22:00:00.000Z",
+        null,
+        null,
+        -1.7097029599863802,
+        23.13993766666667,
+        14.706498983966778,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T23:00:00.000Z",
+        null,
+        null,
+        -1.6947375196010759,
+        32.85896533333333,
+        14.706498983966778,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T00:00:00.000Z",
+        null,
+        null,
+        -0.987369897797059,
+        52.35584176190477,
+        14.706498983966778,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T01:00:00.000Z",
+        null,
+        null,
+        -0.3311672748048484,
+        52.95339671428573,
+        10.538552405535212,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T02:00:00.000Z",
+        null,
+        null,
+        -0.11996032359379329,
+        52.19363533333334,
+        10.538552405535212,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T03:00:00.000Z",
+        null,
+        null,
+        -0.0057651623435165476,
+        52.02491509523809,
+        10.538552405535212,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T04:00:00.000Z",
+        null,
+        null,
+        0.2876475137340981,
+        52.32979328571429,
+        10.538552405535212,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T05:00:00.000Z",
+        null,
+        null,
+        -0.17222838041394287,
+        52.85521942857144,
+        10.538552405535212,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T06:00:00.000Z",
+        null,
+        null,
+        -0.08114288775186702,
+        50.14892114285715,
+        10.538552405535212,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ]
+    ],
+    "TH_ZP26_GEN-APND": [
+      [
+        "2026-10-30T07:00:00.000Z",
+        null,
+        null,
+        -0.2504532423315226,
+        51.52102409523809,
+        6.945882307361364,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T08:00:00.000Z",
+        null,
+        null,
+        0.427660215237543,
+        50.23444542857143,
+        6.945882307361364,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T09:00:00.000Z",
+        null,
+        null,
+        0.3206673591370046,
+        48.563186285714295,
+        6.945882307361364,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T10:00:00.000Z",
+        null,
+        null,
+        0.33941255800304126,
+        48.14274885714286,
+        6.945882307361364,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T11:00:00.000Z",
+        null,
+        null,
+        -0.09720987786200255,
+        48.75686533333334,
+        6.945882307361364,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T12:00:00.000Z",
+        null,
+        null,
+        0.0965741363617514,
+        50.37827104761905,
+        6.945882307361364,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T13:00:00.000Z",
+        null,
+        null,
+        -0.1180289665568516,
+        55.257930285714295,
+        10.952402464342422,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T14:00:00.000Z",
+        null,
+        null,
+        0.0709207476307904,
+        53.800669761904764,
+        10.952402464342422,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T15:00:00.000Z",
+        null,
+        null,
+        0.7267897885862942,
+        32.45680947619048,
+        10.952402464342422,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T16:00:00.000Z",
+        null,
+        null,
+        0.14722908396596082,
+        23.004897238095243,
+        10.952402464342422,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T17:00:00.000Z",
+        null,
+        null,
+        -0.45637315707232073,
+        21.88698714285714,
+        10.952402464342422,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T18:00:00.000Z",
+        null,
+        null,
+        -0.5073885844358664,
+        22.396682238095238,
+        10.952402464342422,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T19:00:00.000Z",
+        null,
+        null,
+        -0.42231360156856984,
+        21.65669119047619,
+        18.88010301269622,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T20:00:00.000Z",
+        null,
+        null,
+        -0.4309719030684273,
+        22.58230623809524,
+        18.88010301269622,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T21:00:00.000Z",
+        null,
+        null,
+        -1.2390365542138762,
+        22.296498333333336,
+        18.88010301269622,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T22:00:00.000Z",
+        null,
+        null,
+        -1.7475822434839274,
+        23.960299857142857,
+        18.88010301269622,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-30T23:00:00.000Z",
+        null,
+        null,
+        -1.6360768544964748,
+        35.71177471428572,
+        18.88010301269622,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T00:00:00.000Z",
+        null,
+        null,
+        -0.9448649601492087,
+        54.811007095238104,
+        18.88010301269622,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T01:00:00.000Z",
+        null,
+        null,
+        -0.25761985143814553,
+        55.943175761904754,
+        13.585279642722986,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T02:00:00.000Z",
+        null,
+        null,
+        -0.10363114353317904,
+        55.07959142857142,
+        13.585279642722986,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T03:00:00.000Z",
+        null,
+        null,
+        0.17770420370376563,
+        55.08630476190477,
+        13.585279642722986,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T04:00:00.000Z",
+        null,
+        null,
+        0.655069399313631,
+        55.159884047619045,
+        13.585279642722986,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T05:00:00.000Z",
+        null,
+        null,
+        0.06367143431159974,
+        54.26451742857143,
+        13.585279642722986,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ],
+      [
+        "2026-10-31T06:00:00.000Z",
+        null,
+        null,
+        0.20810365788539295,
+        51.15104638095239,
+        13.585279642722986,
+        "caiso-price-forecast-2.0.0+75e28d6e07da"
+      ]
+    ]
+  },
+  "forecastProvenance": {
+    "TH_NP15_GEN-APND": [
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      }
+    ],
+    "TH_SP15_GEN-APND": [
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      }
+    ],
+    "TH_ZP26_GEN-APND": [
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      },
+      {
+        "issuedAt": "2026-10-29T16:46:16.719Z",
+        "generatedAt": "2026-10-29T16:46:16.719Z",
+        "decisionAsOfUtc": "2026-10-29T16:55:00.000Z",
+        "trainingEndUtc": "2026-10-29T07:00:00.000Z",
+        "modelVersion": "caiso-price-forecast-2.0.0+75e28d6e07da",
+        "sampleCount": 12456,
+        "calibrationCount": 84,
+        "selectionEligibleAtAsOf": true,
+        "selectionAvailableForTargetFrom": "2026-05-30",
+        "reconstructed": false
+      }
+    ]
+  }
+}

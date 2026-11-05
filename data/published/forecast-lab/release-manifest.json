@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "caiso-price-forecast-1.0.0+fa6800bacef8",
+  "forecastGeneratedAt": "2026-10-29T15:53:47.595Z",
+  "purpose": "可复现的研究模型与策略模拟，不含平台凭据或自动下单",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7789,
+      "sha256": "e3dc477ef07ea839d31759c45cd17c87fed28f767a691afe4b9f406c65fe05de"
+    },
+    {
+      "path": "data/strategy-history.json",
+      "bytes": 925439,
+      "sha256": "030ca6641f5b31e6dd25ce923a151a10d4a4f691e7984a4a2801f3003d8a9101"
+    },
+    {
+      "path": "lib/strategy-engine.ts",
+      "bytes": 31234,
+      "sha256": "6cae86a7f10ff3325c2e2c669554cd3f11d81b29a1731bf088297da992943323"
+    },
+    {
+      "path": "lib/strategy-forecast.ts",
+      "bytes": 8434,
+      "sha256": "086e4ba7429cc3daaf3b91bc5601ace004dda9047ed17a2a4e9b95b40f7bb7c0"
+    },
+    {
+      "path": "lib/strategy-types.ts",
+      "bytes": 6913,
+      "sha256": "3aa4709e337598e6dcea196ba3711cc259b4ec8a791ec852037dd0ef28f3a10c"
+    },
+    {
+      "path": "lib/time.ts",
+      "bytes": 2093,
+      "sha256": "9b20609e0658182f2cafa99e47032b564788046cb99c7fdcd25b4167e8b33439"
+    },
+    {
+      "path": "package.json",
+      "bytes": 177,
+      "sha256": "10d50449a6fd679985f78eeb115c8ae7718141a3a2ca8a9f1fd494dd9627e8f0"
+    },
+    {
+      "path": "public/data/forecast-lab/all-walk-forward.json",
+      "bytes": 2614316,
+      "sha256": "ff0a8aa751a975e82f89f1638d923f0d524f54c08d553c072bb483b2d564c2a6"
+    },
+    {
+      "path": "public/data/forecast-lab/candidate-predictions.json",
+      "bytes": 2869943,
+      "sha256": "73b857cd402981825378121c844b8b322902ec4458d7f5a3be44746efd7ffd15"
+    },
+    {
+      "path": "public/data/forecast-lab/data-audit.json",
+      "bytes": 41969,
+      "sha256": "3e16f29ba7636530b4e457c3c926f43d6844be3f9ee4ed35e57483005ce210d3"
+    },
+    {
+      "path": "public/data/forecast-lab/embedded-data.json",
+      "bytes": 59276,
+      "sha256": "6452986b9c39c5ea1985740a87008c1dccfd467613156f46ab157da09972848f"
+    },
+    {
+      "path": "public/data/forecast-lab/forecast-archive-receipt.json",
+      "bytes": 809,
+      "sha256": "2620a5f10b4600a3082b40e38aa720dbaa40670a8c48d5f91732d31276c89e50"
+    },
+    {
+      "path": "public/data/forecast-lab/forecast-forward.json",
+      "bytes": 61952,
+      "sha256": "1f8d7aa1ece385e52ed59f28e6a28d854a8bde650b79f46423989ebef0059c5f"
+    },
+    {
+      "path": "public/data/forecast-lab/forecast-history.json",
+      "bytes": 875372,
+      "sha256": "592feacf9073c53c68842420f4ae680178b03f772973198d7a0ae81f497e91f1"
+    },
+    {
+      "path": "public/data/forecast-lab/forward-plan.json",
+      "bytes": 15835,
+      "sha256": "e4e54bb3288a518b54c61eaa156cda077d7f6809f794cf45a21edd93addd1acc"
+    },
+    {
+      "path": "public/data/forecast-lab/holdout-fee-1-sensitivity.json",
+      "bytes": 286694,
+      "sha256": "cb556ba6d3eaa411d8ce96229b45f79160a2af29c2759ed6dc7c2d94221708cc"
+    },
+    {
+      "path": "public/data/forecast-lab/holdout-input.json",
+      "bytes": 782951,
+      "sha256": "36f54f8eb43f1cdf90b0e6fa94fca1d519b46e9f68c517ad94fc590ce6109e54"
+    },
+    {
+      "path": "public/data/forecast-lab/holdout-simulation.json",
+      "bytes": 286380,
+      "sha256": "1490e644bdc0eca2b4f604eefaabd8d51918e075ae4f83609aca381209a6651e"
+    },
+    {
+      "path": "public/data/forecast-lab/models.json",
+      "bytes": 10026,
+      "sha256": "595c233bdc4236c3b447ac4a51dee895d5cefc933f5498239e9a6b3cf4bd1f71"
+    },
+    {
+      "path": "public/data/forecast-lab/predictions.csv",
+      "bytes": 487905,
+      "sha256": "f2de4998344f4f3bd430435b4b38547023d3a2b4abd7b7f1ac807b7ab7799d44"
+    },
+    {
+      "path": "public/data/forecast-lab/report.json",
+      "bytes": 27268,
+      "sha256": "b078fe82d6bea66eeb6928607c25fb7587e8eabd81ce6bfe3043b602f5ef6992"
+    },
+    {
+      "path": "public/data/forecast-lab/simulation-summary.json",
+      "bytes": 4853,
+      "sha256": "47ff138a60d5ef0dc84ba95b679d7b5a2313139822099ccb0b32932cb7a06cd1"
+    },
+    {
+      "path": "public/data/forecast-lab/trading_strategy.py",
+      "bytes": 18967,
+      "sha256": "bec974b02fc7c61a3a69519c24e377db8e40495b13100af83b6fcf070bc18f91"
+    },
+    {
+      "path": "research/PYTHON_INPUT.md",
+      "bytes": 6661,
+      "sha256": "1ed5ffa98a1f35fd02726362c615e6f2533a509a4a692a05ced8faa1b7dee66b"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 7550,
+      "sha256": "09648fce3b337317c6d894f776fe6446f81fb27a085ffeaacddbd7247a711942"
+    },
+    {
+      "path": "research/build_release.py",
+      "bytes": 4443,
+      "sha256": "cc086c58f8ce72338303feaaac2a21638ad39b5d871af6b5e1eb9f51fee46413"
+    },
+    {
+      "path": "research/build_strategy_input.py",
+      "bytes": 10256,
+      "sha256": "c041f4deb1676353fe3fd02d02ae8796eac58173a7dc453129315bcc11123faa"
+    },
+    {
+      "path": "research/data-audit.json",
+      "bytes": 41969,
+      "sha256": "3e16f29ba7636530b4e457c3c926f43d6844be3f9ee4ed35e57483005ce210d3"
+    },
+    {
+      "path": "research/forecast_pipeline.py",
+      "bytes": 38986,
+      "sha256": "15c6221fec7b6f92e2d23db2ce1189ac9feee1f3d87b107c6ed68abf80745f4a"
+    },
+    {
+      "path": "research/forecast_schema.json",
+      "bytes": 4370,
+      "sha256": "5d2fbb737ef2483c13edc0929feb1ec09fe3d1d47885a155aa4026fb5b15ebdb"
+    },
+    {
+      "path": "research/original_trading_strategy.py",
+      "bytes": 16828,
+      "sha256": "e009b2a22cba89ed42d498fc4a6951a55a7c3ccb9bd40cdf5f3c9ea323d5a14b"
+    },
+    {
+      "path": "research/output/embedded-data.json",
+      "bytes": 59276,
+      "sha256": "6452986b9c39c5ea1985740a87008c1dccfd467613156f46ab157da09972848f"
+    },
+    {
+      "path": "research/output/forward-cli-result.json",
+      "bytes": 15859,
+      "sha256": "36a2400b947aa8a0c684a41058a6f619cb888bd3190af10b345bc6cf456b5def"
+    },
+    {
+      "path": "research/output/forward-plan.json",
+      "bytes": 15835,
+      "sha256": "e4e54bb3288a518b54c61eaa156cda077d7f6809f794cf45a21edd93addd1acc"
+    },
+    {
+      "path": "research/output/holdout-fee-1-sensitivity.json",
+      "bytes": 286694,
+      "sha256": "cb556ba6d3eaa411d8ce96229b45f79160a2af29c2759ed6dc7c2d94221708cc"
+    },
+    {
+      "path": "research/output/holdout-input.json",
+      "bytes": 782951,
+      "sha256": "36f54f8eb43f1cdf90b0e6fa94fca1d519b46e9f68c517ad94fc590ce6109e54"
+    },
+    {
+      "path": "research/output/holdout-simulation.json",
+      "bytes": 286380,
+      "sha256": "1490e644bdc0eca2b4f604eefaabd8d51918e075ae4f83609aca381209a6651e"
+    },
+    {
+      "path": "research/requirements.txt",
+      "bytes": 130,
+      "sha256": "f3cbb245bf79eb2055b5567d6d84accc317a2fadd8dea17225b32c37b2a64d45"
+    },
+    {
+      "path": "research/test_forecast_pipeline.py",
+      "bytes": 7447,
+      "sha256": "f78b34c3ead9f80d0c4ee7b8a8cb245cccc52d1a36787e095b2be9c5c0115aab"
+    },
+    {
+      "path": "research/test_strategy_bridge.py",
+      "bytes": 8968,
+      "sha256": "808a07fa947f11e6eec50d6095bfd43759a80ac1a592ace7ba06e262d7b610fa"
+    },
+    {
+      "path": "research/test_strategy_parity.mjs",
+      "bytes": 3277,
+      "sha256": "5aac393d5c28e0177be283d0b3c0a1b4382a2278260f6ea3485d5fa433aa90cc"
+    },
+    {
+      "path": "research/trading_strategy.py",
+      "bytes": 18967,
+      "sha256": "bec974b02fc7c61a3a69519c24e377db8e40495b13100af83b6fcf070bc18f91"
+    }
+  ]
+}

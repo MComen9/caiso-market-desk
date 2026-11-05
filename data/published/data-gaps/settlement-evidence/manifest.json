@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "builtAtUtc": "2026-10-30T07:14:33.439336+00:00",
+  "attribution": "Source materials by California ISO; originals and notices preserved. Analysis by the CAISO Market Desk research pipeline.",
+  "files": [
+    {
+      "path": "SETTLEMENT_DATA_GAPS.md",
+      "bytes": 8804,
+      "sha256": "f970a42641a498f72ae6949cb49771f3d114d45946062b040655cf91030a65ac"
+    },
+    {
+      "path": "node-eligibility-check.json",
+      "bytes": 5231,
+      "sha256": "6ff706e3f811fd99c1dbb827a178b6de3a3f6751b8c4b0c9478c20b67137ed65"
+    },
+    {
+      "path": "oasis-evidence/cb_limits_NP15_2026-10-28_2026-10-29.json",
+      "bytes": 1149,
+      "sha256": "450720c6da815bc82cf607762a7a7cc90f7e3f02d496a89e4192cbfcc38781a6"
+    },
+    {
+      "path": "oasis-evidence/cb_limits_NP15_2026-10-28_2026-10-29.zip",
+      "bytes": 659,
+      "sha256": "7fff8fc0b4b21db6ba716456b680d9159cad0679714d9d0e7d73b844a76d96cc"
+    },
+    {
+      "path": "oasis-evidence/cb_limits_SP15_2026-10-28_2026-10-29.json",
+      "bytes": 1149,
+      "sha256": "98822b3e16fdfb796cdb2e2eae00e30a5bc45c5fff31ab05499f8ec24078d3ae"
+    },
+    {
+      "path": "oasis-evidence/cb_limits_SP15_2026-10-28_2026-10-29.zip",
+      "bytes": 661,
+      "sha256": "fd7996293082234507e7226c55042f9206e43bda085108026f14095ab7c8220a"
+    },
+    {
+      "path": "oasis-evidence/cb_limits_ZP26_2026-10-28_2026-10-29.json",
+      "bytes": 1149,
+      "sha256": "4b42e92ecec2edadb3a24024286f8afc6fd97713bdc9e5dd058fa96baa4bd1e0"
+    },
+    {
+      "path": "oasis-evidence/cb_limits_ZP26_2026-10-28_2026-10-29.zip",
+      "bytes": 660,
+      "sha256": "fa15104ca1ff7b7e3a27753f27aaa5c5a43f87fcf5080d4c14d2f8ecbc4cdbb8"
+    },
+    {
+      "path": "oasis-evidence/cb_nodes_2026-10-28_2026-10-29.json",
+      "bytes": 2079,
+      "sha256": "5c40b2d58601e694b4defebc09365ad7277c904e393eeb17cc6eaec9623502cc"
+    },
+    {
+      "path": "oasis-evidence/cb_nodes_2026-10-28_2026-10-29.zip",
+      "bytes": 26401,
+      "sha256": "49be04208436c4ffa1f0c55e8995f829f025365fb531bf3d69eeb95e7b8a09c1"
+    },
+    {
+      "path": "oasis-evidence/convergence-bidding-nodes.csv",
+      "bytes": 388649,
+      "sha256": "41f66a79105c3e187d147b0e7f85d87649666c8d1448c874d28ca15a5a23cc47"
+    },
+    {
+      "path": "official-documents/cc4515-2026-incremental.docx",
+      "bytes": 126596,
+      "sha256": "7f69741ea90c572720b9dc0b4392b09ae38b6f0f279793aab696c2b7af551e01"
+    },
+    {
+      "path": "official-documents/cc4560-market-services-2026.docx",
+      "bytes": 137604,
+      "sha256": "3fe3d93948952b27cfd2bb45923b2a950391d845d1c9eb3414e8e0f18eb8556b"
+    },
+    {
+      "path": "official-documents/cc6473-2026-incremental.docx",
+      "bytes": 201622,
+      "sha256": "29300ed3379e556b51f00963c8dba71bf825f1cef5f19a7031a483ec612a9320"
+    },
+    {
+      "path": "official-documents/gmc-rates-effective-2026-10-01.pdf",
+      "bytes": 277490,
+      "sha256": "13d0b169b85d055da9b14aec99fcfe4b85ef7e586df5b1897fd1af7270613225"
+    },
+    {
+      "path": "official-documents/settlement-user-group-2026-06-17.pdf",
+      "bytes": 900814,
+      "sha256": "8200b6158948c25a3b0b7001f6545251a3eb788827aef3344b5e758072333fba"
+    },
+    {
+      "path": "official-documents/settlements-training-2026-04-21.pdf",
+      "bytes": 3068417,
+      "sha256": "dcdabf95b0e7e14c2404044a88694475620b3fce79756357d64439e27e848f46"
+    },
+    {
+      "path": "public-document-receipts.json",
+      "bytes": 2576,
+      "sha256": "95f2c195e2e00387f733a9b3ffc6bc8e3c2daf2ee81fbd4d56e66d3ed6f188c5"
+    },
+    {
+      "path": "settlement-gap-evidence.json",
+      "bytes": 12037,
+      "sha256": "be33d185905f129aa487985e2a9abb19f8bde09081cbe0c11c4fbcc511c47b50"
+    }
+  ]
+}

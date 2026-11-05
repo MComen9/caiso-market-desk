@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "caiso-python-strategy-3.0.0",
+  "generatedAt": "2026-10-29T15:56:55.782Z",
+  "executedAt": "2026-10-29T15:56:55.749Z",
+  "forecastGeneratedAt": "2026-10-29T15:53:47.595Z",
+  "classification": "研究模拟；未下单、未结算",
+  "forecastDate": "2026-10-30",
+  "forecastDigest": "1790225618d5bc0ecdce83e070e461bace88a5a97b503a0f9a256d442835dde6",
+  "historyDigest": "a9f0a9af6f865639114a13b4cddaf3dc7487557b6b691a489470490db478e2f6",
+  "config": {
+    "sel": [
+      "TH_NP15_GEN-APND",
+      "TH_SP15_GEN-APND",
+      "TH_ZP26_GEN-APND"
+    ],
+    "total": 12,
+    "k": 0.5,
+    "dp": 10,
+    "capPer": 2.0,
+    "capNode": 6.0,
+    "maxCells": 12,
+    "strat": "normal",
+    "maxNeg": 10,
+    "feePerMWh": 0.0,
+    "tieFill": false,
+    "aggressiveBuyQuote": 1000.0,
+    "aggressiveSellQuote": -150.0
+  },
+  "forward": {
+    "date": "2026-10-30",
+    "status": "forecast_only",
+    "pnl": null,
+    "expected": 105.57746760285545,
+    "gross": 12.0,
+    "unallocatedMWh": 0.0,
+    "forecastHours": 72,
+    "expectedHours": 72
+  },
+  "holdout": {
+    "total": -59.1547328565013,
+    "maxdd": 565.7824328489397,
+    "ndays": 14,
+    "evaluatedDays": 14,
+    "incompleteDays": 0,
+    "noSignalDays": 0,
+    "winRate": 53.92156862745098,
+    "perMWh": -0.5621380053079977,
+    "filled": 105.231690969,
+    "totalTrades": 102,
+    "totGross": 167.999999999,
+    "fees": 0
+  },
+  "feeSensitivity1PerMWh": {
+    "total": -164.38642382550128,
+    "maxdd": 630.5366776359397,
+    "filled": 105.231690969,
+    "fees": 105.231690969
+  },
+  "days": [
+    {
+      "date": "2026-10-15",
+      "status": "complete",
+      "pnl": 84.66461999999999,
+      "gross": 12.0,
+      "filled": 10.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-16",
+      "status": "complete",
+      "pnl": 226.7228625,
+      "gross": 12.0,
+      "filled": 12.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-17",
+      "status": "complete",
+      "pnl": 167.94636250000002,
+      "gross": 12.0,
+      "filled": 11.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-18",
+      "status": "complete",
+      "pnl": 14.695342499999995,
+      "gross": 12.0,
+      "filled": 1.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-19",
+      "status": "complete",
+      "pnl": 0.0,
+      "gross": 12.0,
+      "filled": 0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-20",
+      "status": "complete",
+      "pnl": -125.31538499999999,
+      "gross": 12.0,
+      "filled": 12.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-21",
+      "status": "complete",
+      "pnl": -304.64039249999996,
+      "gross": 12.0,
+      "filled": 12.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-22",
+      "status": "complete",
+      "pnl": -118.04321249999998,
+      "gross": 12.0,
+      "filled": 6.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-23",
+      "status": "complete",
+      "pnl": 66.44142000000002,
+      "gross": 12.0,
+      "filled": 12.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-24",
+      "status": "complete",
+      "pnl": -26.058737401989283,
+      "gross": 12.0,
+      "filled": 12.0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-25",
+      "status": "complete",
+      "pnl": -58.16612544695054,
+      "gross": 12.0,
+      "filled": 10.754244787000001,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-26",
+      "status": "complete",
+      "pnl": 0.0,
+      "gross": 12.0,
+      "filled": 0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-27",
+      "status": "complete",
+      "pnl": 0.0,
+      "gross": 11.999999999,
+      "filled": 0,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    },
+    {
+      "date": "2026-10-28",
+      "status": "complete",
+      "pnl": 12.598512492438463,
+      "gross": 12.0,
+      "filled": 6.4774461819999996,
+      "fees": 0,
+      "forecastHours": 72,
+      "expectedHours": 72
+    }
+  ],
+  "warnings": [
+    "策略参数固定在检验集之前，不以检验集收益调参。",
+    "零费用主口径另附固定 1 美元/MWh 费用敏感性；不代表完整市场成本。",
+    "历史回测基于现在重建的预测，不是当时归档业绩。"
+  ]
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "file": "curtailed-non-operational-generator-am-report-20261029.xlsx",
+    "receipt": {
+      "sourceUrl": "https://www.caiso.com/documents/curtailed-non-operational-generator-am-report-20261029.xlsx",
+      "fetchedAtUtc": "2026-10-30T07:07:19.441100+00:00",
+      "httpStatus": 200,
+      "bytes": 73022,
+      "sha256": "22d036fc4e84bb92ef3a62244097d6933dd9fc2a6fdec3d5049421a79e80e949",
+      "lastModified": "Thu, 29 Oct 2026 15:30:45 GMT"
+    },
+    "sheets": [
+      {
+        "name": "Curtailed",
+        "rows": 658
+      }
+    ]
+  },
+  {
+    "file": "curtailed-non-operational-generator-prior-trade-date-report-20261028.xlsx",
+    "receipt": {
+      "sourceUrl": "https://www.caiso.com/documents/curtailed-non-operational-generator-prior-trade-date-report-20261028.xlsx",
+      "fetchedAtUtc": "2026-10-30T07:07:19.934519+00:00",
+      "httpStatus": 200,
+      "bytes": 169265,
+      "sha256": "e50f9a4a98523c024c1ef7c98b48a53cfa8b8f5fde220f03ecc82f7ccc0b3cf2",
+      "lastModified": "Thu, 29 Oct 2026 15:50:47 GMT"
+    },
+    "sheets": [
+      {
+        "name": "PREV_DAY_OUTAGES",
+        "rows": 2245
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-30T07:19:09.170322+00:00",
+  "sources": [
+    {
+      "path": "/api/gridstatus?resource=status",
+      "httpStatus": 200,
+      "result": {
+        "configured": false,
+        "status": "not_configured",
+        "message": "尚未配置 GridStatus API Key。CAISO 官方公开数据可正常独立使用。"
+      }
+    },
+    {
+      "path": "/api/outlook?date=2026-10-29&feed=demand",
+      "httpStatus": 502,
+      "result": {
+        "ok": false,
+        "date": "2026-10-29",
+        "fetchedAt": "2026-10-30T07:19:11.211Z",
+        "feeds": {
+          "demand": {
+            "id": "demand",
+            "title": "负荷与预测",
+            "source": "outlook",
+            "status": "error",
+            "sourceUrl": "https://www.caiso.com/outlook/history/20261029/demand.csv",
+            "fetchedAt": "2026-10-30T07:19:10.694Z",
+            "requestedDate": "2026-10-29",
+            "dataDate": null,
+            "timeZone": "America/Los_Angeles",
+            "unit": "MW",
+            "intervalMinutes": 5,
+            "columns": [],
+            "rows": [],
+            "warnings": [],
+            "notes": [
+              "需求和净需求不含可调度抽水负荷及电池充电负荷。",
+              "日前预测原生为小时平均；在 5 分钟 CSV 上展示不代表预测精度提高。",
+              "仅作信息参考，不用于账单结算或运行规划。"
+            ],
+            "cached": false,
+            "error": {
+              "code": "SOURCE_ACCESS_DENIED",
+              "message": "Today’s Outlook 拒绝当前服务器读取（HTTP 403），本次未更新。已验证快照仍可查看，也可打开官方来源。"
+            }
+          }
+        },
+        "warnings": [
+          "部分来源获取失败，其他数据仍可使用。"
+        ]
+      }
+    }
+  ]
+}

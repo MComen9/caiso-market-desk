@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-10-29T16:40:18.682936+00:00",
+  "purpose": "第二轮固定策略敏感性研究，不根据已见窗口选择赢家",
+  "developmentWindow": {
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-28",
+    "previouslySeen": true
+  },
+  "profiles": [
+    {
+      "id": "normal_05",
+      "label": "原固定门槛 k=0.5",
+      "strat": "normal",
+      "k": 0.5
+    },
+    {
+      "id": "normal_10",
+      "label": "较高门槛 k=1.0",
+      "strat": "normal",
+      "k": 1.0
+    },
+    {
+      "id": "high_conf_15",
+      "label": "高门槛 k≥1.5",
+      "strat": "high_conf",
+      "k": 0.5
+    }
+  ],
+  "feesPerMWh": [
+    0,
+    1
+  ],
+  "defaultProfile": "normal_05",
+  "selectionRule": "不以开发窗口损益选择默认策略；保持原默认，仅报告信号覆盖、成交量、损益和回撤的权衡。",
+  "tradingApproval": false
+}

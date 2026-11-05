@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-30T08:31:04.543381+00:00",
+  "policy": "Existing/free public access only; bounded attempts, no purchases or registrations. Unavailable fields excluded from this run.",
+  "prices": {
+    "status": "complete",
+    "file": "price-history-current.json.gz",
+    "startDate": "2025-10-29",
+    "endDate": "2026-10-29",
+    "newNodeHours": 72,
+    "totalNodeHours": 26352,
+    "completeDays": 366,
+    "audit": "current-prices-audit.json"
+  },
+  "eia": {
+    "status": "partial_usable",
+    "file": "eia/eia930-ciso-current.json.gz",
+    "audit": "eia/eia930-ciso-audit.json",
+    "hours": 8784,
+    "numericFields": 22,
+    "allMissingExcluded": [
+      "batteryGenerationMw",
+      "pumpedStorageGenerationMw",
+      "interchangeCFEMw"
+    ],
+    "usableFields": 19,
+    "use": "Optional lagged-system-state research feature group; not required for price model.",
+    "modelStatus": "research_reference_not_used_in_v4_core",
+    "rawWorkbookIncluded": false
+  },
+  "frp": {
+    "status": "excluded_this_run",
+    "attemptPolicy": "One known public one-day report request, retried once only when 1015 processing returned.",
+    "error": {
+      "code": "1015",
+      "message": "GroupZip DownLoad is in Processing, Please Submit request after Sometime",
+      "members": [
+        "20261029_20261029_RTPD_FLEX_RAMP_NODAL_PRC_GRP_RTPD_N.xml"
+      ]
+    },
+    "receipt": "optional/frp_nodal_2026-10-29_2026-10-30.json"
+  },
+  "weather": {
+    "status": "excluded_this_run",
+    "reason": "Existing samples insufficient for training; no short, already-validated bulk path. No further acquisition attempted."
+  },
+  "stoppedAt": "2026-10-30T08:31:04.543529+00:00",
+  "deliveryPolicy": "Normalized inputs and small raw OASIS responses are delivered. The 97.9 MB EIA workbook is excluded; its exact URL and SHA-256 are in eia/receipt.json."
+}

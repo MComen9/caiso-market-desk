@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "version": "caiso-weather-outage-evidence-1.0",
+  "generatedAtUtc": "2026-10-30T07:15:13.867212+00:00",
+  "title": "天气、停运与燃料区证据",
+  "downloadUrl": "/data/data-gaps/weather-evidence/weather-outage-evidence.zip",
+  "verificationUrl": "/data/data-gaps/weather-evidence/verification.json",
+  "datasetCount": 5,
+  "datasets": [
+    {
+      "id": "nws-current-weather",
+      "title": "NWS 当前逐小时天气预测",
+      "status": "snapshot_verified",
+      "classification": "current_forecast_snapshot",
+      "source": "NOAA / NWS",
+      "recordCount": 468,
+      "entityCount": 3,
+      "entityUnit": "城市点位",
+      "coverage": {
+        "startUtc": "2026-10-30T06:00:00+00:00",
+        "endUtc": "2026-11-05T19:00:00+00:00",
+        "hoursPerLocation": 156
+      },
+      "fetchedAtUtc": "2026-10-30T07:05:29.422108+00:00",
+      "sourceUrls": [
+        "https://api.weather.gov/gridpoints/STO/41,68/forecast/hourly",
+        "https://api.weather.gov/gridpoints/HNX/52,100/forecast/hourly",
+        "https://api.weather.gov/gridpoints/LOX/155,45/forecast/hourly"
+      ],
+      "documentationUrl": "https://www.weather.gov/documentation/services-web-api",
+      "dataUrl": "/data/data-gaps/weather-evidence/nws-weather-snapshot.json",
+      "fields": [
+        "locationId",
+        "startUtc",
+        "endUtc",
+        "temperature",
+        "temperatureUnit",
+        "relativeHumidityPercent",
+        "precipitationProbabilityPercent",
+        "windSpeedRaw",
+        "windDirection",
+        "sourceUpdateTimeUtc",
+        "generatedAtUtc",
+        "fetchedAtUtc"
+      ],
+      "units": {
+        "temperature": "source temperatureUnit, F in this snapshot",
+        "relativeHumidityPercent": "%",
+        "precipitationProbabilityPercent": "%",
+        "windSpeedRaw": "原始 mph 字符串"
+      },
+      "examples": [
+        {
+          "locationId": "sacramento",
+          "locationLabel": "Sacramento",
+          "startUtc": "2026-10-30T07:00:00+00:00",
+          "endUtc": "2026-10-30T08:00:00+00:00",
+          "temperature": 56,
+          "temperatureUnit": "F",
+          "relativeHumidityPercent": 72,
+          "precipitationProbabilityPercent": 0,
+          "windSpeedRaw": "1 mph",
+          "windDirection": "SSE",
+          "shortForecast": "Mostly Cloudy"
+        },
+        {
+          "locationId": "fresno",
+          "locationLabel": "Fresno",
+          "startUtc": "2026-10-30T07:00:00+00:00",
+          "endUtc": "2026-10-30T08:00:00+00:00",
+          "temperature": 62,
+          "temperatureUnit": "F",
+          "relativeHumidityPercent": 70,
+          "precipitationProbabilityPercent": 12,
+          "windSpeedRaw": "0 mph",
+          "windDirection": "",
+          "shortForecast": "Cloudy"
+        },
+        {
+          "locationId": "los_angeles",
+          "locationLabel": "Los Angeles",
+          "startUtc": "2026-10-30T06:00:00+00:00",
+          "endUtc": "2026-10-30T07:00:00+00:00",
+          "temperature": 63,
+          "temperatureUnit": "F",
+          "relativeHumidityPercent": 81,
+          "precipitationProbabilityPercent": 33,
+          "windSpeedRaw": "5 mph",
+          "windDirection": "S",
+          "shortForecast": "Chance Rain Showers"
+        }
+      ],
+      "limitations": [
+        "只有当前快照，不能回填过去180日每个决策截点的预报。",
+        "三个城市是研究采样点，尚无CAISO负荷/装机权重，不能当节点中心。",
+        "源更新时间、生成时间与获取时间分别保留；进入未来模型仍需逐区间检查截点。"
+      ],
+      "access": {
+        "requiresKey": false,
+        "commercialUse": "官方开放数据，可免费用于任何用途，遵守合理限流。"
+      }
+    },
+    {
+      "id": "gfs-historical-single-run",
+      "title": "GFS 历史单次运行样本",
+      "status": "sample_verified",
+      "classification": "historical_model_run_retrieved_today",
+      "source": "Open-Meteo / NOAA GFS global",
+      "recordCount": 72,
+      "entityCount": 1,
+      "entityUnit": "指定初始化批次及点位",
+      "coverage": {
+        "startUtc": "2026-10-14T00:00:00+00:00",
+        "endUtc": "2026-10-16T23:00:00+00:00",
+        "runInitializationUtc": "2026-10-14T00:00:00Z",
+        "leadHoursStart": 0,
+        "leadHoursEnd": 71
+      },
+      "fetchedAtUtc": "2026-10-30T07:07:57.773518+00:00",
+      "sourceUrls": [
+        "https://single-runs-api.open-meteo.com/v1/forecast?latitude=38.5816&longitude=-121.4944&models=gfs_global&run=2026-10-14T00%3A00&forecast_days=3&timezone=GMT&hourly=temperature_2m%2Crelative_humidity_2m%2Cwind_speed_10m%2Ccloud_cover%2Cshortwave_radiation"
+      ],
+      "documentationUrl": "https://open-meteo.com/en/docs/single-runs-api",
+      "dataUrl": "/data/data-gaps/weather-evidence/open-meteo-single-run-20261014-sacramento.json",
+      "fields": [
+        "validTimeUtc",
+        "runInitializationUtc",
+        "leadHours",
+        "temperature_2m",
+        "relative_humidity_2m",
+        "wind_speed_10m",
+        "cloud_cover",
+        "shortwave_radiation"
+      ],
+      "units": {
+        "time": "iso8601",
+        "temperature_2m": "°C",
+        "relative_humidity_2m": "%",
+        "wind_speed_10m": "km/h",
+        "cloud_cover": "%",
+        "shortwave_radiation": "W/m²"
+      },
+      "examples": [
+        {
+          "validTimeUtc": "2026-10-14T00:00:00+00:00",
+          "runInitializationUtc": "2026-10-14T00:00:00+00:00",
+          "leadHours": 0.0,
+          "values": {
+            "temperature_2m": 24.9,
+            "relative_humidity_2m": 12,
+            "wind_speed_10m": 17.6,
+            "cloud_cover": null,
+            "shortwave_radiation": null
+          }
+        },
+        {
+          "validTimeUtc": "2026-10-14T01:00:00+00:00",
+          "runInitializationUtc": "2026-10-14T00:00:00+00:00",
+          "leadHours": 1.0,
+          "values": {
+            "temperature_2m": 22.9,
+            "relative_humidity_2m": 14,
+            "wind_speed_10m": 13.5,
+            "cloud_cover": 5,
+            "shortwave_radiation": 148.0
+          }
+        },
+        {
+          "validTimeUtc": "2026-10-15T00:00:00+00:00",
+          "runInitializationUtc": "2026-10-14T00:00:00+00:00",
+          "leadHours": 24.0,
+          "values": {
+            "temperature_2m": 25.5,
+            "relative_humidity_2m": 14,
+            "wind_speed_10m": 6.4,
+            "cloud_cover": 0,
+            "shortwave_radiation": 334.0
+          }
+        },
+        {
+          "validTimeUtc": "2026-10-16T00:00:00+00:00",
+          "runInitializationUtc": "2026-10-14T00:00:00+00:00",
+          "leadHours": 48.0,
+          "values": {
+            "temperature_2m": 28.9,
+            "relative_humidity_2m": 16,
+            "wind_speed_10m": 8.9,
+            "cloud_cover": 0,
+            "shortwave_radiation": 329.0
+          }
+        },
+        {
+          "validTimeUtc": "2026-10-16T23:00:00+00:00",
+          "runInitializationUtc": "2026-10-14T00:00:00+00:00",
+          "leadHours": 71.0,
+          "values": {
+            "temperature_2m": 30.8,
+            "relative_humidity_2m": 13,
+            "wind_speed_10m": 4.7,
+            "cloud_cover": 0,
+            "shortwave_radiation": 502.0
+          }
+        }
+      ],
+      "limitations": [
+        "已核验一个点位、一个批次72小时，尚未批量回填180天。",
+        "run来自保留的请求参数，响应不另给run字段；初始化时间不等于公开可用时间，sourceAvailabilityUtc为空。",
+        "lead0云量与辐射各缺失1值，保留null；其余358数值完整。",
+        "历史批次今天可下载不等于当时已经归档，也未纳入V3重训。"
+      ],
+      "access": {
+        "requiresKey": false,
+        "commercialUse": "本次为一个非商业研究样本；免费托管仅限非商业，商用需相应商业方案或自建。",
+        "termsUrl": "https://open-meteo.com/en/terms"
+      }
+    },
+    {
+      "id": "generator-outage-am",
+      "title": "CAISO 发电停运 AM 快照",
+      "status": "sample_verified",
+      "classification": "historical_report_retrieved_today",
+      "source": "CAISO 公开XLSX",
+      "recordCount": 628,
+      "entityCount": 587,
+      "entityUnit": "资源",
+      "coverage": {
+        "tradeDatePt": "2026-10-29",
+        "sourceGeneratedTimeRaw": "Report Generated on : 10/29/2026 07:30:02 (PPT)"
+      },
+      "fetchedAtUtc": "2026-10-30T07:07:19.441100+00:00",
+      "sourceUrls": [
+        "https://www.caiso.com/documents/curtailed-non-operational-generator-am-report-20261029.xlsx"
+      ],
+      "documentationUrl": "https://www.caiso.com/market-operations/outages/curtailed-and-non-operational-generators",
+      "dataUrl": "/data/data-gaps/weather-evidence/generator-outages-am-20261029.json",
+      "fields": [
+        "resourceId",
+        "resourceName",
+        "outageType",
+        "capacityMw",
+        "curtailedMw",
+        "zoneName",
+        "balancingArea",
+        "sourceRow"
+      ],
+      "units": {
+        "capacityMw": "MW",
+        "curtailedMw": "MW"
+      },
+      "examples": [
+        {
+          "resourceId": "BIGSKY_2_SOLAR1",
+          "resourceName": "Antelope Big Sky Ranch",
+          "outageType": "Forced",
+          "capacityMw": 20.0,
+          "curtailedMw": 7.0,
+          "zoneName": "SCE Gen",
+          "balancingArea": "CISO",
+          "sourceRow": 10
+        },
+        {
+          "resourceId": "BIGSKY_2_SOLAR6",
+          "resourceName": "Solverde 1",
+          "outageType": "Forced",
+          "capacityMw": 85.0,
+          "curtailedMw": 28.0,
+          "zoneName": "SCE Gen",
+          "balancingArea": "CISO",
+          "sourceRow": 11
+        },
+        {
+          "resourceId": "BIGSKY_2_SOLAR7",
+          "resourceName": "Big Sky Solar 1",
+          "outageType": "Forced",
+          "capacityMw": 50.0,
+          "curtailedMw": 14.0,
+          "zoneName": "SCE Gen",
+          "balancingArea": "CISO",
+          "sourceRow": 12
+        },
+        {
+          "resourceId": "BISHOP_1_ALAMO",
+          "resourceName": "BISHOP CREEK PLANT 2 AND 6",
+          "outageType": "Planned/Forced",
+          "capacityMw": 13.4,
+          "curtailedMw": 12.1,
+          "zoneName": "SCE Gen",
+          "balancingArea": "CISO",
+          "sourceRow": 13
+        }
+      ],
+      "balancingAreaRowCounts": {
+        "CISO": 535,
+        "BANC": 50,
+        "LADWP": 32,
+        "TIDC": 7,
+        "IID": 4
+      },
+      "limitations": [
+        "含535条CISO行和其他平衡区，不能将628行全部当作CAISO。",
+        "37个资源ID跨多行出现，不能直接求和成同时停运容量。",
+        "文件生成时间与官网发布日程不同；首次公开时间未验证。"
+      ],
+      "access": {
+        "requiresKey": false
+      }
+    },
+    {
+      "id": "generator-outage-prior",
+      "title": "CAISO 前一交易日停运明细",
+      "status": "sample_verified",
+      "classification": "historical_report_retrieved_today",
+      "source": "CAISO 公开XLSX",
+      "recordCount": 2235,
+      "entityCount": 551,
+      "entityUnit": "资源",
+      "coverage": {
+        "tradeDatePt": "2026-10-28"
+      },
+      "fetchedAtUtc": "2026-10-30T07:07:19.934519+00:00",
+      "sourceUrls": [
+        "https://www.caiso.com/documents/curtailed-non-operational-generator-prior-trade-date-report-20261028.xlsx"
+      ],
+      "documentationUrl": "https://www.caiso.com/market-operations/outages",
+      "dataUrl": "/data/data-gaps/weather-evidence/generator-outages-prior-20261028.json",
+      "fields": [
+        "outageMrid",
+        "resourceName",
+        "resourceId",
+        "outageType",
+        "natureOfWork",
+        "curtailmentStartLocalRaw",
+        "curtailmentEndLocalRaw",
+        "curtailmentMw",
+        "resourcePmaxMw",
+        "netQualifyingCapacityMw",
+        "sourceRow"
+      ],
+      "units": {
+        "curtailmentMw": "MW",
+        "resourcePmaxMw": "MW",
+        "netQualifyingCapacityMw": "MW"
+      },
+      "examples": [
+        {
+          "outageMrid": "20882793",
+          "resourceName": "GEYSERS AIDLIN AGGREGATE",
+          "resourceId": "ADLIN_1_UNITS",
+          "outageType": "FORCED",
+          "natureOfWork": "AMBIENT_DUE_TO_FUEL_INSUFFICIENCY",
+          "curtailmentStartLocalRaw": "2026-10-20T15:00:00",
+          "curtailmentEndLocalRaw": null,
+          "curtailmentMw": 13.0,
+          "resourcePmaxMw": 22.0,
+          "netQualifyingCapacityMw": 22.0,
+          "sourceRow": 11
+        },
+        {
+          "outageMrid": "21069828",
+          "resourceName": "Alamitos Energy Center Unit 7",
+          "resourceId": "ALAMIT_2_PL1X3",
+          "outageType": "FORCED",
+          "natureOfWork": "AMBIENT_DUE_TO_FUEL_INSUFFICIENCY",
+          "curtailmentStartLocalRaw": "2026-10-01T00:00:00",
+          "curtailmentEndLocalRaw": null,
+          "curtailmentMw": 34.7,
+          "resourcePmaxMw": 674.7,
+          "netQualifyingCapacityMw": 674.7,
+          "sourceRow": 12
+        },
+        {
+          "outageMrid": "21204941",
+          "resourceName": "ALAMITOS GEN STA. UNIT 3",
+          "resourceId": "ALAMIT_7_UNIT 3",
+          "outageType": "FORCED",
+          "natureOfWork": "AMBIENT_DUE_TO_TEMP",
+          "curtailmentStartLocalRaw": "2026-10-16T00:00:00",
+          "curtailmentEndLocalRaw": null,
+          "curtailmentMw": 123.56,
+          "resourcePmaxMw": 326.76,
+          "netQualifyingCapacityMw": 326.76,
+          "sourceRow": 13
+        },
+        {
+          "outageMrid": "21165394",
+          "resourceName": "ALAMITOS GEN STA. UNIT 3",
+          "resourceId": "ALAMIT_7_UNIT 3",
+          "outageType": "FORCED",
+          "natureOfWork": "ENVIRONMENTAL_RESTRICTIONS",
+          "curtailmentStartLocalRaw": "2026-10-16T00:00:00",
+          "curtailmentEndLocalRaw": null,
+          "curtailmentMw": 203.2,
+          "resourcePmaxMw": 326.76,
+          "netQualifyingCapacityMw": 326.76,
+          "sourceRow": 14
+        }
+      ],
+      "outageCount": 614,
+      "limitations": [
+        "事后发布，不能作为10月28日申报前已知输入。",
+        "2235行涉及614个停运MRID，含区间断点与重叠事件，不能直接累加MW。",
+        "469行结束时间为空；保留源本地时间，未编造结束时间或UTC偏移。",
+        "公开发电报告不含联络线，详细输电停运仍需证书。"
+      ],
+      "access": {
+        "requiresKey": false
+      }
+    },
+    {
+      "id": "fuel-region-map",
+      "title": "燃料区与电力区域映射",
+      "status": "reference_verified",
+      "classification": "current_reference_mapping_retrieved_today",
+      "source": "CAISO GPI_Fuel_Region",
+      "recordCount": 184,
+      "entityCount": 184,
+      "entityUnit": "燃料区",
+      "coverage": {
+        "effectiveStartUtc": null,
+        "effectiveEndUtc": null,
+        "cisoFuelRegionCount": 57
+      },
+      "fetchedAtUtc": "2026-10-30T07:13:04.176526+00:00",
+      "sourceUrls": [
+        "https://www.caiso.com/documents/fuelregion_electricregiondefinitions.xlsx"
+      ],
+      "documentationUrl": "https://opensource.gridstatus.io/en/latest/_modules/gridstatus/caiso/caiso.html#CAISO.get_fuel_regions",
+      "dataUrl": "/data/data-gaps/weather-evidence/fuel-region-mapping.json",
+      "fields": [
+        "fuelRegionId",
+        "sourceFuelRegionRaw",
+        "pricingHub",
+        "balancingAuthority",
+        "transportationCostDescription",
+        "fuelReimbursementRateDescription",
+        "capAndTradeCredit",
+        "miscellaneousCostsDescription",
+        "sourceRow"
+      ],
+      "units": {},
+      "examples": [
+        {
+          "fuelRegionId": "FRPGE",
+          "pricingHub": null,
+          "transportationCostDescription": null,
+          "fuelReimbursementRateDescription": null,
+          "capAndTradeCredit": null,
+          "miscellaneousCostsDescription": null,
+          "balancingAuthority": "PGE",
+          "sourceFuelRegionRaw": "FRPGE",
+          "sourceRow": 65
+        },
+        {
+          "fuelRegionId": "FRPGE1",
+          "pricingHub": "PG&E Citygate",
+          "transportationCostDescription": "PG&E Schedule G-EG -Backbone",
+          "fuelReimbursementRateDescription": "PG&E Gas Rule #21 in-kind shrinkage allowance",
+          "capAndTradeCredit": "N",
+          "miscellaneousCostsDescription": "none",
+          "balancingAuthority": "CISO",
+          "sourceFuelRegionRaw": "FRPGE1",
+          "sourceRow": 66
+        },
+        {
+          "fuelRegionId": "FRPGE1GHG",
+          "pricingHub": "PG&E Citygate",
+          "transportationCostDescription": "PG&E Schedule G-EG -Backbone",
+          "fuelReimbursementRateDescription": "PG&E Gas Rule #21 in-kind shrinkage allowance",
+          "capAndTradeCredit": "Y",
+          "miscellaneousCostsDescription": "none",
+          "balancingAuthority": "CISO",
+          "sourceFuelRegionRaw": "FRPGE1GHG",
+          "sourceRow": 67
+        },
+        {
+          "fuelRegionId": "FRSDG1",
+          "pricingHub": "SoCal Citygate",
+          "transportationCostDescription": "SDGE Gas Tariff  Distribution Level Schedule EG less than 3 million therms",
+          "fuelReimbursementRateDescription": "SoCal Gas in-kind energy charges rate",
+          "capAndTradeCredit": "N",
+          "miscellaneousCostsDescription": "none",
+          "balancingAuthority": "CISO",
+          "sourceFuelRegionRaw": "FRSDG1 ",
+          "sourceRow": 120
+        }
+      ],
+      "limitations": [
+        "仅当前下载的映射，原表无生效日期，不能证明180天映射不变。",
+        "57条BA=CISO，其中PG&E Citygate 13条、SoCal Citygate 37条；FRPGE本身属于BA=PGE，不可按前缀猜加州。",
+        "运输和补偿字段为描述，不是可直接相加的数值；未匹配ID保持未映射。"
+      ],
+      "access": {
+        "requiresKey": false
+      }
+    }
+  ],
+  "verification": {
+    "schemaVersion": 1,
+    "verified": true,
+    "rawReceiptsVerified": 10,
+    "nwsLocations": 3,
+    "nwsLocationHours": 468,
+    "historicalRunHours": 72,
+    "historicalRunMissingValues": {
+      "temperature_2m": 0,
+      "relative_humidity_2m": 0,
+      "wind_speed_10m": 0,
+      "cloud_cover": 1,
+      "shortwave_radiation": 1
+    },
+    "amRecords": 628,
+    "priorRecords": 2235,
+    "fuelRegionMappings": 184,
+    "cisoFuelRegions": 57,
+    "notes": [
+      "Offline checks prove byte integrity and source-to-normalized agreement, not historical first-publication availability.",
+      "Checks retain missing values and repeated resources; no aggregate outage MW or predictive performance is asserted."
+    ]
+  },
+  "modelAdmission": "新增样本尚未纳入V3训练，数据存在不等于历史截点已可用。",
+  "remainingGaps": [
+    "连续历史天气运行批次及其可用时间证据",
+    "负荷及风光装机的空间权重",
+    "详细输电停运证书授权",
+    "停运区间重叠的容量口径",
+    "历史燃料映射生效版本"
+  ]
+}

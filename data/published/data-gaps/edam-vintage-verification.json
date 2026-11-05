@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-10-30T07:21:17.752523+00:00",
+  "classification": "partial_historical_source_message_archive",
+  "status": "historical_message_verified_same_report_target_publication_event_corroborated_timestamp_difference",
+  "sourceReceipt": {
+    "id": "edam_renewables_2026-10-28_2026-10-29",
+    "dataset": "edam_renewables",
+    "startDate": "2026-10-28",
+    "endDateExclusive": "2026-10-29",
+    "url": "https://oasis.caiso.com/oasisapi/GroupZip?resultformat=5&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&groupid=EDAM_WND_SLR_FORECAST_GRP",
+    "parameters": {
+      "resultformat": "5",
+      "version": "1",
+      "startdatetime": "20261028T07:00-0000",
+      "enddatetime": "20261029T07:00-0000",
+      "groupid": "EDAM_WND_SLR_FORECAST_GRP"
+    },
+    "requestedAt": "2026-10-30T07:15:33.441Z",
+    "status": "downloaded",
+    "publishTimeUtc": null,
+    "vintageEvidence": "current_download_only",
+    "rawFile": "edam_renewables_2026-10-28_2026-10-29.zip",
+    "httpStatus": 200,
+    "lastModified": null,
+    "bytes": 2179,
+    "sha256": "8e77dacd077f0012a42a1625ca192316df3d8d637ebc8b9851168ffdc2f38bd0",
+    "fetchedAt": "2026-10-30T07:15:33.906Z",
+    "rowCount": 96,
+    "columns": [
+      "BAA_GRP_ID",
+      "INTERVAL_END_GMT",
+      "INTERVAL_START_GMT",
+      "SOLAR",
+      "WIND",
+      "_SOURCE_FILE",
+      "_SOURCE_MESSAGE_TIME"
+    ],
+    "firstIntervalUtc": null,
+    "lastIntervalUtc": null,
+    "sourcePublishFields": [
+      "_SOURCE_MESSAGE_TIME"
+    ],
+    "sampleRows": [
+      {
+        "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+        "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+        "BAA_GRP_ID": "CISO",
+        "SOLAR": "0",
+        "WIND": "4699.75",
+        "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+        "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+      },
+      {
+        "INTERVAL_START_GMT": "2026-10-28T08:00:00-00:00",
+        "INTERVAL_END_GMT": "2026-10-28T09:00:00-00:00",
+        "BAA_GRP_ID": "CISO",
+        "SOLAR": "0",
+        "WIND": "4726.48",
+        "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+        "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+      },
+      {
+        "INTERVAL_START_GMT": "2026-10-28T09:00:00-00:00",
+        "INTERVAL_END_GMT": "2026-10-28T10:00:00-00:00",
+        "BAA_GRP_ID": "CISO",
+        "SOLAR": "0",
+        "WIND": "4642.75",
+        "_SOURCE_MESSAGE_TIME": "2026-10-27T16:09:59-00:00",
+        "_SOURCE_FILE": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml"
+      }
+    ]
+  },
+  "summary": {
+    "xmlFiles": 1,
+    "distinctMessageTimes": 1,
+    "allRows": 96,
+    "cisoHourlyIntervals": 24,
+    "cisoForecastValues": 48,
+    "sourceMessageBeforeResearchCutoff": true,
+    "sameReportTargetPublicationEventFound": true,
+    "sourcePublicationEventBeforeResearchCutoff": true,
+    "headerMatchesPublicationTimestampExactly": false,
+    "headerMinusPublicationSeconds": 145.0
+  },
+  "files": [
+    {
+      "file": "20261028_20261028_EDAM_WND_SLR_FORECAST_GRP_N_v1.xml",
+      "bytes": 36551,
+      "sha256": "4ac2e4e828b68275bac6da5abe9a4662d26b758f31d009aae46c58ec5ca96609",
+      "messageHeader": {
+        "TimeDate": "2026-10-27T16:09:59-00:00",
+        "Source": "OASIS",
+        "Version": "v20251001"
+      },
+      "reportHeader": {
+        "SYSTEM": "OASIS",
+        "TZ": "GMT",
+        "REPORT": "EDAM_WND_SLR_FORECAST",
+        "MKT_TYPE": "DAM",
+        "UOM": "MW"
+      },
+      "sourceMessageTimeUtc": "2026-10-27T16:09:59+00:00",
+      "sourceMessageTimePt": "2026-10-27T09:09:59-07:00",
+      "sourceMessageIsHistoricalNotDownloadTime": true,
+      "rowCount": 96,
+      "baaCoverage": [
+        {
+          "baa": "CISO",
+          "records": 24,
+          "hourlyIntervals": 24,
+          "numericForecastValues": 48,
+          "targetDatesPt": [
+            "2026-10-28"
+          ],
+          "expectedHours": 24,
+          "completeTargetDay": true,
+          "firstIntervalUtc": "2026-10-28T07:00:00+00:00",
+          "lastIntervalEndUtc": "2026-10-29T07:00:00+00:00",
+          "duplicateIntervals": 0
+        },
+        {
+          "baa": "PACE",
+          "records": 24,
+          "hourlyIntervals": 24,
+          "numericForecastValues": 48,
+          "targetDatesPt": [
+            "2026-10-28"
+          ],
+          "expectedHours": 24,
+          "completeTargetDay": true,
+          "firstIntervalUtc": "2026-10-28T07:00:00+00:00",
+          "lastIntervalEndUtc": "2026-10-29T07:00:00+00:00",
+          "duplicateIntervals": 0
+        },
+        {
+          "baa": "PACW",
+          "records": 24,
+          "hourlyIntervals": 24,
+          "numericForecastValues": 48,
+          "targetDatesPt": [
+            "2026-10-28"
+          ],
+          "expectedHours": 24,
+          "completeTargetDay": true,
+          "firstIntervalUtc": "2026-10-28T07:00:00+00:00",
+          "lastIntervalEndUtc": "2026-10-29T07:00:00+00:00",
+          "duplicateIntervals": 0
+        },
+        {
+          "baa": "PGE",
+          "records": 24,
+          "hourlyIntervals": 24,
+          "numericForecastValues": 48,
+          "targetDatesPt": [
+            "2026-10-28"
+          ],
+          "expectedHours": 24,
+          "completeTargetDay": true,
+          "firstIntervalUtc": "2026-10-28T07:00:00+00:00",
+          "lastIntervalEndUtc": "2026-10-29T07:00:00+00:00",
+          "duplicateIntervals": 0
+        }
+      ],
+      "cutoffChecks": [
+        {
+          "targetDatePt": "2026-10-28",
+          "decisionCutoffLocal": "2026-10-27T09:55:00-07:00",
+          "decisionCutoffUtc": "2026-10-27T16:55:00+00:00",
+          "sourceMessageBeforeCutoff": true,
+          "secondsBeforeCutoff": 2701.0
+        }
+      ],
+      "cisoExamples": [
+        {
+          "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+          "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+          "BAA_GRP_ID": "CISO",
+          "SOLAR": "0",
+          "WIND": "4699.75"
+        },
+        {
+          "INTERVAL_START_GMT": "2026-10-28T08:00:00-00:00",
+          "INTERVAL_END_GMT": "2026-10-28T09:00:00-00:00",
+          "BAA_GRP_ID": "CISO",
+          "SOLAR": "0",
+          "WIND": "4726.48"
+        },
+        {
+          "INTERVAL_START_GMT": "2026-10-28T09:00:00-00:00",
+          "INTERVAL_END_GMT": "2026-10-28T10:00:00-00:00",
+          "BAA_GRP_ID": "CISO",
+          "SOLAR": "0",
+          "WIND": "4642.75"
+        }
+      ]
+    }
+  ],
+  "publicationLogCrossCheck": {
+    "receipt": {
+      "id": "publication_log_2026-10-27_2026-10-28",
+      "dataset": "publication_log",
+      "startDate": "2026-10-27",
+      "endDateExclusive": "2026-10-28",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261027T07%3A00-0000&enddatetime=20261028T07%3A00-0000&queryname=ATL_PUB",
+      "parameters": {
+        "resultformat": "6",
+        "version": "1",
+        "startdatetime": "20261027T07:00-0000",
+        "enddatetime": "20261028T07:00-0000",
+        "queryname": "ATL_PUB"
+      },
+      "requestedAt": "2026-10-30T07:18:57.379Z",
+      "status": "downloaded",
+      "publishTimeUtc": null,
+      "vintageEvidence": "current_download_only",
+      "rawFile": "publication_log_2026-10-27_2026-10-28.zip",
+      "httpStatus": 200,
+      "lastModified": null,
+      "bytes": 401514,
+      "sha256": "0a0a60b18063e05c62d88fbc41bbe0f8d2d5f6764361bdc2898bc9296a66f7fb",
+      "fetchedAt": "2026-10-30T07:19:11.458Z",
+      "rowCount": 21924,
+      "columns": [
+        "ATLPUBVERSION",
+        "COMMENTS",
+        "INTERVAL_END_GMT",
+        "INTERVAL_START_GMT",
+        "MARKET_RUN_ID",
+        "OASIS_REC_STAT",
+        "OASIS_SECTION",
+        "OPR_DT",
+        "OPR_HR",
+        "OPR_INTERVAL",
+        "PUBLICATION_DATE",
+        "PUBLICATION_DATE_GMT",
+        "PUBLICATION_ID",
+        "REPORT_NAME",
+        "STATUS",
+        "UPD_BY",
+        "UPD_DATE"
+      ],
+      "firstIntervalUtc": null,
+      "lastIntervalUtc": null,
+      "sourcePublishFields": [
+        "PUBLICATION_DATE_GMT"
+      ],
+      "sampleRows": [
+        {
+          "INTERVAL_START_GMT": "2026-10-08T18:35:00-00:00",
+          "INTERVAL_END_GMT": "2026-10-08T18:40:00-00:00",
+          "PUBLICATION_DATE_GMT": "2026-10-28T01:20:59-00:00",
+          "PUBLICATION_ID": "66154994",
+          "PUBLICATION_DATE": "2026-10-27T18:20:59",
+          "REPORT_NAME": "FLEX_RAMP_SPTIE_NODAL_PRC",
+          "OASIS_SECTION": "PRICES",
+          "MARKET_RUN_ID": "RTD",
+          "ATLPUBVERSION": "Revised",
+          "STATUS": "Push Completed",
+          "COMMENTS": "Push Completed",
+          "OPR_DT": "2026-10-08",
+          "OPR_HR": "12",
+          "OPR_INTERVAL": "8",
+          "UPD_DATE": "2026-10-27",
+          "UPD_BY": "OASIS",
+          "OASIS_REC_STAT": "V"
+        },
+        {
+          "INTERVAL_START_GMT": "2026-10-08T19:15:00-00:00",
+          "INTERVAL_END_GMT": "2026-10-08T19:30:00-00:00",
+          "PUBLICATION_DATE_GMT": "2026-10-28T01:21:00-00:00",
+          "PUBLICATION_ID": "66154995",
+          "PUBLICATION_DATE": "2026-10-27T18:21:00",
+          "REPORT_NAME": "FLEX_RAMP_SPTIE_NODAL_PRC",
+          "OASIS_SECTION": "PRICES",
+          "MARKET_RUN_ID": "RTPD",
+          "ATLPUBVERSION": "Revised",
+          "STATUS": "Push Completed",
+          "COMMENTS": "Push Completed",
+          "OPR_DT": "2026-10-08",
+          "OPR_HR": "13",
+          "OPR_INTERVAL": "2",
+          "UPD_DATE": "2026-10-27",
+          "UPD_BY": "OASIS",
+          "OASIS_REC_STAT": "V"
+        },
+        {
+          "INTERVAL_START_GMT": "2026-10-08T18:40:00-00:00",
+          "INTERVAL_END_GMT": "2026-10-08T18:45:00-00:00",
+          "PUBLICATION_DATE_GMT": "2026-10-28T01:21:02-00:00",
+          "PUBLICATION_ID": "66154996",
+          "PUBLICATION_DATE": "2026-10-27T18:21:02",
+          "REPORT_NAME": "FLEX_RAMP_SPTIE_NODAL_PRC",
+          "OASIS_SECTION": "PRICES",
+          "MARKET_RUN_ID": "RTD",
+          "ATLPUBVERSION": "Revised",
+          "STATUS": "Push Completed",
+          "COMMENTS": "Push Completed",
+          "OPR_DT": "2026-10-08",
+          "OPR_HR": "12",
+          "OPR_INTERVAL": "9",
+          "UPD_DATE": "2026-10-27",
+          "UPD_BY": "OASIS",
+          "OASIS_REC_STAT": "V"
+        }
+      ]
+    },
+    "requestedPublicationDayPt": "2026-10-27",
+    "logRecordCount": 21924,
+    "observedPublicationStartUtc": "2026-10-27T07:00:01-00:00",
+    "observedPublicationEndUtc": "2026-10-28T06:58:42-00:00",
+    "sameReportMarketTargetDateEvents": [
+      {
+        "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+        "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+        "PUBLICATION_DATE_GMT": "2026-10-27T16:07:34-00:00",
+        "PUBLICATION_ID": "66146502",
+        "PUBLICATION_DATE": "2026-10-27T09:07:34",
+        "REPORT_NAME": "EDAM_WND_SLR_FORECAST",
+        "OASIS_SECTION": "ENERGY",
+        "MARKET_RUN_ID": "DAM",
+        "ATLPUBVERSION": "New",
+        "STATUS": "Push Completed",
+        "COMMENTS": "Push Completed",
+        "OPR_DT": "2026-10-28",
+        "OPR_HR": "0",
+        "OPR_INTERVAL": "0",
+        "UPD_DATE": "2026-10-27",
+        "UPD_BY": "OASIS",
+        "OASIS_REC_STAT": "V"
+      }
+    ],
+    "matchingDimensions": [
+      "REPORT_NAME=EDAM_WND_SLR_FORECAST",
+      "MARKET_RUN_ID=DAM",
+      "OPR_DT=2026-10-28",
+      "INTERVAL_START_GMT matches first target interval"
+    ],
+    "matchedSourceHeaderEvent": null,
+    "relatedReportPublicationEvent": {
+      "INTERVAL_START_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVAL_END_GMT": "2026-10-28T08:00:00-00:00",
+      "PUBLICATION_DATE_GMT": "2026-10-27T16:07:34-00:00",
+      "PUBLICATION_ID": "66146502",
+      "PUBLICATION_DATE": "2026-10-27T09:07:34",
+      "REPORT_NAME": "EDAM_WND_SLR_FORECAST",
+      "OASIS_SECTION": "ENERGY",
+      "MARKET_RUN_ID": "DAM",
+      "ATLPUBVERSION": "New",
+      "STATUS": "Push Completed",
+      "COMMENTS": "Push Completed",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "0",
+      "OPR_INTERVAL": "0",
+      "UPD_DATE": "2026-10-27",
+      "UPD_BY": "OASIS",
+      "OASIS_REC_STAT": "V"
+    },
+    "sameReportMarketTargetDateMatch": true,
+    "exactTimestampMatch": false,
+    "sourceMessageTimeUtc": "2026-10-27T16:09:59+00:00",
+    "publicationEventTimeUtc": "2026-10-27T16:07:34+00:00",
+    "publicationEventTimePt": "2026-10-27T09:07:34-07:00",
+    "headerMinusPublicationEventSeconds": 145.0,
+    "publicationEventBeforeResearchCutoff": true,
+    "publicationEventSecondsBeforeCutoff": 2846.0,
+    "xmlHasPublicationId": false,
+    "samePayloadBytesAtPublicationVerified": false,
+    "status": "same_report_and_target_date_corroborated_but_timestamp_not_equal",
+    "explanation": "发布日志确有同报告、同DAM、同目标日的Push Completed事件，但日志时间16:07:34Z比XML消息时间16:09:59Z早145秒。两者都早于09:55PT研究截点。XML未带PUBLICATION_ID，日志不包含内容摘要，因此不能证明此事件发布的字节就是今天下载的XML，也不能把消息时间直接等同于日志发布时间。",
+    "priorWindowCheck": {
+      "rawFile": "publication_log_2026-10-28_2026-10-29.zip",
+      "publicationDayPt": "2026-10-28",
+      "finding": "该窗口的EDAM事件面向10月29日，未用于本次10月28日XML匹配。"
+    }
+  },
+  "vintageAssessment": {
+    "sourceProvidedHistoricalMessageTime": true,
+    "receivedBeforeCutoffByThisPlatform": false,
+    "originalBytesAtHistoricalTimeIndependentlyVerified": false,
+    "allHalfHourlyVintagesReturned": null,
+    "firstPublicationVerified": false,
+    "lastPublicationVerified": false,
+    "selectedVersionMeaning": "本次一天查询只返回一个XML及一个源消息时间。无法从此样本证明它是最后版本、首发版本，或该日所有半小时发行。N_v1和v20251001不可当作发行次数。",
+    "recommendedLabel": "来源历史消息时间与同报告同目标日发布事件佐证的部分档案（当前下载）",
+    "modelUse": "可作为具有较强来源时间证据的历史研究输入；源消息与相关发布事件均通过09:55PT截点。保留145秒时间差及无内容级关联的限制，不能认定平台当时已取得文件、首发/末版、全版本回放或历史字节不变。不得将此一个目标日结果外推到180天所有批次。",
+    "allHalfHourlyVintagesVerified": false,
+    "sourcePublicationEventCorroborated": true,
+    "exactPublicationToPayloadLinkVerified": false
+  },
+  "cutoffRule": {
+    "definition": "目标日D的前一加州当地日09:55，使用America/Los_Angeles时区转换UTC。09:55为本项目研究截点，不是此核验认定的官方市场截止。",
+    "fixedUtcCutoffIsInvalidAcrossDst": true,
+    "dstExamples": [
+      {
+        "targetDatePt": "2026-10-28",
+        "cutoffLocal": "2026-10-27T09:55:00-07:00",
+        "cutoffUtc": "2026-10-27T16:55:00+00:00"
+      },
+      {
+        "targetDatePt": "2026-11-01",
+        "cutoffLocal": "2026-10-31T09:55:00-07:00",
+        "cutoffUtc": "2026-10-31T16:55:00+00:00"
+      },
+      {
+        "targetDatePt": "2026-11-02",
+        "cutoffLocal": "2026-11-01T09:55:00-08:00",
+        "cutoffUtc": "2026-11-01T17:55:00+00:00"
+      },
+      {
+        "targetDatePt": "2026-03-08",
+        "cutoffLocal": "2026-03-07T09:55:00-08:00",
+        "cutoffUtc": "2026-03-07T17:55:00+00:00"
+      },
+      {
+        "targetDatePt": "2026-03-09",
+        "cutoffLocal": "2026-03-08T09:55:00-07:00",
+        "cutoffUtc": "2026-03-08T16:55:00+00:00"
+      }
+    ]
+  },
+  "notes": [
+    "96行是四个BAA各24小时；CISO为24时段、48个风光数值。",
+    "源XML头时间早于下载三天，不是本次下载时间。",
+    "消息时间和日程无法单独证明所有原始历史版本都被保留。",
+    "ATL_PUB publication ID 66146502 的消息时间和XML头不同，相差145秒，未改写任一来源时间。",
+    "批量接入必须核验每个目标日的日期、区间完整性和信息截点；HTTP 200不能证明跨日请求覆盖完整。",
+    "此次只读取既有文件并更新本报告，没有请求OASIS，也未修改weather ZIP或预测模型。"
+  ]
+}

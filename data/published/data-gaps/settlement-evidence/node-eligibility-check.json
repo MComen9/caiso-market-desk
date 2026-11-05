@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-10-30T07:14:33.438364+00:00",
+  "tradeDate": "2026-10-28",
+  "timezone": "America/Los_Angeles",
+  "sourceUrl": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=2&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ATL_CBNODE",
+  "sourceSha256": "49be04208436c4ffa1f0c55e8995f829f025365fb531bf3d69eeb95e7b8a09c1",
+  "sourceFetchedAt": "2026-10-30T07:09:02.924Z",
+  "sourcePublishTimeUtc": null,
+  "vintageEvidence": "current_download_only",
+  "sourceRows": 3568,
+  "exactResearchNodeMatches": 0,
+  "relatedEligibleNodeMatches": 6,
+  "checks": [
+    {
+      "researchNode": "TH_NP15_GEN-APND",
+      "exactEligibleIdMatch": false,
+      "matchedRows": [],
+      "relatedEligibleIds": [
+        {
+          "NODE_ID": "TH_NP15_GEN_OFFPEAK-APND",
+          "TIE": "",
+          "CB_START_EFFECTIVE_DATE": "2011-01-26T00:00:00",
+          "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+          "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+          "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+        },
+        {
+          "NODE_ID": "TH_NP15_GEN_ONPEAK-APND",
+          "TIE": "",
+          "CB_START_EFFECTIVE_DATE": "2011-01-26T00:00:00",
+          "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+          "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+          "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+        }
+      ],
+      "limitQueryStatus": "unavailable",
+      "limitQueryError": {
+        "code": "1000",
+        "message": "No data returned for the specified selection",
+        "members": [
+          "20261028_20261029_CB_NODAL_LIMITS_N_20261030_00_09_10_v1.xml"
+        ]
+      },
+      "interpretation": "Current research price node does not exactly match the downloaded CB eligibility list. Related ONPEAK/OFFPEAK IDs require verified hour, price and bidding mapping. No returned limit is not proof of unlimited capacity."
+    },
+    {
+      "researchNode": "TH_SP15_GEN-APND",
+      "exactEligibleIdMatch": false,
+      "matchedRows": [],
+      "relatedEligibleIds": [
+        {
+          "NODE_ID": "TH_SP15_GEN_OFFPEAK-APND",
+          "TIE": "",
+          "CB_START_EFFECTIVE_DATE": "2011-01-26T00:00:00",
+          "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+          "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+          "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+        },
+        {
+          "NODE_ID": "TH_SP15_GEN_ONPEAK-APND",
+          "TIE": "",
+          "CB_START_EFFECTIVE_DATE": "2011-01-26T00:00:00",
+          "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+          "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+          "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+        }
+      ],
+      "limitQueryStatus": "unavailable",
+      "limitQueryError": {
+        "code": "1000",
+        "message": "No data returned for the specified selection",
+        "members": [
+          "20261028_20261029_CB_NODAL_LIMITS_N_20261030_00_09_18_v1.xml"
+        ]
+      },
+      "interpretation": "Current research price node does not exactly match the downloaded CB eligibility list. Related ONPEAK/OFFPEAK IDs require verified hour, price and bidding mapping. No returned limit is not proof of unlimited capacity."
+    },
+    {
+      "researchNode": "TH_ZP26_GEN-APND",
+      "exactEligibleIdMatch": false,
+      "matchedRows": [],
+      "relatedEligibleIds": [
+        {
+          "NODE_ID": "TH_ZP26_GEN_OFFPEAK-APND",
+          "TIE": "",
+          "CB_START_EFFECTIVE_DATE": "2011-01-26T00:00:00",
+          "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+          "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+          "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+        },
+        {
+          "NODE_ID": "TH_ZP26_GEN_ONPEAK-APND",
+          "TIE": "",
+          "CB_START_EFFECTIVE_DATE": "2011-01-26T00:00:00",
+          "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+          "CB_START_EFFECTIVE_DATE_GMT": "2011-01-26T08:00:00-00:00",
+          "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+        }
+      ],
+      "limitQueryStatus": "unavailable",
+      "limitQueryError": {
+        "code": "1000",
+        "message": "No data returned for the specified selection",
+        "members": [
+          "20261028_20261029_CB_NODAL_LIMITS_N_20261030_00_09_26_v1.xml"
+        ]
+      },
+      "interpretation": "Current research price node does not exactly match the downloaded CB eligibility list. Related ONPEAK/OFFPEAK IDs require verified hour, price and bidding mapping. No returned limit is not proof of unlimited capacity."
+    }
+  ],
+  "executionReadiness": "reference_nodes_only_mapping_not_verified",
+  "nextRequiredData": [
+    "ATL_PEAK_ON_OFF trading-hour mapping including holidays/DST",
+    "DAM and FMM prices for eligible ONPEAK/OFFPEAK nodes",
+    "CB_NODAL_LIMITS for eligible node IDs",
+    "nodal group constraints and participant restrictions"
+  ],
+  "caveat": "Eligibility ranges are reported in the currently downloaded list; they are not proof of each historical publication vintage or future unchanged eligibility."
+}

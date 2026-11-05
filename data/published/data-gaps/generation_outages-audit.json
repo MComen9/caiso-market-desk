@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "dataset": "generation_outages",
+  "generatedAt": "2026-10-30T07:44:30.263Z",
+  "rows": 5230,
+  "fields": [
+    "REPORT_DATE_GMT",
+    "INTERVALSTARTTIME_GMT",
+    "INTERVALENDTIME_GMT",
+    "TRADING_HUB",
+    "FUEL_CATEGORY",
+    "MW"
+  ],
+  "download": "/data/data-gaps/generation_outages.json.gz",
+  "bytes": 23906,
+  "sha256": "99c6aee635f05db3959fbbafe7a26ccb3a231eb412a6cbcb2cb7d98c9809f504",
+  "sampleRows": [
+    {
+      "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "TRADING_HUB": "NP15",
+      "FUEL_CATEGORY": "Hydro",
+      "MW": 3979.85
+    },
+    {
+      "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "TRADING_HUB": "NP15",
+      "FUEL_CATEGORY": "Not Avail",
+      "MW": 1.15
+    },
+    {
+      "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "TRADING_HUB": "NP15",
+      "FUEL_CATEGORY": "Renewable",
+      "MW": 946.0
+    },
+    {
+      "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "TRADING_HUB": "NP15",
+      "FUEL_CATEGORY": "Thermal",
+      "MW": 845.43
+    },
+    {
+      "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "TRADING_HUB": "SP15",
+      "FUEL_CATEGORY": "Hydro",
+      "MW": 807.97
+    },
+    {
+      "REPORT_DATE_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-10-28T08:00:00-00:00",
+      "TRADING_HUB": "SP15",
+      "FUEL_CATEGORY": "Not Avail",
+      "MW": 93.43
+    }
+  ],
+  "sources": [
+    {
+      "id": "generation_outages_2026-10-28_2026-10-29",
+      "dataset": "generation_outages",
+      "url": "https://oasis.caiso.com/oasisapi/GroupZip?resultformat=6&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&groupid=AGGR_OUTAGE_SCH_GRP",
+      "fetchedAt": "2026-10-30T07:08:55.095Z",
+      "sha256": "05c01e9c550df5ef0d4a7db935c3d2ec454c63aad2ddb7a0a79f40295edc82b9",
+      "bytes": 333517,
+      "rowCount": 36931
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "unit": "MW",
+  "classification": "one_report_outage_schedule",
+  "notes": [
+    "仅取NP15/SP15/ZP26；报告日2026-10-28，包含未来计划，不是未来实际。",
+    "REPORT_DATE_GMT保留报表日期，不推断为实际发布时刻。Aggregate与各燃料子项不得重复相加。"
+  ]
+}

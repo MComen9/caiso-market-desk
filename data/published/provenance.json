@@ -1,0 +1,53 @@
+{
+  "source": "CAISO OASIS",
+  "timeZone": "America/Los_Angeles",
+  "unit": "USD/MWh",
+  "range": {
+    "start": "2026-10-22",
+    "end": "2026-10-28"
+  },
+  "markets": {
+    "DAM": {
+      "report": "PRC_LMP",
+      "marketRunId": "DAM",
+      "version": "12",
+      "intervalMinutes": 60,
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_LMP&startdatetime=20261022T07%3A00-0000&enddatetime=20261029T07%3A00-0000&version=12&market_run_id=DAM&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND&resultformat=6",
+      "retrievedAt": "2026-10-29T09:15:09.920596+00:00",
+      "sourceFiles": [
+        "20261022_20261029_PRC_LMP_DAM_20261029_02_15_09_v12.csv"
+      ],
+      "sourceSha256": "3d7d013272fbbce50d42723892ef5989d174b380b5904a6b194841c4a374092d",
+      "rawPriceColumn": "MW",
+      "normalizedCount": 504
+    },
+    "FMM": {
+      "report": "PRC_RTPD_LMP",
+      "marketRunId": "RTPD",
+      "version": "3",
+      "intervalMinutes": 15,
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_RTPD_LMP&startdatetime=20261022T07%3A00-0000&enddatetime=20261029T07%3A00-0000&version=3&market_run_id=RTPD&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND&resultformat=6",
+      "retrievedAt": "2026-10-29T09:15:20.636630+00:00",
+      "sourceFiles": [
+        "20261022_20261029_PRC_RTPD_LMP_RTPD_20261029_02_15_18_v3.csv"
+      ],
+      "sourceSha256": "622eeb08e57eadf6c4e8556d103847cb16d62974da3a3f52cb42697e6b544152",
+      "rawPriceColumn": "PRC",
+      "normalizedCount": 2016
+    },
+    "RTD": {
+      "report": "PRC_INTVL_LMP",
+      "marketRunId": "RTM",
+      "version": "3",
+      "intervalMinutes": 5,
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?queryname=PRC_INTVL_LMP&startdatetime=20261022T07%3A00-0000&enddatetime=20261029T07%3A00-0000&version=3&market_run_id=RTM&node=TH_NP15_GEN-APND%2CTH_SP15_GEN-APND%2CTH_ZP26_GEN-APND&resultformat=6",
+      "retrievedAt": "2026-10-29T09:15:36.595576+00:00",
+      "sourceFiles": [
+        "20261022_20261029_PRC_INTVL_LMP_RTM_20261029_02_15_28_v3.csv"
+      ],
+      "sourceSha256": "7a8b31c4243019e6caf8fd0a1b8630d7e11f14d87a9254cdefcf672bfd4641b5",
+      "rawPriceColumn": "VALUE",
+      "normalizedCount": 6048
+    }
+  }
+}

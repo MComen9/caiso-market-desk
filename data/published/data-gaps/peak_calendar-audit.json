@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "dataset": "peak_calendar",
+  "generatedAt": "2026-10-30T07:44:31.776Z",
+  "rows": 336,
+  "fields": [
+    "GROUP",
+    "INTERVALENDTIME_GMT",
+    "INTERVALSTARTTIME_GMT",
+    "OPR_DT",
+    "OPR_HR",
+    "PEAK_FLAG"
+  ],
+  "download": "/data/data-gaps/peak_calendar.json.gz",
+  "bytes": 3022,
+  "sha256": "fb0109087aa7ff9b143cff1919b9df3ad627c3f31cad03414d94daac2761cd36",
+  "sampleRows": [
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-15T08:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-15T07:00:00-00:00",
+      "OPR_DT": "2026-10-15",
+      "OPR_HR": "1",
+      "PEAK_FLAG": "OFF"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-15T09:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-15T08:00:00-00:00",
+      "OPR_DT": "2026-10-15",
+      "OPR_HR": "2",
+      "PEAK_FLAG": "OFF"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-15T10:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-15T09:00:00-00:00",
+      "OPR_DT": "2026-10-15",
+      "OPR_HR": "3",
+      "PEAK_FLAG": "OFF"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-15T11:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-15T10:00:00-00:00",
+      "OPR_DT": "2026-10-15",
+      "OPR_HR": "4",
+      "PEAK_FLAG": "OFF"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-15T12:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-15T11:00:00-00:00",
+      "OPR_DT": "2026-10-15",
+      "OPR_HR": "5",
+      "PEAK_FLAG": "OFF"
+    },
+    {
+      "GROUP": "1",
+      "INTERVALENDTIME_GMT": "2026-10-15T13:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-15T12:00:00-00:00",
+      "OPR_DT": "2026-10-15",
+      "OPR_HR": "6",
+      "PEAK_FLAG": "OFF"
+    }
+  ],
+  "sources": [
+    {
+      "id": "peak_calendar_2026-10-15_2026-10-29",
+      "dataset": "peak_calendar",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261015T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ATL_PEAK_ON_OFF",
+      "fetchedAt": "2026-10-30T07:15:49.822Z",
+      "sha256": "70bccbbbd0df72a79c613ba1d78a61eb41890769e03f80a81599e7815b9e956a",
+      "bytes": 2714,
+      "rowCount": 336
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "classification": "official_wecc_peak_calendar"
+}

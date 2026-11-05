@@ -1,0 +1,1685 @@
+{
+  "schemaVersion": 1,
+  "classification": "current_reference_mapping_retrieved_today",
+  "sheet": "GPI_Fuel_Region",
+  "receipt": {
+    "sourceUrl": "https://www.caiso.com/documents/fuelregion_electricregiondefinitions.xlsx",
+    "fetchedAtUtc": "2026-10-30T07:13:04.176526+00:00",
+    "httpStatus": 200,
+    "bytes": 68636,
+    "sha256": "c5a41f5dd5fcb40f2eb9314bd11816f0215129165100adef99b0d0d6b6cdadad",
+    "lastModified": "Thu, 16 May 2024 06:08:43 GMT"
+  },
+  "rowCountIncludingHeaders": 185,
+  "rawRows": [
+    [
+      "Fuel Region",
+      "Pricing Hub",
+      "Transportation Cost",
+      "Fuel Reimbursement Rate",
+      "Cap & Trade Credit",
+      "Miscellaneous Costs",
+      "Balancing Authority"
+    ],
+    [
+      "FRAEC1",
+      "Alberta AECO",
+      "CMPL Fixed Rate\nNorthWestern Energy T-ITG-1 Rate",
+      "NorthWestern Energy T-FTG-1 Fuel Reimbursement Rate",
+      "N",
+      "none",
+      "NWE"
+    ],
+    [
+      "FRAVA",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "AVA"
+    ],
+    [
+      "FRAVRN",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "AVRN"
+    ],
+    [
+      "FRAZPS",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "AZPS"
+    ],
+    [
+      "FRBANC",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "BANC"
+    ],
+    [
+      "FRBANCSMUD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "BANCSMUD"
+    ],
+    [
+      "FRBCHA",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "BCHA"
+    ],
+    [
+      "FRBPA",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "BPA"
+    ],
+    [
+      "FRCISO",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "CISO"
+    ],
+    [
+      "FREPB1",
+      "EP Blanco",
+      "El Paso Pipeline - Arizona Rates - FT-H8 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Phoenix, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPB2",
+      "EP Blanco",
+      "El Paso Pipeline - Arizona Rates - FT-H8 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      " Yuma County, AZ Use Tax - Purchases\nCity of Yuma, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPB3",
+      "EP Blanco",
+      "- El Paso Pipeline - California Rates - FT-1 Usage Rates \n- N.Baja Pipeline FTS-1 Rate Schedule \n- N.Baja Pipeline FTS-1 Lateral Rate Schedule - LAT-1\n- FERC Annual Charge Adjustment",
+      "- El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention \n- N.Baja Pipeline FTS-1 Rate Schedule - Fuel \n- N.Baja Pipeline FTS-1 Lateral Rate Schedule - LAT-1 - Fuel",
+      "N",
+      " Yuma County, AZ Use Tax - Purchases\nCity of Yuma, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPB4",
+      "EP Blanco",
+      "El Paso Pipeline - Arizona Rates - FT-H8 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Pinal County, AZ Use Tax - Purchases\nCity of Coolidge, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPB5",
+      "EP Blanco",
+      "- El Paso Pipeline New Mexico Rates  FT-1 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "New Mexico Gross Reciepts Tax rate, San Juan Remainder of County",
+      "PNM"
+    ],
+    [
+      "FREPB6",
+      "EP Blanco",
+      "- El Paso Pipeline Arizona Rates  FTH-16 Usage Rates\n- FERC Annual Charge Adjustment",
+      "- El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention\n- El Paso Pipeline Lost & Unaccounted for rate",
+      "N",
+      "Mohave County, AZ Use Tax - Utilities ",
+      "AZPS"
+    ],
+    [
+      "FREPB7",
+      "EP Blanco",
+      "- Southwest Gas Service G-30 (Electric Generation Gas Service G-60) Delivery Charge",
+      "None",
+      "Y",
+      "- SWG Yuma County Sales Tax Rate\n- SWG Statutory State Sales Tax Rate\n- SWG AZ Corporation Commission Assessment Rate",
+      "CISO"
+    ],
+    [
+      "FREPB8",
+      "El Paso San Juan",
+      "- El Paso Natural Gas - Arizona Rate - FT-1 Maximum Daily Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "Cochise County, AZ Pipeline Tax",
+      "WALC"
+    ],
+    [
+      "FREPC1",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Pinal County, AZ Use Tax - Purchases\nCity of Casa Grande, AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC2",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Gila Bend, AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC3",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Arlington, AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC4",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Glendale, AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC5",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Tempe, AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC6",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Gilbert,  AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC7",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Gilbert,  AZ Use Tax - Purchases",
+      "SRP"
+    ],
+    [
+      "FREPC8",
+      "El Paso S Mainline",
+      "EP South Mainline, EP Pipeline- Arizona Rates- FT-1 Usage Rates - Daily Maximum",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "- Arizona State Sales Tax\n- Pinal County Sales Tax",
+      "SRP"
+    ],
+    [
+      "FREPE",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "EPE"
+    ],
+    [
+      "FREPEP",
+      "El Paso S Mainline",
+      "El Paso Pipeline - California Rates - IT-1 Rate\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FREPNB1",
+      "El Paso S Mainline",
+      "- N. Baja Pipeline (NBP) - FTS-1-Usage Rate-Schedule \nN.Baja Pipeline Negotiated Rate\n-FERC Annual Charge Adjustment\n- Gasoducto Aguaprieta (GRO) - Negotiated Rate",
+      "N. Baja Pipeline - FTS-1 Rate Schedule - Fuel\n Gasoducto Rosarito - FTS-Rate Schedule - Fuel ",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FREPNB2",
+      "El Paso S Mainline",
+      "- N. Baja Pipeline (NBP) -  Negotiated Rate\n- FERC Annual Charge Adjustment\n ",
+      "N. Baja Pipeline - Negotiated Rate\n ",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FREPP1",
+      "El Paso Permian",
+      "- El Paso Pipeline - Arizona Rates - FT-H8 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Phoenix, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPP2",
+      "El Paso Permian",
+      "- El Paso Pipeline - Arizona Rates - FT-H8 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Tempe, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPP3",
+      "El Paso Permian",
+      "- El Paso Pipeline - Arizona Rates - FT-H8 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "Pinal County, AZ Use Tax - Purchases\nCity of Coolidge, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FREPP4",
+      "El Paso Permian",
+      "- El Paso Natural Gas - Arizona Rate - FT-1 Maximum Daily Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "Cochise County, AZ Pipeline Tax",
+      "WALC"
+    ],
+    [
+      "FREPS1",
+      "El Paso S Mainline",
+      "- El Paso Pipeline - New Mexico Rates - IT-1 Usage Rates\n- FERC Annual Charge Adjustment",
+      "El Paso Pipeline Fuel Charges - Mainline Fuel - Total Retention",
+      "N",
+      "- New Mexico Compensating Tax Rate",
+      "PNM"
+    ],
+    [
+      "FREPS2",
+      "El Paso S Mainline",
+      "- Transwestern Pipeline - FTS-5, Negotiated Discount, Negotiated Commodity Charge",
+      "Transwestern FTS-5 L&U Rate",
+      "N",
+      "- City of Gila Bend Retail Sales Tax\n- Maricopa County Retail Tax (includes AZ state tax)",
+      "TEP"
+    ],
+    [
+      "FREPS3",
+      "El Paso S Mainline",
+      "- Southwest Gas G-60 Commodity Usage Rate, Delivery",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "- City of Tucson Retail Sales Tax\n- Pima County Retail Tax (includes AZ state tax)",
+      "TEP"
+    ],
+    [
+      "FREPS4",
+      "El Paso S Mainline",
+      "- El Paso Natural Gas FTH-12 Negotiated Reservation Rate\n- El Paso Natural Gas FTH-12 Arizona Maximum Daily Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "- City of Tucson Retail Sales Tax\n- Pima County Retail Tax (includes AZ state tax)",
+      "TEP"
+    ],
+    [
+      "FREPS5",
+      "El Paso S Mainline",
+      "- El Paso Natural Gas FTH-12 Negotiated Reservation Rate\n- El Paso Natural Gas FTH-12 Arizona Maximum Daily Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "- Deming County Sales Tax (includes NM state sales tax)",
+      "TEP"
+    ],
+    [
+      "FREPS6",
+      "El Paso S Mainline",
+      "- El Paso Natural Gas FTH-12 Negotiated Reservation Rate\n- El Paso Natural Gas FTH-12 Arizona Maximum Daily Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "- City of Nogales Retail Sales Tax\n- Santa Cruz County Retail Tax (includes AZ state tax)",
+      "TEP"
+    ],
+    [
+      "FREPS7",
+      "El Paso S Mainline",
+      "- Southwest Gas G-60 Commodity Usage Rate, Delivery",
+      "None",
+      "N",
+      "- City of Marana Retail Sales Tax\n- Pima County Retail Tax (includes AZ state tax)",
+      "TEP"
+    ],
+    [
+      "FREPS8",
+      "El Paso South Mainline",
+      "None",
+      "None",
+      "N",
+      "Cochise County, AZ Pipeline Tax",
+      "WALC"
+    ],
+    [
+      "FREPS9",
+      "El Paso South Mainline",
+      "- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "City of Phoenix, AZ Use Tax - Purchases\nMaricopa County, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FRIPCO",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "IPCO"
+    ],
+    [
+      "FRKERN",
+      "Kern Delivery",
+      "none",
+      "none",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRKERNGHG",
+      "Kern Delivery",
+      "none",
+      "none",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRKNG1",
+      "KingsGate",
+      "Gas Transmission Northwest (GTN) FTS-1 Delivery",
+      "Gas Transmission Northwest (GTN) FTS-1 Fuel ",
+      "N",
+      "none",
+      "PACW"
+    ],
+    [
+      "FRKRNL",
+      "Kern Delivery",
+      "none",
+      "none",
+      "N",
+      "none",
+      "LDWP"
+    ],
+    [
+      "FRKRNLGHG",
+      "Kern Delivery",
+      "none",
+      "none",
+      "Y",
+      "none",
+      "LDWP"
+    ],
+    [
+      "FRKRNU",
+      "Kern Delivery",
+      "none",
+      "none",
+      "N",
+      "none",
+      "PACE"
+    ],
+    [
+      "FRKRNV",
+      "Kern Delivery",
+      "none",
+      "none",
+      "N",
+      "none",
+      "NEVP"
+    ],
+    [
+      "FRLDWP",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "LDWP"
+    ],
+    [
+      "FRLSC1GHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, within the city of Los Angeles",
+      "none",
+      "Y",
+      "none",
+      "LDWP"
+    ],
+    [
+      "FRLSC2GHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, within the Cities of San Buenaventura (Ventura), Huntington Beach,\n Visalia, Bakersfield, and Long Beach",
+      "none",
+      "Y",
+      "none",
+      "LDWP"
+    ],
+    [
+      "FRMLN1",
+      "Malin",
+      "- Gas Transmission Northwest (GTN) FTS-1 Delivery\n- Tuscarora Pipeline FT - Delivery Charge - Maximum \n- FERC Annual Charge Adjustment",
+      "Tuscarora Pipeline Measurement Variance Gas Factor",
+      "N",
+      "none",
+      "NEVP"
+    ],
+    [
+      "FRMLN2",
+      "Malin",
+      "GTN - Transport Delivery Charge, FTS-1 for Medford Lateral E-1(f)\nFERC Annual Charge Adjustment",
+      "None",
+      "N",
+      "Oregon Corporate Activity Tax",
+      "AVRN"
+    ],
+    [
+      "FRNEVP",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NEVP"
+    ],
+    [
+      "FRNWE",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "NWE"
+    ],
+    [
+      "FRNWW1",
+      "NW WY Pool/Rky FDt Com",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment ",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "none",
+      "IPCO"
+    ],
+    [
+      "FROPAL",
+      "Kern River",
+      "- Questar Pipeline Co.: T-1 Firm Transportation  \n- FERC Annual Charge Adjustment",
+      "Questar Pipeline Co. Fuel Reimbursement",
+      "N",
+      "none",
+      "PACE"
+    ],
+    [
+      "FROPAL2",
+      "Kern River",
+      "- Questar Pipeline Co.: T-1 Firm Transportation \n- Kern River Gas Firm Transportation KRF-1\n- FERC Annual Charge Adjustment",
+      "Questar Pipeline Co. Fuel Reimbursement",
+      "N",
+      "none",
+      "PACE"
+    ],
+    [
+      "FROPP1",
+      "Kern River",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment ",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "none",
+      "PGE"
+    ],
+    [
+      "FRPACE",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "PACE"
+    ],
+    [
+      "FRPACW",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "PACW"
+    ],
+    [
+      "FRPGE",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "PGE"
+    ],
+    [
+      "FRPGE1",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -Backbone",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE1GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -Backbone",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE2",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other",
+      "None",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE2GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other",
+      "None",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE3",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -Backbone",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE3GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -Backbone",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE4",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other",
+      "None",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE4GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other",
+      "None",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE5",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -Backbone",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "N",
+      "none",
+      "BANCSMUD"
+    ],
+    [
+      "FRPGE5GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -Backbone",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "Y",
+      "CARB Admin Fee",
+      "BANCSMUD"
+    ],
+    [
+      "FRPGE6",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other",
+      "None",
+      "N",
+      "none",
+      "BANCSMUD"
+    ],
+    [
+      "FRPGE6GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other",
+      "None",
+      "Y",
+      "Contract Charge Adder",
+      "BANCSMUD"
+    ],
+    [
+      "FRPGE7",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate",
+      "None",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE7GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate",
+      "None",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGE8",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate",
+      "None",
+      "N",
+      "none",
+      "BANCSMUD"
+    ],
+    [
+      "FRPGE8GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate",
+      "None",
+      "Y",
+      "none",
+      "BANCSMUD"
+    ],
+    [
+      "FRPGE9",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG - All Other\nPG&E Negotiated Rate",
+      "none",
+      "N",
+      "none",
+      "TID"
+    ],
+    [
+      "FRPGE9GHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG - All Other\nPG&E Negotiated Rate",
+      "none",
+      "Y",
+      "none",
+      "TID"
+    ],
+    [
+      "FRPGEA",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG - All Other\nPG&E Negotiated Rate",
+      "none",
+      "N",
+      "none",
+      "BANC"
+    ],
+    [
+      "FRPGEAGHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG - All Other\nPG&E Negotiated Rate",
+      "none",
+      "Y",
+      "none",
+      "BANC"
+    ],
+    [
+      "FRPGEB",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG - Backbone\nPG&E Negotiated Rate",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "N",
+      "none",
+      "BANC"
+    ],
+    [
+      "FRPGEBGHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG - Backbone\nPG&E Negotiated Rate",
+      "PG&E Gas Rule #21 in-kind shrinkage allowance",
+      "Y",
+      "none",
+      "BANC"
+    ],
+    [
+      "FRPGECGHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate\nPG&E Gas Prelim B, G-EG Local Transmission or Surcharge (At Risk)\nPG&E G-SUR Gas Francise Fee",
+      "None",
+      "Y",
+      "City of Hayward Utility User's Tax",
+      "CISO"
+    ],
+    [
+      "FRPGEDGHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate\nPG&E Gas Prelim B, G-EG Local Transmission or Surcharge (At Risk)\nPG&E G-SUR Gas Francise Fee",
+      "None",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRPGEEGHG",
+      "PG&E Citygate",
+      "PG&E Schedule G-EG -All Other\nPG&E Negotiated Rate\nPG&E Gas Prelim B, G-EG Local Transmission or Surcharge (At Risk)\nPG&E G-SUR Gas Francise Fee",
+      "None",
+      "Y",
+      "City of San Jose Utility User's Tax",
+      "CISO"
+    ],
+    [
+      "FRPNM",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "PNM"
+    ],
+    [
+      "FRPSEI",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "PSEI"
+    ],
+    [
+      "FRSCE1",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-NC, rate GT-5NC less than 3 million therms",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE1GHG",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-NC, rate GT-5NC less than 3 million therms",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE2",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-NC, rate GT-5NC 3 million therms or more",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE2GHG",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-NC, rate GT-5NC 3 million therms or more",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE3",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE3GHG",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE4",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-NC, rate GT-5NC 3 million therms or more",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "City of Pasadena Utility User Tax",
+      "CISO"
+    ],
+    [
+      "FRSCE4GHG",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Schedule GT-NC, rate GT-5NC 3 million therms or more",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "City of Pasadena Utility User Tax",
+      "CISO"
+    ],
+    [
+      "FRSCE5",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE5GHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE6",
+      "SoCal Citygate",
+      "-SoCal Gas Tariff Schedule GT-NC, rate GT-5NC 3 million therms or more\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE6GHG",
+      "SoCal Citygate",
+      "-SoCal Gas Tariff Schedule GT-NC, rate GT-5NC 3 million therms or more\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCE7GHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff GT5CA\n- SoCal Gas Tariff GM-SUR, city of Huntington Beach",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "City of Huntington Beach Utility User Tax\nCity of Huntington Beach Franchise Fee",
+      "CISO"
+    ],
+    [
+      "FRSCE8GHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "City of El Segundo Gas User Tax\n",
+      "CISO"
+    ],
+    [
+      "FRSCE9GHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "City of Redondo Beach Gas User Tax\n",
+      "CISO"
+    ],
+    [
+      "FRSCEA",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Transmission Level GT-5NV Electric Generation\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles\n- SoCal Gas Tariff Public Purpose Program Surcharge\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEAGHG",
+      "SoCal Citygate",
+      "SoCal Gas Tariff Transmission Level GT-5NV Electric Generation\nSoCal Gas Tariff GM-SUR, outside the city of Los Angeles\nSoCal Gas Tariff Public Purpose Program Surcharge\nSoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEC",
+      "SoCal Citygate",
+      "-SoCal Gas Tariff Schedule GT-NC, rate GT-5NC less than 3 million therms\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCED",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5RS\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles\n- SoCal Gas Tariff Public Purpose Program Surcharge\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEDGHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5RS\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles\n- SoCal Gas Tariff Public Purpose Program Surcharge\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEEGHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, within the Cities of San Buenaventura (Ventura), Huntington Beach,\n Visalia, Bakersfield, and Long Beach",
+      "SoCal Gas Rule #30 in-kind shrinkage allowance",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEO",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n-SoCal Gas Tariff GM-SUR, outside the city of Los Angeles\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEOGHG",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule GT-TLS, rate GT-5CA\n- Municipal Surcharge outside the city of LA\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCES",
+      "SoCal Citygate",
+      "-SoCal Gas Tariff Schedule GT-NC, rate GT-5NC less than 3 million therms\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCESGHG",
+      "SoCal Citygate",
+      "-SoCal Gas Tariff Schedule GT-NC, rate GT-5NC less than 3 million therms\n-SoCal Gas Tariff G-SRF State Regulatory Fee",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCEV",
+      "SoCal Citygate",
+      "- SoCal Gas Tariff Schedule Usage up to DRQ GT-10RS, Wholesale - City of Vernon",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSCL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "SCL"
+    ],
+    [
+      "FRSDG1 ",
+      "SoCal Citygate",
+      "SDGE Gas Tariff  Distribution Level Schedule EG less than 3 million therms",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG1GHG",
+      "SoCal Citygate",
+      "SDGE Gas Tariff  Distribution Level Schedule EG less than 3 million therms",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG2",
+      "SoCal Citygate",
+      "SDGE Gas Tariff  Distribution Level Schedule EG 3 million therms or more",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG2GHG",
+      "SoCal Citygate",
+      "SDGE Gas Tariff  Distribution Level Schedule EG 3 million therms or more",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG3",
+      "SoCal Citygate",
+      "SDGE Gas Tariff Transmission Level Schedule  TLS-EG-CA\n- SDGE Gas Tariff GP-SUR, city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG3GHG",
+      "SoCal Citygate",
+      "SDGE Gas Tariff Transmission Level Schedule  TLS-EG-CA\n- SDGE Gas Tariff GP-SUR, city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG4",
+      "SoCal Citygate",
+      "SDGE Gas Tariff  Distribution Level Schedule EG less than 3 million therms\n- SDGE Gas Tariff GP-SUR, outside city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "City of Chula Vista Utility User Tax",
+      "CISO"
+    ],
+    [
+      "FRSDG5",
+      "SoCal Citygate",
+      "SDGE Gas Tariff  Distribution Level Schedule EG less than 3 million therms\n- SDGE Gas Tariff GP-SUR, outside city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG6",
+      "SoCal Citygate",
+      "SDGE Gas Tariff Transmission Level Schedule  TLS-EG-CA\n- SDGE Gas Tariff GP-SUR, outside city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "N",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG6GHG",
+      "SoCal Citygate",
+      "SDGE Gas Tariff Transmission Level Schedule  TLS-EG-CA\n- SDGE Gas Tariff GP-SUR, outside city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSDG7GHG",
+      "SoCal Citygate",
+      "SDGE Gas Tariff Transmission Level Schedule  TLS-EG-RS\nSDGE Gas Tariff Transmission Level Schedule TLS-EG-NV\n- SDGE Gas Tariff GP-SUR, outside city of San Diego",
+      "SoCal Gas in-kind energy charges rate",
+      "Y",
+      "none",
+      "CISO"
+    ],
+    [
+      "FRSRP",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "SRP"
+    ],
+    [
+      "FRSTN1",
+      "Stanfield",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide\n- Paiute Pipeline - FT-1 Firm Transportation Service - Usage Charge \n-FERC Annual Charge Adjustment",
+      "- Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 \n- Paiute Pipeline Pecent of Gas Used by Paiute",
+      "N",
+      "none",
+      "NEVP"
+    ],
+    [
+      "FRSTN2",
+      "Stanfield",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide\n- FERC Annual Charge Adjustment",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      null,
+      "Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSTN2GHG",
+      "Stanfield",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide\n- FERC Annual Charge Adjustment",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      null,
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSTN3",
+      "Stanfield",
+      "- FERC Annual Charge Adjustment",
+      "Gas Transmission Northwest (GTN) FTS-1 Fuel ",
+      "N",
+      "none",
+      "PGE"
+    ],
+    [
+      "FRSTN4",
+      "Stanfield",
+      "-Gas Transmission Northwest (GTN) FTS-1 Delivery \n- FERC Annual Charge                                                                                                                                                                                                                                                                                                 ",
+      "none",
+      "N",
+      "none",
+      "AVA"
+    ],
+    [
+      "FRSTN4GHG",
+      "Stanfield",
+      "-Gas Transmission Northwest (GTN) FTS-1 Delivery \n- FERC Annual Charge                                                                                                                                                                                                                                                                                                 ",
+      "none",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "AVA"
+    ],
+    [
+      "FRSTN5",
+      "Stanfield",
+      "-Gas Transmission Northwest (GTN) FTS-1 Delivery \n- FERC Annual Charge                                                                                                                                                                                                                                                                                                 ",
+      "-Gas Transmission Northwest (GTN) FTS-1 Fuel, mileage-based ",
+      "N",
+      "none",
+      "AVA"
+    ],
+    [
+      "FRSTN6",
+      "Stanfield",
+      "-Gas Transmission Northwest (GTN) FTS-1 Delivery \n-Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide, mileage-based\n- FERC Annual Charge                                                                                                                                                                                                                                                                                                 ",
+      "-Northwest Pipeline, Reimbursement of Fuel Use, Rate Schedule TF-1",
+      "N",
+      "none",
+      "AVA"
+    ],
+    [
+      "FRSTN7",
+      "Stanfield",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide - Maximum\n- FERC Annual Charge Adjustment",
+      "-Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedules TF-1, TF-2, TI-1, and DEX-1",
+      "N",
+      "none",
+      "IPCO"
+    ],
+    [
+      "FRSUD1",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment ",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "none",
+      "IPCO"
+    ],
+    [
+      "FRSUM1",
+      "Northwest Sumas",
+      null,
+      "None",
+      "N",
+      "none",
+      "BCHA"
+    ],
+    [
+      "FRSUM2",
+      "Northwest Sumas",
+      "none",
+      "none",
+      "N",
+      "none",
+      "SCL"
+    ],
+    [
+      "FRSUM3",
+      "Northwest Sumas",
+      "none",
+      "none",
+      "N",
+      "none",
+      "TPWR"
+    ],
+    [
+      "FRSUM4",
+      "Northwest Sumas",
+      "none",
+      "none",
+      "N",
+      "none",
+      "BPA"
+    ],
+    [
+      "FRSUP1",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment ",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "none",
+      "PGE"
+    ],
+    [
+      "FRSUW2",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - 25 Year Evergreen Exp. \n- FERC Annual Charge Adjustment",
+      "- Northwest Pipeline: Reimbursement of Fuel Use - Rate Schedule TF-1 \n- Northwest Pipeline: Rate Schedule TF-1 - Evergreen Expansion Incremental Surcharge",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW2GHG",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - 25 Year Evergreen Exp. \n- FERC Annual Charge Adjustment",
+      "- Northwest Pipeline: Reimbursement of Fuel Use - Rate Schedule TF-1 \n- Northwest Pipeline: Rate Schedule TF-1 - Evergreen Expansion Incremental Surcharge",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW3",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide\n- FERC Annual Charge Adjustment",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW4",
+      "Northwest Sumas",
+      "none",
+      "none",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW4GHG",
+      "Northwest Sumas",
+      "none",
+      "none",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW5",
+      "Northwest Sumas",
+      "- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "none",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW5GHG",
+      "Northwest Sumas",
+      "- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "none",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW6",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW6AGHG",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW6BGHG",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW7",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "Washington State natural gas use tax & City of Bellingham, WA local natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW7GHG",
+      "Northwest Sumas",
+      "- Northwest Pipeline TF-1 - Volumetric - Large Customer - System Wide \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Northwest Pipeline - Reimbursement of Fuel Use - Rate Schedule TF-1 ",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW8",
+      "Northwest Sumas",
+      "-  Pipeline TF-1 - Volumetric - Large Customer -  25 Year Evergreen Exp. \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "- Northwest Pipeline:  Reimbursement of Fuel Use - Rate Schedule TF-1 \n - Northwest Pipeline: Rate Schedule TF-1 - Evergreen Expansion Incremental Surcharge \n- Cascade Natural Gas Corporation: Schedule No. 663 Fuel Use",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW8GHG",
+      "Northwest Sumas",
+      "-  Pipeline TF-1 - Volumetric - Large Customer -  25 Year Evergreen Exp. \n- FERC Annual Charge Adjustment \n- Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "- Northwest Pipeline:  Reimbursement of Fuel Use - Rate Schedule TF-1 \n - Northwest Pipeline: Rate Schedule TF-1 - Evergreen Expansion Incremental Surcharge \n- Cascade Natural Gas Corporation: Schedule No. 663 Fuel Use",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUW9",
+      "Northwest Sumas",
+      "Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Cascade Natural Gas Corporation Schedule No. 663 Fuel Use",
+      "N",
+      "Washington State natural gas use tax",
+      "PSEI"
+    ],
+    [
+      "FRSUW9GHG",
+      "Northwest Sumas",
+      "Cascade Natural Gas Corporation: Schedule No. 663 Delivery Charge for All Therms Delivered Per Month, Schedule No. 663 System Balancing Charge and Schedule No. 593 WA Energy Assistance Fund Payment Recovery",
+      "Cascade Natural Gas Corporation Schedule No. 663 Fuel Use",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PSEI"
+    ],
+    [
+      "FRSUWA",
+      "Northwest Sumas",
+      " - Northwest Pipeline:  TF-1 - Volumetric - Large Customer - 25 Year Evergreen Exp. \n- FERC Annual Charge Adjustment",
+      "- Northwest Pipeline: Reimbursement of Fuel Use - Rate Schedule TF-1 \n- Northwest Pipeline: Rate Schedule TF-1 - Evergreen Expansion Incremental Surcharge",
+      "N",
+      "Washington State natural gas use tax",
+      "PACW"
+    ],
+    [
+      "FRSUWAGHG",
+      "Northwest Sumas",
+      " - Northwest Pipeline:  TF-1 - Volumetric - Large Customer - 25 Year Evergreen Exp. \n- FERC Annual Charge Adjustment",
+      "- Northwest Pipeline: Reimbursement of Fuel Use - Rate Schedule TF-1 \n- Northwest Pipeline: Rate Schedule TF-1 - Evergreen Expansion Incremental Surcharge",
+      "N",
+      "- Washington State natural gas use tax & City of Goldendale, WA local natural gas use tax\n- State of Washington Department of Ecology GHG auction price",
+      "PACW"
+    ],
+    [
+      "FRSWG1",
+      "Kern Delivery",
+      "- Southwest Gas – Southern Nevada: SG-EG - Gas Cost - Base Tariff Energy Rate,  SG-EG - Gas Cost - Deferred Energy Account Adjustment, SG-EG - Currently Effective Tariff Rate\n- FERC Annual Charge Adjustment",
+      "none",
+      "N",
+      "none",
+      "NEVP"
+    ],
+    [
+      "FRTAC",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "TPWR"
+    ],
+    [
+      "FRTEP",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "TEP"
+    ],
+    [
+      "FRTID",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "TID"
+    ],
+    [
+      "FRTWB1",
+      "TW Blanco",
+      "- Transwestern Pipeline - FTS-5 -Usage Rate - Delivered to Phoenix - Received from San Juan \n- FERC Annual Charge Adjustment",
+      "- Transwestern Pipeline FTS-5 - Delivered to Phoenix - Received from San Juan  - San Juan Blanco Maximum Fuel Reimbursement",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Gila Bend, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FRTWB2",
+      "TW Blanco",
+      "- Transwestern Pipeline - FTS-5 -Usage Rate - Delivered to Phoenix - Received from San Juan \n- FERC Annual Charge Adjustment",
+      "- Transwestern Pipeline FTS-5 - Delivered to Phoenix - Received from San Juan  - San Juan Blanco Maximum Fuel Reimbursement",
+      "N",
+      "Pinal County, AZ Use Tax - Purchases\nCity of Coolidge, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FRTWB3",
+      "TW Blanco",
+      "- Transwestern Pipeline - FTS-5 -Usage Rate - Delivered to Phoenix - Received from San Juan \n- FERC Annual Charge Adjustment",
+      "- Transwestern Pipeline FTS-5 - Delivered to Phoenix - Received from San Juan  - San Juan Blanco Maximum Fuel Reimbursement",
+      "N",
+      "Maricopa County, AZ Use Tax - Purchases\nCity of Phoenix, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FRTWB4",
+      "TW Blanco",
+      "- Transwestern Pipeline - FTS-3, Negotiated Discount, Negotiated Commodity Charge",
+      "- Transwestern FTS-3 L&U Rate",
+      "N",
+      "- Mohave County Retail Tax (includes AZ state tax)",
+      "TEP"
+    ],
+    [
+      "FRTWS1",
+      "TW San Juan",
+      "- Transwestern Pipeline - FTS-3 -Usage Rate - Delivered to West of Thoreau, East of California - Received from San Juan\n- FERC Annual Charge Adjustment",
+      "- Transwestern Pipeline FTS-3 - Delivered to West of Thoreau, East of California - Received from San Juan  - San Juan Blanco Maximum Fuel Reimbursement",
+      "N",
+      "Mohave County, AZ Use Tax - Purchases",
+      "AZPS"
+    ],
+    [
+      "FRTWS2",
+      "TW San Juan ",
+      "- Transwestern Pipeline New Mexico Usage Rates FTS-1 (Delivered to East of Thoreau, Received from San Juan)\n- FERC Annual Charge Adjustment",
+      "- Transwestern Fuel Reimbursement Rate",
+      "N",
+      "- New Mexico Gross Reciepts Tax rate, Bloomfield City\n- Transwestern Hourly Peaking Service (HPS)  ",
+      "PNM"
+    ],
+    [
+      "FRTWS3",
+      "TW San Juan ",
+      "- Transwestern Pipeline New Mexico Usage Rates FTS-1, ITS-2 (Delivered to East of Thoreau, Received from San Juan)\n- FERC Annual Charge Adjustment",
+      "- Transwestern Fuel Reimbursement Rate",
+      "N",
+      "- New Mexico Gross Reciepts Tax rate, Bloomfield City\n- Transwestern Hourly Peaking Service (HPS)  ",
+      "PNM"
+    ],
+    [
+      "FRTWS4",
+      "TW San Juan ",
+      "- Transwestern Pipeline New Mexico Usage Rates FTS-1 (Delivered to East of Thoreau, Received from San Juan)\n- New Mexico Gas Company Transportation Contract Rate\n- FERC Annual Charge Adjustment",
+      "- Transwestern Fuel Reimbursement Rate \n- New Mexico Gas Company Fuel Reimbursement Rate",
+      "N",
+      "New Mexico Gross Reciepts Tax rate, Bloomfield City ",
+      "PNM"
+    ],
+    [
+      "FRTWS5",
+      "TW San Juan ",
+      "- Transwestern Pipeline New Mexico Usage Rates FTS-1, ITS-2 (Delivered to East of Thoreau, Received from San Juan)\n- New Mexico Gas Company Transportation Contract Rate\n- FERC Annual Charge Adjustment",
+      "- Transwestern Fuel Reimbursement Rate \n- New Mexico Gas Company Fuel Reimbursement Rate",
+      "N",
+      "New Mexico Gross Reciepts Tax rate, Bloomfield City ",
+      "PNM"
+    ],
+    [
+      "FRTWS6",
+      "TW San Juan",
+      "- Transwestern Pipeline - ITS-1 - Base Rate - Delivered to West of Thoreau, East of California - Received from San Juan - Usage Rate\n- FERC Annual Charge Adjustment",
+      "- Transwestern Pipeline FTS-3 - Delivered to West of Thoreau, East of California - Received from San Juan  - San Juan Blanco - Maximum Fuel Reimbursement",
+      "N",
+      "Arizona State, County and City TPT and Other Tax Rate Tables - Table 1 - Taxable Acitivites: Utilities - County: Mohave (MOH)",
+      "WALC"
+    ],
+    [
+      "FRWALC",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "WALC"
+    ],
+    [
+      "FRWHA1",
+      "Waha",
+      "- EPNG FTH-16 Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "None",
+      "EPE"
+    ],
+    [
+      "FRWHA2",
+      "Waha",
+      "- EPNG FTH-16 Usage Rate\n- FERC Annual Charge Adjustment",
+      "- El Paso Natural Gas Mainline Fuel, Total Retention\n- El Paso Natural Gas L&U, Total Retention",
+      "N",
+      "New Mexico Gross Receipts Tax Rate, Multiple counties",
+      "EPE"
+    ],
+    [
+      "FRWHA3",
+      "Waha",
+      "- ONEOK Contractual Commodity Transport Rate",
+      "- ONEOK Contractual Rate",
+      "N",
+      "City of El Paso Franchise Fee",
+      "EPE"
+    ],
+    [
+      "FROPAL3",
+      "Opal",
+      "- Mountain West Pipeline FT Systemwide\n Usage Charge\n- FERC ACA Charge",
+      "- Mountain West Pipeline\n FGRP Receipt",
+      "N",
+      "None",
+      "IPCO"
+    ],
+    [
+      "FROPAL4",
+      "Opal",
+      "- Mountain West Pipeline FT Systemwide\n Usage Charge\n- FERC ACA Charge",
+      "- Mountain West Pipeline\n FGRP Receipt",
+      "N",
+      "None",
+      "PACE"
+    ],
+    [
+      "FRCHY1",
+      "Cheyenne",
+      "- Colorado Interstate Gas Company - Firm Transportation Rate - TF-1 Commodity Rate\n- FERC Annual Charge Adjustment",
+      "- Colorado Interstate Gas Company - Fuel and L&U Rates - Fuel Reimbursement Percentage -Transportation Fuel Gas - Total\n- Colorado Interstate Gas Company - Fuel and L&U Rates - Fuel Reimbursement Percentage - Lost, Unaccounted-For, and Other Fuel Gas - Total",
+      "N",
+      "None",
+      "NWE"
+    ]
+  ],
+  "notes": [
+    "This is the currently downloadable mapping. Historical effective-time coverage is not asserted.",
+    "Retain exact region IDs and labels; do not infer California membership from a numeric/string region ID."
+  ]
+}

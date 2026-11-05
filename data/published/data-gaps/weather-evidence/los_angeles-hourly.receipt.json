@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://api.weather.gov/gridpoints/LOX/155,45/forecast/hourly",
+  "fetchedAtUtc": "2026-10-30T07:05:29.420263+00:00",
+  "httpStatus": 200,
+  "contentType": "application/geo+json",
+  "lastModified": "Fri, 30 Oct 2026 05:59:58 GMT",
+  "bytes": 163548,
+  "sha256": "d078cbf82f281b40da2878de98ac7fb5a27419c3e105ad8d84c951fc30a4b3d5"
+}

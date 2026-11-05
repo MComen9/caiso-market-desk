@@ -1,0 +1,20 @@
+name: 功能扩展
+description: 按真实用户任务提出扩展
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 谁在什么场景下，需要完成什么任务？
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: 输入、输出、异常和验收标准
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: 当前可取得的数据和接口
+      description: 优先使用现有或免费公开数据，不把无法取得的资料作为当前任务的前提。

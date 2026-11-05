@@ -1,0 +1,56 @@
+[
+  {
+    "name": "cc6473-2026-incremental.docx",
+    "sourceUrl": "https://www.caiso.com/documents/cg-cc-6473-convergence-bidding-real-time-energy-congestion-and-loss-settlement-incremental-update.docx",
+    "fetchedAtUtc": "2026-10-30T07:06:35.880344+00:00",
+    "httpStatus": 200,
+    "bytes": 201622,
+    "sha256": "29300ed3379e556b51f00963c8dba71bf825f1cef5f19a7031a483ec612a9320",
+    "file": "official-documents/cc6473-2026-incremental.docx"
+  },
+  {
+    "name": "cc4515-2026-incremental.docx",
+    "sourceUrl": "https://www.caiso.com/documents/cg-cc-4515-gmc-bid-transaction-fee-incremental-update.docx",
+    "fetchedAtUtc": "2026-10-30T07:06:36.519365+00:00",
+    "httpStatus": 200,
+    "bytes": 126596,
+    "sha256": "7f69741ea90c572720b9dc0b4392b09ae38b6f0f279793aab696c2b7af551e01",
+    "file": "official-documents/cc4515-2026-incremental.docx"
+  },
+  {
+    "name": "gmc-rates-effective-2026-10-01.pdf",
+    "sourceUrl": "https://www.caiso.com/documents/grid-management-charge-rates-2004-2006-effective-oct-01-2026.pdf",
+    "fetchedAtUtc": "2026-10-30T07:06:36.845647+00:00",
+    "httpStatus": 200,
+    "bytes": 277490,
+    "sha256": "13d0b169b85d055da9b14aec99fcfe4b85ef7e586df5b1897fd1af7270613225",
+    "file": "official-documents/gmc-rates-effective-2026-10-01.pdf"
+  },
+  {
+    "name": "settlements-training-2026-04-21.pdf",
+    "sourceUrl": "https://www.caiso.com/documents/presentation-dame-edam-and-edam-caiso-balancing-authority-participation-rules-settlements-refresher-training.pdf",
+    "fetchedAtUtc": "2026-10-30T07:06:37.479864+00:00",
+    "httpStatus": 200,
+    "bytes": 3068417,
+    "sha256": "dcdabf95b0e7e14c2404044a88694475620b3fce79756357d64439e27e848f46",
+    "file": "official-documents/settlements-training-2026-04-21.pdf"
+  },
+  {
+    "name": "settlement-user-group-2026-06-17.pdf",
+    "sourceUrl": "https://www.caiso.com/documents/agenda-settlement-user-group-jun-17-2026.pdf",
+    "fetchedAtUtc": "2026-10-30T07:06:38.051286+00:00",
+    "httpStatus": 200,
+    "bytes": 900814,
+    "sha256": "8200b6158948c25a3b0b7001f6545251a3eb788827aef3344b5e758072333fba",
+    "file": "official-documents/settlement-user-group-2026-06-17.pdf"
+  },
+  {
+    "name": "cc4560-market-services-2026.docx",
+    "sourceUrl": "https://www.caiso.com/documents/cg-cc-4560-gmc-market-services-charge.docx",
+    "fetchedAtUtc": "2026-10-30T07:08:23.680238+00:00",
+    "httpStatus": 200,
+    "bytes": 137604,
+    "sha256": "3fe3d93948952b27cfd2bb45923b2a950391d845d1c9eb3414e8e0f18eb8556b",
+    "file": "official-documents/cc4560-market-services-2026.docx"
+  }
+]

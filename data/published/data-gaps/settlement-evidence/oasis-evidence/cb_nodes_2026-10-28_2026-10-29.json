@@ -1,0 +1,62 @@
+{
+  "id": "cb_nodes_2026-10-28_2026-10-29",
+  "dataset": "cb_nodes",
+  "startDate": "2026-10-28",
+  "endDateExclusive": "2026-10-29",
+  "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=2&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=ATL_CBNODE",
+  "parameters": {
+    "resultformat": "6",
+    "version": "2",
+    "startdatetime": "20261028T07:00-0000",
+    "enddatetime": "20261029T07:00-0000",
+    "queryname": "ATL_CBNODE"
+  },
+  "requestedAt": "2026-10-30T07:09:02.417Z",
+  "status": "downloaded",
+  "publishTimeUtc": null,
+  "vintageEvidence": "current_download_only",
+  "rawFile": "cb_nodes_2026-10-28_2026-10-29.zip",
+  "httpStatus": 200,
+  "lastModified": null,
+  "bytes": 26401,
+  "sha256": "49be04208436c4ffa1f0c55e8995f829f025365fb531bf3d69eeb95e7b8a09c1",
+  "fetchedAt": "2026-10-30T07:09:02.924Z",
+  "rowCount": 3568,
+  "columns": [
+    "CB_END_EFFECTIVE_DATE",
+    "CB_END_EFFECTIVE_DATE_GMT",
+    "CB_START_EFFECTIVE_DATE",
+    "CB_START_EFFECTIVE_DATE_GMT",
+    "NODE_ID",
+    "TIE"
+  ],
+  "firstIntervalUtc": null,
+  "lastIntervalUtc": null,
+  "sourcePublishFields": [],
+  "sampleRows": [
+    {
+      "NODE_ID": "0096WD_7_N001",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE": "2025-05-13T00:00:00",
+      "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+      "CB_START_EFFECTIVE_DATE_GMT": "2025-05-13T07:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "0096WD_7_N002",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE": "2015-01-15T00:00:00",
+      "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+      "CB_START_EFFECTIVE_DATE_GMT": "2015-01-15T08:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    },
+    {
+      "NODE_ID": "2PBLSM34_7_N001",
+      "TIE": "",
+      "CB_START_EFFECTIVE_DATE": "2025-05-13T00:00:00",
+      "CB_END_EFFECTIVE_DATE": "2030-12-31T23:59:59",
+      "CB_START_EFFECTIVE_DATE_GMT": "2025-05-13T07:00:00-00:00",
+      "CB_END_EFFECTIVE_DATE_GMT": "2031-01-01T07:59:59-00:00"
+    }
+  ]
+}

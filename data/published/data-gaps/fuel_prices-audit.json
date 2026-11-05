@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "dataset": "fuel_prices",
+  "generatedAt": "2026-10-30T07:44:25.762Z",
+  "rows": 868176,
+  "fields": [
+    "INTERVALSTARTTIME_GMT",
+    "INTERVALENDTIME_GMT",
+    "FUEL_REGION_ID",
+    "PRC"
+  ],
+  "download": "/data/data-gaps/fuel_prices.json.gz",
+  "bytes": 3073936,
+  "sha256": "50f0ab20089345080292147bdfa5ef86bfcb8a63b5994d9680dd0107e30a00d2",
+  "sampleRows": [
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+      "FUEL_REGION_ID": "FRAEC1",
+      "PRC": 1.73
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+      "FUEL_REGION_ID": "FRAVA",
+      "PRC": 1.02
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+      "FUEL_REGION_ID": "FRAVRN",
+      "PRC": 1.01
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+      "FUEL_REGION_ID": "FRAZPS",
+      "PRC": -2.82
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+      "FUEL_REGION_ID": "FRBANC",
+      "PRC": 1.99
+    },
+    {
+      "INTERVALSTARTTIME_GMT": "2026-05-02T07:00:00-00:00",
+      "INTERVALENDTIME_GMT": "2026-05-02T08:00:00-00:00",
+      "FUEL_REGION_ID": "FRBANCSMUD",
+      "PRC": 1.83
+    }
+  ],
+  "sources": [
+    {
+      "id": "fuel_prices_2026-05-02_2026-06-01",
+      "dataset": "fuel_prices",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260502T07%3A00-0000&enddatetime=20260601T07%3A00-0000&queryname=PRC_FUEL&fuel_region_id=ALL",
+      "fetchedAt": "2026-10-30T07:11:08.551Z",
+      "sha256": "363e6c66f80f00ccf8dd558399690ba373456701b689422277344345523b0d5d",
+      "bytes": 585290,
+      "rowCount": 142656
+    },
+    {
+      "id": "fuel_prices_2026-06-01_2026-07-01",
+      "dataset": "fuel_prices",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260601T07%3A00-0000&enddatetime=20260701T07%3A00-0000&queryname=PRC_FUEL&fuel_region_id=ALL",
+      "fetchedAt": "2026-10-30T07:11:55.725Z",
+      "sha256": "4264128c303a0df4f4971f85ee11a854c1bc46ad1bde672aa643a46c132beee4",
+      "bytes": 590563,
+      "rowCount": 143952
+    },
+    {
+      "id": "fuel_prices_2026-07-01_2026-07-31",
+      "dataset": "fuel_prices",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260701T07%3A00-0000&enddatetime=20260731T07%3A00-0000&queryname=PRC_FUEL&fuel_region_id=ALL",
+      "fetchedAt": "2026-10-30T07:12:45.132Z",
+      "sha256": "7412b1af77d46d3cf15310314a6a5b5eb1062aca3b480e41e9f99bfe5a58f62a",
+      "bytes": 592348,
+      "rowCount": 144720
+    },
+    {
+      "id": "fuel_prices_2026-07-31_2026-08-30",
+      "dataset": "fuel_prices",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260731T07%3A00-0000&enddatetime=20260830T07%3A00-0000&queryname=PRC_FUEL&fuel_region_id=ALL",
+      "fetchedAt": "2026-10-30T07:13:32.505Z",
+      "sha256": "9c73e842469b1d6826b836a6d3523d815d71d3337e86b5e914ea3f527c0c60a3",
+      "bytes": 607249,
+      "rowCount": 144720
+    },
+    {
+      "id": "fuel_prices_2026-08-30_2026-09-29",
+      "dataset": "fuel_prices",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260830T07%3A00-0000&enddatetime=20260929T07%3A00-0000&queryname=PRC_FUEL&fuel_region_id=ALL",
+      "fetchedAt": "2026-10-30T07:14:20.469Z",
+      "sha256": "599364f007acc153e98247bca1da74d2fc52605fa9b33b21ebc5bbe185e39927",
+      "bytes": 611799,
+      "rowCount": 145968
+    },
+    {
+      "id": "fuel_prices_2026-09-29_2026-10-29",
+      "dataset": "fuel_prices",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20260929T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=PRC_FUEL&fuel_region_id=ALL",
+      "fetchedAt": "2026-10-30T07:15:08.403Z",
+      "sha256": "b8e7732d37b6b95a8145513c008ccf22bd2dc34b275dc493857e32ba52bd656a",
+      "bytes": 609378,
+      "rowCount": 146160
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "unit": "USD/MMBtu",
+  "intervalMinutes": 60,
+  "classification": "historical_fuel_price_index_current_vintage",
+  "notes": [
+    "燃料区索引，不是每个发电机的实际购气合同成本。区域对照另见fuel-region-map；历史发布时间未恢复。"
+  ]
+}

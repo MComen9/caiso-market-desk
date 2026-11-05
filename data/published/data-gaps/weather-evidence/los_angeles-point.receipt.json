@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://api.weather.gov/points/34.0522,-118.2437",
+  "fetchedAtUtc": "2026-10-30T07:05:29.357957+00:00",
+  "httpStatus": 200,
+  "contentType": "application/geo+json",
+  "lastModified": null,
+  "bytes": 3933,
+  "sha256": "45042bdf014033c4b8e3d79143c02798b4eac199a02d21cd7367a7d1963267f5"
+}

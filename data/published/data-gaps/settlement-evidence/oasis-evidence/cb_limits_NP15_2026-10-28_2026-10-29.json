@@ -1,0 +1,32 @@
+{
+  "id": "cb_limits_NP15_2026-10-28_2026-10-29",
+  "dataset": "cb_limits_NP15",
+  "startDate": "2026-10-28",
+  "endDateExclusive": "2026-10-29",
+  "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=CB_NODAL_LIMITS&node_id=TH_NP15_GEN-APND",
+  "parameters": {
+    "resultformat": "6",
+    "version": "1",
+    "startdatetime": "20261028T07:00-0000",
+    "enddatetime": "20261029T07:00-0000",
+    "queryname": "CB_NODAL_LIMITS",
+    "node_id": "TH_NP15_GEN-APND"
+  },
+  "requestedAt": "2026-10-30T07:09:10.417Z",
+  "status": "unavailable",
+  "publishTimeUtc": null,
+  "vintageEvidence": "current_download_only",
+  "rawFile": "cb_limits_NP15_2026-10-28_2026-10-29.zip",
+  "httpStatus": 200,
+  "lastModified": null,
+  "bytes": 659,
+  "sha256": "7fff8fc0b4b21db6ba716456b680d9159cad0679714d9d0e7d73b844a76d96cc",
+  "fetchedAt": "2026-10-30T07:09:10.676Z",
+  "error": {
+    "code": "1000",
+    "message": "No data returned for the specified selection",
+    "members": [
+      "20261028_20261029_CB_NODAL_LIMITS_N_20261030_00_09_10_v1.xml"
+    ]
+  }
+}

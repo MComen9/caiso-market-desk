@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "filesBase": "public/data/current-inputs",
+  "scriptPathsBase": "repository root",
+  "files": {
+    "current-prices-audit.json": {
+      "bytes": 935,
+      "sha256": "d89b209cb4658bdb9b052bb98a14ac40345106cf938b44302e1fba7b95d5fce2"
+    },
+    "acquisition-summary.json": {
+      "bytes": 1883,
+      "sha256": "721d5f47c1653daaf3012672b6a83748cb7b4bee0124615b1beb3ce9e1cc1a03"
+    },
+    "README.md": {
+      "bytes": 3641,
+      "sha256": "02334b3e7f1257c03fd7657c92de894153e3f65f703df5361320b9e2d0e43a61"
+    },
+    "price-addendum.json": {
+      "bytes": 18967,
+      "sha256": "d21f76a240d9b3f2aaa5e7b8a51d0832e6f46c3bb0eccb5a076763c31ffa5faa"
+    },
+    "price-history-current.json.gz": {
+      "bytes": 417347,
+      "sha256": "18a18e1504d8fb3c1493f3c8bf6f7ba33181f68bba4130dc72625cdd0244cc98"
+    },
+    "optional/frp_nodal_2026-10-29_2026-10-30.zip": {
+      "bytes": 681,
+      "sha256": "c9bf6b84e8e283958c0f8a0633717db2dd6b6d1332eeadd548a1bd1e5fd7117d"
+    },
+    "optional/frp_nodal_2026-10-29_2026-10-30.json": {
+      "bytes": 1120,
+      "sha256": "41ec664f25bd367ce1d1d1f073a3dd0ecf4d2023cca9289c9ca440533cca8783"
+    },
+    "eia/receipt.json": {
+      "bytes": 835,
+      "sha256": "52c1479055bb0056c79859a100b0d4a257d5fa1b76db5e48012e1de1a38fe70a"
+    },
+    "eia/eia930-ciso-audit.json": {
+      "bytes": 11298,
+      "sha256": "e83253fc71e7bcde9756e6362c06bb61dc00ef7a4b805247667da87fb6811715"
+    },
+    "eia/eia930-ciso-current.json.gz": {
+      "bytes": 468657,
+      "sha256": "eaae88bf4d68d526e4d00684a2431374a7af672a8a6f6428c93a195c7f4062a1"
+    },
+    "eia/source-notes.txt": {
+      "bytes": 37905,
+      "sha256": "359125f32088fa9a74de3057160d9c79fa8e38cc8bf2ef51b88426a489b66e70"
+    },
+    "oasis/price_dam_2026-10-29_2026-10-30.json": {
+      "bytes": 3150,
+      "sha256": "b29ec0df12fb12b471a0b66a1a80ef75088ed14dd21cc92b45f754bbb14f2468"
+    },
+    "oasis/price_fmm_2026-10-29_2026-10-30.json": {
+      "bytes": 3171,
+      "sha256": "de7c2a8128d672990a0a3264850783934c587248d17d627f19a4fdd3d296169d"
+    },
+    "oasis/price_dam_2026-10-29_2026-10-30.zip": {
+      "bytes": 3896,
+      "sha256": "fc72d836e3ca68fd35295e32426dbf9dd8e9f54028d5af6803ff1891a436ca9f"
+    },
+    "oasis/price_fmm_2026-10-29_2026-10-30.zip": {
+      "bytes": 15025,
+      "sha256": "3240d2ac6bebd91f66181b916807da7d01264aa46a90d8a27c792f2900dbfaec"
+    },
+    "oasis/receipts.json": {
+      "bytes": 7223,
+      "sha256": "89ad1dbf6881e405e6b222d3de03496fd0c8a1db89f1e85c42647843954842fd"
+    }
+  },
+  "scripts": {
+    "research/current_data_acquisition/normalize_current_prices.py": {
+      "bytes": 6424,
+      "sha256": "1837b2185732868a905c0925360474d29c4c996321b446340e40a8081128cd0a"
+    },
+    "research/current_data_acquisition/fetch_current_public.py": {
+      "bytes": 1939,
+      "sha256": "c706597b12ea063ac0c545c270089e827deee059c1247abd57f608c830db150f"
+    },
+    "research/current_data_acquisition/fetch_eia.py": {
+      "bytes": 2502,
+      "sha256": "f2af8e0740d9b67b84a78a61c108cf02ba9ac140c6a807161769b3ee55388952"
+    },
+    "research/current_data_acquisition/oasis_public.py": {
+      "bytes": 6990,
+      "sha256": "a25bddea704a1be76b9c2a47871dff965e0a262e534d4905047bba56f5cad030"
+    },
+    "research/current_data_acquisition/normalize_eia.py": {
+      "bytes": 6446,
+      "sha256": "7218a8aeba91d0ce0682a0a91dde7e278f50aade47fcb159cb3494f053c8e105"
+    }
+  },
+  "checks": {
+    "priceOfflineReplayRowsMatch": true,
+    "priceRows": 26352,
+    "eiaRows": 8784,
+    "eiaUsedInV4Core": false,
+    "pythonScriptsCompile": true,
+    "hardcodedExternalWorkspacePaths": false,
+    "rawEiaWorkbookBundled": false
+  }
+}

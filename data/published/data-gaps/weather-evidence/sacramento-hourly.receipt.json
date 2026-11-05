@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://api.weather.gov/gridpoints/STO/41,68/forecast/hourly",
+  "fetchedAtUtc": "2026-10-30T07:05:28.955013+00:00",
+  "httpStatus": 200,
+  "contentType": "application/geo+json",
+  "lastModified": "Fri, 30 Oct 2026 06:59:58 GMT",
+  "bytes": 162763,
+  "sha256": "a5584322593625a619aa2d14c2bd6bdb23babded4bd711013253a54e86869723"
+}

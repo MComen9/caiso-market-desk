@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "dataset": "cb_group_limits",
+  "generatedAt": "2026-10-30T07:44:31.791Z",
+  "rows": 490,
+  "fields": [
+    "CLEARED_MW",
+    "CONSTRAINT_GROUP_NAME",
+    "INTERVALENDTIME_GMT",
+    "INTERVALSTARTTIME_GMT",
+    "LIMIT_TYPE",
+    "MAXIMUM_LIMIT",
+    "MINIMUM_LIMIT",
+    "NODE_ID",
+    "OPR_DT",
+    "OPR_HR",
+    "SHADOW_PRC"
+  ],
+  "download": "/data/data-gaps/cb_group_limits.json.gz",
+  "bytes": 8492,
+  "sha256": "7aea63dafc53a90f2b34b505f99b69265c31b371439abdbfb7117d05905acc39",
+  "sampleRows": [
+    {
+      "CLEARED_MW": "-0.01",
+      "CONSTRAINT_GROUP_NAME": "NdGrp: 30563_TES SUB _230_B1",
+      "INTERVALENDTIME_GMT": "2026-10-28T17:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T16:00:00-00:00",
+      "LIMIT_TYPE": "L",
+      "MAXIMUM_LIMIT": "0.01",
+      "MINIMUM_LIMIT": "-0.01",
+      "NODE_ID": "TESSUB_2_N001",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "10",
+      "SHADOW_PRC": "56.79446"
+    },
+    {
+      "CLEARED_MW": "-0.01",
+      "CONSTRAINT_GROUP_NAME": "NdGrp: 30563_TES SUB _230_B1",
+      "INTERVALENDTIME_GMT": "2026-10-28T23:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T22:00:00-00:00",
+      "LIMIT_TYPE": "L",
+      "MAXIMUM_LIMIT": "0.01",
+      "MINIMUM_LIMIT": "-0.01",
+      "NODE_ID": "TESSUB_2_N001",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "16",
+      "SHADOW_PRC": "113.04794"
+    },
+    {
+      "CLEARED_MW": "-0.01",
+      "CONSTRAINT_GROUP_NAME": "NdGrp: 33055_BIXLER  _60.0_B1",
+      "INTERVALENDTIME_GMT": "2026-10-28T19:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T18:00:00-00:00",
+      "LIMIT_TYPE": "L",
+      "MAXIMUM_LIMIT": "0.01",
+      "MINIMUM_LIMIT": "-0.01",
+      "NODE_ID": "BIXLER_6_N001",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "12",
+      "SHADOW_PRC": "156.28704"
+    },
+    {
+      "CLEARED_MW": "-0.01",
+      "CONSTRAINT_GROUP_NAME": "NdGrp: 36856_CSC_CCA _13.8_B1",
+      "INTERVALENDTIME_GMT": "2026-10-28T22:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T21:00:00-00:00",
+      "LIMIT_TYPE": "L",
+      "MAXIMUM_LIMIT": "0.01",
+      "MINIMUM_LIMIT": "-0.01",
+      "NODE_ID": "CSCCCA_7_N001",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "15",
+      "SHADOW_PRC": "29.09102"
+    },
+    {
+      "CLEARED_MW": "-0.01",
+      "CONSTRAINT_GROUP_NAME": "NdGrp: 36856_CSC_CCA _13.8_B1",
+      "INTERVALENDTIME_GMT": "2026-10-28T23:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-28T22:00:00-00:00",
+      "LIMIT_TYPE": "L",
+      "MAXIMUM_LIMIT": "0.01",
+      "MINIMUM_LIMIT": "-0.01",
+      "NODE_ID": "CSCCCA_7_N001",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "16",
+      "SHADOW_PRC": "29.43032"
+    },
+    {
+      "CLEARED_MW": "-0.01",
+      "CONSTRAINT_GROUP_NAME": "NdGrp: 36856_CSC_CCA _13.8_B1",
+      "INTERVALENDTIME_GMT": "2026-10-29T03:00:00-00:00",
+      "INTERVALSTARTTIME_GMT": "2026-10-29T02:00:00-00:00",
+      "LIMIT_TYPE": "L",
+      "MAXIMUM_LIMIT": "0.01",
+      "MINIMUM_LIMIT": "-0.01",
+      "NODE_ID": "CSCCCA_7_N001",
+      "OPR_DT": "2026-10-28",
+      "OPR_HR": "20",
+      "SHADOW_PRC": "18.81215"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cb_group_limits_2026-10-28_2026-10-29",
+      "dataset": "cb_group_limits",
+      "url": "https://oasis.caiso.com/oasisapi/SingleZip?resultformat=6&version=1&startdatetime=20261028T07%3A00-0000&enddatetime=20261029T07%3A00-0000&queryname=CB_NODAL_GRP_CNSTR_PRC",
+      "fetchedAt": "2026-10-30T07:17:01.639Z",
+      "sha256": "092b4313cb6ebebd105a2fe14ee31aee5ba4e8836516c69b9b70251fce42bc3b",
+      "bytes": 7331,
+      "rowCount": 490
+    }
+  ],
+  "modelStatus": "not_integrated",
+  "classification": "public_market_report_sample"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "verified": true,
+  "rawReceiptsVerified": 10,
+  "nwsLocations": 3,
+  "nwsLocationHours": 468,
+  "historicalRunHours": 72,
+  "historicalRunMissingValues": {
+    "temperature_2m": 0,
+    "relative_humidity_2m": 0,
+    "wind_speed_10m": 0,
+    "cloud_cover": 1,
+    "shortwave_radiation": 1
+  },
+  "amRecords": 628,
+  "priorRecords": 2235,
+  "fuelRegionMappings": 184,
+  "cisoFuelRegions": 57,
+  "notes": [
+    "Offline checks prove byte integrity and source-to-normalized agreement, not historical first-publication availability.",
+    "Checks retain missing values and repeated resources; no aggregate outage MW or predictive performance is asserted."
+  ]
+}

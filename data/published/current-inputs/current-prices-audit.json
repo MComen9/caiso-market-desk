@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-10-30T08:27:54.667Z",
+  "status": "complete",
+  "newTradingDate": "2026-10-29",
+  "newNodeHours": 72,
+  "nativeDamLmpIntervals": 72,
+  "nativeFmmLmpIntervals": 288,
+  "combinedTradingDays": 366,
+  "combinedNodeHours": 26352,
+  "oldRowsPreservedExactly": true,
+  "sourcePublishedAt": null,
+  "timeEvidenceType": "current_download_only",
+  "receivedAt": "2026-10-30T08:27:09.560Z",
+  "sourceReceipts": [
+    "price_dam_2026-10-29_2026-10-30",
+    "price_fmm_2026-10-29_2026-10-30"
+  ],
+  "unit": "USD/MWh",
+  "utcStart": "2026-10-29T07:00:00.000Z",
+  "utcEndExclusive": "2026-10-30T07:00:00.000Z",
+  "priceArchiveSha256": "18a18e1504d8fb3c1493f3c8bf6f7ba33181f68bba4130dc72625cdd0244cc98",
+  "limitations": [
+    "Historical versions may contain corrections; current receipt does not prove historical first availability.",
+    "Only complete four-quarter FMM hours were accepted; no missing prices filled."
+  ]
+}
